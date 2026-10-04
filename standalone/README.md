@@ -37,7 +37,9 @@ Bakumatsu_CNs_HL/
    └─ spkingdoms.xml
 ```
 
-`spkingdoms.xml` 是基于 BakumatsuModels v1.0.3 的完整 `Kingdoms` 覆盖文件。Bakumatsu 原版 39 个 `Kingdom.short_name` 使用裸英文；本汉化复用各 Kingdom 已存在的 `title` localization ID，使 `Aizu / Choshu / Satsuma / Jozai / Ou Reppan Domei` 等短名也能读取简中。由于该文件覆盖的是 Bakumatsu 1.0.3 的 Kingdom 数据，Bakumatsu 更新后应重新对比上游文件再发布兼容版。
+`spkingdoms.xml` 是基于 BakumatsuModels v1.0.3 的完整 `Kingdoms` 覆盖文件。Bakumatsu 原版 39 个 `Kingdom.short_name` 使用裸英文。构建时，本汉化为每个势力生成独立的 `BCNSK_<kingdom_id>` localization ID，并把对应中文写入运行时 `CNs/bak_strings.xml`，因此 `Aizu / Choshu / Satsuma / Jozai / Ou Reppan Domei` 等短名也能可靠显示简中，不依赖上游 `title` ID 是否存在于中文语言表。
+
+由于该文件覆盖的是 BakumatsuModels v1.0.3 的 Kingdom 数据，Bakumatsu 更新后应重新对比上游文件再发布兼容版。
 
 ## 手动安装
 
