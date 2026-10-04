@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <BannerIconData>
+    <BannerIconGroup id="20" name="{=!}Bakumatsu Banner Icon Group" is_pattern="false">
+      <!-- Aizu -->
+      <Icon id="1020" material_name="banner_icons_bak_1" texture_index="0" is_reserved ="true" />
+      <!-- Yamauchi Circles -->
+      <Icon id="1021" material_name="banner_icons_bak_1" texture_index="1" is_reserved ="true" />
+      <!-- Yamauchi -->
+      <Icon id="1022" material_name="banner_icons_bak_1" texture_index="2" is_reserved ="true" />
+      <!-- Ou Reppan Domei -->
+      <Icon id="1023" material_name="banner_icons_bak_1" texture_index="3" is_reserved ="true" />
+      <!-- Ikoma -->
+      <Icon id="1024" material_name="banner_icons_bak_1" texture_index="4" is_reserved ="true" />
+      <!-- Ika -->
+      <Icon id="1025" material_name="banner_icons_bak_1" texture_index="5" is_reserved ="true" />
+      <!-- Hachisuka -->
+      <Icon id="1026" material_name="banner_icons_bak_1" texture_index="6" is_reserved ="true" />
+      <!-- Hisamatsu -->
+      <Icon id="1027" material_name="banner_icons_bak_1" texture_index="7" is_reserved ="true" />
+      <!-- Ando -->
+      <Icon id="1028" material_name="banner_icons_bak_1" texture_index="8" is_reserved ="true" />
+      <!-- Kano -->
+      <Icon id="1029" material_name="banner_icons_bak_1" texture_index="9" is_reserved ="true" />
+      <!-- Miura -->
+      <Icon id="1030" material_name="banner_icons_bak_1" texture_index="10" is_reserved ="true" />
+      <!-- Fukushima -->
+      <Icon id="1031" material_name="banner_icons_bak_1" texture_index="11" is_reserved ="true" />
+      <!-- Inada -->
+      <Icon id="1032" material_name="banner_icons_bak_1" texture_index="12" is_reserved ="true" />
+      <!-- Jinzaburo Matsudaira -->
+      <Icon id="1033" material_name="banner_icons_bak_1" texture_index="13" is_reserved ="true" />
+      <!-- Saigo 1 -->
+      <Icon id="1034" material_name="banner_icons_bak_1" texture_index="14" is_reserved ="true" />
+      <!-- Saigo 2 -->
+      <Icon id="1035" material_name="banner_icons_bak_1" texture_index="15" is_reserved ="true" />
+    </BannerIconGroup>
+    <BannerIconGroup id="21" name="{=!}Bakumatsu Banner Icon Group" is_pattern="false">
+      <!-- Saigo Takamori -->
+      <Icon id="1036" material_name="banner_icons_bak_2" texture_index="0" is_reserved ="true" />
+      <!-- Shimizu -->
+      <Icon id="1037" material_name="banner_icons_bak_2" texture_index="1" is_reserved ="true" />
+      <!-- Watanabe -->
+      <Icon id="1038" material_name="banner_icons_bak_2" texture_index="2" is_reserved ="true" />
+      <!-- Mito -->
+      <Icon id="1039" material_name="banner_icons_bak_2" texture_index="3" is_reserved ="true" />
+      <!-- Yokoi -->
+      <Icon id="1040" material_name="banner_icons_bak_2" texture_index="4" is_reserved ="true" />
+      <!-- Nakane -->
+      <Icon id="1041" material_name="banner_icons_bak_2" texture_index="5" is_reserved ="true" />
+      <!-- Obama -->
+      <Icon id="1042" material_name="banner_icons_bak_2" texture_index="6" is_reserved ="true" />
+      <!-- Kawai -->
+      <Icon id="1043" material_name="banner_icons_bak_2" texture_index="7" is_reserved ="true" />
+      <!-- Nagaoka -->
+      <Icon id="1044" material_name="banner_icons_bak_2" texture_index="8" is_reserved ="true" />
+      <!-- Makino -->
+      <Icon id="1045" material_name="banner_icons_bak_2" texture_index="9" is_reserved ="true" />
+      <!-- Inagaki -->
+      <Icon id="1046" material_name="banner_icons_bak_2" texture_index="10" is_reserved ="true" />
+      <!-- Toyama Maeda -->
+      <Icon id="1047" material_name="banner_icons_bak_2" texture_index="11" is_reserved ="true" />
+      <!-- Daishoji Maeda -->
+      <Icon id="1048" material_name="banner_icons_bak_2" texture_index="12" is_reserved ="true" />
+      <!-- Okamura -->
+      <Icon id="1049" material_name="banner_icons_bak_2" texture_index="13" is_reserved ="true" />
+      <!-- Tosa-no-kami Maeda -->
+      <Icon id="1050" material_name="banner_icons_bak_2" texture_index="14" is_reserved ="true" />
+      <!-- Hayashi -->
+      <Icon id="1051" material_name="banner_icons_bak_2" texture_index="15" is_reserved ="true" />
+    </BannerIconGroup>
+    <BannerIconGroup id="22" name="{=!}Bakumatsu Banner Icon Group" is_pattern="false">
+      <!-- Yanagawa -->
+      <Icon id="1052" material_name="banner_icons_bak_3" texture_index="0" is_reserved ="true" /> 
+      <!-- Kaiei Kitetsu -->
+      <Icon id="1053" material_name="banner_icons_bak_3" texture_index="1" is_reserved ="true" />
+      <!-- Ota -->
+      <Icon id="1054" material_name="banner_icons_bak_3" texture_index="2" is_reserved ="true" />
+      <!-- Nakayama -->
+      <Icon id="1055" material_name="banner_icons_bak_3" texture_index="3" is_reserved ="true" />
+      <!-- Takase Hosokawa -->
+      <Icon id="1056" material_name="banner_icons_bak_3" texture_index="4" is_reserved ="true" />
+      <!-- Uto Hosokawa -->
+      <Icon id="1057" material_name="banner_icons_bak_3" texture_index="5" is_reserved ="true" />
+      <!-- Yoneda -->
+      <Icon id="1058" material_name="banner_icons_bak_3" texture_index="6" is_reserved ="true" />
+      <!-- Akizuki Kuroda -->
+      <Icon id="1059" material_name="banner_icons_bak_3" texture_index="7" is_reserved ="true" />
+      <!-- Minagi Kuroda -->
+      <Icon id="1060" material_name="banner_icons_bak_3" texture_index="8" is_reserved ="true" />
+      <!-- Tsugikata -->
+      <Icon id="1061" material_name="banner_icons_bak_3" texture_index="9" is_reserved ="true" />
+      <!-- Shimamura -->
+      <Icon id="1062" material_name="banner_icons_bak_3" texture_index="10" is_reserved ="true" />
+      <!-- Komiya -->
+      <Icon id="1063" material_name="banner_icons_bak_3" texture_index="11" is_reserved ="true" />
+      <!-- Hasuike Nabeshima -->
+      <Icon id="1064" material_name="banner_icons_bak_3" texture_index="12" is_reserved ="true" />
+      <!-- Ogi Nabeshima -->
+      <Icon id="1065" material_name="banner_icons_bak_3" texture_index="13" is_reserved ="true" />
+      <!-- Kashima Nabeshima -->
+      <Icon id="1066" material_name="banner_icons_bak_3" texture_index="14" is_reserved ="true" />
+      <!-- Ryuzoji Alt -->
+      <Icon id="1067" material_name="banner_icons_bak_3" texture_index="15" is_reserved ="true" />
+    </BannerIconGroup>
+    <BannerIconGroup id="23" name="{=!}Bakumatsu Banner Icon Group" is_pattern="false">
+      <!-- Tanegashima -->
+      <Icon id="1068" material_name="banner_icons_bak_4" texture_index="0" is_reserved ="true" /> 
+      <!-- Komatsu -->
+      <Icon id="1069" material_name="banner_icons_bak_4" texture_index="1" is_reserved ="true" />
+      <!-- Kimotsuki -->
+      <Icon id="1070" material_name="banner_icons_bak_4" texture_index="2" is_reserved ="true" />
+      <!-- Katsura -->
+      <Icon id="1071" material_name="banner_icons_bak_4" texture_index="3" is_reserved ="true" />
+      <!-- Shimazu Proper -->
+      <Icon id="1072" material_name="banner_icons_bak_4" texture_index="4" is_reserved ="true" />
+      <!-- Zeze Honda -->
+      <Icon id="1073" material_name="banner_icons_bak_4" texture_index="5" is_reserved ="true" />
+      <!-- Iiyama Honda -->
+      <Icon id="1074" material_name="banner_icons_bak_4" texture_index="6" is_reserved ="true" />
+      <!-- Okazaki Honda -->
+      <Icon id="1075" material_name="banner_icons_bak_4" texture_index="7" is_reserved ="true" />
+      <!-- Fujii Matsudaira -->
+      <Icon id="1076" material_name="banner_icons_bak_4" texture_index="8" is_reserved ="true" />
+      <!-- Nomi Matsudaira -->
+      <Icon id="1077" material_name="banner_icons_bak_4" texture_index="9" is_reserved ="true" />
+      <!-- Ando -->
+      <Icon id="1078" material_name="banner_icons_bak_4" texture_index="10" is_reserved ="true" />
+      <!-- Doi -->
+      <Icon id="1079" material_name="banner_icons_bak_4" texture_index="11" is_reserved ="true" />
+      <!-- Inoue -->
+      <Icon id="1080" material_name="banner_icons_bak_4" texture_index="12" is_reserved ="true" />
+      <!-- Okubo Variant -->
+      <Icon id="1081" material_name="banner_icons_bak_4" texture_index="13" is_reserved ="true" />
+      <!-- Nakagawa -->
+      <Icon id="1082" material_name="banner_icons_bak_4" texture_index="14" is_reserved ="true" />
+      <!-- Tsuyama -->
+      <Icon id="1083" material_name="banner_icons_bak_4" texture_index="15" is_reserved ="true" />
+    </BannerIconGroup>
+    <BannerIconGroup id="24" name="{=!}Bakumatsu Banner Icon Group" is_pattern="false">
+      <!-- Akashi -->
+      <Icon id="1084" material_name="banner_icons_bak_5" texture_index="0" is_reserved ="true" />
+      <!-- Shinsengumi -->
+      <Icon id="1085" material_name="banner_icons_bak_5" texture_index="1" is_reserved ="true" />
+      <!-- Sanjo Sanetomi -->
+      <Icon id="1086" material_name="banner_icons_bak_5" texture_index="2" is_reserved ="true" />
+      <!-- Tokuyama Mori -->
+      <Icon id="1087" material_name="banner_icons_bak_5" texture_index="3" is_reserved ="true" />
+      <!-- Shogitai -->
+      <Icon id="1088" material_name="banner_icons_bak_5" texture_index="4" is_reserved ="true" />
+      <!-- Aizu Kotetsu -->
+      <Icon id="1089" material_name="banner_icons_bak_5" texture_index="5" is_reserved ="true" />
+      <!-- Imperial (Hollow) -->
+      <Icon id="1090" material_name="banner_icons_bak_5" texture_index="6" is_reserved ="true" />
+      <!-- Totsukawa -->
+      <Icon id="1091" material_name="banner_icons_bak_5" texture_index="7" is_reserved ="true" />
+      <!-- Sonno-joi -->
+      <Icon id="1092" material_name="banner_icons_bak_5" texture_index="8" is_reserved ="true" />
+      <!-- Ichi -->
+      <Icon id="1093" material_name="banner_icons_bak_5" texture_index="9" is_reserved ="true" />
+      <!-- Target -->
+      <Icon id="1094" material_name="banner_icons_bak_5" texture_index="10" is_reserved ="true" />
+      <!-- Hokushin Itto-ryu -->
+      <Icon id="1095" material_name="banner_icons_bak_5" texture_index="11" is_reserved ="true" />
+    </BannerIconGroup>
+		<BannerColors>
+      <!-- Mito Brown -->
+      <Color id="360"
+              hex="0xffa6693b"
+              player_can_choose_for_sigil="true"
+              player_can_choose_for_background="true"/>
+    </BannerColors>	
+  </BannerIconData>
+</base>

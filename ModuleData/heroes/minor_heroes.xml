@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Heroes>
+	<!-- Shinsengumi -->
+	<Hero id="spc_shinsengumi_leader_0" faction="Faction.kazama_shu" text="{=ROAQ3r08}Kondo Isami"/>
+	<Hero id="spc_shinsengumi_leader_1" faction="Faction.kazama_shu" text="{=tDyOs33I}Hijikata Toshizo"/>
+	<Hero id="spc_shinsengumi_leader_2" faction="Faction.kazama_shu" text="{=4MEC7NCo}Yamanami Keisuke"/>
+	<Hero id="spc_shinsengumi_leader_3" faction="Faction.kazama_shu" text="{=FAMP0ZXN}Okita Soji"/>
+	<!-- Shogitai -->
+	<Hero id="spc_shogitai_leader_0" faction="Faction.saika_shu" text="{=AmaQ3r08}Amano Hachiro"/>
+	<Hero id="spc_shogitai_leader_1" faction="Faction.saika_shu" text="{=KasOs33I}Kasuga Akimichi"/>
+	<Hero id="spc_shogitai_leader_2" faction="Faction.saika_shu" text="{=IkeC7NCo}Ikeda Nagahiro"/>
+	<Hero id="spc_shogitai_leader_3" faction="Faction.saika_shu" text="{=KawP0ZXN}Kawamura Keizo"/>
+	<!-- Aizu Kotetsu -->
+	<Hero id="spc_aizu_kotetsu_leader" faction="Faction.kurohabaki_shu" text="{=AizKouSe}Kousaka Senkichi"/>
+	<Hero id="spc_aizu_kotetsu_leader_1" faction="Faction.kurohabaki_shu" text="{=AizKoHaK}Hasegawa Kotaro"/>
+	<Hero id="spc_aizu_kotetsu_leader_2" faction="Faction.kurohabaki_shu" text="{=AizKoKoH}Kobayashi Hyokichi"/>
+	<!-- Joshigun -->
+	<Hero id="spc_joshigun_leader_0" faction="Faction.tango_kaizoku" mother="Hero.spc_joshigun_leader_1" text="{=Naka3r08}Nakano Takeko"/>
+	<Hero id="spc_joshigun_leader_1" faction="Faction.tango_kaizoku" text="{=NaKos33I}Nakano Koko"/>
+	<Hero id="spc_joshigun_leader_2" faction="Faction.tango_kaizoku" father="Hero.lord_1_aizu_ret_3" mother="Hero.lord_1_aizu_ret_4" text="{=YaYaeNCo}Yamamoto Yaeko"/>
+	<Hero id="spc_joshigun_leader_3" faction="Faction.tango_kaizoku" text="{=YuJi0ZXN}Yukiko Jinbo"/>
+	<!-- Shogitai -->
+	<Hero id="spc_shinchogumi_leader_0" faction="Faction.katsurayama_shu" text="{=IshiBuze}Ishii Buzen"/>
+	<Hero id="spc_shinchogumi_leader_1" faction="Faction.katsurayama_shu" text="{=ChujKinn}Chujo Kinnosuke"/>
+	<Hero id="spc_shinchogumi_leader_2" faction="Faction.katsurayama_shu" text="{=NakaKoto}Nakazawa Koto"/>
+	<Hero id="spc_shinchogumi_leader_3" faction="Faction.katsurayama_shu" text="{=OkitRint}Okita Rintaro"/>
+	<!-- Kaientai -->
+	<Hero id="spc_kaientai_leader_0" faction="Faction.suruga_shu" text="{=SakaRyom}Sakamoto Ryoma"/>
+	<Hero id="spc_kaientai_leader_1" faction="Faction.suruga_shu" text="{=NakaShin}Nakaoka Shintaro"/>
+	<Hero id="spc_kaientai_leader_2" faction="Faction.suruga_shu" text="{=IwasYata}Iwasaki Yataro"/>
+	<Hero id="spc_kaientai_leader_3" faction="Faction.suruga_shu" text="{=SasaTaka}Sasaki Takayuki"/>
+	<!-- Tenchugumi -->
+	<Hero id="spc_tenchugumi_leader_0" faction="Faction.hakusan_shuto" text="{=NakaTada}Nakayama Tadamitsu"/>
+	<Hero id="spc_tenchugumi_leader_1" faction="Faction.hakusan_shuto" text="{=IkeKurat}Ike Kurata"/>
+	<Hero id="spc_tenchugumi_leader_2" faction="Faction.hakusan_shuto" text="{=HiraTake}Hiraoka Takeo"/>
+	<Hero id="spc_tenchugumi_leader_3" faction="Faction.hakusan_shuto" text="{=IshiEiki}Ishida Eikichi"/>
+	<!-- Hitokiri -->
+	<Hero id="spc_hitokiri_leader_0" faction="Faction.yamakuguri_shu" text="{=KawaGens}Kawakami Gensai"/>
+	<Hero id="spc_hitokiri_leader_1" faction="Faction.yamakuguri_shu" text="{=KiriTosh}Kirino Toshiaki"/>
+	<Hero id="spc_hitokiri_leader_2" faction="Faction.yamakuguri_shu" text="{=OkadaIzo}Okada Izo"/>
+</Heroes>

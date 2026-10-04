@@ -1,0 +1,570 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NPCCharacters>
+	<!-- Shinsengumi -->
+	<NPCCharacter id="spc_shinsengumi_leader_0" name="{=ROAQ3r08}Kondo Isami" voice="curt" age="30" default_group="Infantry" is_hero="true" culture="Culture.tenryo" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.0448" build="0.6806"  key="003FF00540A00001D687568C4A779988A88799664A9B386C2635717F975A4227009A160309B9A96A000000000000000000000000000000000000000017341140"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="13"/>
+			<Trait id="KnightFightingSkills" value="18"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_shinsengumi_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_shinsengumi_leader_1" name="{=tDyOs33I}Hijikata Toshizo" voice="curt" age="29" default_group="Infantry" is_hero="true" culture="Culture.tenryo" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.00" weight="0.1373" build="0.6262"  key="0032F00FC0000004862AB7798777383057627DB635B9A74AE6999B7849A2648A0099260309769859000000000000000000000000000000000000000005340080"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="16"/>
+			<Trait id="KnightFightingSkills" value="13"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_hijikata_toshizo_equipment_template" civilian="true"/>
+			<EquipmentSet id="npc_hijikata_toshizo_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_shinsengumi_leader_2" name="{=4MEC7NCo}Yamanami Keisuke" voice="curt" age="31" default_group="Infantry" is_hero="true" culture="Culture.tenryo" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="31" weight="0.1188" build="0.2176"  key="000CE000002C00027625664F9090006FBCDB386D4065772925834758368679D50183261408AA860B0000000000000000000000000000000000000000331C4140"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="15"/>
+			<Trait id="KnightFightingSkills" value="11"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_shinsengumi_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_shinsengumi_leader_3" name="{=FAMP0ZXN}Okita Soji" voice="curt" age="22" default_group="Infantry" is_hero="true" culture="Culture.tenryo" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22" weight="0" build="0.3225"  key="0019EC0FC0A000023DA89398C6C0059397AC98554535B99A5C44A848CC45A57D0185061408B5766400000000000000000000000000000000000000002B0C20C0"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="KnightFightingSkills" value="20"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_shinsengumi_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Shogitai -->
+	<NPCCharacter id="spc_shogitai_leader_0" name="{=AmaQ3r08}Amano Hachiro" voice="curt" age="34" default_group="Infantry" is_hero="true" culture="Culture.tenryo" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="15"/>
+			<Trait id="KnightFightingSkills" value="15"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_shogitai_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_shogitai_leader_1" name="{=KasOs33I}Kasuga Akimichi" voice="curt" age="19" default_group="Infantry" is_hero="true" culture="Culture.tenryo" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="13"/>
+			<Trait id="KnightFightingSkills" value="16"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_shogitai_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_shogitai_leader_2" name="{=IkeC7NCo}Ikeda Nagahiro" voice="curt" age="24" default_group="Infantry" is_hero="true" culture="Culture.tenryo" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="KnightFightingSkills" value="14"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_shogitai_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_shogitai_leader_3" name="{=KawP0ZXN}Kawamura Keizo" voice="curt" age="18" default_group="Infantry" is_hero="true" culture="Culture.tenryo" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="KnightFightingSkills" value="16"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_shogitai_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Aizu Kotetsu -->
+	<NPCCharacter id="spc_aizu_kotetsu_leader" name="{=AizKouSe}Kousaka Senkichi" age="31" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.ou" occupation="Lord" face_mesh_cache="true">
+		<face>
+    		<BodyProperties version="4" age="31.01" weight="0.3843" build="0.767"  key="000CEC0541B404835898A35CD878D5526B9888A8953957AC75B84B8662894756007C66030776B65800000000000000000000000000000000000000006AE40100"  />
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="15"/>
+			<Trait id="Commander" value="13"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="npc_kotetsu_equipment_template"/>
+			<EquipmentSet id="npc_kotetsu_equipment_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_aizu_kotetsu_leader_1" name="{=AizKoHaK}Hasegawa Kotaro" age="28" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.ou" occupation="Lord" face_mesh_cache="true">
+		<face>
+    		<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="16"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="npc_kotetsu_equipment_template"/>
+			<EquipmentSet id="npc_kotetsu_equipment_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_aizu_kotetsu_leader_2" name="{=AizKoKoH}Kobayashi Hyokichi" age="18" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.ou" occupation="Lord" face_mesh_cache="true">
+		<face>
+    		<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="15"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="npc_kotetsu_equipment_template"/>
+			<EquipmentSet id="npc_kotetsu_equipment_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Joshigun -->
+	<NPCCharacter id="spc_joshigun_leader_0" name="{=Naka3r08}Nakano Takeko" voice="earnest" age="18" is_female="true" default_group="Ranged" is_hero="true" culture="Culture.ou" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_f_saikai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="15"/>
+			<Trait id="KnightFightingSkills" value="15"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_joshigun_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_joshigun_leader_1" name="{=NaKos33I}Nakano Koko" voice="earnest" age="40" is_female="true" default_group="Ranged" is_hero="true" culture="Culture.ou" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_f_saikai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="15"/>
+			<Trait id="KnightFightingSkills" value="15"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_joshigun_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_joshigun_leader_2" name="{=YaYaeNCo}Yamamoto Yaeko" voice="earnest" age="19" is_female="true" default_group="Ranged" is_hero="true" culture="Culture.ou" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_f_saikai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="15"/>
+			<Trait id="KnightFightingSkills" value="15"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_joshigun_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_joshigun_leader_3" name="{=YuJi0ZXN}Yukiko Jinbo" voice="earnest" age="19" is_female="true" default_group="Ranged" is_hero="true" culture="Culture.ou" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_f_saikai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="15"/>
+			<Trait id="KnightFightingSkills" value="15"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_joshigun_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Shinchogumi -->
+	<NPCCharacter id="spc_shinchogumi_leader_0" name="{=IshiBuze}Ishii Buzen" voice="curt" age="45" default_group="Infantry" is_hero="true" culture="Culture.shonai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="16"/>
+			<Trait id="KnightFightingSkills" value="11"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_shinchogumi_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_shinchogumi_leader_1" name="{=ChujKinn}Chujo Kinnosuke" voice="curt" age="37" default_group="Infantry" is_hero="true" culture="Culture.shonai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="KnightFightingSkills" value="16"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_shinchogumi_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_shinchogumi_leader_2" name="{=NakaKoto}Nakazawa Koto" voice="earnest" age="29" is_female="true" default_group="Infantry" is_hero="true" culture="Culture.shonai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_f_saikai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="KnightFightingSkills" value="18"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_shinchogumi_1_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_shinchogumi_leader_3" name="{=OkitRint}Okita Rintaro" voice="curt" age="38" default_group="Infantry" is_hero="true" culture="Culture.shonai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="KnightFightingSkills" value="16"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_shinchogumi_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Kaientai -->
+	<NPCCharacter id="spc_kaientai_leader_0" name="{=SakaRyom}Sakamoto Ryoma" voice="curt" age="28" default_group="Infantry" is_hero="true" culture="Culture.nankai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="28.01" weight="0.017" build="0.5108"  key="000CCC0A805800041A8A6790676E2E1A57393A6367886969859154627A6762A900980603098A811D00000000000000000000000000000000000000002B342040"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="2"/>
+			<Trait id="ForeignInfluence" value="2"/>
+			<Trait id="Commander" value="15"/>
+			<Trait id="Politician" value="15"/>
+			<Trait id="Manager" value="15"/>
+			<Trait id="KnightFightingSkills" value="17"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_sakamoto_ryoma_equipment_template" civilian="true"/>
+			<EquipmentSet id="npc_sakamoto_ryoma_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_kaientai_leader_1" name="{=NakaShin}Nakaoka Shintaro" voice="curt" age="26" default_group="Infantry" is_hero="true" culture="Culture.nankai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="2"/>
+			<Trait id="ForeignInfluence" value="2"/>
+			<Trait id="Commander" value="16"/>
+			<Trait id="Politician" value="16"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="KnightFightingSkills" value="10"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_kaientai_equipment_template" civilian="true"/>
+			<EquipmentSet id="npc_kaientai_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_kaientai_leader_2" name="{=IwasYata}Iwasaki Yataro" voice="curt" age="29" default_group="Infantry" is_hero="true" culture="Culture.nankai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="2"/>
+			<Trait id="ForeignInfluence" value="2"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="15"/>
+			<Trait id="Manager" value="19"/>
+			<Trait id="KnightFightingSkills" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_kaientai_equipment_template" civilian="true"/>
+			<EquipmentSet id="npc_kaientai_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_kaientai_leader_3" name="{=SasaTaka}Sasaki Takayuki" voice="curt" age="34" default_group="Infantry" is_hero="true" culture="Culture.nankai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="2"/>
+			<Trait id="ForeignInfluence" value="1"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="15"/>
+			<Trait id="Manager" value="16"/>
+			<Trait id="KnightFightingSkills" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_kaientai_equipment_template" civilian="true"/>
+			<EquipmentSet id="npc_kaientai_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Tenchugumi -->
+	<NPCCharacter id="spc_tenchugumi_leader_0" name="{=NakaTada}Nakayama Tadamitsu" voice="curt" age="19" default_group="Cavalry" is_hero="true" culture="Culture.sanyo" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="-1"/>
+			<Trait id="ForeignInfluence" value="-2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="KnightFightingSkills" value="14"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_tenchugumi_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_tenchugumi_leader_1" name="{=IkeKurat}Ike Kurata" voice="curt" age="23" default_group="Cavalry" is_hero="true" culture="Culture.nankai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="-1"/>
+			<Trait id="ForeignInfluence" value="-2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="KnightFightingSkills" value="14"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_tenchugumi_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_tenchugumi_leader_2" name="{=HiraTake}Hiraoka Takeo" voice="curt" age="31" default_group="Cavalry" is_hero="true" culture="Culture.sanyo" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="-1"/>
+			<Trait id="ForeignInfluence" value="-2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="KnightFightingSkills" value="14"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_tenchugumi_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_tenchugumi_leader_3" name="{=IshiEiki}Ishida Eikichi" voice="curt" age="25" default_group="Cavalry" is_hero="true" culture="Culture.nankai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="-1"/>
+			<Trait id="ForeignInfluence" value="-2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="KnightFightingSkills" value="14"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_kanto" civilian="true"/>
+			<EquipmentSet id="npc_tenchugumi_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Hitokiri -->
+	<NPCCharacter id="spc_hitokiri_leader_0" name="{=KawaGens}Kawakami Gensai" voice="curt" age="30" default_group="Infantry" is_hero="true" culture="Culture.nankai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="-1"/>
+			<Trait id="ForeignInfluence" value="-2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="KnightFightingSkills" value="30"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_hitokiri_equipment_template" civilian="true"/>
+			<EquipmentSet id="npc_hitokiri_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_hitokiri_leader_1" name="{=KiriTosh}Kirino Toshiaki" voice="curt" age="26" default_group="Infantry" is_hero="true" culture="Culture.saikai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="-1"/>
+			<Trait id="ForeignInfluence" value="-2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="KnightFightingSkills" value="30"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_hitokiri_equipment_template" civilian="true"/>
+			<EquipmentSet id="npc_hitokiri_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_hitokiri_leader_2" name="{=OkadaIzo}Okada Izo" voice="curt" age="26" default_group="Infantry" is_hero="true" culture="Culture.nankai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="-1"/>
+			<Trait id="ForeignInfluence" value="-2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="KnightFightingSkills" value="30"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_hitokiri_equipment_template" civilian="true"/>
+			<EquipmentSet id="npc_hitokiri_equipment_template"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

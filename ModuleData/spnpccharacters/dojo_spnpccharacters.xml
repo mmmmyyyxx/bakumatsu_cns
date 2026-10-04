@@ -1,0 +1,1266 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NPCCharacters>
+    <NPCCharacter id="weapon_practice_kenjutsu" default_group="Infantry" level="1" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=hLzO6k62}{CURRENT_RYUHA} Keppan">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="55"/>
+			<skill id="TwoHanded" value="55"/>
+			<skill id="Polearm" value="55"/>
+			<skill id="Bow" value="55"/>
+			<skill id="Crossbow" value="55"/>
+			<skill id="Throwing" value="55"/>
+			<skill id="Riding" value="55"/>
+			<skill id="Athletics" value="55"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.weapon_practice_kenjutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_battojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_sojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_naginatajutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_bojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_jojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_kyujutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_hojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_kasagake"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_bajutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_mok_kenjutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_mok_battojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_mok_sojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_mok_naginatajutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_mok_bojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_mok_jojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_mok_kyujutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_mok_hojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_mok_kasagake"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_mok_bajutsu"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bak_shinai"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_battojutsu" default_group="Infantry" level="1" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=hLzO6k62}{CURRENT_RYUHA} Keppan">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="55"/>
+			<skill id="TwoHanded" value="55"/>
+			<skill id="Polearm" value="55"/>
+			<skill id="Bow" value="55"/>
+			<skill id="Crossbow" value="55"/>
+			<skill id="Throwing" value="55"/>
+			<skill id="Riding" value="55"/>
+			<skill id="Athletics" value="55"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bak_shinai"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_sojutsu" default_group="Infantry" level="1" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=hLzO6k62}{CURRENT_RYUHA} Keppan">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="55"/>
+			<skill id="TwoHanded" value="55"/>
+			<skill id="Polearm" value="55"/>
+			<skill id="Bow" value="55"/>
+			<skill id="Crossbow" value="55"/>
+			<skill id="Throwing" value="55"/>
+			<skill id="Riding" value="55"/>
+			<skill id="Athletics" value="55"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.training_spear"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_naginatajutsu" default_group="Infantry" level="1" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=hLzO6k62}{CURRENT_RYUHA} Keppan">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="55"/>
+			<skill id="TwoHanded" value="55"/>
+			<skill id="Polearm" value="55"/>
+			<skill id="Bow" value="55"/>
+			<skill id="Crossbow" value="55"/>
+			<skill id="Throwing" value="55"/>
+			<skill id="Riding" value="55"/>
+			<skill id="Athletics" value="55"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.training_naginata"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_bojutsu" default_group="Infantry" level="1" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=hLzO6k62}{CURRENT_RYUHA} Keppan">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="55"/>
+			<skill id="TwoHanded" value="55"/>
+			<skill id="Polearm" value="55"/>
+			<skill id="Bow" value="55"/>
+			<skill id="Crossbow" value="55"/>
+			<skill id="Throwing" value="55"/>
+			<skill id="Riding" value="55"/>
+			<skill id="Athletics" value="55"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sho_staff_training"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_jojutsu" default_group="Infantry" level="1" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=hLzO6k62}{CURRENT_RYUHA} Keppan">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="55"/>
+			<skill id="TwoHanded" value="55"/>
+			<skill id="Polearm" value="55"/>
+			<skill id="Bow" value="55"/>
+			<skill id="Crossbow" value="55"/>
+			<skill id="Throwing" value="55"/>
+			<skill id="Riding" value="55"/>
+			<skill id="Athletics" value="55"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sho_staff_training"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_kyujutsu" default_group="Infantry" level="1" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=hLzO6k62}{CURRENT_RYUHA} Keppan">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="55"/>
+			<skill id="TwoHanded" value="55"/>
+			<skill id="Polearm" value="55"/>
+			<skill id="Bow" value="55"/>
+			<skill id="Crossbow" value="55"/>
+			<skill id="Throwing" value="55"/>
+			<skill id="Riding" value="55"/>
+			<skill id="Athletics" value="55"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sho_new_yumi"/>
+                <equipment slot="Item1" id="Item.sho_practice_arrow"/>
+				<equipment slot="Head" id="Item.sho_eboshi_hat_b"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_hojutsu" default_group="Infantry" level="1" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=hLzO6k62}{CURRENT_RYUHA} Keppan">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="55"/>
+			<skill id="TwoHanded" value="55"/>
+			<skill id="Polearm" value="55"/>
+			<skill id="Bow" value="55"/>
+			<skill id="Crossbow" value="55"/>
+			<skill id="Throwing" value="55"/>
+			<skill id="Riding" value="55"/>
+			<skill id="Athletics" value="55"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bak_shinai"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_kasagake" default_group="Infantry" level="1" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=hLzO6k62}{CURRENT_RYUHA} Keppan">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="55"/>
+			<skill id="TwoHanded" value="55"/>
+			<skill id="Polearm" value="55"/>
+			<skill id="Bow" value="55"/>
+			<skill id="Crossbow" value="55"/>
+			<skill id="Throwing" value="55"/>
+			<skill id="Riding" value="55"/>
+			<skill id="Athletics" value="55"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_new_yumi"/>
+				<equipment slot="Item1" id="Item.sho_practice_arrow"/>
+				<equipment slot="Head" id="Item.sho_amigasa_hat"/>
+				<equipment slot="Body" id="Item.bak_mukabaki"/>
+                <equipment slot="Gloves" id="Item.sho_oyoroi_kote_c_a"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_bajutsu" default_group="Infantry" level="1" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=hLzO6k62}{CURRENT_RYUHA} Keppan">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="55"/>
+			<skill id="TwoHanded" value="55"/>
+			<skill id="Polearm" value="55"/>
+			<skill id="Bow" value="55"/>
+			<skill id="Crossbow" value="55"/>
+			<skill id="Throwing" value="55"/>
+			<skill id="Riding" value="55"/>
+			<skill id="Athletics" value="55"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_new_yumi"/>
+				<equipment slot="Item1" id="Item.sho_practice_arrow"/>
+				<equipment slot="Head" id="Item.sho_amigasa_hat"/>
+				<equipment slot="Body" id="Item.bak_mukabaki"/>
+                <equipment slot="Gloves" id="Item.sho_oyoroi_kote_c_a"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="weapon_practice_mok_kenjutsu" default_group="Infantry" level="6" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=b5pHTyAE}{CURRENT_RYUHA} Mokuroku">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Athletics" value="120"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.weapon_practice_menk_kenjutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_menk_battojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_menk_sojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_menk_naginatajutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_menk_bojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_menk_jojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_menk_kyujutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_menk_hojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_menk_kasagake"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_menk_bajutsu"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bak_shinai"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_short"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_mok_battojutsu" default_group="Infantry" level="6" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=b5pHTyAE}{CURRENT_RYUHA} Mokuroku">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Athletics" value="120"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bak_shinai"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_short"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_mok_sojutsu" default_group="Infantry" level="6" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=b5pHTyAE}{CURRENT_RYUHA} Mokuroku">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Athletics" value="120"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.training_spear"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_short"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_mok_naginatajutsu" default_group="Infantry" level="6" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=b5pHTyAE}{CURRENT_RYUHA} Mokuroku">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Athletics" value="120"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.training_naginata"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_short"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_mok_bojutsu" default_group="Infantry" level="6" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=b5pHTyAE}{CURRENT_RYUHA} Mokuroku">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Athletics" value="120"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sho_staff_training"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_short"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_mok_jojutsu" default_group="Infantry" level="6" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=b5pHTyAE}{CURRENT_RYUHA} Mokuroku">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Athletics" value="120"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sho_staff_training"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_short"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_mok_kyujutsu" default_group="Infantry" level="6" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=b5pHTyAE}{CURRENT_RYUHA} Mokuroku">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Athletics" value="120"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sho_new_yumi"/>
+                <equipment slot="Item1" id="Item.sho_practice_arrow"/>
+				<equipment slot="Head" id="Item.sho_eboshi_hat_b"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_mok_hojutsu" default_group="Infantry" level="6" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=b5pHTyAE}{CURRENT_RYUHA} Mokuroku">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Athletics" value="120"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bak_shinai"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_short"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_mok_kasagake" default_group="Infantry" level="6" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=b5pHTyAE}{CURRENT_RYUHA} Mokuroku">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Athletics" value="120"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_new_yumi"/>
+				<equipment slot="Item1" id="Item.sho_practice_arrow"/>
+				<equipment slot="Head" id="Item.sho_amigasa_hat"/>
+				<equipment slot="Body" id="Item.bak_mukabaki"/>
+                <equipment slot="Gloves" id="Item.sho_oyoroi_kote_c_a"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_mok_bajutsu" default_group="Infantry" level="6" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=b5pHTyAE}{CURRENT_RYUHA} Mokuroku">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Athletics" value="120"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_new_yumi"/>
+				<equipment slot="Item1" id="Item.sho_practice_arrow"/>
+				<equipment slot="Head" id="Item.sho_amigasa_hat"/>
+				<equipment slot="Body" id="Item.bak_mukabaki"/>
+                <equipment slot="Gloves" id="Item.sho_oyoroi_kote_c_a"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+
+    <NPCCharacter id="weapon_practice_menk_kenjutsu" default_group="Infantry" level="11" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=uoiisEdD}{CURRENT_RYUHA} Menkyo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="180"/>
+			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="180"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.weapon_practice_kaid_kenjutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_kaid_battojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_kaid_sojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_kaid_naginatajutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_kaid_bojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_kaid_jojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_kaid_kyujutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_kaid_hojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_kaid_kasagake"/>
+            <upgrade_target id="NPCCharacter.weapon_practice_kaid_bajutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_duel_kaid_kenjutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_duel_kaid_battojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_duel_kaid_sojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_duel_kaid_naginatajutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_duel_kaid_bojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_duel_kaid_jojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_duel_kaid_kyujutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_duel_kaid_hojutsu"/>
+            <upgrade_target id="NPCCharacter.weapon_duel_kaid_kasagake"/>
+            <upgrade_target id="NPCCharacter.weapon_duel_kaid_bajutsu"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bak_shinai"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_menk_battojutsu" default_group="Infantry" level="11" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=uoiisEdD}{CURRENT_RYUHA} Menkyo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="180"/>
+			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="180"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bak_shinai"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_menk_sojutsu" default_group="Infantry" level="11" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=uoiisEdD}{CURRENT_RYUHA} Menkyo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="180"/>
+			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="180"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.training_spear"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_menk_naginatajutsu" default_group="Infantry" level="11" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=uoiisEdD}{CURRENT_RYUHA} Menkyo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="180"/>
+			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="180"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.training_naginata"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_menk_bojutsu" default_group="Infantry" level="11" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=uoiisEdD}{CURRENT_RYUHA} Menkyo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="180"/>
+			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="180"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sho_staff_training"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_menk_jojutsu" default_group="Infantry" level="11" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=uoiisEdD}{CURRENT_RYUHA} Menkyo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="180"/>
+			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="180"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sho_staff_training"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_menk_kyujutsu" default_group="Infantry" level="11" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=uoiisEdD}{CURRENT_RYUHA} Menkyo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="180"/>
+			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="180"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sho_new_yumi"/>
+                <equipment slot="Item1" id="Item.sho_practice_arrow"/>
+				<equipment slot="Head" id="Item.sho_eboshi_hat_b"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_menk_hojutsu" default_group="Infantry" level="11" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=uoiisEdD}{CURRENT_RYUHA} Menkyo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="180"/>
+			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="180"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bak_shinai"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_menk_kasagake" default_group="Infantry" level="11" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=uoiisEdD}{CURRENT_RYUHA} Menkyo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="180"/>
+			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="180"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_new_yumi"/>
+				<equipment slot="Item1" id="Item.sho_practice_arrow"/>
+				<equipment slot="Head" id="Item.sho_amigasa_hat"/>
+				<equipment slot="Body" id="Item.bak_mukabaki"/>
+                <equipment slot="Gloves" id="Item.sho_oyoroi_kote_c_a"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_menk_bajutsu" default_group="Infantry" level="11" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=uoiisEdD}{CURRENT_RYUHA} Menkyo">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="180"/>
+			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="180"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_new_yumi"/>
+				<equipment slot="Item1" id="Item.sho_practice_arrow"/>
+				<equipment slot="Head" id="Item.sho_amigasa_hat"/>
+				<equipment slot="Body" id="Item.bak_mukabaki"/>
+                <equipment slot="Gloves" id="Item.sho_oyoroi_kote_c_a"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="weapon_practice_kaid_kenjutsu" default_group="Infantry" level="16" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bak_shinai"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_kaid_battojutsu" default_group="Infantry" level="16" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bak_shinai"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_kaid_sojutsu" default_group="Infantry" level="16" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.training_spear"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_kaid_naginatajutsu" default_group="Infantry" level="16" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.training_naginata"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_kaid_bojutsu" default_group="Infantry" level="16" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sho_staff_training"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_kaid_jojutsu" default_group="Infantry" level="16" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sho_staff_training"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_kaid_kyujutsu" default_group="Infantry" level="16" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sho_new_yumi"/>
+                <equipment slot="Item1" id="Item.sho_practice_arrow"/>
+				<equipment slot="Head" id="Item.sho_eboshi_hat_b"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_kaid_hojutsu" default_group="Infantry" level="16" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bak_shinai"/>
+                <equipment slot="Head" id="Item.bak_hachimaki_long"/>
+                <equipment slot="Body" id="Item.bak_kimono_hakama"/>
+                <equipment slot="Leg" id="Item.sho_waraji_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_kaid_kasagake" default_group="Infantry" level="16" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_new_yumi"/>
+				<equipment slot="Item1" id="Item.sho_practice_arrow"/>
+				<equipment slot="Head" id="Item.sho_amigasa_hat"/>
+				<equipment slot="Body" id="Item.bak_mukabaki"/>
+                <equipment slot="Gloves" id="Item.sho_oyoroi_kote_c_a"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_practice_kaid_bajutsu" default_group="Infantry" level="16" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_new_yumi"/>
+				<equipment slot="Item1" id="Item.sho_practice_arrow"/>
+				<equipment slot="Head" id="Item.sho_amigasa_hat"/>
+				<equipment slot="Body" id="Item.bak_mukabaki"/>
+                <equipment slot="Gloves" id="Item.sho_oyoroi_kote_c_a"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="weapon_duel_kaid_kenjutsu" default_group="Infantry" level="21" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_25"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_16"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_hotoke_b"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_duel_kaid_battojutsu" default_group="Infantry" level="21" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_25"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_16"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_hotoke_b"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_duel_kaid_sojutsu" default_group="Infantry" level="21" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_yari_18"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_hotoke_b"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_duel_kaid_naginatajutsu" default_group="Infantry" level="21" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_naginata_5"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_hotoke_b"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_duel_kaid_bojutsu" default_group="Infantry" level="21" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_naginata_5"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_hotoke_b"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_duel_kaid_jojutsu" default_group="Infantry" level="21" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_naginata_5"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_hotoke_b"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_duel_kaid_kyujutsu" default_group="Infantry" level="21" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_new_yumi_2_war_bow"/>
+				<equipment slot="Item1" id="Item.sho_ebira_piercing"/>
+				<equipment slot="Item2" id="Item.sho_ebira_piercing"/>
+				<equipment slot="Head" id="Item.sho_eboshi_hat_b"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_hotoke_b"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_duel_kaid_hojutsu" default_group="Infantry" level="21" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_25"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_16"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_hotoke_b"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_duel_kaid_kasagake" default_group="Infantry" level="21" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_new_yumi_3_short_war_bow"/>
+				<equipment slot="Item1" id="Item.sho_hankyu_b"/>
+				<equipment slot="Item2" id="Item.sho_hankyu_b"/>
+				<equipment slot="Head" id="Item.sho_rawhide_jingasa_1"/>
+				<equipment slot="Body" id="Item.bak_mukabaki"/>
+                <equipment slot="Gloves" id="Item.sho_oyoroi_kote_b_a"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_18"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="weapon_duel_kaid_bajutsu" default_group="Infantry" level="21" occupation="Soldier" is_hidden_encyclopedia="true" culture="Culture.buddhists" name="{=fx8DMySW}{CURRENT_RYUHA} Menkyo Kaiden">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+		</skills>
+        <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_yari_18"/>
+				<equipment slot="Item1" id="Item.sho_new_yumi_3_short_war_bow"/>
+				<equipment slot="Item2" id="Item.sho_hankyu_b"/>
+				<equipment slot="Head" id="Item.sho_rawhide_jingasa_1"/>
+				<equipment slot="Body" id="Item.bak_mukabaki"/>
+                <equipment slot="Gloves" id="Item.sho_oyoroi_kote_b_a"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_18"/>
+			</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="ryuha_shihan" default_group="Infantry" level="26" is_hero="false" is_hidden_encyclopedia="true" occupation="ArenaMaster" name="{=5fbPC9f9}{CURRENT_RYUHA} Master" culture="Culture.buddhists" >
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="320"/>
+			<skill id="TwoHanded" value="320"/>
+			<skill id="Polearm" value="320"/>
+			<skill id="Bow" value="320"/>
+			<skill id="Crossbow" value="320"/>
+			<skill id="Throwing" value="320"/>
+			<skill id="Riding" value="320"/>
+			<skill id="Athletics" value="320"/>
+		</skills>
+        <Equipments>
+        <EquipmentRoster civilian="true">
+			<Equipment slot="Item0" id="Item.bak_shinai" />
+			<Equipment slot="Body" id="Item.sho_kamishimo_a" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentRoster>
+        <EquipmentRoster>
+			<Equipment slot="Item0" id="Item.bak_shinai" />
+			<Equipment slot="Body" id="Item.sho_kamishimo_a" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocationComplexTemplates>
+	<LocationComplexTemplate id="dojo_complex">
+		<Location id="arena" name="{=mMU3H6HZ}Arena" scene_name="empire_hippodrome_a" indoor="true" max_prosperity="10" ai_can_enter="CanNever" ai_can_exit="CanNever" player_can_enter="CanAlways" player_can_see="CanAlways"/>
+		<Passages/>
+	</LocationComplexTemplate>
+</LocationComplexTemplates>

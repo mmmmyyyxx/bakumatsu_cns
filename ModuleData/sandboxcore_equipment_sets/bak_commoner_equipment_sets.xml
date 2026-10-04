@@ -1,0 +1,133 @@
+<EquipmentRosters>
+	<EquipmentRoster id="townswoman_default_edo">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_black" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_black_brown" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_brown" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_brown" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_black" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_black_brown" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_ornate" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_ornate_1" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_ornate_2" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_ornate_3" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_ornate_4" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_kimono_hakama" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_kimono_hakama_1" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_kimono_hakama_2" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_kimono_hakama_3" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+
+	</EquipmentRoster>
+    <EquipmentRoster id="townsman_default_edo">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_black" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_black_brown" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_brown" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_brown" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_black" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_black_brown" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_ornate" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_ornate_1" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_haori_ornate_2" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+            <equipment slot="Item0" id="Item.sho_katana_15"/>
+            <equipment slot="Item1" id="Item.sho_wakizashi_12"/>
+			<Equipment slot="Body" id="Item.bak_haori_ornate_3" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+            <equipment slot="Item0" id="Item.sho_katana_17"/>
+            <equipment slot="Item1" id="Item.sho_wakizashi_11"/>
+			<Equipment slot="Body" id="Item.bak_haori_ornate_4" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+            <equipment slot="Item0" id="Item.sho_katana_16"/>
+            <equipment slot="Item1" id="Item.sho_wakizashi_9"/>
+			<Equipment slot="Body" id="Item.bak_kimono_hakama" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_kimono_hakama_1" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_kimono_hakama_2" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.bak_kimono_hakama_3" />
+			<Equipment slot="Leg" id="Item.sho_waraji_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+</EquipmentRosters>

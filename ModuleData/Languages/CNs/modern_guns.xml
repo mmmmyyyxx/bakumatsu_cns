@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<base xmlns="http://schemas.taleworlds.com/2007/04/GameSystem/" type="string">
+  <tags>
+    <tag language="简体中文"/>
+  </tags>
+  <strings>
+    <string id="BakumatsuModels_imp_d_cartridges_pistol_PistolCartridge_9a74" text="手枪弹药筒"/>
+  </strings>
+</base>

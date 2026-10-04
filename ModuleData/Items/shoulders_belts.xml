@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- New Belts -->
+	<Item id="bak_sash_belt"
+	      name="{=BosBeSas}Sash Belt"
+	      mesh="bak_sash_belt"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_square_belt_new"
+	      name="{=BosBeWSq}Western Square Belt"
+	      mesh="bak_square_belt_new"
+	      culture="Culture.saikai"
+	      weight="0.02"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_square_belt_new_black"
+	      name="{=BosBeWSq}Western Square Belt"
+	      mesh="bak_square_belt_new_black"
+	      culture="Culture.saikai"
+	      weight="0.02"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_square_belt_new_white"
+	      name="{=BosBeWSq}Western Square Belt"
+	      mesh="bak_square_belt_new_white"
+	      culture="Culture.saikai"
+	      weight="0.02"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_circle_belt_new"
+	      name="{=BosBeWCi}Western Circle Belt"
+	      mesh="bak_circle_belt_new"
+	      culture="Culture.saikai"
+	      weight="0.02"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_circle_belt_new_black"
+	      name="{=BosBeWCi}Western Circle Belt"
+	      mesh="bak_circle_belt_new_black"
+	      culture="Culture.saikai"
+	      weight="0.02"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_circle_belt_new_white"
+	      name="{=BosBeWCi}Western Circle Belt"
+	      mesh="bak_circle_belt_new_white"
+	      culture="Culture.saikai"
+	      weight="0.02"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_new_obi_belt"
+	      name="{=BosBeObi}Obi Belt"
+	      mesh="bak_new_obi_belt"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_new_obi_belt_black"
+	      name="{=BosBeObi}Obi Belt"
+	      mesh="bak_new_obi_belt_black"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_new_obi_belt_blue"
+	      name="{=BosBeObi}Obi Belt"
+	      mesh="bak_new_obi_belt_blue"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_new_obi_belt_brown"
+	      name="{=BosBeObi}Obi Belt"
+	      mesh="bak_new_obi_belt_brown"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_new_obi_belt_dark_blue"
+	      name="{=BosBeObi}Obi Belt"
+	      mesh="bak_new_obi_belt_dark_blue"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_new_obi_belt_green"
+	      name="{=BosBeObi}Obi Belt"
+	      mesh="bak_new_obi_belt_green"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_new_obi_belt_pale_yellow"
+	      name="{=BosBeObi}Obi Belt"
+	      mesh="bak_new_obi_belt_pale_yellow"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_new_obi_belt_red"
+	      name="{=BosBeObi}Obi Belt"
+	      mesh="bak_new_obi_belt_red"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_new_obi_belt_white"
+	      name="{=BosBeObi}Obi Belt"
+	      mesh="bak_new_obi_belt_white"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_new_obi_belt_yellow"
+	      name="{=BosBeObi}Obi Belt"
+	      mesh="bak_new_obi_belt_yellow"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- New Equipment -->
+	<Item id="bak_denshu_belt"
+	      name="{=BosBeDCE}Belt and Sash w/ Cavalry Equipment"
+	      mesh="bak_denshu_belt"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+				   arm_armor="2"
+				   leg_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_cavalry_belt"
+	      name="{=BosBeCaE}Western Square Belt w/ Cavalry Equipment"
+	      mesh="bak_cavalry_belt"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+				   arm_armor="2"
+				   leg_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_cavalry_belt_black"
+	      name="{=BosBeCaE}Western Square Belt w/ Cavalry Equipment"
+	      mesh="bak_cavalry_belt_black"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+				   arm_armor="2"
+				   leg_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_cavalry_belt_white"
+	      name="{=BosBeCaE}Western Square Belt w/ Cavalry Equipment"
+	      mesh="bak_cavalry_belt_white"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+				   arm_armor="2"
+				   leg_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_shoulderbelt_obi"
+	      name="{=BosBeObS}Obi Belt w/ Shoulder Belt"
+	      mesh="bak_shoulderbelt_obi"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_shoulderbelt_obi_black"
+	      name="{=BosBeObS}Obi Belt w/ Shoulder Belt"
+	      mesh="bak_shoulderbelt_obi_black"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_shoulderbelt_obi_white"
+	      name="{=BosBeObS}Obi Belt w/ Shoulder Belt"
+	      mesh="bak_shoulderbelt_obi_white"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_shoulderbelt_circle"
+	      name="{=BosBeWCS}Western Circle Belt w/ Shoulder Belt"
+	      mesh="bak_shoulderbelt_circle"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_shoulderbelt_circle_black"
+	      name="{=BosBeWCS}Western Circle Belt w/ Shoulder Belt"
+	      mesh="bak_shoulderbelt_circle_black"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_shoulderbelt_circle_white"
+	      name="{=BosBeWCS}Western Circle Belt w/ Shoulder Belt"
+	      mesh="bak_shoulderbelt_circle_white"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_shoulderbelt_square"
+	      name="{=BosBeWSS}Western Square Belt w/ Shoulder Belt"
+	      mesh="bak_shoulderbelt_square"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_shoulderbelt_square_black"
+	      name="{=BosBeWSS}Western Square Belt w/ Shoulder Belt"
+	      mesh="bak_shoulderbelt_square_black"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_shoulderbelt_square_white"
+	      name="{=BosBeWSS}Western Square Belt w/ Shoulder Belt"
+	      mesh="bak_shoulderbelt_square_white"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_bayonetbelt"
+	      name="{=BosBeWSB}Western Square Belt w/ Bayonet Shoulder Belt"
+	      mesh="bak_bayonetbelt"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_bayonetbelt_black"
+	      name="{=BosBeWSB}Western Square Belt w/ Bayonet Shoulder Belt"
+	      mesh="bak_bayonetbelt_black"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_bayonetbelt_white"
+	      name="{=BosBeWSB}Western Square Belt w/ Bayonet Shoulder Belt"
+	      mesh="bak_bayonetbelt_white"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_bayonetbelt_yataghan"
+	      name="{=BosBeWSB}Western Square Belt w/ Bayonet Shoulder Belt"
+	      mesh="bak_bayonetbelt_yataghan"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_bayonetbelt_yataghan_black"
+	      name="{=BosBeWSB}Western Square Belt w/ Bayonet Shoulder Belt"
+	      mesh="bak_bayonetbelt_yataghan_black"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_bayonetbelt_yataghan_white"
+	      name="{=BosBeWSB}Western Square Belt w/ Bayonet Shoulder Belt"
+	      mesh="bak_bayonetbelt_yataghan_white"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_crossbelt_obi"
+	      name="{=BosBeObC}Obi Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_obi"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_crossbelt_obi_black"
+	      name="{=BosBeObC}Obi Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_obi_black"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_crossbelt_obi_white"
+	      name="{=BosBeObC}Obi Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_obi_white"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_crossbelt_circle"
+	      name="{=BosBeWCC}Western Circle Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_circle"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_crossbelt_circle_black"
+	      name="{=BosBeWCC}Western Circle Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_circle_black"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_crossbelt_circle_white"
+	      name="{=BosBeWCC}Western Circle Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_circle_white"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_crossbelt_square"
+	      name="{=BosBeWSC}Western Square Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_square"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_crossbelt_square_black"
+	      name="{=BosBeWSC}Western Square Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_square_black"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_crossbelt_square_white"
+	      name="{=BosBeWSC}Western Square Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_square_white"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_crossbelt_yataghan_obi"
+	      name="{=BosBeObC}Obi Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_yataghan_obi"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_crossbelt_yataghan_obi_black"
+	      name="{=BosBeObC}Obi Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_yataghan_obi_black"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_crossbelt_yataghan_obi_white"
+	      name="{=BosBeObC}Obi Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_yataghan_obi_white"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_crossbelt_yataghan_circle"
+	      name="{=BosBeWCC}Western Circle Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_yataghan_circle"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_crossbelt_yataghan_circle_black"
+	      name="{=BosBeWCC}Western Circle Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_yataghan_circle_black"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_crossbelt_yataghan_circle_white"
+	      name="{=BosBeWCC}Western Circle Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_yataghan_circle_white"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_crossbelt_yataghan_square"
+	      name="{=BosBeWSC}Western Square Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_yataghan_square"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_crossbelt_yataghan_square_black"
+	      name="{=BosBeWSC}Western Square Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_yataghan_square_black"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_crossbelt_yataghan_square_white"
+	      name="{=BosBeWSC}Western Square Belt w/ Crossbelt"
+	      mesh="bak_crossbelt_yataghan_square_white"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_full_infantry_set"
+	      name="{=P089dwt6}Infantry Equipment - Crossbelt and Pack"
+	      mesh="bak_full_infantry_set"
+	      culture="Culture.saikai"
+	      weight="0.6"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="7"
+				   arm_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_full_infantry_set_black"
+	      name="{=P089dwt6}Infantry Equipment - Crossbelt and Pack"
+	      mesh="bak_full_infantry_set_black"
+	      culture="Culture.saikai"
+	      weight="0.6"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="7"
+				   arm_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_full_infantry_set_white"
+	      name="{=P089dwt6}Infantry Equipment - Crossbelt and Pack"
+	      mesh="bak_full_infantry_set_white"
+	      culture="Culture.saikai"
+	      weight="0.6"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="7"
+				   arm_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_full_infantry_set_white_a"
+	      name="{=P089dwt6}Infantry Equipment - Crossbelt and Pack"
+	      mesh="bak_full_infantry_set_white_a"
+	      culture="Culture.saikai"
+	      weight="0.6"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="7"
+				   arm_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_full_infantry_set_1"
+	      name="{=P089dwt6}Infantry Equipment - Crossbelt and Pack"
+	      mesh="bak_full_infantry_set_1"
+	      culture="Culture.saikai"
+	      weight="0.6"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_full_infantry_set_1_black"
+	      name="{=P089dwt6}Infantry Equipment - Crossbelt and Pack"
+	      mesh="bak_full_infantry_set_1_black"
+	      culture="Culture.saikai"
+	      weight="0.6"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_full_infantry_set_1_white"
+	      name="{=P089dwt6}Infantry Equipment - Crossbelt and Pack"
+	      mesh="bak_full_infantry_set_1_white"
+	      culture="Culture.saikai"
+	      weight="0.6"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_full_infantry_set_1_white_a"
+	      name="{=P089dwt6}Infantry Equipment - Crossbelt and Pack"
+	      mesh="bak_full_infantry_set_1_white_a"
+	      culture="Culture.saikai"
+	      weight="0.6"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Belts with Crossbelt -->
+	<Item id="bak_crossbelt"
+	      name="{=BosBeCro}Crossbelt"
+	      mesh="bak_crossbelt"
+	      culture="Culture.saikai"
+	      weight="0.4"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_obi_crossbelt"
+	      name="{=BosBeObC}Obi Belt w/ Crossbelt"
+	      mesh="bak_obi_crossbelt"
+	      culture="Culture.saikai"
+	      weight="0.5"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<!-- Belts with Shoulder Belt -->
+	<Item id="bak_shoulderbelt"
+	      name="{=BosBeSho}Shoulder Belt"
+	      mesh="bak_shoulderbelt"
+	      culture="Culture.saikai"
+	      weight="0.3"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<!-- Belts with Pack -->
+	<Item id="bak_pack"
+	      name="{=BosBePac}Crossbelt and Pack"
+	      mesh="bak_pack"
+	      culture="Culture.saikai"
+	      weight="0.55"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+				   arm_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+
+	<Item id="sho_oyoroi_kote_a_a" name="{=q1KgboXi}Ō-yoroi Kote" mesh="sho_oyoroi_kote_a" weight="0.9" difficulty="0" appearance="1" is_merchandise="false" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="15" body_armor="5" modifier_group="chain" covers_body="true" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="false"/>
+	</Item>
+	<Item id="sho_oyoroi_kote_b_a" name="{=q1KgboXi}Ō-yoroi Kote" mesh="sho_oyoroi_kote_b" weight="0.9" difficulty="0" appearance="1" is_merchandise="false" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="15" body_armor="5" modifier_group="chain" covers_body="true" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="false"/>
+	</Item>
+	<Item id="sho_oyoroi_kote_c_a" name="{=q1KgboXi}Ō-yoroi Kote" mesh="sho_oyoroi_kote_c" weight="0.9" difficulty="0" appearance="1" is_merchandise="false" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="15" body_armor="5" modifier_group="chain" covers_body="true" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="false"/>
+	</Item>
+	<Item id="sho_oyoroi_kote_d_a" name="{=q1KgboXi}Ō-yoroi Kote" mesh="sho_oyoroi_kote_d" weight="0.9" difficulty="0" appearance="1" is_merchandise="false" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="15" body_armor="5" modifier_group="chain" covers_body="true" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="false"/>
+	</Item>
+	<Item id="sho_oyoroi_kote_e_a" name="{=q1KgboXi}Ō-yoroi Kote" mesh="sho_oyoroi_kote_e" weight="0.9" difficulty="0" appearance="1" is_merchandise="false" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="15" body_armor="5" modifier_group="chain" covers_body="true" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="false"/>
+	</Item>
+	<!-- Overcoat -->
+	<Item id="bak_overcoat"
+	      name="{=BosBeOve}Overcoat"
+	      mesh="bak_overcoat"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_overcoat_black"
+	      name="{=BosBeOve}Overcoat"
+	      mesh="bak_overcoat_black"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_overcoat_red"
+	      name="{=BosBeOve}Overcoat"
+	      mesh="bak_overcoat_red"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Haori -->
+	<Item id="bak_haori_solo"
+	      name="{=BosBeHao}Haori"
+	      mesh="bak_haori_solo"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_solo_1"
+	      name="{=BosBeHao}Haori"
+	      mesh="bak_haori_solo_1"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_solo_2"
+	      name="{=BosBeHao}Haori"
+	      mesh="bak_haori_solo_2"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_solo_3"
+	      name="{=BosBeHao}Haori"
+	      mesh="bak_haori_solo_3"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_solo_4"
+	      name="{=BosBeHao}Haori"
+	      mesh="bak_haori_solo_4"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_solo_5"
+	      name="{=BosBeHao}Haori"
+	      mesh="bak_haori_solo_5"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_solo_tc"
+	      name="{=BosBeHao}Haori"
+	      mesh="bak_haori_solo_tc"
+		  using_tableau="true"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_solo_tc_1"
+	      name="{=BosBeHao}Haori"
+	      mesh="bak_haori_solo_tc_1"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+			   UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_haori_shins"
+	      name="{=BosBSHao}Shinsengumi Haori"
+	      mesh="bak_haori_shins"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_shins_1"
+	      name="{=BosBSHao}Shinsengumi Haori"
+	      mesh="bak_haori_shins_1"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_shinch"
+	      name="{=BosbSHao}Shinchogumi Haori"
+	      mesh="bak_haori_shinch"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_shinch_1"
+	      name="{=BosbSHao}Shinchogumi Haori"
+	      mesh="bak_haori_shinch_1"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_shinch_2"
+	      name="{=BosbSHao}Shinchogumi Haori"
+	      mesh="bak_haori_shinch_2"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_shinch_3"
+	      name="{=BosbSHao}Shinchogumi Haori"
+	      mesh="bak_haori_shinch_3"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_solo_ornate"
+	      name="{=BosBeHao}Haori"
+	      mesh="bak_haori_solo_ornate"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_solo_ornate_1"
+	      name="{=BosBeHao}Haori"
+	      mesh="bak_haori_solo_ornate_1"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_solo_ornate_2"
+	      name="{=BosBeHao}Haori"
+	      mesh="bak_haori_solo_ornate_2"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_solo_ornate_3"
+	      name="{=BosBeHao}Haori"
+	      mesh="bak_haori_solo_ornate_3"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				   arm_armor="4"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Bussakibaori -->
+	<Item id="bak_bussakibaori"
+	      name="{=BosBeBKb}Bussakibaori"
+	      mesh="bak_bussakibaori"
+	      culture="Culture.saikai"
+	      weight="0.5"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+				   arm_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_bussakibaori_1"
+	      name="{=BosBeBKb}Bussakibaori"
+	      mesh="bak_bussakibaori_1"
+	      culture="Culture.saikai"
+	      weight="0.5"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+				   arm_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_bussakibaori_2"
+	      name="{=BosBeBKb}Bussakibaori"
+	      mesh="bak_bussakibaori_2"
+	      culture="Culture.saikai"
+	      weight="0.5"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+				   arm_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_bussakibaori_3"
+	      name="{=BosBeBKb}Bussakibaori"
+	      mesh="bak_bussakibaori_3"
+	      culture="Culture.saikai"
+	      weight="0.5"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+				   arm_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_bussakibaori_4"
+	      name="{=BosBeBKb}Bussakibaori"
+	      mesh="bak_bussakibaori_4"
+	      culture="Culture.saikai"
+	      weight="0.5"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+				   arm_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_bussakibaori_half"
+	      name="{=BosBeBKb}Bussakibaori"
+	      mesh="bak_bussakibaori_half"
+	      culture="Culture.saikai"
+	      weight="0.5"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+				   arm_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_bussakibaori_half_1"
+	      name="{=BosBeBKb}Bussakibaori"
+	      mesh="bak_bussakibaori_half_1"
+	      culture="Culture.saikai"
+	      weight="0.5"
+	      appearance="0.05"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3"
+				   arm_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Armor -->
+	<Item id="bak_kikko_manchira"
+	      name="{=BosBeKKM}Kikko Manchira"
+	      mesh="bak_kikko_manchira"
+	      culture="Culture.saikai"
+	      weight="1.8"
+	      appearance="1.5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="false"/>
+	</Item>
+	<Item id="bak_kikko_manchira_red"
+	      name="{=BosBeKKM}Kikko Manchira"
+	      mesh="bak_kikko_manchira_red"
+	      culture="Culture.saikai"
+	      weight="1.8"
+	      appearance="1.5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="false"/>
+	</Item>
+	<Item id="bak_kikko_manchira_black"
+	      name="{=BosBeKKM}Kikko Manchira"
+	      mesh="bak_kikko_manchira_black"
+	      culture="Culture.saikai"
+	      weight="1.8"
+	      appearance="1.5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="false"/>
+	</Item>
+	<!-- Sode Jirushi -->
+    <Item id="bak_satsuma_armband" name="{=BosBeArm}Armband" mesh="satsuma_armband" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi" name="{=BosBeSod}Sode Jirushi" mesh="sode_jirushi" using_tableau="true" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_alt" name="{=BosBeSod}Sode Jirushi" mesh="sode_jirushi_alt" using_tableau="true" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="2" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_thin" name="{=BosBeSod}Sode Jirushi" mesh="sode_jirushi_thin" using_tableau="true" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_small" name="{=BosBeSod}Sode Jirushi" mesh="sode_jirushi_small" using_tableau="true" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="2" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_kingire" name="{=BosBeSod}Sode Jirushi" mesh="kingire" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_sonno_joi" name="{=BosBeSoj}Sonno-Joi Sode Jirushi" mesh="sode_jirushi_sonno_joi" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_kurume" name="{=BosBeSok}Kurume Sode Jirushi" mesh="sode_jirushi_kurume" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_aizu" name="{=BosBeSoA}Aizu Sode Jirushi" mesh="sode_jirushi_aizu" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_aizu_byak" name="{=BosBeSoB}Byakkotai Sode Jirushi" mesh="sode_jirushi_aizu_byak" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_aizu_star" name="{=BosBeSoA}Aizu Sode Jirushi" mesh="sode_jirushi_aizu_star" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_hiroshima_black" name="{=BosBeSoH}Hiroshima Sode Jirushi" mesh="sode_jirushi_hiroshima_black" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_hiroshima_blue" name="{=BosBeSoH}Hiroshima Sode Jirushi" mesh="sode_jirushi_hiroshima_blue" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_hiroshima_red" name="{=BosBeSoH}Hiroshima Sode Jirushi" mesh="sode_jirushi_hiroshima_red" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_kaga" name="{=BosBeSoK}Kaga Sode Jirushi" mesh="sode_jirushi_kaga" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_saga" name="{=BosBeSoS}Saga Sode Jirushi" mesh="sode_jirushi_saga" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_nagaoka" name="{=BosBeSoN}Nagaoka Sode Jirushi" mesh="sode_jirushi_nagaoka" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="6" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_okayama" name="{=BosBeSoO}Okayama Sode Jirushi" mesh="sode_jirushi_okayama" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_owari" name="{=BosBeSoo}Owari Sode Jirushi" mesh="sode_jirushi_owari" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_shinsengumi" name="{=BosBeSos}Shinsengumi Sode Jirushi" mesh="sode_jirushi_shinsengumi" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_shinsengumi_1" name="{=BosBeSos}Shinsengumi Sode Jirushi" mesh="sode_jirushi_shinsengumi_1" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="2" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_shogitai" name="{=BosBeSSh}Shogitai Sode Jirushi" mesh="sode_jirushi_shogitai" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="2" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_tokushima" name="{=BosBeSoT}Tokushima Sode Jirushi" mesh="sode_jirushi_tokushima" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor body_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_tsu" name="{=BosBeSot}Tsu Sode Jirushi" mesh="sode_jirushi_tsu" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor body_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_sode_jirushi_ozu" name="{=BosBeSoz}Ozu Sode Jirushi" mesh="sode_jirushi_ozu" weight="0.05" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor body_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+    <Item id="bak_uniform_markings_ogaki" name="{=BosUnMar}Sleeve Markings" mesh="uniform_markings_ogaki" weight="0.01" difficulty="0" appearance="1" Type="HandArmor">
+        <ItemComponent>
+            <Armor body_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+</Items>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="combat_parameters">
+  <native_parameters>
+    <native_parameter id="ranged_target_radius_multiplier" value="6.0"/>
+    <native_parameter id="additional_time_for_perfect_ranged_ready" value="0.4"/>
+  </native_parameters>
+</base>

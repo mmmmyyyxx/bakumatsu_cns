@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MokurokuProgressions>
+	<MokurokuProgression id="hokushin_itto_ryu">
+		<Scroll id="hatsumokuroku" name="{=Br3Bq7N7}Hatsumokuroku" book="Book.hir_hatsu_mokuroku"/>
+		<Scroll id="chumokuroku_menkyo" name="{=ees8hQyH}Chūmokuroku-Menkyo" book="Book.hir_chu_mokuroku" menkyo="true">
+			<ScrollRequisite scroll="hatsumokuroku"/>
+		</Scroll>
+		<Scroll id="naginata_mokuroku" name="{=oIaXn8qV}Naginata Mokuroku" book="Book.hir_naginata_mokuroku"/>
+		<Scroll id="daimokuroku_kaiden" name="{=9FmCw4Bg}Daimokuroku-Kaiden" book="Book.hir_dai_mokuroku">
+			<ScrollRequisite scroll="chumokuroku_menkyo"/>
+			<ScrollRequisite scroll="naginata_mokuroku"/>
+		</Scroll>
+	</MokurokuProgression>
+	<MokurokuProgression id="ono_ha_itto_ryu">
+		<Scroll id="junikajo_mokuroku" name="{=doB4e6MT}Junikajō Mokuroku" book="Book.oir_juni_mokuroku"/>
+		<Scroll id="kanajisho_mokuroku" name="{=ees8hQyH}Kanajisho Mokuroku" book="Book.oir_kana_mokuroku" menkyo="true">
+			<ScrollRequisite scroll="junikajo_mokuroku"/>
+		</Scroll>
+		<Scroll id="hon_mokuroku" name="{=YA1D8zxc}Hon Mokuroku" book="Book.oir_hon_mokuroku">
+			<ScrollRequisite scroll="kanajisho_mokuroku"/>
+		</Scroll>
+	</MokurokuProgression>
+	<MokurokuProgression id="generic_ryu">
+		<Scroll id="sho_mokuroku" name="{=9P8luozd}Sho-Mokuroku" book="Book.gr_sho_mokuroku"/>
+		<Scroll id="hatsu_mokuroku" name="{=Br3Bq7N7}Hatsumokuroku" book="Book.gr_hatsumokuroku">
+			<ScrollRequisite scroll="sho_mokuroku"/>
+		</Scroll>
+		<Scroll id="go_mokuroku" name="{=BhwhuG8o}Go-Mokuroku" book="Book.gr_gomokuroku">
+			<ScrollRequisite scroll="hatsu_mokuroku"/>
+		</Scroll>
+		<Scroll id="menkyo_mokuroku" name="{=ees8hQyH}Chūmokuroku-Menkyo" book="Book.gr_menkyo_mokuroku" menkyo="true">
+			<ScrollRequisite scroll="go_mokuroku"/>
+		</Scroll>
+		<Scroll id="kaiden_mokuroku" name="{=9FmCw4Bg}Daimokuroku-Kaiden" book="Book.gr_kaiden_mokuroku">
+			<ScrollRequisite scroll="menkyo_mokuroku"/>
+		</Scroll>
+	</MokurokuProgression>
+	<MokurokuProgression id="jigen_ryu">
+		<Scroll id="sho_mokuroku_a" name="{=9P8luozd}Sho-Mokuroku" book="Book.jr_sho_mokuroku"/>
+		<Scroll id="chu_mokuroku" name="{=fZL4F9EU}Chū-Mokuroku" book="Book.jr_chu_mokuroku">
+			<ScrollRequisite scroll="sho_mokuroku_a"/>
+		</Scroll>
+		<Scroll id="oku_mokuroku" name="{=ROllQMrj}Okumokuroku-Menkyo" book="Book.jr_oku_mokuroku" menkyo="true">
+			<ScrollRequisite scroll="chu_mokuroku"/>
+		</Scroll>
+		<Scroll id="soden_mokuroku" name="{=RDzDg0b9}Sōmokuroku-Kaiden" book="Book.jr_somokuroku">
+			<ScrollRequisite scroll="oku_mokuroku"/>
+		</Scroll>
+	</MokurokuProgression>
+	<MokurokuProgression id="shinkage_ryu">
+		<Scroll id="omote_mokuroku_a" name="{=e0on0sjs}Omote" book="Book.shr_omote_mokuroku"/>
+		<Scroll id="o_marobashi" name="{=FKrjal9r}O-marobashi" book="Book.shr_o_marobashi">
+			<ScrollRequisite scroll="omote_mokuroku_a"/>
+		</Scroll>
+		<Scroll id="ko_marobashi" name="{=fr7iL6Eg}Ko-marobashi" book="Book.shr_ko_marobashi">
+			<ScrollRequisite scroll="o_marobashi"/>
+		</Scroll>
+		<Scroll id="tengu_sho" name="{=TmHug8cR}Tengu-sho" book="Book.shr_tengu_sho">
+			<ScrollRequisite scroll="ko_marobashi"/>
+		</Scroll>
+		<Scroll id="karimokuroku" name="{=dZXrRixu}Karimokuroku" book="Book.shr_karimokuroku">
+			<ScrollRequisite scroll="tengu_sho"/>
+		</Scroll>
+		<Scroll id="mokuroku_simple" name="{=wuHKfmPe}Mokuroku" book="Book.shr_mokuroku">
+			<ScrollRequisite scroll="karimokuroku"/>
+		</Scroll>
+		<Scroll id="gaiden_simple" name="{=XmL4GoMr}Gaiden" book="Book.shr_gaiden" menkyo="true">
+			<ScrollRequisite scroll="mokuroku_simple"/>
+		</Scroll>
+		<Scroll id="naiden_simple" name="{=jwYwlJAv}Naiden" book="Book.shr_naiden">
+			<ScrollRequisite scroll="gaiden_simple"/>
+		</Scroll>
+		<Scroll id="kaiden_final" name="{=ju3fPS6n}Kaiden" book="Book.shr_kaiden">
+			<ScrollRequisite scroll="naiden_simple"/>
+		</Scroll>
+	</MokurokuProgression>
+	<MokurokuProgression id="jikishinkage_ryu">
+		<Scroll id="shomokuroku" name="{=lgC2LX8Y}Shomokuroku" book="Book.jshr_shomokuroku"/>
+		<Scroll id="jomokuroku" name="{=6fu0Pgwn}Jomokuroku" book="Book.jshr_jomokuroku">
+			<ScrollRequisite scroll="shomokuroku"/>
+		</Scroll>
+		<Scroll id="reikenden" name="{=UU9uc7Z6}Reikenden Mokuroku" book="Book.jshr_reikenden">
+			<ScrollRequisite scroll="jomokuroku"/>
+		</Scroll>
+		<Scroll id="kyuri_no_maki" name="{=L2ONpX7g}Kyuri-no-Maki Mokuroku" book="Book.jshr_kyuri_no_maki">
+			<ScrollRequisite scroll="reikenden"/>
+		</Scroll>
+		<Scroll id="goku_i" name="{=iRLrNt0o}Goku-i Mokuroku" book="Book.jshr_goku_i" menkyo="true">
+			<ScrollRequisite scroll="kyuri_no_maki"/>
+		</Scroll>
+		<Scroll id="menkyo_mokuroku_a" name="{=lB5IyDWZ}Mokuroku-menkyo" book="Book.jshr_menkyo_mokuroku">
+			<ScrollRequisite scroll="goku_i"/>
+		</Scroll>
+	</MokurokuProgression>
+	<MokurokuProgression id="mugai_ryu">
+		<Scroll id="goyo_mokuroku" name="{=XP2EPFPW}Goyo-mokuroku" book="Book.mr_goyo_mokuroku"/>
+		<Scroll id="goka_mokuroku" name="{=7xL85pP0}Goka-mokuroku" book="Book.mr_goka_mokuroku">
+			<ScrollRequisite scroll="goyo_mokuroku"/>
+		</Scroll>
+		<Scroll id="goo_mokuroku" name="{=NNblQwuC}Goo-mokuroku" book="Book.mr_goo_mokuroku">
+			<ScrollRequisite scroll="goka_mokuroku"/>
+		</Scroll>
+		<Scroll id="hashiri_gakari_mokuroku" name="{=kH4e0JyT}Hashiri-gakari Mokuroku" book="Book.mr_hashiri_gakari">
+			<ScrollRequisite scroll="goo_mokuroku"/>
+		</Scroll>
+		<Scroll id="naiden_mokuroku" name="{=iUIIPYmN}Naiden-mokuroku" book="Book.mr_naiden_mokuroku" menkyo="true">
+			<ScrollRequisite scroll="hashiri_gakari_mokuroku"/>
+		</Scroll>
+		<Scroll id="tachi_mokuroku" name="{=67KIBT0f}Tachi-mokuroku" book="Book.mr_tachi_mokuroku"/>
+		<Scroll id="wakizashi_mokuroku" name="{=tXhYy27i}Wakizashi-mokuroku" book="Book.mr_wakizashi_mokuroku"/>
+	</MokurokuProgression>
+	<MokurokuProgression id="tatsumi_ryu">
+		<Scroll id="oden_mokuroku" name="{=nyETWLF6}Oden Mokuroku" book="Book.tatr_oden_mokuroku"/>
+		<Scroll id="tachiai_mokuroku" name="{=eVZ5xPMe}Tojutsu Tachiai-mokuroku" book="Book.tatr_tachiai_mokuroku">
+			<ScrollRequisite scroll="oden_mokuroku"/>
+		</Scroll>
+		<Scroll id="iai_mokuroku" name="{=8gRaW6II}Tojutsu Iai-mokuroku" book="Book.tatr_iai_mokuroku">
+			<ScrollRequisite scroll="tachiai_mokuroku"/>
+		</Scroll>
+		<Scroll id="tat_menkyo_mokuroku" name="{=cT1kLRlw}Mokuroku-menkyo" book="Book.tatr_menkyo_mokuroku" menkyo="true">
+			<ScrollRequisite scroll="iai_mokuroku"/>
+		</Scroll>
+		<Scroll id="yari_mokuroku" name="{=zxjf5wHR}Yari-mokuroku" book="Book.tatr_yari_mokuroku"/>
+		<Scroll id="shuriken_mokuroku" name="{=hsuXqhmE}Shuriken-mokuroku" book="Book.tatr_shuriken_mokuroku"/>
+		<Scroll id="monomi_mokuroku" name="{=4ZFBhFME}Monomi-mokuroku" book="Book.tatr_monomi_mokuroku"/>
+		<Scroll id="shudan_sentoho_mokuroku" name="{=avMH1C6n}Shudan-sentōhō Mokuroku" book="Book.tatr_shudan_sentoho_mokuroku"/>
+		<Scroll id="tat_wakizashi_mokuroku" name="{=tXhYy27i}Wakizashi-mokuroku" book="Book.tatr_wakizashi_mokuroku"/>
+		<Scroll id="tat_naginata_mokuroku" name="{=oIaXn8qV}Naginata Mokuroku" book="Book.tatr_naginata_mokuroku"/>
+	</MokurokuProgression>
+	<MokurokuProgression id="tamiya_ryu">
+		<Scroll id="omote_mokuroku" name="{=fJpLo9Gd}Omote no Maki Mokuroku" book="Book.tr_omote_mokuroku" menkyo="true"/>
+		<Scroll id="koran_mokuroku" name="{=k6Gafnr2}Koran no Maki Mokuroku" book="Book.tr_koran_mokuroku">
+			<ScrollRequisite scroll="omote_mokuroku"/>
+		</Scroll>
+	</MokurokuProgression>
+	<MokurokuProgression id="heki_ryu">
+		<Scroll id="yumi_mokuroku" name="{=xJg9HTTc}Yumi Mokuroku" book="Book.her_yumi_mokuroku" menkyo="true"/>
+		<Scroll id="kaiden_mokuroku_b" name="{=vJiwn1t6}Hyōhōmokuroku" book="Book.her_hyohomokuroku">
+			<ScrollRequisite scroll="yumi_mokuroku"/>
+		</Scroll>
+	</MokurokuProgression>
+	<MokurokuProgression id="hozoin_ryu">
+		<Scroll id="omote_mokuroku_a" name="{=XmRQZY3w}Omote-mokuroku" book="Book.hor_omote_mokuroku"/>
+		<Scroll id="ura_mokuroku" name="{=Fe7wSDVD}Ura-mokuroku" book="Book.hor_ura_mokuroku">
+			<ScrollRequisite scroll="omote_mokuroku_a"/>
+		</Scroll>
+		<Scroll id="shinshikake_mokuroku" name="{=93OCMPWH}Shinshikake Mokuroku-menkyo" book="Book.hor_shinshikake_mokuroku" menkyo="true">
+			<ScrollRequisite scroll="ura_mokuroku"/>
+		</Scroll>
+		<Scroll id="kaiden_mokuroku_a" name="{=vJiwn1t6}Hyōhōmokuroku" book="Book.hor_kaiden">
+			<ScrollRequisite scroll="shinshikake_mokuroku"/>
+		</Scroll>
+	</MokurokuProgression>
+	<MokurokuProgression id="ogasawara_ryu">
+		<Scroll id="kasagake_mokuroku" name="{=ic0y29yj}Kasagake-mokuroku" book="Book.ogr_kasagake_mokuroku" menkyo="true"/>
+		<Scroll id="kyujutsu_mokuroku" name="{=MLTh55ob}Kyujutsu-mokuroku" book="Book.ogr_kyujutsu_mokuroku"/>
+		<Scroll id="bajutsu_mokuroku" name="{=8Zb4XSdP}Bajutsu-mokuroku" book="Book.ogr_bajutsu_mokuroku"/>
+		<Scroll id="reiho_mokuroku" name="{=Gn3y0ifK}Reiho-mokuroku" book="Book.ogr_reiho_mokuroku"/>
+	</MokurokuProgression>
+</MokurokuProgressions>

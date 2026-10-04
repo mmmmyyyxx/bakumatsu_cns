@@ -1,0 +1,2122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Sokitai -->
+	<Item id="bunkan_sokutai"
+	      name="{=BosBunSo}Bunkan Sokutai"
+	      mesh="bunkan_sokutai"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="26"
+			       arm_armor="10"
+			       leg_armor="12"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<!-- Keikogi -->
+	<Item id="bak_kimono_hakama"
+	      name="{=BosHaKei}Keikogi-hakama"
+	      mesh="bak_kimono_hakama"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4"
+			       arm_armor="2"
+			       leg_armor="2"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_kimono_hakama_1"
+	      name="{=BosHaKei}Keikogi-hakama"
+	      mesh="bak_kimono_hakama_1"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4"
+			       arm_armor="2"
+			       leg_armor="2"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_kimono_hakama_2"
+	      name="{=BosHaKei}Keikogi-hakama"
+	      mesh="bak_kimono_hakama_2"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4"
+			       arm_armor="2"
+			       leg_armor="2"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_kimono_hakama_3"
+	      name="{=BosHaKei}Keikogi-hakama"
+	      mesh="bak_kimono_hakama_3"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4"
+			       arm_armor="2"
+			       leg_armor="2"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+    <Item id="bak_mukabaki" name="{=9G3QcMuk}Mukabaki-hakama" subtype="body_armor" mesh="bak_mukabaki" weight="0.5" difficulty="0" appearance="1.6" Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="0" leg_armor="10" arm_armor="0" has_gender_variations="true" covers_body="false" modifier_group="cloth_unarmored" material_type="Cloth"/>
+        </ItemComponent>
+        <Flags UseTeamColor="false" Civilian="true"/>
+    </Item>
+	<!-- Haori -->
+	<Item id="bak_haori_modern_full"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_modern_full"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+			   UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_haori_modern_full_1"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_modern_full_1"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+			   UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_haori_modern_full_2"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_modern_full_2"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+			   UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_haori_black"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_black"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_black_brown"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_black_brown"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_brown"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_brown"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_blue"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_blue"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_ornate"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_ornate"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="2.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_ornate_1"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_ornate_1"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="2.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_ornate_2"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_ornate_2"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="2.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_ornate_3"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_ornate_3"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="2.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_ornate_4"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_ornate_4"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="2.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_yamagunitai"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_yamagunitai"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_shins_full"
+	      name="{=BoshSHao}Shinsengumi Haori-hakama"
+	      mesh="bak_haori_shins_full"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_shins_full_1"
+	      name="{=BoshSHao}Shinsengumi Haori-hakama"
+	      mesh="bak_haori_shins_full_1"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_shinch_full"
+	      name="{=BosShHao}Shinchogumi Haori-hakama"
+	      mesh="bak_haori_shinch_full"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_shinch_full_1"
+	      name="{=BosShHao}Shinchogumi Haori-hakama"
+	      mesh="bak_haori_shinch_full_1"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_shinch_full_2"
+	      name="{=BosShHao}Shinchogumi Haori-hakama"
+	      mesh="bak_haori_shinch_full_2"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_shinch_full_3"
+	      name="{=BosShHao}Shinchogumi Haori-hakama"
+	      mesh="bak_haori_shinch_full_3"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_tc"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_tc"
+		  using_tableau="true"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_haori_tc_1"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_tc_1"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+			   UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_haori_tc_2"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_tc_2"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+			   UseTeamColor="true"/>
+	</Item>
+	<Item id="bak_haori_tc_3"
+	      name="{=BosHaHao}Haori-hakama"
+	      mesh="bak_haori_tc_3"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="4"
+			       leg_armor="2"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+			   UseTeamColor="true"/>
+	</Item>
+	<!-- Hybrid-style Uniforms -->
+	<Item id="bak_hybrid_coat"
+	      name="{=BosHybUn}Early Uniform and Trousers"
+	      mesh="bak_hybrid_coat"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.2"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4"
+			       arm_armor="1"
+			       leg_armor="1"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_hybrid_coat_1"
+	      name="{=BosHybUn}Early Uniform and Trousers"
+	      mesh="bak_hybrid_coat_1"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.2"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4"
+			       arm_armor="1"
+			       leg_armor="1"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_hybrid_coat_2"
+	      name="{=BosHybUn}Early Uniform and Trousers"
+	      mesh="bak_hybrid_coat_2"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.2"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4"
+			       arm_armor="1"
+			       leg_armor="1"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_hybrid_coat_3"
+	      name="{=BosHybUN}Early Summer Uniform and Trousers"
+	      mesh="bak_hybrid_coat_3"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.2"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4"
+			       arm_armor="1"
+			       leg_armor="1"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_hybrid_coat_4"
+	      name="{=BosHybUN}Early Summer Uniform and Trousers"
+	      mesh="bak_hybrid_coat_4"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.2"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4"
+			       arm_armor="1"
+			       leg_armor="1"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_hybrid_coat_5"
+	      name="{=BosHybUn}Early Uniform and Trousers"
+	      mesh="bak_hybrid_coat_5"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.2"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4"
+			       arm_armor="1"
+			       leg_armor="1"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<!-- Takashima-ryu Uniform -->
+	<Item id="bak_takashima_uniform"
+	      name="{=BosHyCoa}Uniform and Hakama"
+	      mesh="bak_takashima_uniform"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.2"
+	      difficulty="0"
+	      appearance="0.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<!-- French -->
+	<Item id="bak_frock_coat_french"
+	      name="{=BoFFrCoa}French Infantry Coat and Trousers"
+	      mesh="bak_frock_coat_french"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="8"
+			       arm_armor="2"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_french_chasseur"
+	      name="{=BoFSeTun}Chasseur a Pied Tunic and Trousers"
+	      mesh="bak_service_tunic_french_chasseur"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="7"
+			       arm_armor="2"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_french_dragon"
+	      name="{=BoFTuUni}Dragon de l'Imperatrice Uniform and Trousers"
+	      mesh="bak_shell_jacket_french_dragon"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="7"
+			       arm_armor="2"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<!-- British -->
+	<Item id="bak_service_tunic_hmrm"
+	      name="{=BoBSeTun}Royal Marines Tunic and Trousers"
+	      mesh="bak_service_tunic_hmrm"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="7"
+			       arm_armor="2"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<!-- Frock Coats -->
+	<Item id="bak_sack_coat_new"
+	      name="{=BosSaCoa}Sack Coat and Trousers"
+	      mesh="bak_sack_coat_new"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_sack_coat_new_black"
+	      name="{=BosSaCoa}Sack Coat and Trousers"
+	      mesh="bak_sack_coat_new_black"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_sack_coat_new_blue"
+	      name="{=BosSaCoa}Sack Coat and Trousers"
+	      mesh="bak_sack_coat_new_blue"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_frock_coat"
+	      name="{=BosFrCoa}Frock Coat and Trousers"
+	      mesh="bak_frock_coat"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="7"
+			       arm_armor="1"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_frock_coat_black"
+	      name="{=BosFrCoa}Frock Coat and Trousers"
+	      mesh="bak_frock_coat_black"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="7"
+			       arm_armor="1"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_frock_coat_blue"
+	      name="{=BosFrCoa}Frock Coat and Trousers"
+	      mesh="bak_frock_coat_blue"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="7"
+			       arm_armor="1"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<!-- Service Tunics -->
+	<Item id="bak_service_tunic_black"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_black"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_black_officer"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_black_officer"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_black_red"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_black_red"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_black_white"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_black_white"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_red"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_red"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_red_black"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_red_black"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_red_white"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_red_white"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_blue"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_blue"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_blue_stripe"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_blue_stripe"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_blue_officer"
+	      name="{=BosSeTuO}Officer's Service Tunic and Trousers"
+	      mesh="bak_service_tunic_blue_officer"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_blue_officer_1"
+	      name="{=BosSeTuO}Officer's Service Tunic and Trousers"
+	      mesh="bak_service_tunic_blue_officer_1"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_dark_blue"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_dark_blue"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_dark_blue_officer"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_dark_blue_officer"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_dark_blue_stripe"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_dark_blue_stripe"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_dark_blue_white"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_dark_blue_white"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_white"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_white"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_white_blue"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_white_blue"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_white_black"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_white_black"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_white_red"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_white_red"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_denshu"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_denshu"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_shimpei"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_shimpei"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_shimpei_1"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_shimpei_1"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_shimpei_cav"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_shimpei_cav"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="12"
+			       arm_armor="3"
+			       leg_armor="7"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_marines"
+	      name="{=BosSeTuM}Marines Service Tunic and Trousers"
+	      mesh="bak_service_tunic_marines"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_sendai"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_sendai"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_gakuheitai"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_gakuheitai"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_shonai"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_shonai"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_seiryu_low_1"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_seiryu_low_1"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_seiryu_low_2"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_seiryu_low_2"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_seiryu_low_3"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_seiryu_low_3"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_suzaku_low_2"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_suzaku_low_2"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_service_tunic_suzaku_low_3"
+	      name="{=BosSeTun}Service Tunic and Trousers"
+	      mesh="bak_service_tunic_suzaku_low_3"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="4"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<!-- Shell Jackets -->
+	<Item id="bak_shell_jacket_black"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_black"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_black_red"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_black_red"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_black_white"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_black_white"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_blue"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_blue"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_blue_white"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_blue_white"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_blue_stripe"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_blue_stripe"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_blue_officer"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_blue_officer"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_blue_officer_1"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_blue_officer_1"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_dark_blue"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_dark_blue"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_dark_blue_white"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_dark_blue_white"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_red"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_red"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_red_black"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_red_black"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_red_white"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_red_white"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_white"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_white"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_white_black"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_white_black"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_white_red"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_white_red"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_white_blue"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_white_blue"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_denshu"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_denshu"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_sendai"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_sendai"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_shonai"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_shonai"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_byak_low_3"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_byak_low_3"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_byak_low_2"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_byak_low_2"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bak_shell_jacket_byak_low_3"
+	      name="{=BosTuUni}Shell Jacket and Trousers"
+	      mesh="bak_shell_jacket_byak_low_3"
+	      subtype="body_armor"
+	      culture="Culture.saikai"
+	      weight="1.25"
+	      difficulty="0"
+	      appearance="1.0"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6"
+			       arm_armor="1"
+			       leg_armor="3"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"/>
+	</Item>
+</Items>

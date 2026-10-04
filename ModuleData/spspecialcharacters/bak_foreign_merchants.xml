@@ -1,0 +1,1624 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NPCCharacters>
+  <NPCCharacter id="american_merchant"
+                default_group="Infantry"
+				        is_template="true"
+                level="26"
+                name="{=wKt2wTeR}American Arms Dealer"
+                occupation="Merchant"
+                race="european"
+                culture="Culture.american">
+    <face>
+      <face_key_template value="BodyProperty.european" />
+    </face>
+    <skills>
+        <skill id="Athletics" value="130"/>
+        <skill id="Riding" value="130"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="100"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="80"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="british_merchant"
+                default_group="Infantry"
+				        is_template="true"
+                level="26"
+                name="{=0gC7Hc9h}British Arms Dealer"
+                occupation="Merchant"
+                race="european"
+                culture="Culture.british">
+    <face>
+      <face_key_template value="BodyProperty.european" />
+    </face>
+    <skills>
+        <skill id="Athletics" value="130"/>
+        <skill id="Riding" value="130"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="100"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="80"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="dutch_merchant"
+                default_group="Infantry"
+				        is_template="true"
+                level="26"
+                name="{=i9kP20Nk}Dutch Arms Dealer"
+                occupation="Merchant"
+                race="european"
+                culture="Culture.dutch">
+    <face>
+      <face_key_template value="BodyProperty.european" />
+    </face>
+    <skills>
+        <skill id="Athletics" value="130"/>
+        <skill id="Riding" value="130"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="100"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="80"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="german_merchant"
+                default_group="Infantry"
+				        is_template="true"
+                level="26"
+                name="{=Z6TgVLWZ}German Arms Dealer"
+                occupation="Merchant"
+                race="european"
+                culture="Culture.german">
+    <face>
+      <face_key_template value="BodyProperty.european" />
+    </face>
+    <skills>
+        <skill id="Athletics" value="130"/>
+        <skill id="Riding" value="130"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="100"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="80"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="french_merchant"
+                default_group="Infantry"
+				        is_template="true"
+                level="26"
+                name="{=VVZEkfyg}French Arms Dealer"
+                occupation="Merchant"
+                race="european"
+                culture="Culture.french">
+    <face>
+      <face_key_template value="BodyProperty.european" />
+    </face>
+    <skills>
+        <skill id="Athletics" value="130"/>
+        <skill id="Riding" value="130"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="100"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="80"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="default_merchant"
+                default_group="Infantry"
+				        is_template="true"
+                level="26"
+                name="{=wKt2wTeR}Foreign Arms Dealer"
+                occupation="Merchant"
+                race="european"
+                culture="Culture.dutch">
+    <face>
+      <face_key_template value="BodyProperty.european" />
+    </face>
+    <skills>
+        <skill id="Athletics" value="130"/>
+        <skill id="Riding" value="130"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="100"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="80"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="american_caravan_merchant"
+                default_group="Infantry"
+				        is_template="true"
+                level="26"
+                name="{=wKt2wTeR}American Arms Dealer"
+                occupation="CaravanGuard"
+                race="european"
+                culture="Culture.american">
+    <face>
+      <face_key_template value="BodyProperty.european" />
+    </face>
+    <skills>
+        <skill id="Athletics" value="130"/>
+        <skill id="Riding" value="130"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="100"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="80"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="british_caravan_merchant"
+                default_group="Infantry"
+				        is_template="true"
+                level="26"
+                name="{=0gC7Hc9h}British Arms Dealer"
+                occupation="CaravanGuard"
+                race="european"
+                culture="Culture.british">
+    <face>
+      <face_key_template value="BodyProperty.european" />
+    </face>
+    <skills>
+        <skill id="Athletics" value="130"/>
+        <skill id="Riding" value="130"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="100"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="80"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="dutch_caravan_merchant"
+                default_group="Infantry"
+				        is_template="true"
+                level="26"
+                name="{=i9kP20Nk}Dutch Arms Dealer"
+                occupation="CaravanGuard"
+                race="european"
+                culture="Culture.dutch">
+    <face>
+      <face_key_template value="BodyProperty.european" />
+    </face>
+    <skills>
+        <skill id="Athletics" value="130"/>
+        <skill id="Riding" value="130"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="100"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="80"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="german_caravan_merchant"
+                default_group="Infantry"
+				        is_template="true"
+                level="26"
+                name="{=Z6TgVLWZ}German Arms Dealer"
+                occupation="CaravanGuard"
+                race="european"
+                culture="Culture.german">
+    <face>
+      <face_key_template value="BodyProperty.european" />
+    </face>
+    <skills>
+        <skill id="Athletics" value="130"/>
+        <skill id="Riding" value="130"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="100"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="80"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="french_caravan_merchant"
+                default_group="Infantry"
+				        is_template="true"
+                level="26"
+                name="{=VVZEkfyg}French Arms Dealer"
+                occupation="CaravanGuard"
+                race="european"
+                culture="Culture.french">
+    <face>
+      <face_key_template value="BodyProperty.european" />
+    </face>
+    <skills>
+        <skill id="Athletics" value="130"/>
+        <skill id="Riding" value="130"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="100"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="80"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="default_caravan_merchant"
+                default_group="Infantry"
+				        is_template="true"
+                level="26"
+                name="{=wKt2wTeR}Foreign Arms Dealer"
+                occupation="CaravanGuard"
+                race="european"
+                culture="Culture.dutch">
+    <face>
+      <face_key_template value="BodyProperty.european" />
+    </face>
+    <skills>
+        <skill id="Athletics" value="130"/>
+        <skill id="Riding" value="130"/>
+        <skill id="OneHanded" value="100"/>
+        <skill id="TwoHanded" value="100"/>
+        <skill id="Polearm" value="100"/>
+        <skill id="Bow" value="80"/>
+        <skill id="Crossbow" value="160"/>
+        <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+    </Equipments>
+  </NPCCharacter>
+  <!-- NOTABLES -->
+  <!-- Americans -->
+	<NPCCharacter id="spc_notable_american_0"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  is_template="true"
+				  voice="ironic"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.american"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<!--<Hero id="spc_notable_sanyo_0" faction="Kingdom.ou" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_american_0b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  is_template="true"
+				  voice="ironic"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.american"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<!--<Hero id="spc_notable_sanyo_0b" faction="Kingdom.ou" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_american_1"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="curt"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.american"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Generosity"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_american_1b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="curt"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.american"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Generosity"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_american_2"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="softspoken"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.american"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_american_2b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="softspoken"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.american"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_american_3"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="ironic"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.american"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_american_3b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="ironic"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.american"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_american_headman_1"
+				  name="{=mrlEvoqd}{FIRSTNAME} the Foreign Mayor"
+				  voice="earnest"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.american"
+          race="european"
+				  occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="1"/>
+			<Trait id="Calculating"
+				   value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_wanderer_american_5"
+                name="{=123aDYC0}{FIRSTNAME} the Foreign Veteran"
+                voice="curt"
+                age="21"
+                default_group="Infantry"
+                is_template="true"
+                is_hero="false"
+                culture="Culture.american"
+                race="european"
+                occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="ArcherFIghtingSkills" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+  <!-- British -->
+	<NPCCharacter id="spc_notable_british_0"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  is_template="true"
+				  voice="ironic"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.british"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<!--<Hero id="spc_notable_sanyo_0" faction="Kingdom.ou" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_british_0b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  is_template="true"
+				  voice="ironic"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.british"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<!--<Hero id="spc_notable_sanyo_0b" faction="Kingdom.ou" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_british_1"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="curt"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.british"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Generosity"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_british_1b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="curt"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.british"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Generosity"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_british_2"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="softspoken"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.british"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_british_2b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="softspoken"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.british"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_british_3"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="ironic"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.british"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_british_3b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="ironic"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.british"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_british_headman_1"
+				  name="{=mrlEvoqd}{FIRSTNAME} the Foreign Mayor"
+				  voice="earnest"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.british"
+          race="european"
+				  occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="1"/>
+			<Trait id="Calculating"
+				   value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_wanderer_british_5"
+                name="{=123aDYC0}{FIRSTNAME} the Foreign Veteran"
+                voice="curt"
+                age="21"
+                default_group="Infantry"
+                is_template="true"
+                is_hero="false"
+                culture="Culture.british"
+                race="european"
+                occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="ArcherFIghtingSkills" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+  <!-- Dutch -->
+	<NPCCharacter id="spc_notable_dutch_0"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  is_template="true"
+				  voice="ironic"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.dutch"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<!--<Hero id="spc_notable_sanyo_0" faction="Kingdom.ou" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_dutch_0b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  is_template="true"
+				  voice="ironic"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.dutch"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<!--<Hero id="spc_notable_sanyo_0b" faction="Kingdom.ou" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_dutch_1"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="curt"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.dutch"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Generosity"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_dutch_1b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="curt"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.dutch"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Generosity"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_dutch_2"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="softspoken"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.dutch"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_dutch_2b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="softspoken"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.dutch"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_dutch_3"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="ironic"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.dutch"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_dutch_3b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="ironic"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.dutch"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_dutch_headman_1"
+				  name="{=mrlEvoqd}{FIRSTNAME} the Foreign Mayor"
+				  voice="earnest"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.dutch"
+          race="european"
+				  occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="1"/>
+			<Trait id="Calculating"
+				   value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_wanderer_dutch_5"
+                name="{=123aDYC0}{FIRSTNAME} the Foreign Veteran"
+                voice="curt"
+                age="21"
+                default_group="Infantry"
+                is_template="true"
+                is_hero="false"
+                culture="Culture.dutch"
+                race="european"
+                occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="ArcherFIghtingSkills" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+  <!-- French -->
+	<NPCCharacter id="spc_notable_french_0"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  is_template="true"
+				  voice="ironic"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.french"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<!--<Hero id="spc_notable_sanyo_0" faction="Kingdom.ou" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_french_0b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  is_template="true"
+				  voice="ironic"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.french"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<!--<Hero id="spc_notable_sanyo_0b" faction="Kingdom.ou" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_french_1"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="curt"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.french"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Generosity"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_french_1b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="curt"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.french"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Generosity"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_french_2"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="softspoken"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.french"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_french_2b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="softspoken"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.french"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_french_3"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="ironic"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.french"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_french_3b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="ironic"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.french"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_french_headman_1"
+				  name="{=mrlEvoqd}{FIRSTNAME} the Foreign Mayor"
+				  voice="earnest"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.french"
+          race="european"
+				  occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="1"/>
+			<Trait id="Calculating"
+				   value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_wanderer_french_5"
+                name="{=123aDYC0}{FIRSTNAME} the Foreign Veteran"
+                voice="curt"
+                age="21"
+                default_group="Infantry"
+                is_template="true"
+                is_hero="false"
+                culture="Culture.french"
+                race="european"
+                occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="ArcherFIghtingSkills" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+  <!-- German -->
+	<NPCCharacter id="spc_notable_german_0"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  is_template="true"
+				  voice="ironic"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.german"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<!--<Hero id="spc_notable_sanyo_0" faction="Kingdom.ou" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_german_0b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  is_template="true"
+				  voice="ironic"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.german"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<!--<Hero id="spc_notable_sanyo_0b" faction="Kingdom.ou" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_german_1"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="curt"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.german"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Generosity"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_german_1b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="curt"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.german"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Generosity"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_german_2"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="softspoken"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.german"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_german_2b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="softspoken"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.german"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Valor"
+				   value="-1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_german_3"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="ironic"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.german"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_german_3b"
+				  name="{=kRv25I6p}{FIRSTNAME} the Foreign Merchant"
+				  voice="ironic"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.german"
+          race="european"
+				  occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Commander"
+				   value="2"/>
+			<Trait id="Calculating"
+				   value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_german_headman_1"
+				  name="{=mrlEvoqd}{FIRSTNAME} the Foreign Mayor"
+				  voice="earnest"
+				  is_template="true"
+				  default_group="Infantry"
+				  is_hero="false"
+				  culture="Culture.german"
+          race="european"
+				  occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair"
+				   value="1"/>
+			<Trait id="Valor"
+				   value="1"/>
+			<Trait id="Calculating"
+				   value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_wanderer_german_5"
+                name="{=123aDYC0}{FIRSTNAME} the Foreign Veteran"
+                voice="curt"
+                age="21"
+                default_group="Infantry"
+                is_template="true"
+                is_hero="false"
+                culture="Culture.german"
+                race="european"
+                occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.european"/>
+		</face>
+		<Traits>
+			<Trait id="ArcherFIghtingSkills" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="spc_notable_foreign_merchant" civilian="true"/>
+			<EquipmentSet id="spc_notable_foreign_merchant"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

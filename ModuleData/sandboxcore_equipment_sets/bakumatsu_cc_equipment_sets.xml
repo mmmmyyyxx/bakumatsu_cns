@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+  <!--Body Gen templates-->
+  <EquipmentRoster id="player_char_creation_show">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--format for parents equipment: sho_cc_father/mother_[OptionName]-->
+  <!-- Current Parent Option Names:
+			hatamoto
+      kuge
+			hanshi
+			ashigaru_edo
+			rice_merchant
+			swordsmith
+			rural_farmer
+			kabuki_actor -->
+  <!--keep these defaults here just in case-->
+  <EquipmentRoster id="player_char_creation_default">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_father_default">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_a" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_mother_default">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_f" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_father_hatamoto">
+    <EquipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.sho_katana_20" />
+      <equipment slot="Head" id="Item.sho_akoka_nari_d" />
+      <equipment slot="Body" id="Item.sho_new_kozane_d" />
+      <equipment slot="Leg" id="Item.sho_tsutsu_suneate_2_c_3" />
+      <equipment slot="Gloves" id="Item.sho_tier_7_kote_a_5" />
+      <equipment slot="Cape" id="Item.sho_new_kozane_sode_d" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_mother_hatamoto">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_a" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_father_kuge">
+    <EquipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.sho_tachi_17" />
+      <equipment slot="Head" id="Item.bak_suiei_kanmuri" />
+      <equipment slot="Body" id="Item.bunkan_sokutai" />
+      <equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_mother_kuge">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_a" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_father_hanshi">
+    <EquipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.sho_katana_18" />
+      <equipment slot="Head" id="Item.bak_hachimaki_long" />
+      <equipment slot="Body" id="Item.sho_okegawa_do_b_kimono_a_haidate_a_3_1" />
+      <equipment slot="Gloves" id="Item.sho_tier_1_kote_a_2" />
+      <equipment slot="Leg" id="Item.sho_shino_suneate_a_2" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_mother_hanshi">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_f" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_father_ashigaru_edo">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.sho_yari_2" />
+      <Equipment slot="Body" id="Item.bak_haori_ornate" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_mother_ashigaru_edo">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_father_rice_merchant">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.bak_haori_ornate" />
+      <Equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_mother_rice_merchant">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_f" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_father_swordsmith">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item2" id="Item.sho_wakizashi_7" />
+      <Equipment slot="Body" id="Item.sho_kosodehakama_7" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_mother_swordsmith">
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.sho_kosodehakama_8" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_father_rural_farmer">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.sho_sugegasa_hat" />
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_c" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+      <Equipment slot="Cape" id="Item.sho_minko_cape" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_mother_rural_farmer">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_c" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_father_kabuki_actor">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.sho_noh_mask_a" />
+      <Equipment slot="Body" id="Item.sho_samurai_gear_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_mother_kabuki_actor">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.sho_noh_mask_a" />
+      <Equipment slot="Body" id="Item.sho_samurai_gear_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--childhood stage equipment
+			format: sho_cc_childhood_[wealth]_[m/f]
+			current wealth options:
+			rich
+			poor-->
+  <EquipmentRoster id="sho_cc_childhood_rich_m">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_e" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_childhood_poor_m">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_kosodehakama_5" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_childhood_rich_f">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_e" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_childhood_poor_f">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_kosodehakama_5" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--Education/Adolescence Equipment
+			format: sho_cc_education_[option]_[m/f]
+			current options:
+			sword_training
+			local_scholar
+			merchants_assistant
+			swordsmith
+			servant
+			urchin
+			trained_jizamurai
+			village_blacksmith
+			village_carpenter
+			farm
+			hunter
+			noh_actor
+			monk-->
+  <!-- <EquipmentRoster id="sho_cc_education_sword_training_m">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.sho_katana_training" />
+      <Equipment slot="Body" id="Item.sho_samurai_gear_c" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_sword_training_f">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.sho_katana_training" />
+      <Equipment slot="Body" id="Item.sho_samurai_gear_c" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_local_scholar_m">
+    <EquipmentSet>
+      <Equipment slot="Head" id="" />
+      <Equipment slot="Body" id="Item.sho_samurai_gear_c" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_local_scholar_f">
+    <EquipmentSet>
+      <Equipment slot="Head" id="" />
+      <Equipment slot="Body" id="Item.sho_samurai_gear_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_merchants_assistant_m">
+    <EquipmentSet>
+      <Equipment slot="Head" id="" />
+      <Equipment slot="Body" id="Item.sho_kosodehakama_5" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_merchants_assistant_f">
+    <EquipmentSet>
+      <Equipment slot="Head" id="" />
+      <Equipment slot="Body" id="Item.sho_kosodehakama_5" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_swordsmith_m">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_kosodehakama_7" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_swordsmith_f">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_kosodehakama_7" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_servant_m">
+    <EquipmentSet>
+      <Equipment slot="Head" id="" />
+      <Equipment slot="Body" id="Item.sho_kosodehakama_8" />
+      <Equipment slot="Leg" id="Item.sho_low_tier_suneate_a_13" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_servant_f">
+    <EquipmentSet>
+      <Equipment slot="Head" id="" />
+      <Equipment slot="Body" id="Item.sho_kosodehakama_8" />
+      <Equipment slot="Leg" id="Item.sho_low_tier_suneate_a_13" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_urchin_m">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_kosodehakama_5" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_urchin_f">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_kosodehakama_5" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_trained_jizamurai_m">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_trained_jizamurai_f">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_village_blacksmith_m">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_village_blacksmith_f">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_village_carpenter_m">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_village_carpenter_f">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_farm_m">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_farm_f">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_b" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_hunter_m">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_kosodehakama_1" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+      <Equipment slot="Cape" id="Item.sho_minko_cape" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_hunter_f">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_kosodehakama_1" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+      <Equipment slot="Cape" id="Item.sho_minko_cape" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_noh_actor_m">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_samurai_gear_b" />
+      <Equipment slot="Leg" id="Item.sho_low_tier_suneate_a_17" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_noh_actor_f">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sho_samurai_gear_b" />
+      <Equipment slot="Leg" id="Item.sho_low_tier_suneate_a_17" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_monk_m">
+    <EquipmentSet>
+      <Equipment slot="Head" id="" />
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_h" />
+      <Equipment slot="Leg" id="Item.sho_low_tier_suneate_a_17" />
+      <Equipment slot="Cape" id="Item.sho_monk_cape_b_1" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_education_monk_f">
+    <EquipmentSet>
+      <Equipment slot="Head" id="" />
+      <Equipment slot="Body" id="Item.sho_peasant_outfit_h" />
+      <Equipment slot="Leg" id="Item.sho_low_tier_suneate_a_17" />
+      <Equipment slot="Cape" id="Item.sho_monk_cape_b_1" />
+    </EquipmentSet>
+  </EquipmentRoster> -->
+
+  <EquipmentRoster id="sho_cc_youth_kosho_m">
+    <EquipmentSet>
+      <Equipment slot="Item2" id="Item.sho_katana_2" />
+      <Equipment slot="Body" id="Item.sho_ashi_mogami_b" />
+      <Equipment slot="Gloves" id="Item.sho_tier_1_kote_a_7" />
+      <Equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Body" id="Item.bak_haori_ornate_1" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_youth_kosho_f">
+    <EquipmentSet>
+      <Equipment slot="Item2" id="Item.sho_katana_2" />
+      <Equipment slot="Body" id="Item.sho_ashi_mogami_b" />
+      <Equipment slot="Gloves" id="Item.sho_tier_1_kote_a_7" />
+      <Equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Body" id="Item.bak_haori_ornate_1" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="sho_cc_youth_ryuha_m">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.sho_katana_2" />
+      <Equipment slot="Item1" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Body" id="Item.bak_kimono_hakama" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Body" id="Item.bak_kimono_hakama" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_youth_ryuha_f">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.sho_katana_2" />
+      <Equipment slot="Item1" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Body" id="Item.bak_kimono_hakama" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Body" id="Item.bak_kimono_hakama" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="sho_cc_youth_bajutsu_m">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.sho_new_yumi_short" />
+      <Equipment slot="Item1" id="Item.sho_utsubo_a_piercing" />
+      <Equipment slot="Body" id="Item.bak_mukabaki" />
+      <Equipment slot="Gloves" id="Item.sho_oyoroi_kote_a_a" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+      <Equipment slot="Horse" id="Item.sho_sumpter_horse_1" />
+      <Equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Body" id="Item.sho_samurai_gear_a" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_youth_bajutsu_f">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.sho_new_yumi_short" />
+      <Equipment slot="Item1" id="Item.sho_utsubo_a_piercing" />
+      <Equipment slot="Body" id="Item.bak_mukabaki" />
+      <Equipment slot="Gloves" id="Item.sho_oyoroi_kote_a_a" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+      <Equipment slot="Horse" id="Item.sho_sumpter_horse_1" />
+      <Equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Body" id="Item.sho_samurai_gear_a" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="sho_cc_youth_hikyaku_m">
+    <EquipmentSet>
+      <Equipment slot="Item2" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Horse" id="Item.sho_sumpter_horse_1" />
+      <Equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a" />
+      <Equipment slot="Head" id="Item.bak_hachimaki_short" />
+      <Equipment slot="Body" id="Item.sho_peasant_pants_c" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Body" id="Item.sho_peasant_pants_c" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_youth_hikyaku_f">
+    <EquipmentSet>
+      <Equipment slot="Item2" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Horse" id="Item.sho_sumpter_horse_1" />
+      <Equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a" />
+      <Equipment slot="Head" id="Item.bak_hachimaki_short" />
+      <Equipment slot="Body" id="Item.sho_peasant_pants_c" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Body" id="Item.sho_samurai_gear_a" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="sho_cc_youth_nohei_m">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tanegashima_musket" />
+      <Equipment slot="Item2" id="Item.imp_d_cartridges" />
+      <Equipment slot="Cape" id="Item.bak_bussakibaori" />
+      <Equipment slot="Body" id="Item.bak_hybrid_coat" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Body" id="Item.bak_hybrid_coat" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="sho_cc_youth_nohei_f">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tanegashima_musket" />
+      <Equipment slot="Item2" id="Item.imp_d_cartridges" />
+      <Equipment slot="Cape" id="Item.bak_bussakibaori" />
+      <Equipment slot="Body" id="Item.bak_hybrid_coat" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.sho_wakizashi_1" />
+      <Equipment slot="Body" id="Item.bak_hybrid_coat" />
+      <Equipment slot="Leg" id="Item.sho_waraji_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+</EquipmentRosters>

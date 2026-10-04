@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Items>
+    <!--<Item
+        id="test_book"
+        name="Test Book"
+        mesh="sho_book_a_1"
+        item_category="sho_book" is_merchandise="false" value="5000"
+        weight="1"
+        Type="Book"></Item>
+        
+            
+    </Item>
+    <Item
+        id="test_book_2"
+        name="Test Book 2"
+        mesh="sho_book_a_3"
+        item_category="sho_book" is_merchandise="false" value="5000"
+        weight="1"
+        Type="Book"></Item>
+        
+            
+    </Item>
+    <Item
+        id="test_book_3"
+        name="Test Book 3"
+        mesh="sho_book_a_2"
+        item_category="sho_book" is_merchandise="false" value="5000"
+        weight="1"
+        Type="Book"></Item>
+        
+            
+    </Item>-->
+    <Item id="player_mokuroku"
+          name="{=3yd9Pq07}Personal Mokuroku"
+          mesh="sho_scroll_a_2"
+          is_merchandise="false"
+          weight="1"
+          Type="Goods">
+		<Flags Civilian="true"/>
+	</Item>
+    <!--sho_book_a_1
+        sho_book_a_2
+        sho_book_a_3
+        sho_book_a_4
+        sho_scroll_a_1
+        sho_scroll_a_2
+        sho_scroll_a_3
+        sho_scroll_a_4-->
+    <!-- Hokushin Itto-ryu -->
+    <Item id="hir_hatsu_mokuroku" name="{=HM3Bq7N7}Hokushin Itto-ryu Hatsumokuroku" mesh="sho_scroll_a_1" item_category="sho_book" is_merchandise="false" value="20000" weight="1" Type="Book"></Item>
+    <Item id="hir_chu_mokuroku" name="{=HMs8hQyH}Hokushin Itto-ryu Chūmokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="50000" weight="1" Type="Book"></Item>
+    <Item id="hir_dai_mokuroku" name="{=HMmCw4Bg}Hokushin Itto-ryu Daimokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="150000" weight="1" Type="Book"></Item>
+    <Item id="hir_naginata_mokuroku" name="{=HMaXn8qV}Hokushin Itto-ryu Naginata Mokuroku" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="15000" weight="1" Type="Book"></Item>
+    <!-- Ono-ha Itto-ryu -->
+    <Item id="oir_juni_mokuroku" name="{=OMB4e6MT}Ono-ha Junikajō Mokuroku" mesh="sho_scroll_a_1" item_category="sho_book" is_merchandise="false" value="20000" weight="1" Type="Book"></Item>
+    <Item id="oir_kana_mokuroku" name="{=OMs8hQyH}Ono-ha Kanajisho Mokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="50000" weight="1" Type="Book"></Item>
+    <Item id="oir_hon_mokuroku" name="{=OM1D8zxc}Ono-ha Hon Mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="150000" weight="1" Type="Book"></Item>
+    <!-- Generic-ryu -->
+    <Item id="gr_sho_mokuroku" name="{=9P8luozd}Sho-Mokuroku" mesh="sho_scroll_a_1" item_category="sho_book" is_merchandise="false" value="12000" weight="1" Type="Book"></Item>
+    <Item id="gr_hatsumokuroku" name="{=Br3Bq7N7}Hatsumokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="20000" weight="1" Type="Book"></Item>
+    <Item id="gr_gomokuroku" name="{=BhwhuG8o}Go-Mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="40000" weight="1" Type="Book"></Item>
+    <Item id="gr_menkyo_mokuroku" name="{=ees8hQyH}Chūmokuroku-Menkyo" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="75000" weight="1" Type="Book"></Item>
+    <Item id="gr_kaiden_mokuroku" name="{=9FmCw4Bg}Daimokuroku-Kaiden" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="100000" weight="1" Type="Book"></Item>
+    <!-- Jigen-ryu -->
+    <Item id="jr_sho_mokuroku" name="{=JR8luozd}Jigen-ryu Sho-Mokuroku" mesh="sho_scroll_a_1" item_category="sho_book" is_merchandise="false" value="18000" weight="1" Type="Book"></Item>
+    <Item id="jr_chu_mokuroku" name="{=JRL4F9EU}Jigen-ryu Chū-Mokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="25000" weight="1" Type="Book"></Item>
+    <Item id="jr_oku_mokuroku" name="{=JRllQMrj}Jigen-ryu Okumokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="50000" weight="1" Type="Book"></Item>
+    <Item id="jr_somokuroku" name="{=JRzDg0b9}Jigen-ryu Sōmokuroku" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="130000" weight="1" Type="Book"></Item>
+    <!-- Shinkage-ryu -->
+    <Item id="shr_omote_mokuroku" name="{=SRon0sjs}Shinkage-ryu Omote Mokuroku" mesh="sho_scroll_a_1" item_category="sho_book" is_merchandise="false" value="15000" weight="1" Type="Book"></Item>
+    <Item id="shr_o_marobashi" name="{=SRrjal9r}Shinkage-ryu O-marobashi Mokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="20000" weight="1" Type="Book"></Item>
+    <Item id="shr_ko_marobashi" name="{=SR7iL6Eg}Shinkage-ryu Ko-marobashi Mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="25000" weight="1" Type="Book"></Item>
+    <Item id="shr_tengu_sho" name="{=SRHug8cR}Shinkage-ryu Tengu-shomokuroku" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="30000" weight="1" Type="Book"></Item>
+    <Item id="shr_karimokuroku" name="{=SRXrRixu}Shinkage-ryu Karimokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="35000" weight="1" Type="Book"></Item>
+    <Item id="shr_mokuroku" name="{=SRHKfmPe}Shinkage-ryu Mokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="40000" weight="1" Type="Book"></Item>
+    <Item id="shr_gaiden" name="{=SRL4GoMr}Shinkage-ryu Gaiden Mokuroku" mesh="sho_scroll_a_1" item_category="sho_book" is_merchandise="false" value="45000" weight="1" Type="Book"></Item>
+    <Item id="shr_naiden" name="{=SRYwlJAv}Shinkage-ryu Naiden Mokuroku" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="50000" weight="1" Type="Book"></Item>
+    <Item id="shr_kaiden" name="{=SR3fPS6n}Shinkage-ryu Kaiden Mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="100000" weight="1" Type="Book"></Item>
+    <!-- Jikishinkage-ryu -->
+    <Item id="jshr_shomokuroku" name="{=JRC2LX8Y}Jikishinkage-ryu Shomokuroku" mesh="sho_scroll_a_1" item_category="sho_book" is_merchandise="false" value="15000" weight="1" Type="Book"></Item>
+    <Item id="jshr_jomokuroku" name="{=JRu0Pgwn}Jikishinkage-ryu Jomokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="18000" weight="1" Type="Book"></Item>
+    <Item id="jshr_reikenden" name="{=JR9uc7Z6}Jikishinkage-ryu Reikenden Mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="40000" weight="1" Type="Book"></Item>
+    <Item id="jshr_kyuri_no_maki" name="{=JRONpX7g}Jikishinkage-ryu Kyuri-no-Maki Mokuroku" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="75000" weight="1" Type="Book"></Item>
+    <Item id="jshr_goku_i" name="{=JRLrNt0o}Jikishinkage-ryu Goku-i Mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="100000" weight="1" Type="Book"></Item>
+    <Item id="jshr_menkyo_mokuroku" name="{=JR5IyDWZ}Jikishinkage-ryu Mokuroku-menkyo" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="125000" weight="1" Type="Book"></Item>
+    <!-- Mugai-ryu -->
+    <Item id="mr_goyo_mokuroku" name="{=MR2EPFPW}Mugai-ryu Goyo-mokuroku" mesh="sho_scroll_a_1" item_category="sho_book" is_merchandise="false" value="18000" weight="1" Type="Book"></Item>
+    <Item id="mr_goka_mokuroku" name="{=MRL85pP0}Mugai-ryu Goka-mokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="25000" weight="1" Type="Book"></Item>
+    <Item id="mr_goo_mokuroku" name="{=MRblQwuC}Mugai-ryu Goo-mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="50000" weight="1" Type="Book"></Item>
+    <Item id="mr_hashiri_gakari" name="{=MR4e0JyT}Mugai-ryu Hashiri-gakari Mokuroku" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="130000" weight="1" Type="Book"></Item>
+    <Item id="mr_naiden_mokuroku" name="{=MRIIPYmN}Mugai-ryu Naiden-mokuroku" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="130000" weight="1" Type="Book"></Item>
+    <Item id="mr_wakizashi_mokuroku" name="{=MRKIBT0f}Mugai-ryu Tachi-mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="15000" weight="1" Type="Book"></Item>
+    <Item id="mr_tachi_mokuroku" name="{=MRhYy27i}Mugai-ryu Wakizashi-mokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="15000" weight="1" Type="Book"></Item>
+    <!-- Tatsumi-ryu -->
+    <Item id="tatr_oden_mokuroku" name="{=TRETWLF6}Tatsumi-ryu Oden Mokuroku" mesh="sho_scroll_a_1" item_category="sho_book" is_merchandise="false" value="18000" weight="1" Type="Book"></Item>
+    <Item id="tatr_tachiai_mokuroku" name="{=TRZ5xPMe}Tatsumi-ryu Tojutsu Tachiai-mokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="25000" weight="1" Type="Book"></Item>
+    <Item id="tatr_iai_mokuroku" name="{=TRRaW6II}Tatsumi-ryu Tojutsu Iai-mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="50000" weight="1" Type="Book"></Item>
+    <Item id="tatr_menkyo_mokuroku" name="{=TR1kLRlw}Tatsumi-ryu Mokuroku-menkyo" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="130000" weight="1" Type="Book"></Item>
+    <Item id="tatr_yari_mokuroku" name="{=TRjf5wHR}Tatsumi-ryu Yari-mokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="15000" weight="1" Type="Book"></Item>
+    <Item id="tatr_shuriken_mokuroku" name="{=TRuXqhmE}Tatsumi-ryu Shuriken-mokuroku" mesh="sho_scroll_a_1" item_category="sho_book" is_merchandise="false" value="15000" weight="1" Type="Book"></Item>
+    <Item id="tatr_monomi_mokuroku" name="{=TRFBhFME}Tatsumi-ryu Monomi-mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="15000" weight="1" Type="Book"></Item>
+    <Item id="tatr_shudan_sentoho_mokuroku" name="{=TRMH1C6n}Tatsumi-ryu Shudan-sentōhō Mokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="15000" weight="1" Type="Book"></Item>
+    <Item id="tatr_wakizashi_mokuroku" name="{=TRhYy27i}Tatsumi-ryu Wakizashi-mokuroku" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="15000" weight="1" Type="Book"></Item>
+    <Item id="tatr_naginata_mokuroku" name="{=TRaXn8qV}Tatsumi-ryu Naginata Mokuroku" mesh="sho_scroll_a_1" item_category="sho_book" is_merchandise="false" value="15000" weight="1" Type="Book"></Item>
+    <!-- Heki-ryu -->
+    <Item id="her_yumi_mokuroku" name="{=HMg9HTTc}Heki-ryu Yumi Mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="50000" weight="1" Type="Book"></Item>
+    <Item id="her_hyohomokuroku" name="{=HMiwn1t6}Heki-ryu Hyōhōmokuroku" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="200000" weight="1" Type="Book"></Item>
+    <!-- Tamiya-ryu -->
+    <Item id="tr_omote_mokuroku" name="{=TRpLo9Gd}Tamiya-ryu Omote no Maki Mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="50000" weight="1" Type="Book"></Item>
+    <Item id="tr_koran_mokuroku" name="{=TRGafnr2}Tamiya-ryu Koran no Maki Mokuroku" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="200000" weight="1" Type="Book"></Item>
+    <!-- Hozoin-ryu -->
+    <Item id="hor_omote_mokuroku" name="{=HMRQZY3w}Yari Omote-mokuroku" mesh="sho_scroll_a_1" item_category="sho_book" is_merchandise="false" value="18000" weight="1" Type="Book"></Item>
+    <Item id="hor_ura_mokuroku" name="{=HM7wSDVD}Yari Ura-mokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="25000" weight="1" Type="Book"></Item>
+    <Item id="hor_shinshikake_mokuroku" name="{=HMOCMPWH}Yari Shinshikake Mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="50000" weight="1" Type="Book"></Item>
+    <Item id="hor_kaiden" name="{=HMiwn1t6}Yari Hyōhōmokuroku" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="120000" weight="1" Type="Book"></Item>
+    <!-- Ogasawara-ryu -->
+    <Item id="ogr_kasagake_mokuroku" name="{=ic0y29yj}Kasagake-mokuroku" mesh="sho_scroll_a_4" item_category="sho_book" is_merchandise="false" value="25000" weight="1" Type="Book"></Item>
+    <Item id="ogr_kyujutsu_mokuroku" name="{=MLTh55ob}Kyujutsu-mokuroku" mesh="sho_scroll_a_3" item_category="sho_book" is_merchandise="false" value="25000" weight="1" Type="Book"></Item>
+    <Item id="ogr_bajutsu_mokuroku" name="{=8Zb4XSdP}Bajutsu-mokuroku" mesh="sho_scroll_a_2" item_category="sho_book" is_merchandise="false" value="25000" weight="1" Type="Book"></Item>
+    <Item id="ogr_reiho_mokuroku" name="{=Gn3y0ifK}Reiho-mokuroku" mesh="sho_scroll_a_1" item_category="sho_book" is_merchandise="false" value="25000" weight="1" Type="Book"></Item>
+</Items>

@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Items>
+
+    <CraftedItem id="bak_western_lance"
+                 name="{=iSmRldgS}Western-style Lance"
+                 crafting_template="SHO_Yari"
+                 modifier_group="polearm">
+        <Pieces>
+            <Piece id="bak_spear_blade"
+                   Type="Blade"
+                   scale_factor="100"/>
+            <Piece id="bak_spear_banner"
+                   Type="Guard"
+                   scale_factor="100"/>
+            <Piece id="bak_spear_handle"
+                   Type="Handle"
+                   scale_factor="100"/>
+        </Pieces>
+    </CraftedItem>
+	<Item id="bak_jitte" name="{=y4HUDDKb}Jitte" body_name="bo_sword_one_handed" mesh="bak_jitte" weight="0.7" value="3000" appearance="0.8" difficulty="0" Type="OneHandedWeapon" item_holsters="sword_left_hip_wakizashi_1:sword_left_hip_wakizashi_2" holster_position_shift="0,0,-0.25">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword" weapon_balance="100" thrust_speed="96" speed_rating="129" physics_material="metal_weapon" missile_speed="0" weapon_length="42" thrust_damage="72" thrust_damage_type="Blunt" swing_damage="80" swing_damage_type="Blunt" modifier_group="mace" item_usage="onehanded_block_shield_swing_thrust">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="bak_jitte_high" name="{=y4HUDDKb}Jitte" body_name="bo_sword_one_handed" mesh="bak_jitte_high" weight="0.7" value="3000" appearance="0.8" difficulty="0" Type="OneHandedWeapon" item_holsters="sword_left_hip_wakizashi_1:sword_left_hip_wakizashi_2" holster_position_shift="0,0,-0.25">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword" weapon_balance="100" thrust_speed="98" speed_rating="131" physics_material="metal_weapon" missile_speed="0" weapon_length="42" thrust_damage="75" thrust_damage_type="Blunt" swing_damage="81" swing_damage_type="Blunt" modifier_group="mace" item_usage="onehanded_block_shield_swing_thrust">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="bak_jitte_low" name="{=y4HUDDKb}Jitte" body_name="bo_sword_one_handed" mesh="bak_jitte_low" weight="0.7" value="3000" appearance="0.8" difficulty="0" Type="OneHandedWeapon" item_holsters="sword_left_hip_wakizashi_1:sword_left_hip_wakizashi_2" holster_position_shift="0,0,-0.25">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword" weapon_balance="100" thrust_speed="94" speed_rating="125" physics_material="wood_weapon" missile_speed="0" weapon_length="42" thrust_damage="67" thrust_damage_type="Blunt" swing_damage="78" swing_damage_type="Blunt" modifier_group="mace" item_usage="onehanded_block_shield_swing_thrust">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="bak_jitte_long" name="{=vOvcAoJB}Long Jitte" body_name="bo_sword_one_handed" mesh="bak_jitte_long" weight="1.1" value="4000" appearance="0.8" difficulty="0" Type="OneHandedWeapon" item_holsters="sword_left_hip_wakizashi_1:sword_left_hip_wakizashi_2" holster_position_shift="0,0,-0.25">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword" weapon_balance="100" thrust_speed="96" speed_rating="121" physics_material="metal_weapon" missile_speed="0" weapon_length="60" thrust_damage="73" thrust_damage_type="Blunt" swing_damage="84" swing_damage_type="Blunt" modifier_group="mace" item_usage="onehanded_block_shield_swing_thrust">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<!-- <Item id="basic_cavalry_saber"
+	      name="Cavalry Sabre"
+	      body_name="bo_sho_bokken_katana"
+		  holster_body_name="cavalry_sabre_sheath"
+	      mesh="cavalry_sabre"
+	      weight="1"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+		  holster_position_shift="0.0,0.1,0.15"
+	      value="8000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="100"
+			        thrust_speed="97"
+			        speed_rating="99"
+			        physics_material="metal_weapon"
+			        weapon_length="84"
+			        swing_damage="100"
+			        thrust_damage="100"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        modifier_group="sword"
+			        item_usage="onehanded_block_shield_swing_thrust">
+				<WeaponFlags MeleeWeapon="true" HasHolster="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="basic_infantry_saber"
+	      name="Infantry Sabre"
+	      body_name="bo_sho_bokken_katana"
+	      mesh="long_sabre"
+	      weight="1"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+		  holster_position_shift="0.0,0.1,0.15"
+	      value="8000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+					weapon_balance="100"
+					thrust_speed="90"
+					speed_rating="102"
+					physics_material="metal_weapon"
+					missile_speed="0"
+					weapon_length="103"
+					thrust_damage="85"
+					thrust_damage_type="Pierce"
+					swing_damage="100"
+					swing_damage_type="Cut"
+			        modifier_group="sword"
+			        item_usage="onehanded_block_shield_swing_thrust">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item> -->
+	<Item id="bak_imperial_brocade_banner"
+		name="{=ndfetImB}Brocade Standard"
+		is_merchandise="false"
+		body_name="bo_mace_a"
+		recalculate_body="true"
+		mesh="bak_tall_banner"
+		culture="Culture.empire"
+		weight="0.2"
+		Type="Banner"
+		item_holsters="abdomen_left">
+		<ItemComponent>
+			<Banner
+				banner_level="3"
+				weapon_class="Banner"
+				effect="DecreasedMoraleShock"
+				weapon_balance="100"
+				thrust_speed="78"
+				speed_rating="97"
+				missile_speed="0"
+				weapon_length="400"
+				swing_damage="6"
+				swing_damage_type="Blunt"
+				item_usage="banner"
+				physics_material="metal_weapon"
+				position="0.0, 0.0, -0.8"></Banner>
+		</ItemComponent>
+		<Flags
+			DropOnWeaponChange="true"
+			ForceAttachOffHandPrimaryItemBone="true"
+			HeldInOffHand="true"
+			HasToBeHeldUp="true"
+			CanBePickedUpFromCorpse="false" />
+	</Item>
+	<Item id="bak_tall_banner_generic"
+		name="{=ndfetTaB}Tall Standard"
+		is_merchandise="false"
+		body_name="bo_mace_a"
+		recalculate_body="true"
+		mesh="bak_tall_banner_generic"
+		culture="Culture.empire"
+		weight="0.2"
+		Type="Banner"
+		using_tableau="true"
+		item_holsters="abdomen_left">
+		<ItemComponent>
+			<Banner
+				banner_level="2"
+				weapon_class="Banner"
+				effect="DecreasedMoraleShock"
+				weapon_balance="100"
+				thrust_speed="78"
+				speed_rating="97"
+				missile_speed="0"
+				weapon_length="400"
+				swing_damage="6"
+				swing_damage_type="Blunt"
+				item_usage="banner"
+				physics_material="metal_weapon"
+				position="0.0, 0.0, -0.8"></Banner>
+		</ItemComponent>
+		<Flags
+			DropOnWeaponChange="true"
+			ForceAttachOffHandPrimaryItemBone="true"
+			HeldInOffHand="true"
+			HasToBeHeldUp="true"
+			CanBePickedUpFromCorpse="false" />
+	</Item>
+	<!-- <Item id="basic_infantry_saber"
+			name="Infantry Sabre"
+			body_name="bo_sho_bokken_katana"
+			holster_body_name="long_sabre_sheath"
+			mesh="long_sabre"
+			weight="4.5"
+			value="20000"
+			is_merchandise="false"
+			appearance="0.8"
+			difficulty="0"
+			Type="OneHandedWeapon"
+			item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+			holster_mesh="long_sabre_sheath"
+			holster_mesh_with_weapon="true"
+			always_show_holster_with_weapon="true"
+			holster_position_shift="0.0,0.1,0.15">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+					weapon_balance="100"
+					thrust_speed="90"
+					speed_rating="102"
+					physics_material="metal_weapon"
+					missile_speed="0"
+					weapon_length="103"
+					thrust_damage="85"
+					thrust_damage_type="Pierce"
+					swing_damage="100"
+					swing_damage_type="Cut"
+			        modifier_group="sword"
+					item_usage="onehanded_block_shield_swing_thrust">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item> -->
+	<CraftedItem id="bak_yataghan" name="{=BakMSYat}Yataghan Bayonet" crafting_template="BAK_OneHandedSaber" modifier_group="sword">
+		<Pieces>
+			<Piece id="yataghan_blade" Type="Blade" scale_factor="100"/>
+			<Piece id="yataghan_hilt" Type="Handle" scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_kyu_gunto" name="{=4mlOUouv}Kyu Gunto" crafting_template="BAK_OneHandedSaber" modifier_group="sword">
+		<Pieces>
+			<Piece id="sho_katana_blade_14" Type="Blade" scale_factor="100"/>
+			<Piece id="bak_kyu_gunto_hilt" Type="Handle" scale_factor="140"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_wilkinson_saber" name="{=5y2poyah}1845 Pattern 'Wilkinson' Saber" culture="Culture.british" crafting_template="BAK_OneHandedSaber" modifier_group="sword">
+		<Pieces>
+			<Piece id="wilkinson_saber_blade" Type="Blade" scale_factor="100"/>
+			<Piece id="bak_saber_hilt_gothic" Type="Handle" scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_wilkinson_saber_1" name="{=5y2poyah}1845 Pattern 'Wilkinson' Saber" culture="Culture.british" crafting_template="BAK_OneHandedSaber" modifier_group="sword">
+		<Pieces>
+			<Piece id="wilkinson_saber_blade_1" Type="Blade" scale_factor="100"/>
+			<Piece id="bak_saber_hilt_gothic" Type="Handle" scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_french_light_saber" name="{=5y2poyah}Mle 1822 Light Cavalry Saber" culture="Culture.french" crafting_template="BAK_OneHandedSaber" modifier_group="sword">
+		<Pieces>
+			<Piece id="1822_saber_blade" Type="Blade" scale_factor="100"/>
+			<Piece id="bak_saber_hilt_three_bar" Type="Handle" scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_french_light_saber_1" name="{=5y2poyah}Mle 1822 Light Cavalry Saber" culture="Culture.french" crafting_template="BAK_OneHandedSaber" modifier_group="sword">
+		<Pieces>
+			<Piece id="1822_saber_blade_1" Type="Blade" scale_factor="105"/>
+			<Piece id="bak_saber_hilt_three_bar" Type="Handle" scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_american_light_saber" name="{=TnXNExpb}Model 1860 Light Cavalry Saber" culture="Culture.american" crafting_template="BAK_OneHandedSaber" modifier_group="sword">
+		<Pieces>
+			<Piece id="1860_saber_blade" Type="Blade" scale_factor="100"/>
+			<Piece id="bak_saber_hilt_three_bar" Type="Handle" scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_american_light_saber_1" name="{=TnXNExpb}Model 1860 Light Cavalry Saber" culture="Culture.american" crafting_template="BAK_OneHandedSaber" modifier_group="sword">
+		<Pieces>
+			<Piece id="1860_saber_blade_1" Type="Blade" scale_factor="105"/>
+			<Piece id="bak_saber_hilt_three_bar" Type="Handle" scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_american_heavy_saber" name="{=lYLLHPGw}Model 1840 Cavalry Saber" culture="Culture.american" crafting_template="BAK_OneHandedSaber" modifier_group="sword">
+		<Pieces>
+			<Piece id="1860_saber_blade" Type="Blade" scale_factor="100"/>
+			<Piece id="bak_saber_hilt_three_bar" Type="Handle" scale_factor="150"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_american_heavy_saber_1" name="{=lYLLHPGw}Model 1840 Cavalry Saber" culture="Culture.american" crafting_template="BAK_OneHandedSaber" modifier_group="sword">
+		<Pieces>
+			<Piece id="1860_saber_blade_1" Type="Blade" scale_factor="105"/>
+			<Piece id="bak_saber_hilt_three_bar" Type="Handle" scale_factor="150"/>
+		</Pieces>
+	</CraftedItem>
+</Items>

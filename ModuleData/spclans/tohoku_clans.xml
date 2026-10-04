@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Factions>
+	<!--Aizu-han
+			Aizu-Matsudaira (Kurokawa into Wakamatsu) 5 - Ashina 5 DONE
+			Naito 3 - Matsumoto 3 DONE
+			Tanaka 3 - Nikaido 3 DONE
+			Saigo 9 - Inawashiro 5
+			Yamakawa 7 - Saze 7 DONE
+			Joshigun (minor) 3 -->
+	<Faction id="clan_ashina_1" is_noble="true" name="{=eC2ASTQN}Matsudaira-shi Hoshina-ke" tier="6" owner="Hero.lord_1_ashina" culture="Culture.ou" super_faction="Kingdom.ashina" banner_key="11.217.217.1528.1528.764.764.1.0.0.1020.200.200.483.483.764.764.0.0.0"/>
+	<Faction id="clan_inawashiro_1" is_noble="true" name="{=fynHJTwu}Saigo-shi Aizu-ke" tier="5" owner="Hero.lord_1_inawashiro" culture="Culture.ou" super_faction="Kingdom.ashina" banner_key="11.217.217.1536.1536.768.768.1.0.0.1034.213.213.483.483.764.764.0.0.0"/>
+	<Faction id="clan_saze_1" is_noble="true" name="{=8FEa2FoG}Yamakawa-shi" tier="4" owner="Hero.lord_1_saze" culture="Culture.ou" super_faction="Kingdom.ashina" banner_key="11.217.217.1528.1528.764.764.1.0.0.732.200.200.483.483.764.764.0.0.0"/>
+	<Faction id="clan_matsumoto_1" is_noble="true" name="{=GXmPOdWx}Naito-shi Kai-ke" tier="4" owner="Hero.lord_1_matsumoto" culture="Culture.ou" super_faction="Kingdom.ashina" banner_key="11.196.196.1528.1528.764.764.1.0.0.644.200.200.483.483.764.764.0.0.0"/>
+	<Faction id="clan_nikaido_1" is_noble="true" name="{=H87qo4NM}Tanaka-shi" tier="3" owner="Hero.lord_1_nikaido" culture="Culture.ou" super_faction="Kingdom.ashina" banner_key="11.210.210.1528.1528.764.764.1.0.0.668.217.217.483.483.764.764.0.0.0"/>
+	<Faction id="clan_b_aizu_retainers_1" is_noble="true" name="{=Aizqo4NM}Aizu Retainers" tier="4" owner="Hero.lord_1_aizu_ret" culture="Culture.ou" super_faction="Kingdom.ashina" banner_key="11.217.217.1528.1528.764.764.1.0.0.1020.200.200.483.483.764.764.0.0.0"/>
+	<!--Ou Reppan Domei -->
+	<Faction id="clan_soma_1" is_noble="true" name="{=AomEuPxP}Soma-shi" tier="4" owner="Hero.lord_1_soma" culture="Culture.tosan" super_faction="Kingdom.uesugi" banner_key="11.217.217.1528.1528.764.764.1.0.0.755.197.171.483.483.764.764.0.0.0"/>
+	<Faction id="clan_nihonmatsu_1" is_noble="true" name="{=kXgAqsVE}Niwa-shi" tier="5" owner="Hero.lord_1_nihonmatsu" culture="Culture.tosan" super_faction="Kingdom.uesugi" banner_key="11.217.217.1536.1536.768.768.1.0.0.693.213.213.483.483.773.729.0.0.0"/>
+	<!-- Tottori -->
+	<Faction id="clan_tamura_1" is_noble="true" name="{=Txtm8EQj}Ikeda-shi" tier="5" owner="Hero.lord_1_tamura" culture="Culture.tottori" super_faction="Kingdom.soma" banner_key="11.172.172.1528.1528.764.764.1.0.0.557.197.171.483.483.764.764.0.0.0"/>
+	<Faction id="clan_okada_1" is_noble="true" name="{=LOgpObOY}Arao-shi" tier="3" owner="Hero.lord_1_okada" culture="Culture.tottori" super_faction="Kingdom.soma" banner_key="11.217.217.1528.1528.764.764.1.0.0.755.159.171.483.483.764.764.0.0.0"/>
+	<!--Sendai-han
+			Date (Ishinomaki and Sendai Castle (Iwakiri Castle)) 10 - Date 10 DONE
+			Tamura (Ichinoseki Castle) 5 - Oniniwa 5 DONE
+			Watari Date (Watari Castle) 4 - Osaki 4 DONE
+			Tome Date (rename Teraike Castle to Tome Castle) 4 - Kasai 4 DONE
+			Watari/Wakuya Date (rename Nakaniida Castle to Wakuya Castle) 4 - Watari 4 DONE
+			Mizusawa Date (rename Akaiwa Castle to Mizusawa Castle, wrong place but still) 9 - Rusu 3, Iwaki 6 DONE
+			Iwadeyama Date (Iwadeyama Castle) 3 - Iwaki 3 DONE
+			Katakura DONE -->
+	<Faction id="clan_date_1" is_noble="true" name="{=5BAcZId0}Date-shi" tier="6" owner="Hero.lord_1_date" culture="Culture.sendai" super_faction="Kingdom.date" banner_key="11.205.205.1528.1528.764.764.1.0.0.752.217.217.483.483.764.764.0.0.0"/>
+	<Faction id="clan_katakura_1" is_noble="true" name="{=KOOT63wV}Katakura-shi" tier="4" owner="Hero.lord_1_katakura" culture="Culture.sendai" super_faction="Kingdom.date" banner_key="11.205.205.1528.1528.764.764.1.0.0.753.217.217.483.483.764.764.0.0.0"/>
+	<Faction id="clan_oniniwa_1" is_noble="true" name="{=PTlPcJhs}Tamura-shi" tier="4" owner="Hero.lord_1_oniniwa" culture="Culture.sendai" super_faction="Kingdom.date" banner_key="11.194.194.1536.1536.768.768.1.0.0.577.196.15.483.483.773.729.0.0.0"/>
+	<Faction id="clan_watari_1" is_noble="true" name="{=yoWzFxzf}Date-shi Wakuya-ke" tier="4" owner="Hero.lord_1_watari" culture="Culture.sendai" super_faction="Kingdom.date" banner_key="11.236.236.1528.1528.764.764.1.0.0.755.196.196.483.483.764.764.0.0.0"/>
+	<Faction id="clan_osaki_1" is_noble="true" name="{=N3obbklH}Date-shi Watari-ke" tier="4" owner="Hero.lord_1_osaki" culture="Culture.sendai" super_faction="Kingdom.date" banner_key="11.231.231.1528.1528.764.764.1.0.0.500.217.217.600.600.764.764.1.0.0.752.217.217.444.444.764.764.0.0.0"/>
+	<Faction id="clan_kasai_1" is_noble="true" name="{=52ZbOGpN}Date-shi Tome-ke" tier="3" owner="Hero.lord_1_kasai" culture="Culture.sendai" super_faction="Kingdom.date" banner_key="11.205.205.1528.1528.764.764.1.0.0.500.217.217.600.600.764.764.1.0.0.752.217.217.444.444.764.764.0.0.0"/>
+	<Faction id="clan_iwaki_1" is_noble="true" name="{=GghWbhMx}Date-shi Iwadeyama-ke" tier="3" owner="Hero.lord_1_iwaki" culture="Culture.sendai" super_faction="Kingdom.date" banner_key="11.231.231.1528.1528.764.764.1.0.0.752.196.196.483.483.764.764.0.0.0"/>
+	<Faction id="clan_rusu_1" is_noble="true" name="{=Mmlec0W6}Date-shi Mizusawa-ke" tier="3" owner="Hero.lord_1_rusu" culture="Culture.sendai" super_faction="Kingdom.date" banner_key="11.205.205.1528.1528.764.764.1.0.0.762.196.196.483.483.764.764.0.0.0"/>
+	<!--Fukushima-han
+			Itakura 12 - Mogami 6 -->
+	<Faction id="clan_mogami_1" is_noble="true" name="{=5opAomPm}Itakura-shi" tier="6" owner="Hero.lord_1_mogami" culture="Culture.tokai" super_faction="Kingdom.mogami" banner_key="11.205.205.1528.1528.764.764.1.0.0.1031.217.217.483.483.764.764.0.0.0"/>
+	<!-- Bakufu -->
+	<Faction id="clan_tendo_1" is_noble="true" name="{=e0X7neFB}Inaba-shi" tier="3" owner="Hero.lord_1_tendo" culture="Culture.tokai" super_faction="Kingdom.tokugawa" banner_key="11.217.217.1528.1528.764.764.1.0.0.562.227.227.483.483.764.764.0.0.0"/>
+	<Faction id="clan_ujiie_1" is_noble="true" name="{=piDj6z9f}Matsudaira-shi Toda-ke" tier="3" owner="Hero.lord_1_ujiie" culture="Culture.tokai" super_faction="Kingdom.tokugawa" banner_key="11.217.217.1528.1528.764.764.1.0.0.1027.227.227.483.483.764.764.0.0.0"/>
+	<Faction id="clan_nobesawa_1" is_noble="true" name="{=0rKkFwOg}Okubo-shi Yamanaka-ke" tier="2" owner="Hero.lord_1_nobesawa" culture="Culture.tokai" super_faction="Kingdom.tokugawa" banner_key="11.217.217.1528.1528.764.764.1.0.0.700.227.227.483.483.764.764.0.0.0"/>
+	<Faction id="clan_tateoka_1" is_noble="true" name="{=k1xUIUj8}Okubo-shi" tier="4" owner="Hero.lord_1_tateoka" culture="Culture.tokai" super_faction="Kingdom.tokugawa" banner_key="11.217.217.1528.1528.764.764.1.0.0.1081.227.227.483.483.764.764.0.0.0"/>
+	<!--Shonai-han
+			Sakai 8 - Daihoji 5
+			Matsuyama Sakai 7 - Nikaho
+			Sakai Okunosuke (Kamegasaki Castle) 5 - Onodera
+			Ishihara 5 - Honjo 8
+			Matsudaira Jinzaburo 3 - Sakenobe -->
+	<Faction id="clan_daihoji_1" is_noble="true" name="{=71PEDLZf}Sakai-shi" tier="6" owner="Hero.lord_1_daihoji" culture="Culture.ou" super_faction="Kingdom.honjo" banner_key="11.40.40.1528.1528.764.764.1.0.0.500.194.194.600.600.764.764.1.0.0.698.194.194.444.444.764.764.0.0.0"/>
+	<Faction id="clan_onodera_1" is_noble="true" name="{=wmoenMOl}Sakai-shi Okunosuke-ke" tier="3" owner="Hero.lord_1_onodera" culture="Culture.ou" super_faction="Kingdom.honjo" banner_key="11.172.172.1528.1528.764.764.1.0.0.500.194.194.600.600.764.764.1.0.0.698.194.194.444.444.764.764.0.0.0"/>
+	<Faction id="clan_sakenobe_1" is_noble="true" name="{=NuTx5zmj}Matsudaira-shi Jinzaburo-ke" tier="3" owner="Hero.lord_1_sakenobe" culture="Culture.ou" super_faction="Kingdom.honjo" banner_key="11.172.172.1528.1528.764.764.1.0.0.1033.216.216.483.483.764.764.0.0.0"/>
+	<Faction id="clan_nikaho_1" is_noble="true" name="{=pI6YjX8M}Sakai-shi Matsuyama-ke" tier="5" owner="Hero.lord_1_nikaho" culture="Culture.ou" super_faction="Kingdom.honjo" banner_key="11.172.172.1528.1528.764.764.1.0.0.698.194.194.483.483.764.764.0.0.0"/>	
+	<!--Hirosaki-han
+			Tsugaru 5 - Oura 4
+			Kuroishi Tsugaru 4 - Asari 4
+			Daidouji 3 - Tozawa 4
+			Sugiyama 4 - Kakizaki 4
+			Yamanaka 5 - Kakizaki 5
+			-->
+	<Faction id="clan_oura_1" is_noble="true" name="{=UyMq8aDj}Tsugaru-shi" tier="6" owner="Hero.lord_1_oura" culture="Culture.hirosaki" super_faction="Kingdom.ando" banner_key="11.196.196.1528.1528.764.764.1.0.0.773.212.171.483.483.764.764.0.0.0"/>
+	<Faction id="clan_asari_1" is_noble="true" name="{=6LMl0tI8}Tsugaru-shi Kuroishi-ke" tier="4" owner="Hero.lord_1_asari" culture="Culture.hirosaki" super_faction="Kingdom.ando" banner_key="11.217.217.1528.1528.764.764.1.0.0.773.212.171.483.483.764.764.0.0.0"/>
+	<Faction id="clan_kakizaki_2" is_noble="true" name="{=xy3cU9cP}Sugiyama-shi" tier="4" owner="Hero.lord_2_kakizaki" culture="Culture.hirosaki" super_faction="Kingdom.ando" banner_key="11.194.194.1528.1528.764.764.1.0.0.760.217.171.483.483.764.764.0.0.0"/>
+	<Faction id="clan_tozawa_1" is_noble="true" name="{=4IKyEBDc}Daidouji-shi" tier="3" owner="Hero.lord_1_tozawa" culture="Culture.hirosaki" super_faction="Kingdom.ando" banner_key="11.217.217.1528.1528.764.764.1.0.0.557.205.171.483.483.764.764.0.0.0"/>
+	<Faction id="clan_bos_yamanaka_1" is_noble="true" name="{=5IKyEBDc}Yamanaka-shi" tier="2" owner="Hero.lord_2_kakizaki_4" culture="Culture.hirosaki" super_faction="Kingdom.ando" banner_key="11.217.217.1528.1528.764.764.1.0.0.560.225.171.483.483.764.764.0.0.0"/>
+	<!--Morioka-han
+			Nanbu - 10-11
+			Neshiro/Hachinohe Nanbu 3
+			Shichinohe Nanbu 4-5
+			Konohe/Nakano/Hanawa Nanbu (Hanawa Castle) 3
+			Kita/Oyu Nanbu (Mutsu Oyu near Kazuno) 6
+			Minami/Minami Nanbu (Asamizu/live in Sannohoe) 8
+			Mito/Mito Nanbu 5
+			Higashi/Azuma
+			Nanbu Retainers -->
+	<Faction id="clan_nanbu_1" is_noble="true" name="{=c006Hx4r}Nanbu-shi" tier="6" owner="Hero.lord_1_nanbu" culture="Culture.morioka" super_faction="Kingdom.nanbu" banner_key="11.159.159.1528.1528.764.764.1.0.0.771.196.196.483.483.764.764.0.0.0"/>
+	<Faction id="clan_shichinohe_1" is_noble="true" name="{=kHne65Y9}Nanbu-shi Shichinohe-ke" tier="5" owner="Hero.lord_1_shichinohe" culture="Culture.morioka" super_faction="Kingdom.nanbu" banner_key="11.159.159.1528.1528.764.764.1.0.0.771.196.196.483.483.764.764.0.0.0"/>
+	<Faction id="clan_hachinohe_1" is_noble="true" name="{=flBMJ4Es}Nanbu-shi Hachinohe-ke" tier="5" owner="Hero.lord_1_hachinohe" culture="Culture.morioka" super_faction="Kingdom.nanbu" banner_key="11.159.159.1528.1528.764.764.1.0.0.771.196.196.483.483.764.764.0.0.0"/>
+	<Faction id="clan_konohe_1" is_noble="true" name="{=ZVlwFZZv}Nakano-shi" tier="4" owner="Hero.lord_1_konohe" culture="Culture.morioka" super_faction="Kingdom.nanbu" banner_key="11.159.159.1528.1528.764.764.1.0.0.781.172.171.483.483.764.764.0.0.0"/>
+	<Faction id="clan_kita_1" is_noble="true" name="{=NyMA6A7K}Kita-shi" tier="3" owner="Hero.lord_1_kita" culture="Culture.morioka" super_faction="Kingdom.nanbu" banner_key="11.159.159.1528.1528.764.764.1.0.0.772.196.196.483.483.764.764.0.0.0"/>
+	<Faction id="clan_shiba_1" is_noble="true" name="{=3LujlMb3}Minami-shi" tier="2" owner="Hero.lord_1_shiba" culture="Culture.morioka" super_faction="Kingdom.nanbu" banner_key="11.159.159.1528.1528.764.764.1.0.0.780.196.196.483.483.764.764.0.0.0"/>
+	<Faction id="clan_asonuma_1" is_noble="true" name="{=BMQyxH2f}Mito-shi" tier="3" owner="Hero.lord_1_asonuma" culture="Culture.morioka" super_faction="Kingdom.nanbu" banner_key="11.159.159.1528.1528.764.764.1.0.0.780.196.196.483.483.764.764.0.0.0"/>
+	<Faction id="clan_namioka_1" is_noble="true" name="{=aArztftR}Azuma-shi" tier="2" owner="Hero.lord_1_namioka" culture="Culture.morioka" super_faction="Kingdom.nanbu" banner_key="11.172.172.1528.1528.764.764.1.0.0.781.159.171.483.483.764.764.0.0.0"/>
+	<Faction id="clan_nanbu_retainers_1" is_noble="true" name="{=AArztftR}Nanbu Retainers" tier="3" owner="Hero.lord_1_nanbu_retainers" culture="Culture.morioka" super_faction="Kingdom.nanbu" banner_key="11.159.159.1528.1528.764.764.1.0.0.771.196.196.483.483.764.764.0.0.0"/>
+</Factions>

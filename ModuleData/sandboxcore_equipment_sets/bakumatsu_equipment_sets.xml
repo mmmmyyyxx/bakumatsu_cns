@@ -1,0 +1,332 @@
+<EquipmentRosters>
+	<!-- Minor Clans -->
+	<EquipmentRoster id="npc_shinsengumi_equipment_template" culture="Culture.tenryo">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sho_katana_31" />
+			<equipment slot="Head" id="Item.bak_hachimaki_short_plate"/>
+			<equipment slot="Cape" id="Item.sho_jinbaori_blue"/>
+			<equipment slot="Body" id="Item.sho_ashi_2_kozane_g"/>
+			<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_4"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sho_katana_31" />
+			<equipment slot="Head" id="Item.bak_hachimaki_short_plate"/>
+			<equipment slot="Cape" id="Item.sho_jinbaori_blue"/>
+			<equipment slot="Body" id="Item.sho_ashi_2_kozane_g"/>
+			<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_4"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_hijikata_toshizo_equipment_template" culture="Culture.tenryo">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sho_katana_22" />
+			<Equipment slot="Item1" id="Item.sho_wakizashi_2" />
+			<equipment slot="Head" id="Item.bak_hachimaki_short_plate"/>
+			<equipment slot="Cape" id="Item.bak_overcoat_black"/>
+			<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+			<equipment slot="Leg" id="Item.bak_boots_black"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sho_katana_31" />
+			<equipment slot="Head" id="Item.bak_hachimaki_short_plate"/>
+			<equipment slot="Cape" id="Item.bak_overcoat_black"/>
+			<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+			<equipment slot="Leg" id="Item.bak_boots_black"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_shogitai_equipment_template" culture="Culture.tenryo">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sho_katana_31" />
+			<equipment slot="Head" id="Item.bak_hachimaki_short_plate"/>
+			<equipment slot="Body" id="Item.sho_ashi_2_kozane_g"/>
+			<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_4"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+			<equipment slot="Item1" id="Item.sho_katana_31"/>
+			<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+			<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+			<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+			<equipment slot="Cape" id="Item.sho_new_kozane_sode_f"/>
+			<equipment slot="Body" id="Item.sho_simple_okegawa_2"/>
+			<equipment slot="Leg" id="Item.sho_tsutsu_suneate_b_5"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_kotetsu_equipment_template" culture="Culture.ou">
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.sho_katana_10"/>
+			<equipment slot="Item1" id="Item.imp_a_colt_revolver"/>
+			<equipment slot="Item2" id="Item.imp_d_cartridges_pistol"/>
+			<equipment slot="Item3" id="Item.imp_d_cartridges_pistol"/>
+			<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+			<equipment slot="Body" id="Item.sho_peasant_outfit_f"/>
+			<equipment slot="Leg" id="Item.sho_waraji_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.sho_katana_10"/>
+			<equipment slot="Item1" id="Item.imp_a_colt_revolver"/>
+			<equipment slot="Item2" id="Item.imp_d_cartridges_pistol"/>
+			<equipment slot="Item3" id="Item.imp_d_cartridges_pistol"/>
+			<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+			<equipment slot="Body" id="Item.sho_peasant_outfit_f"/>
+			<equipment slot="Leg" id="Item.sho_waraji_a"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_joshigun_equipment_template" culture="Culture.ou">
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.imp_a_spencer_1862"/>
+			<equipment slot="Item1" id="Item.imp_d_cartridges"/>
+			<equipment slot="Item2" id="Item.sho_katana_10"/>
+			<equipment slot="Item3" id="Item.sho_wakizashi_9"/>
+			<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+			<equipment slot="Body" id="Item.sho_samurai_gear_b"/>
+			<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_10"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.imp_a_spencer_1862"/>
+			<equipment slot="Item1" id="Item.imp_d_cartridges"/>
+			<equipment slot="Item2" id="Item.sho_katana_10"/>
+			<equipment slot="Item3" id="Item.sho_wakizashi_9"/>
+			<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+			<equipment slot="Body" id="Item.sho_samurai_gear_b"/>
+			<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_10"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_shinchogumi_equipment_template" culture="Culture.shonai">
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.imp_a_smith_and_wessen_revolver"/>
+			<Equipment slot="Item0" id="Item.sho_katana_31" />
+			<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+			<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+			<equipment slot="Head" id="Item.bak_nirayama_gasa_black_2_plain"/>
+			<equipment slot="Body" id="Item.sho_kosodehakama_6"/>
+			<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_14"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.imp_f_minieru"/>
+			<equipment slot="Item1" id="Item.sho_katana_31"/>
+			<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+			<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+			<equipment slot="Head" id="Item.bak_nirayama_gasa_black_2_plain"/>
+			<equipment slot="Body" id="Item.sho_kosodehakama_6"/>
+			<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_14"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_shinchogumi_1_equipment_template" culture="Culture.shonai">
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.imp_a_smith_and_wessen_revolver"/>
+			<Equipment slot="Item0" id="Item.sho_nodachi_9" />
+			<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+			<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+			<equipment slot="Head" id="Item.bak_nirayama_gasa_black_2_plain"/>
+			<equipment slot="Body" id="Item.sho_kosodehakama_6"/>
+			<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_14"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.imp_f_minieru"/>
+			<equipment slot="Item1" id="Item.sho_nodachi_9"/>
+			<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+			<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+			<equipment slot="Head" id="Item.bak_nirayama_gasa_black_2_plain"/>
+			<equipment slot="Body" id="Item.sho_kosodehakama_6"/>
+			<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_14"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_sakamoto_ryoma_equipment_template" culture="Culture.shonai">
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.imp_a_smith_and_wessen_revolver"/>
+			<Equipment slot="Item0" id="Item.sho_katana_31" />
+			<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+			<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+			<equipment slot="Body" id="Item.sho_peasant_outfit_a"/>
+			<equipment slot="Leg" id="Item.bak_boots_black"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.imp_a_smith_and_wessen_revolver"/>
+			<equipment slot="Item1" id="Item.sho_katana_31"/>
+			<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+			<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+			<equipment slot="Body" id="Item.sho_peasant_outfit_a"/>
+			<equipment slot="Leg" id="Item.bak_boots_black"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_kaientai_equipment_template" culture="Culture.nankai">
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.imp_a_smith_and_wessen_revolver"/>
+			<Equipment slot="Item0" id="Item.sho_katana_30" />
+			<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+			<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+			<equipment slot="Body" id="Item.sho_peasant_outfit_a"/>
+			<equipment slot="Leg" id="Item.sho_waraji_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.imp_a_smith_and_wessen_revolver"/>
+			<equipment slot="Item1" id="Item.sho_katana_30"/>
+			<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+			<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+			<equipment slot="Body" id="Item.sho_peasant_outfit_a"/>
+			<equipment slot="Leg" id="Item.sho_waraji_a"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_tenchugumi_equipment_template" culture="Culture.sanyo">
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.imp_a_smith_and_wessen_revolver"/>
+			<Equipment slot="Item0" id="Item.sho_katana_30" />
+			<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+			<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+			<equipment slot="Body" id="Item.sho_peasant_outfit_a"/>
+			<equipment slot="Leg" id="Item.sho_waraji_a"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.sho_yari_19"/>
+			<equipment slot="Item1" id="Item.sho_tachi_9"/>
+			<equipment slot="Item3" id="Item.sho_wakizashi_18"/>
+			<equipment slot="Head" id="Item.sho_akoka_nari_a"/>
+			<equipment slot="Body" id="Item.sho_new_kozane_e"/>
+			<equipment slot="Leg" id="Item.sho_tsutsu_suneate_2_a_1"/>
+			<equipment slot="Gloves" id="Item.sho_tier_7_kote_a_2"/>
+			<equipment slot="Cape" id="Item.sho_new_kozane_sode_e"/>
+			<equipment slot="Horse" id="Item.sho_horse_oni_3"/>
+			<equipment slot="HorseHarness" id="Item.sho_horse_armor_b_mask_c"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_hitokiri_equipment_template" culture="Culture.shonai">
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.sho_katana_30"/>
+			<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+			<equipment slot="Head" id="Item.sho_rawhide_jingasa_1"/>
+			<equipment slot="Body" id="Item.sho_peasant_outfit_a"/>
+			<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_10"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.sho_katana_30"/>
+			<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+			<equipment slot="Head" id="Item.sho_rawhide_jingasa_1"/>
+			<equipment slot="Body" id="Item.sho_peasant_outfit_a"/>
+			<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_10"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" />
+	</EquipmentRoster>
+	<!-- Foreigners -->
+	<EquipmentRoster id="spc_notable_foreign_merchant" culture="Culture.american">
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.bak_wilkinson_saber" />
+			<equipment slot="Item1" id="Item.imp_a_smith_and_wessen_revolver" />
+			<equipment slot="Item2" id="Item.cartridges_hidden" />
+			<equipment slot="Item3" id="Item.cartridges_hidden" />
+			<equipment slot="Cape" id="Item.bak_sash_belt" />
+			<equipment slot="Body" id="Item.bak_frock_coat_blue" />
+			<equipment slot="Leg" id="Item.bak_boots_black" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.sho_katana_22" />
+			<equipment slot="Item1" id="Item.sho_wakizashi_2" />
+			<equipment slot="Item2" id="Item.imp_a_colt_dragoon" />
+			<equipment slot="Item3" id="Item.cartridges_hidden" />
+			<equipment slot="Cape" id="Item.bak_haori_solo_tc_1" />
+			<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue_white" />
+			<equipment slot="Leg" id="Item.bak_boots" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.bak_french_light_saber_1" />
+			<equipment slot="Item1" id="Item.imp_a_remington_revolver" />
+			<equipment slot="Item2" id="Item.cartridges_hidden" />
+			<equipment slot="Item3" id="Item.cartridges_hidden" />
+			<equipment slot="Cape" id="Item.bak_sash_belt" />
+			<equipment slot="Body" id="Item.bak_haori_tc_1" />
+			<equipment slot="Leg" id="Item.bak_boots_brown" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.bak_american_heavy_saber" />
+			<equipment slot="Item1" id="Item.imp_a_colt_revolver" />
+			<equipment slot="Item2" id="Item.cartridges_hidden" />
+			<equipment slot="Item3" id="Item.cartridges_hidden" />
+			<equipment slot="Cape" id="Item.bak_overcoat_red" />
+			<equipment slot="Body" id="Item.bak_shell_jacket_white_black" />
+			<equipment slot="Leg" id="Item.bak_boots" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.bak_american_heavy_saber_1" />
+			<equipment slot="Item1" id="Item.imp_a_colt_revolver" />
+			<equipment slot="Item2" id="Item.cartridges_hidden" />
+			<equipment slot="Item3" id="Item.cartridges_hidden" />
+			<equipment slot="Cape" id="Item.bak_overcoat" />
+			<equipment slot="Body" id="Item.bak_service_tunic_dark_blue_officer" />
+			<equipment slot="Leg" id="Item.bak_boots" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<equipment slot="Item0" id="Item.bak_wilkinson_saber_1" />
+			<equipment slot="Item1" id="Item.imp_a_colt_revolver" />
+			<equipment slot="Item2" id="Item.sho_wakizashi_3" />
+			<equipment slot="Item3" id="Item.cartridges_hidden" />
+			<equipment slot="Cape" id="Item.bak_sash_belt" />
+			<equipment slot="Body" id="Item.bak_haori_ornate_1" />
+			<equipment slot="Leg" id="Item.bak_boots_black" />
+		</EquipmentSet>
+		
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.bak_wilkinson_saber" />
+			<equipment slot="Item1" id="Item.imp_a_smith_and_wessen_revolver" />
+			<equipment slot="Item2" id="Item.cartridges_hidden" />
+			<equipment slot="Item3" id="Item.cartridges_hidden" />
+			<equipment slot="Cape" id="Item.bak_sash_belt" />
+			<equipment slot="Body" id="Item.bak_frock_coat_blue" />
+			<equipment slot="Leg" id="Item.bak_boots_black" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.sho_katana_22" />
+			<equipment slot="Item1" id="Item.sho_wakizashi_2" />
+			<equipment slot="Item2" id="Item.imp_a_colt_dragoon" />
+			<equipment slot="Item3" id="Item.cartridges_hidden" />
+			<equipment slot="Cape" id="Item.bak_haori_solo_tc_1" />
+			<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue_white" />
+			<equipment slot="Leg" id="Item.bak_boots" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.bak_french_light_saber_1" />
+			<equipment slot="Item1" id="Item.imp_a_remington_revolver" />
+			<equipment slot="Item2" id="Item.cartridges_hidden" />
+			<equipment slot="Item3" id="Item.cartridges_hidden" />
+			<equipment slot="Cape" id="Item.bak_sash_belt" />
+			<equipment slot="Body" id="Item.bak_haori_tc_1" />
+			<equipment slot="Leg" id="Item.bak_boots_brown" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.bak_american_heavy_saber" />
+			<equipment slot="Item1" id="Item.imp_a_colt_revolver" />
+			<equipment slot="Item2" id="Item.cartridges_hidden" />
+			<equipment slot="Item3" id="Item.cartridges_hidden" />
+			<equipment slot="Cape" id="Item.bak_overcoat_red" />
+			<equipment slot="Body" id="Item.bak_shell_jacket_white_black" />
+			<equipment slot="Leg" id="Item.bak_boots" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.bak_american_heavy_saber_1" />
+			<equipment slot="Item1" id="Item.imp_a_colt_revolver" />
+			<equipment slot="Item2" id="Item.cartridges_hidden" />
+			<equipment slot="Item3" id="Item.cartridges_hidden" />
+			<equipment slot="Cape" id="Item.bak_overcoat" />
+			<equipment slot="Body" id="Item.bak_service_tunic_dark_blue_officer" />
+			<equipment slot="Leg" id="Item.bak_boots" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<equipment slot="Item0" id="Item.bak_wilkinson_saber_1" />
+			<equipment slot="Item1" id="Item.imp_a_colt_revolver" />
+			<equipment slot="Item2" id="Item.sho_wakizashi_3" />
+			<equipment slot="Item3" id="Item.cartridges_hidden" />
+			<equipment slot="Cape" id="Item.bak_sash_belt" />
+			<equipment slot="Body" id="Item.bak_haori_ornate_1" />
+			<equipment slot="Leg" id="Item.bak_boots_black" />
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+	</EquipmentRoster>
+</EquipmentRosters>

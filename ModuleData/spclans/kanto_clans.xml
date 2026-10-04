@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Factions>
+	<!--Bakufu-->
+	<Faction id="clan_obata_1" is_noble="true" name="{=lE7sVvZR}Inoue-shi" tier="3" owner="Hero.lord_1_obata" culture="Culture.tokai" super_faction="Kingdom.tokugawa" banner_key="11.217.217.1528.1528.764.764.1.0.0.1080.227.227.483.483.764.764.0.0.0"/>
+	<Faction id="clan_yura_1" is_noble="true" name="{=9rJNJbXR}Ota-shi" tier="3" owner="Hero.lord_1_yura" culture="Culture.tokai" super_faction="Kingdom.tokugawa" banner_key="11.217.217.1536.1536.768.768.1.0.0.1054.227.227.483.483.773.729.0.0.0"/>
+	<!--Mito Faction-->
+	<Faction id="clan_hojo_1" is_noble="true" name="{=TJfQdtFe}Tokugawa-shi Mito-ke" tier="6" owner="Hero.lord_1_hojo" culture="Culture.kanto" super_faction="Kingdom.hojo" banner_key="11.360.360.1528.1528.764.764.1.0.0.1039.217.217.483.483.764.764.0.0.0"/>
+	<Faction id="clan_matsuda_1" is_noble="true" name="{=57hjGaZL}Matsudaira-shi Ishioka-ke" tier="5" owner="Hero.lord_1_matsuda" culture="Culture.kanto" super_faction="Kingdom.hojo" banner_key="11.240.240.1528.1528.764.764.1.0.0.695.217.217.483.483.764.764.0.0.0"/>
+	<Faction id="clan_toyama_1" is_noble="true" name="{=XxcwBNno}Matsudaira-shi Takamatsu-ke" tier="4" owner="Hero.lord_1_toyama" culture="Culture.kanto" super_faction="Kingdom.hojo" banner_key="11.163.163.1528.1528.764.764.1.0.0.1027.217.217.483.483.764.764.0.0.0"/>
+	<Faction id="clan_didoji_1" is_noble="true" name="{=a5C2zixP}Nakayama-shi" tier="4" owner="Hero.lord_1_didoji" culture="Culture.kanto" super_faction="Kingdom.hojo" banner_key="11.360.360.1528.1528.764.764.1.0.0.1055.217.217.483.483.764.764.0.0.0"/>
+	<Faction id="clan_narita_1" is_noble="true" name="{=7odtySTp}Yamanobe-shi" tier="4" owner="Hero.lord_1_narita" culture="Culture.kanto" super_faction="Kingdom.hojo" banner_key="11.163.163.1528.1528.764.764.1.0.0.778.217.217.483.483.764.764.0.0.0"/>
+	<Faction id="clan_chiba_1" is_noble="true" name="{=hfTDnPCp}Suzuki-shi Iwami no Kami-ke" tier="3" owner="Hero.lord_1_chiba" culture="Culture.kanto" super_faction="Kingdom.hojo" banner_key="11.360.360.1536.1536.768.768.1.0.0.574.172.172.483.483.773.764.0.0.0"/>
+	<Faction id="clan_oda_2" is_noble="true" name="{=lfglFdss}Ota-shi Mito-ke" tier="4" owner="Hero.lord_2_oda" culture="Culture.kanto" super_faction="Kingdom.hojo" banner_key="11.360.360.1536.1536.768.768.1.0.0.1054.172.172.483.483.773.729.0.0.0"/>
+	<Faction id="clan_sano_1" is_noble="true" name="{=4YXW6utE}Hida-shi" tier="3" owner="Hero.lord_1_sano" culture="Culture.kanto" super_faction="Kingdom.hojo" banner_key="11.360.360.1536.1536.768.768.1.0.0.550.172.172.483.483.773.729.0.0.0"/>
+	<Faction id="clan_b_hasuda_1" is_noble="true" name="{=HaXW6utE}Hasuda-shi" tier="2" owner="Hero.lord_1_narita_8" culture="Culture.kanto" super_faction="Kingdom.hojo" banner_key="11.360.360.1528.1528.764.764.1.0.0.709.172.172.483.483.764.764.0.0.0"/>
+	<Faction id="clan_kogakubo_1" is_noble="true" name="{=JcaTBEWg}Shosei-to" tier="5" owner="Hero.lord_1_kogakubo" culture="Culture.kanto" super_faction="Kingdom.hojo" banner_key="11.233.233.1528.1528.764.764.1.0.0.695.217.171.483.483.764.764.0.0.0"/>
+	<!-- Tenguto Faction -->
+	<Faction id="clan_yuki_1" is_noble="true" name="{=KmXmnjce}Tengu-to" tier="5" owner="Hero.lord_1_yuki" culture="Culture.kanto" super_faction="Kingdom.kimotsuki" banner_key="11.172.172.1536.1536.768.768.1.0.0.1053.200.200.1000.1000.773.975.0.0.0"/>
+	<!--Jozai Faction-->
+	<Faction id="clan_satomi_1" is_noble="true" name="{=UOfUWQw6}Hayashi-shi" tier="4" owner="Hero.lord_1_satomi" culture="Culture.jozai" super_faction="Kingdom.satomi" banner_key="11.217.217.1528.1528.764.764.1.0.0.1051.214.214.483.483.764.764.0.0.0"/>
+	<!-- Kaga Domain -->
+	<Faction id="clan_masaki_1" is_noble="true" name="{=O1t78okp}Maeda-shi Daishoji-ke" tier="5" owner="Hero.lord_1_masaki" culture="Culture.kanto" super_faction="Kingdom.ikko_shu" banner_key="11.197.197.1528.1528.764.764.1.0.0.1048.217.217.483.483.764.764.0.0.0"/>
+	<Faction id="clan_sakai_2" is_noble="true" name="{=8ARCCCRo}Maeda-shi Tosa-no-kami-ke" tier="4" owner="Hero.lord_2_sakai" culture="Culture.kanto" super_faction="Kingdom.ikko_shu" banner_key="11.197.197.1528.1528.764.764.1.0.0.1050.217.217.483.483.764.764.0.0.0"/>
+	<Faction id="clan_b_okamura_1" is_noble="true" name="{=8OkaB9R1}Okumura-shi Bunke" tier="4" owner="Hero.lord_1_shimotsuma_8" culture="Culture.hokuriku" super_faction="Kingdom.ikko_shu" banner_key="11.214.214.1528.1528.764.764.1.0.0.1049.172.171.483.483.764.764.0.0.0"/>
+	<!-- <Faction id="clan_masaki_1" is_noble="true" name="{=O1t78okp}Masaki-shi" tier="4" owner="Hero.lord_1_masaki" culture="Culture.kanto" super_faction="Kingdom.satomi" banner_key="11.163.166.1528.1528.764.764.1.0.0.734.171.171.483.483.764.764.0.0.0"/>
+	<Faction id="clan_sakai_2" is_noble="true" name="{=8ARCCCRo}Sakai-shi" tier="3" owner="Hero.lord_2_sakai" culture="Culture.kanto" super_faction="Kingdom.satomi" banner_key="11.163.166.1528.1528.764.764.1.0.0.617.171.171.483.483.764.764.0.0.0"/> -->
+	<!--Nagaoka Faction-->
+	<Faction id="clan_utsunomiya_1" is_noble="true" name="{=2u6WvxxW}Makino-shi" tier="6" owner="Hero.lord_1_utsunomiya" culture="Culture.nagaoka" super_faction="Kingdom.utsunomiya" banner_key="11.245.245.1536.1536.768.768.1.0.0.1045.217.217.483.483.773.729.0.0.0"/>
+	<Faction id="clan_haga_1" is_noble="true" name="{=9zQ8kYAR}Inagaki-shi" tier="4" owner="Hero.lord_1_haga" culture="Culture.nagaoka" super_faction="Kingdom.utsunomiya" banner_key="11.245.245.1528.1528.764.764.1.0.0.1046.217.217.483.483.764.764.0.0.0"/>
+	<Faction id="clan_kasama_1" is_noble="true" name="{=3cIhQHtN}Yamamoto-shi" tier="4" owner="Hero.lord_1_kasama" culture="Culture.nagaoka" super_faction="Kingdom.utsunomiya" banner_key="11.245.245.1528.1528.764.764.1.0.0.617.217.217.483.483.764.764.0.0.0"/>
+	<!--Kobuta-han
+		Satake (Kobuta Castle) 9
+		Kakunodate Satake/Satake Hokke (Kakunodate Castle)
+		Tagaya (Hiyama Castle)
+		Minami Satake (Yuzawa Castle)
+		Iwaki (technically independent, then served them in Boshin War, then betrayed, Kameda Castle)
+		Shibue
+		33 existing
+		-->
+	<Faction id="clan_satake_1" is_noble="true" name="{=DOFvDvMn}Satake-shi" tier="6" owner="Hero.lord_1_satake" culture="Culture.akita" super_faction="Kingdom.satake" banner_key="11.217.217.1528.1528.764.764.1.0.0.736.200.200.483.483.764.764.0.0.0"/>
+	<Faction id="clan_edo_1" is_noble="true" name="{=L1YBjtAz}Satake-shi Hokke-ke" tier="5" owner="Hero.lord_1_edo" culture="Culture.akita" super_faction="Kingdom.satake" banner_key="11.217.217.1528.1528.764.764.1.0.0.739.200.200.483.483.764.764.0.0.0"/>
+	<Faction id="clan_daijo_1" is_noble="true" name="{=M0xrXK9O}Tagaya-shi" tier="4" owner="Hero.lord_1_daijo" culture="Culture.akita" super_faction="Kingdom.satake" banner_key="11.217.217.1536.1536.768.768.1.0.0.563.200.200.483.483.773.729.0.0.0"/>
+	<Faction id="clan_kashima_1" is_noble="true" name="{=BCsXgT4T}Satake-shi Minami-ke" tier="4" owner="Hero.dead_lord_1_kashima_1" culture="Culture.akita" super_faction="Kingdom.satake" banner_key="11.217.217.1528.1528.764.764.1.0.0.767.200.200.483.483.764.764.0.0.0"/>
+	<Faction id="clan_nasu_1" is_noble="true" name="{=hOwxMbu9}Iwaki-shi" tier="3" owner="Hero.lord_1_nasu" culture="Culture.akita" super_faction="Kingdom.satake" banner_key="11.200.200.1528.1528.764.764.1.0.0.758.217.217.483.483.764.764.0.0.0"/>
+	<Faction id="clan_bak_shibue_1" is_noble="true" name="{=HowxMbu9}Shibue-shi" tier="2" owner="Hero.lord_1_kashima_5" culture="Culture.akita" super_faction="Kingdom.satake" banner_key="11.217.217.1528.1528.764.764.1.0.0.670.200.200.483.483.764.764.0.0.0"/>
+</Factions>

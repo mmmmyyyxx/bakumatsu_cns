@@ -1,0 +1,2472 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NPCCharacters>
+	<!-- TOSA -->
+	<NPCCharacter id="bak_tosa_modern_koeitai" default_group="Ranged" level="11" occupation="Soldier" is_basic_troop="true" culture="Culture.nankai" name="{=BosToKoe}Koeitai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="25"/>
+			<skill id="Polearm" value="25"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="35"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Athletics" value="60"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_tosa_modern_chueitai"/>
+            <upgrade_target id="NPCCharacter.bak_art_base_houshutai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_24"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_1"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item1" id="Item.sho_yari_5"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_1"/>
+				<equipment slot="Item1" id="Item.sho_yari_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_24"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_2"/>
+				<equipment slot="Item1" id="Item.sho_yari_7"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket"/>
+				<equipment slot="Item1" id="Item.sho_yari_3"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_2"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_5"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_6"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_1"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Item1" id="Item.sho_katana_1"/>
+				<equipment slot="Item3" id="Item.sho_wakizashi_13"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_2"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_g"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_yari_5"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_modern_jingasa_black"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_7"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_4"/>
+				<equipment slot="Head" id="Item.bak_nirayama_zukin_blue_1"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_8"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_4"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_katana_3"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_nirayama_zukin_white"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_5"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_1"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_yari_3"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_nirayama_zukin_brown"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_2"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_1"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_nirayama_zukin_blue"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_6"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_3"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_13"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_tanegashima_musket"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_yari_22"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_7"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_tanegashima_musket_2"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_training"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_2"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_8"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket"/>
+				<equipment slot="Item1" id="Item.teppo_ammo"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_3"/>
+				<equipment slot="Item1" id="Item.teppo_ammo"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_2"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_yari_3"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_d"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_pistol_teppo_a"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_1"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_1"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_e"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_nanban_teppo_a"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_katana_5"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_nirayama_zukin_blue"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_j"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_tosa_modern_chueitai" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.nankai" name="{=BosToChu}Chueitai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="45"/>
+			<skill id="Riding" value="15"/>
+			<skill id="Athletics" value="70"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_base_modern_shohan_heitai"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_hoheigumi"/>
+            <upgrade_target id="NPCCharacter.bak_tosa_modern_kiseitai"/>
+            <upgrade_target id="NPCCharacter.bak_tosa_modern_zeneitai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_red_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_1"/>
+				<equipment slot="Item1" id="Item.sho_yari_7"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_modern_jingasa_black"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_red_white"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer"/>
+				<equipment slot="Item1" id="Item.sho_yari_3"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_red_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_f_minieru"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_24"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_red"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_red_white"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_yari_5"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_1"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_2"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black_white"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_tosa_modern_zeneitai" default_group="HorseArcher" level="21" occupation="Soldier" culture="Culture.nankai" name="{=BosToZen}Zeneitai" upgrade_requires="ItemCategory.horse">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="45"/>
+			<skill id="Riding" value="100"/>
+			<skill id="Athletics" value="70"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_tosa_modern_kochotai"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_shimpei_kiheitai"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_denshu_kiheitai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber_1"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.bak_modern_jingasa_black"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black_red"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_kiso_13"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_1"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.bak_modern_jingasa_black"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_kiso_13"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber_1"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.bak_modern_jingasa_cloth_black_full"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_kiso_13"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_smith_and_wessen_revolver"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges_pistol"/>
+				<equipment slot="Item3" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_black"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_kiso_13"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_1"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.bak_modern_jingasa_red"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_red_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_kiso_10"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856"/>
+				<equipment slot="Item1" id="Item.sho_katana_11"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.bak_modern_jingasa_red"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_red_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_kiso_3"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_1"/>
+				<equipment slot="Item1" id="Item.sho_katana_12"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_red"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_red_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_kiso_3"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_red"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_red_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_kiso_8"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_1"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_black"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black_red"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_kiso_8"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber_officer"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_red"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black_red"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_kiso_8"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_tosa_modern_kiseitai" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.nankai" name="{=BosToKis}Kiseitai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="45"/>
+			<skill id="Riding" value="15"/>
+			<skill id="Athletics" value="100"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_tosa_modern_jinshotai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_23"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_red"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_21"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_red"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_red"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_24"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_red"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_19"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_red"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_18"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_red"/>
+				<equipment slot="Cape" id="Item.bak_full_infantry_set_1_white"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_red"/>
+				<equipment slot="Cape" id="Item.bak_full_infantry_set_1_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_black_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_red"/>
+				<equipment slot="Cape" id="Item.bak_full_infantry_set_1_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_black_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_tosa_modern_jinshotai" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.nankai" name="{=BosToJin}Jinshotai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="45"/>
+			<skill id="Riding" value="15"/>
+			<skill id="Athletics" value="180"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862"/>
+				<equipment slot="Item1" id="Item.sho_nodachi_4"/>
+				<equipment slot="Item2" id="Item.sho_wakizashi_20"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_shaguma"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862"/>
+				<equipment slot="Item1" id="Item.sho_nodachi_8"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_koguma"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862"/>
+				<equipment slot="Item1" id="Item.sho_nodachi_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_koguma"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862"/>
+				<equipment slot="Item1" id="Item.sho_katana_12"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_shaguma"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_circle_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862"/>
+				<equipment slot="Item1" id="Item.sho_katana_9"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_shaguma"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_circle_white"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862"/>
+				<equipment slot="Item1" id="Item.sho_katana_9"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_shaguma"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt_black"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862_carbine"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_koguma"/>
+				<equipment slot="Cape" id="Item.sho_jinbaori_red"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_black_officer"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862"/>
+				<equipment slot="Item1" id="Item.sho_katana_9"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_shaguma"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt_brown"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_black_red"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862"/>
+				<equipment slot="Item1" id="Item.sho_katana_9"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_shaguma"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt_yellow"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_black_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862_carbine"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_shaguma"/>
+				<equipment slot="Cape" id="Item.sho_jinbaori_red"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_black_officer"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_tosa_modern_kochotai" default_group="HorseArcher" level="26" occupation="Soldier" culture="Culture.nankai" name="{=BosMTKoc}Kochotai" upgrade_requires="ItemCategory.war_horse">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="110"/>
+			<skill id="Throwing" value="45"/>
+			<skill id="Riding" value="230"/>
+			<skill id="Athletics" value="180"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862_carbine"/>
+				<equipment slot="Item1" id="Item.sho_nodachi_4"/>
+				<equipment slot="Item2" id="Item.sho_wakizashi_20"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_shaguma"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_black_officer"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_nanbu_1"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862_carbine"/>
+				<equipment slot="Item1" id="Item.sho_nodachi_8"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_shaguma"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_black_red"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_nanbu_13"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862_carbine"/>
+				<equipment slot="Item1" id="Item.sho_nodachi_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_shaguma"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_black_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_nanbu_5"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862_carbine"/>
+				<equipment slot="Item1" id="Item.sho_nodachi_9"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_shaguma"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_nanbu_12"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862_carbine"/>
+				<equipment slot="Item1" id="Item.sho_nodachi_6"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_shaguma"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_nanbu_5"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862_carbine"/>
+				<equipment slot="Item1" id="Item.sho_nodachi_10"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_koguma"/>
+				<equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_nanbu_13"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862_carbine"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_koguma"/>
+				<equipment slot="Cape" id="Item.sho_jinbaori_red"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_nanbu_1"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862_carbine"/>
+				<equipment slot="Item1" id="Item.sho_nodachi_10"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_shaguma"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt_brown"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_nanbu_13"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_spencer_1862_carbine"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_koguma"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt_black"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+				<equipment slot="Horse" id="Item.sho_horse_nanbu_1"/>
+				<equipment slot="HorseHarness" id="Item.sho_peasant_saddle_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_tosa_modern_garrison_mimpeitai" default_group="Ranged" level="6" occupation="Soldier" culture="Culture.nankai" name="{=BosMGMim}Mimpeitai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="25"/>
+			<skill id="Polearm" value="25"/>
+			<skill id="Bow" value="25"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="35"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Athletics" value="30"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_tosa_modern_garrison_fuheitai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item1" id="Item.sho_yari_5"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_f"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1"/>
+				<equipment slot="Item1" id="Item.sho_katana_2"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_1"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_h"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_f"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_4"/>
+				<equipment slot="Item1" id="Item.sho_yari_5"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_f"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_j"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_katana_3"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_2"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_f"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_i"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_tosa_modern_garrison_fuheitai" default_group="Ranged" level="11" occupation="Soldier" culture="Culture.nankai" name="{=BosMGFuH}Tosa Fuheitai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="35"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Athletics" value="60"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_tosa_modern_chueitai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_dark_blue_plain"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_2"/>
+				<equipment slot="Item1" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_dark_blue_plain"/>
+				<equipment slot="Cape" id="Item.bak_full_infantry_set_1_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_yari_5"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_dark_blue_plain"/>
+				<equipment slot="Cape" id="Item.bak_bayonetbelt_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_f_minieru"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_20"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_21"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_dark_blue_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<!-- OZU -->
+	<NPCCharacter id="bak_ozu_modern_geberutai" default_group="Ranged" level="11" occupation="Soldier" is_basic_troop="true" culture="Culture.nankai" name="{=BosMOGeb}Geberu-tai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_peasant"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="35"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Athletics" value="60"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_ozu_modern_shinsentai"/>
+            <upgrade_target id="NPCCharacter.bak_art_base_houshutai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_8"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_4"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_1"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_12"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_13"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_11"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_4"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_9"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_13"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_ozu_modern_shinsentai" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.nankai" name="{=BosMOShi}Shinsentai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_peasant"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="45"/>
+			<skill id="Riding" value="15"/>
+			<skill id="Athletics" value="70"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_base_modern_shohan_heitai"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_hoheigumi"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_sogeki_heitai"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_saberu_kiheitai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_ozu"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_ozu"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_obi_white"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_ozu"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_21"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_23"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_20"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_18"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_4"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_obi_white"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_ozu"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_ozu_modern_garrison_hokukutai" default_group="Ranged" level="6" occupation="Soldier" culture="Culture.nankai" name="{=BosMOHok}Hokukutai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_peasant"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="25"/>
+			<skill id="Polearm" value="25"/>
+			<skill id="Bow" value="25"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="35"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Athletics" value="30"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_ozu_modern_garrison_gunchutai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_8"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_4"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_7"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_9"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_15"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_16"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_17"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_4"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_12"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_13"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_8"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_ozu_modern_garrison_gunchutai" default_group="Ranged" level="11" occupation="Soldier" culture="Culture.nankai" name="{=BosMOGun}Gunchutai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_peasant"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="35"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Athletics" value="60"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_ozu_modern_shinsentai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_black"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_ozu"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_12"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_13"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_14"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_ozu"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_15"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_ozu"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_21"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_23"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_4"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_20"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_15"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_haori_solo"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<!-- MATSUYAMA/IMABARI -->
+	<NPCCharacter id="bak_matsuyama_modern_go_ashigarutai" default_group="Ranged" level="11" occupation="Soldier" is_basic_troop="true" culture="Culture.nankai" name="{=BosMMGoA}Go Ashigaru-tai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_mixed"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="25"/>
+			<skill id="Polearm" value="25"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="35"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Athletics" value="60"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_matsuyama_modern_shinseitai"/>
+            <upgrade_target id="NPCCharacter.bak_art_base_houshutai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Cape" id="Item.sho_mogami_sode_a"/>
+				<equipment slot="Body" id="Item.sho_okegawa_do_a_2_kimono_a"/>
+				<equipment slot="Gloves" id="Item.sho_tier_1_kote_a_1"/>
+				<equipment slot="Leg" id="Item.sho_shino_suneate_a_4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_24"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_1"/>
+				<equipment slot="Cape" id="Item.sho_mogami_sode_a"/>
+				<equipment slot="Body" id="Item.sho_okegawa_do_b_2_kimono_a"/>
+				<equipment slot="Gloves" id="Item.sho_tier_1_kote_a_3"/>
+				<equipment slot="Leg" id="Item.sho_shino_suneate_a_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item1" id="Item.sho_yari_5"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_1"/>
+				<equipment slot="Cape" id="Item.sho_mogami_sode_b"/>
+				<equipment slot="Body" id="Item.sho_okegawa_do_a_2_kimono_a"/>
+				<equipment slot="Gloves" id="Item.sho_tier_1_kote_a_4"/>
+				<equipment slot="Leg" id="Item.sho_shino_suneate_a_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_1"/>
+				<equipment slot="Item1" id="Item.sho_yari_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_2"/>
+				<equipment slot="Cape" id="Item.sho_mogami_sode_a"/>
+				<equipment slot="Body" id="Item.sho_okegawa_1"/>
+				<equipment slot="Gloves" id="Item.sho_tier_1_kote_a_5"/>
+				<equipment slot="Leg" id="Item.sho_shino_suneate_a_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_24"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_g"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_2"/>
+				<equipment slot="Item1" id="Item.sho_yari_7"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_h"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket"/>
+				<equipment slot="Item1" id="Item.sho_yari_3"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_h"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_1"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Item1" id="Item.sho_katana_1"/>
+				<equipment slot="Item3" id="Item.sho_wakizashi_13"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_1"/>
+				<equipment slot="Body" id="Item.sho_peasant_pants_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_yari_5"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_2"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_f"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_4"/>
+				<equipment slot="Head" id="Item.bak_nirayama_zukin_blue"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_i"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_4"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_katana_3"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_nirayama_zukin_white"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_h"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_1"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_yari_3"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_nirayama_zukin_brown"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_2"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_1"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_nirayama_zukin_blue"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_j"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_3"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_13"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_tanegashima_musket"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_yari_22"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_i"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_tanegashima_musket_2"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_training"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_2"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_f"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket"/>
+				<equipment slot="Item1" id="Item.teppo_ammo"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_j"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_3"/>
+				<equipment slot="Item1" id="Item.teppo_ammo"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_f"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_2"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_yari_3"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.sho_new_kozane_sode_g"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_kozane_c"/>
+				<equipment slot="Gloves" id="Item.sho_tier_1_kote_a_3"/>
+				<equipment slot="Leg" id="Item.sho_shino_suneate_a_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_pistol_teppo_a"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_1"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_1"/>
+				<equipment slot="Cape" id="Item.sho_new_kozane_sode_g"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_kozane_c"/>
+				<equipment slot="Gloves" id="Item.sho_tier_1_kote_a_2"/>
+				<equipment slot="Leg" id="Item.sho_shino_suneate_a_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_nanban_teppo_a"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_katana_5"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.sho_new_kozane_sode_g"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_kozane_c"/>
+				<equipment slot="Gloves" id="Item.sho_tier_1_kote_a_2"/>
+				<equipment slot="Leg" id="Item.sho_shino_suneate_a_4"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_matsuyama_modern_shinseitai" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.nankai" name="{=BosMMShi}Shinseitai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_mixed"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="45"/>
+			<skill id="Riding" value="15"/>
+			<skill id="Athletics" value="70"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_base_modern_shohan_heitai"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_hoheigumi"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_sogeki_heitai"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_saberu_kiheitai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_f_minieru"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_modern_jingasa_black"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue_white"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_f_minieru"/>
+				<equipment slot="Item1" id="Item.sho_yari_7"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_modern_jingasa_cloth_black"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_black"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue_white"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer"/>
+				<equipment slot="Item1" id="Item.sho_yari_3"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_modern_jingasa_blue"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue_white"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_f_minieru"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_24"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_modern_jingasa_cloth_blue"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue_white"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_black"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue_white"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_yari_5"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_1"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_obi_black"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue_white"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_f_minieru_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_2"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue_white"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<!-- UWAJIMA -->
+	<NPCCharacter id="bak_uwajima_modern_ranshikitai" default_group="Ranged" level="11" occupation="Soldier" is_basic_troop="true" culture="Culture.nankai" name="{=BosMURan}Uwajima Ranshiki-tai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="35"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Athletics" value="60"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_uwajima_modern_eishikitai"/>
+            <upgrade_target id="NPCCharacter.bak_art_base_houshutai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_8"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_4"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_1"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_12"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_nirayama_gasa_black_plain"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_13"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_11"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_4"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_9"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue_white"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_13"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Cape" id="Item.bak_new_obi_belt"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue_white"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_uwajima_modern_eishikitai" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.nankai" name="{=BosMUEis}Uwajima Eishiki-tai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="45"/>
+			<skill id="Riding" value="15"/>
+			<skill id="Athletics" value="70"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_base_modern_shohan_heitai"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_hoheigumi"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_sogeki_heitai"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_saberu_kiheitai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_2"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_square_black"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_1"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_dark_blue_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_21"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_black"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_23"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_20"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_circle"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_18"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.bak_full_infantry_set_1_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_blue_white"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_4"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_modern_jingasa_black"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_modern_jingasa_black"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<!-- TOKUSHIMA -->
+	<NPCCharacter id="bak_tokushima_modern_senshitai" default_group="Ranged" level="11" occupation="Soldier" is_basic_troop="true" culture="Culture.nankai" name="{=BosTkSen}Senshitai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="25"/>
+			<skill id="Polearm" value="25"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="35"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Athletics" value="60"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_tokushima_modern_jusotsutai"/>
+            <upgrade_target id="NPCCharacter.bak_tokushima_modern_sekishintai"/>
+            <upgrade_target id="NPCCharacter.bak_art_base_houshutai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_5"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_10"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_24"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_a"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_11"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item1" id="Item.sho_yari_5"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_b"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_1"/>
+				<equipment slot="Item1" id="Item.sho_yari_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_c"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_13"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_24"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_6"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_14"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_2"/>
+				<equipment slot="Item1" id="Item.sho_yari_7"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_7"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_15"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket"/>
+				<equipment slot="Item1" id="Item.sho_yari_3"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_1"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_8"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_16"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_5"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_17"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_1"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Item1" id="Item.sho_katana_1"/>
+				<equipment slot="Item3" id="Item.sho_wakizashi_13"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_2"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_6"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_18"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_2"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_yari_5"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_2"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_7"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_10"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_3"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_4"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_1"/>
+				<equipment slot="Body" id="Item.sho_kosodehakama_8"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_11"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_4"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_katana_3"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_1"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_1"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_yari_3"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_1"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_2"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_1"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_2"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_bayonet_3"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_13"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_2"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_e"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_tanegashima_musket"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_yari_22"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_1"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_f"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_tanegashima_musket_2"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_training"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_2"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_f"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket"/>
+				<equipment slot="Item1" id="Item.teppo_ammo"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_g"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_3"/>
+				<equipment slot="Item1" id="Item.teppo_ammo"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_g"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tanegashima_musket_2"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_yari_3"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_1"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_c"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_14"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_pistol_teppo_a"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_1"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_2"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_b"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_13"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_nanban_teppo_a"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item1" id="Item.sho_katana_5"/>
+				<equipment slot="Item3" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_a"/>
+				<equipment slot="Leg" id="Item.sho_low_tier_suneate_a_12"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_tokushima_modern_jusotsutai" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.nankai" name="{=BosTkJus}Tokushima Jusotsutai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="45"/>
+			<skill id="Riding" value="15"/>
+			<skill id="Athletics" value="70"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_base_modern_shohan_heitai"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_hoheigumi"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_sogeki_heitai"/>
+            <upgrade_target id="NPCCharacter.bak_base_modern_saberu_kiheitai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_tokushima"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_24"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_21"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_tokushima"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1853_1_bayonet_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_20"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_f_minieru"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_19"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_f_minieru"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_black"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_tokushima"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_f_minieru_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_katana_11"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_sack_coat_new_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_f_minieru_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_jingasa_a_3"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_obi_black"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_tokushima"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_black_officer"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_tokushima_modern_sekishintai" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.nankai" name="{=BosTkSek}Tokushima Sekishintai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_samurai"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="55"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="55"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="45"/>
+			<skill id="Riding" value="15"/>
+			<skill id="Athletics" value="70"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_base_modern_shohan_heitai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_1"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_yataghan_obi_white"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_tokushima"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_red_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_24"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_1"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_black"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_tokushima"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_red_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_21"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_1"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_1_bayonet_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_20"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_1"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_yataghan_obi_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_1_bayonet"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_19"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_2"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_yataghan_obi"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_tokushima"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_bayonet_1"/>
+				<equipment slot="Item1" id="Item.sho_katana_10"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_2"/>
+				<equipment slot="Cape" id="Item.bak_crossbelt_yataghan_obi_black"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_red_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856"/>
+				<equipment slot="Item1" id="Item.sho_katana_11"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_2"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_black"/>
+				<equipment slot="Gloves" id="Item.bak_sode_jirushi_tokushima"/>
+				<equipment slot="Body" id="Item.bak_shell_jacket_red_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1856_1"/>
+				<equipment slot="Item1" id="Item.sho_katana_12"/>
+				<equipment slot="Item2" id="Item.cartridges_ai_only"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.sho_ensui_jingasa_2"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_obi_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_red_black"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+</NPCCharacters>

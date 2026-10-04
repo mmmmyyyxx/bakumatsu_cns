@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string id="str_enc_sf_caste" text="{=o3KzSAYk}Caste:"/>
+	<!-- Class Names -->
+	<string id="class_name.None" text="{=!}ERROR: SHOULD NOT SHOW" />
+	<string id="class_name.Kuge" text="{=g0DodcKB}Kuge (Court Noble)" />
+	<string id="class_name.Daimyo" text="{=iDHwU4Af}Daimyo (Feudal Lord)" />
+	<string id="class_name.Buke" text="{=TzEzDGuV}Buke (Samurai)" />
+	<string id="class_name.Hyakusho" text="{=3VfyBmWe}Hyakusho (Peasant)" />
+	<string id="class_name.Chonin" text="{=91xgVL5T}Chonin (Townsman)" />
+	<string id="class_name.Burakumin" text="{=MkoGgYTI}Eta-hinin (Untouchable)" />
+	<string id="class_name.Gakokujin" text="{=mqDjDWjC}Gaikokujin (Foreigner)" />
+	<!-- Class Rights -->
+	<string id="class_rights.None" text="{=!}ERROR: SHOULD NOT SHOW" />
+	<string id="class_rights.Daisho" text="{=oN4J4ebL}Right to carry the Daisho" />
+	<string id="class_rights.PersonalRetinues" text="{=9ZHz4mzS}Right to command a personal retinue" />
+	<string id="class_rights.HoldFief" text="{=Ho2oaup3}Right to hold land" />
+	<string id="class_rights.NoLandTax" text="{=b93tFvr6}Right to not pay agricultural taxes" />
+	<string id="class_rights.Commerce" text="{=YSqUrY2T}Right to engage in commerce" />
+	<string id="class_rights.EnterKeep" text="{=6QjQLkhL}Right to enter the keep" />
+	<string id="class_rights.Influence" text="{=!}ERROR: SHOULD NOT SHOW" />
+</strings>
