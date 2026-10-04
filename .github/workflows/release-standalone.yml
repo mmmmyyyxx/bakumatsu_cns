@@ -33,6 +33,11 @@ jobs:
           cd dist
           sha256sum Bakumatsu_CNs_HL-v0.1.0.zip > Bakumatsu_CNs_HL-v0.1.0.zip.sha256
 
+      - name: Align release tag with validated commit
+        run: |
+          git tag -f v0.1.0 "$GITHUB_SHA"
+          git push origin refs/tags/v0.1.0 --force
+
       - name: Publish GitHub Release
         env:
           GH_TOKEN: ${{ github.token }}
