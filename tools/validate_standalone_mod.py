@@ -7,7 +7,8 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 EXPECTED_MODULE_ID = "Bakumatsu_CNs_HL"
-EXPECTED_DEPENDENCIES = {"Native", "SandBoxCore", "Sandbox", "Shokuho", "Shokuho_CNs_HL", "BakumatsuModels"}
+EXPECTED_DEPENDENCIES = {"Native", "SandBoxCore", "Sandbox", "Shokuho", "BakumatsuModels"}
+FORBIDDEN_DEPENDENCIES = {"Shokuho_CNs_HL"}
 EXPECTED_KINGDOMS = 39
 EXPECTED_DEPENDENCY_OVERRIDES = {
     "mAVRtypJ": "招募和升级火器部队的费用降低 10%。",
@@ -54,6 +55,9 @@ def main() -> None:
     missing_deps = EXPECTED_DEPENDENCIES - deps
     if missing_deps:
         fail(f"missing dependencies: {sorted(missing_deps)}")
+    forbidden = FORBIDDEN_DEPENDENCIES & deps
+    if forbidden:
+        fail(f"forbidden localization dependency present: {sorted(forbidden)}")
 
     kingdom_xml_nodes = [n for n in sm_root.findall("./Xmls/XmlNode/XmlName")
                          if n.get("id") == "Kingdoms" and n.get("path") == "spkingdoms"]
@@ -128,9 +132,9 @@ def main() -> None:
     for sid, expected in EXPECTED_DEPENDENCY_OVERRIDES.items():
         actual = text_by_id.get(sid)
         if actual is None:
-            fail(f"missing Shokuho runtime override: {sid}")
+            fail(f"missing bundled Shokuho runtime override: {sid}")
         if actual != expected:
-            fail(f"unexpected Shokuho runtime override for {sid}: {actual!r}")
+            fail(f"unexpected bundled Shokuho runtime override for {sid}: {actual!r}")
 
     xml_files = sorted(module_dir.rglob("*.xml"))
     for path in xml_files:
@@ -180,8 +184,8 @@ def main() -> None:
     print(f"Module: {EXPECTED_MODULE_ID} {version_node.get('value')}")
     print("Language layout: Shokuho-compatible CNs-only manifest")
     print("Language XML namespace check: OK (unqualified elements)")
-    print("Shokuho_CNs_HL dependency: OK")
-    print(f"Shokuho runtime overrides: {len(EXPECTED_DEPENDENCY_OVERRIDES)}")
+    print("Shokuho_CNs_HL dependency: absent (self-contained localization)")
+    print(f"Bundled Shokuho runtime overrides: {len(EXPECTED_DEPENDENCY_OVERRIDES)}")
     print(f"Language files referenced: {len(referenced)}")
     print(f"CN string IDs: {len(seen)}")
     print(f"Kingdom short names localized: {len(kingdoms)}")
