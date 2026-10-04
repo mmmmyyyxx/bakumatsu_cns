@@ -9,7 +9,7 @@
 - 打包现有 `ModuleData/Languages/CNs/` 全部简中语言文件。
 - 修复并统一大量幕末历史术语、人物名、势力名、兵种名与武术流派名。
 - 处理高可见度改革、社会身分、外国商人、野战炮兵等说明文本。
-- 39 个原本无法通过语言文件覆盖的 `Kingdom.short_name` 改为使用已有 localization ID，使会津、长州、萨摩、请西、奥羽越列藩同盟等短名可显示中文。
+- 为 39 个原本无法通过语言文件覆盖的 `Kingdom.short_name` 生成独立 `BCNSK_<kingdom_id>` localization ID，并写入运行时中文表，使会津、长州、萨摩、请西、奥羽越列藩同盟等短名可稳定显示中文。
 - 全模块静态审计结果：显式缺失中文 ID = 0；实际 control-token mismatch = 0；可操作裸英文未覆盖 = 0。
 
 ## 安装
