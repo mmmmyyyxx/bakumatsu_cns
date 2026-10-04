@@ -17,13 +17,13 @@
     <string id="GatlingG" text="1865 型加特林机枪"/>
     <string id="MLHICaGa" text="一种能够持续快速射击的手摇电池枪。适用于野战和堡垒防御中的船员服务。"/>
     <string id="o3KzSAYk" text="种姓："/>
-    <string id="g0DodcKB" text="公家（朝廷贵族）"/>
-    <string id="iDHwU4Af" text="大名（大名）"/>
-    <string id="TzEzDGuV" text="武士"/>
-    <string id="3VfyBmWe" text="百姓（农民）"/>
-    <string id="91xgVL5T" text="町人（城镇居民）"/>
-    <string id="MkoGgYTI" text="穢多／非人（被歧视阶层）"/>
-    <string id="mqDjDWjC" text="外国人（外国人）"/>
+    <string id="g0DodcKB" text="公家"/>
+    <string id="iDHwU4Af" text="大名"/>
+    <string id="TzEzDGuV" text="武家"/>
+    <string id="3VfyBmWe" text="百姓"/>
+    <string id="91xgVL5T" text="町人"/>
+    <string id="MkoGgYTI" text="秽多·非人"/>
+    <string id="mqDjDWjC" text="外国人"/>
     <string id="oN4J4ebL" text="携带大刀进入城内的权利"/>
     <string id="9ZHz4mzS" text="指挥私人随从的权利"/>
     <string id="Ho2oaup3" text="持有土地的权利"/>
@@ -3746,7 +3746,7 @@
     <string id="sTvDztWN" text="夜斗强盗"/>
     <string id="MEQv3Fvs" text="海贼团"/>
     <string id="4S24PmMZ" text="三足山贼"/>
-    <string id="rW0j3kZA" text="布赖浪人"/>
+    <string id="rW0j3kZA" text="无赖浪人"/>
     <string id="Vfsbslpv" text="逃兵"/>
     <string id="6HH6w5ZG" text="勤王党"/>
     <string id="PLkAXWwi" text="金野人是暴力的帝国主义者，被一些人称为恐怖分子。他们出身于士师队伍，他们的事业将对王位的强烈崇敬与暴力行动结合在一起，包括暗杀、煽动和公开叛乱。"/>

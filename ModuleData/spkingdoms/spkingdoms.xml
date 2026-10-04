@@ -6,13 +6,13 @@
 		The banner_key of the clans in the spclans.xml should match the first 3 sections of the spkingdoms banner_key, to set the colors of the clan banners equal to the kingdom colors.
 		This might break when a clan leaves a faction though, not sure. -->
 	<!--TOHOKU 6-->
-	<Kingdom id="ashina" owner="Hero.lord_1_ashina" banner_key="11.217.217.1528.1528.764.764.1.0.0.1020.200.171.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.ou" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=vshw4yMm}Aizu-han" short_name="Aizu" title="{=qO2LaEJH}Aizu" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="ashina" owner="Hero.lord_1_ashina" banner_key="11.217.217.1528.1528.764.764.1.0.0.1020.200.171.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.ou" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=vshw4yMm}Aizu-han" short_name="{=qO2LaEJH}Aizu" title="{=qO2LaEJH}Aizu" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="soma" owner="Hero.lord_1_tamura" banner_key="11.172.172.1528.1528.764.764.1.0.0.557.197.171.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tottori" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=NuFjU4h9}Tottori-han" short_name="Tottori" title="{=lVx3gqqL}Tottori" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="soma" owner="Hero.lord_1_tamura" banner_key="11.172.172.1528.1528.764.764.1.0.0.557.197.171.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tottori" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=NuFjU4h9}Tottori-han" short_name="{=lVx3gqqL}Tottori" title="{=lVx3gqqL}Tottori" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
@@ -20,27 +20,27 @@
 			<policy id="bak_policy_sword_schools"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="date" owner="Hero.lord_1_date" banner_key="11.194.194.1528.1528.764.764.1.0.0.752.217.217.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.sendai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=LUMqVU9O}Sendai-han" short_name="Sendai" title="{=fKx72A6I}Sendai" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="date" owner="Hero.lord_1_date" banner_key="11.194.194.1528.1528.764.764.1.0.0.752.217.217.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.sendai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=LUMqVU9O}Sendai-han" short_name="{=fKx72A6I}Sendai" title="{=fKx72A6I}Sendai" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="mogami" owner="Hero.lord_1_mogami" banner_key="11.205.205.1528.1528.764.764.1.0.0.1031.217.217.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.ou" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=nEkrt7ID}Fukushima-han" short_name="Fukushima" title="{=9vBSHbyz}Fukushima" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="mogami" owner="Hero.lord_1_mogami" banner_key="11.205.205.1528.1528.764.764.1.0.0.1031.217.217.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.ou" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=nEkrt7ID}Fukushima-han" short_name="{=9vBSHbyz}Fukushima" title="{=9vBSHbyz}Fukushima" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="ando" owner="Hero.lord_1_oura" banner_key="11.217.217.1528.1528.764.764.1.0.0.1026.225.194.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.hirosaki" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=rGZyKAhx}Hirosaki-han" short_name="Hirosaki" title="{=xU6k7DMZ}Hirosaki" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="ando" owner="Hero.lord_1_oura" banner_key="11.217.217.1528.1528.764.764.1.0.0.1026.225.194.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.hirosaki" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=rGZyKAhx}Hirosaki-han" short_name="{=xU6k7DMZ}Hirosaki" title="{=xU6k7DMZ}Hirosaki" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="nanbu" owner="Hero.lord_1_nanbu" banner_key="11.159.159.1528.1528.764.764.1.0.0.755.217.171.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.morioka" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=Utg0dgbV}Morioka-han" short_name="Morioka" title="{=lOrWIIfh}Morioka" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="nanbu" owner="Hero.lord_1_nanbu" banner_key="11.159.159.1528.1528.764.764.1.0.0.755.217.171.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.morioka" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=Utg0dgbV}Morioka-han" short_name="{=lOrWIIfh}Morioka" title="{=lOrWIIfh}Morioka" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
@@ -48,28 +48,28 @@
 		</policies>
 	</Kingdom>
 	<!--KANTO 4 -->
-	<Kingdom id="hojo" owner="Hero.lord_1_hojo" banner_key="11.360.360.1528.1528.764.764.1.0.0.1039.217.217.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kanto" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=742AdeFJ}Mito-han" short_name="Mito" title="{=WhlNAwBH}Mito" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="hojo" owner="Hero.lord_1_hojo" banner_key="11.360.360.1528.1528.764.764.1.0.0.1039.217.217.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kanto" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=742AdeFJ}Mito-han" short_name="{=WhlNAwBH}Mito" title="{=WhlNAwBH}Mito" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_public_education"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="satomi" owner="Hero.lord_1_satomi" banner_key="11.217.217.1528.1528.764.764.1.0.0.1051.214.214.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.jozai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=qFVVTsug}Jozai-han" short_name="Jozai" title="{=3HM2LZLz}Jozai" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="satomi" owner="Hero.lord_1_satomi" banner_key="11.217.217.1528.1528.764.764.1.0.0.1051.214.214.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.jozai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=qFVVTsug}Jozai-han" short_name="{=3HM2LZLz}Jozai" title="{=3HM2LZLz}Jozai" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="utsunomiya" owner="Hero.lord_1_utsunomiya" banner_key="11.245.245.1536.1536.768.768.1.0.0.1044.217.217.483.483.773.729.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.nagaoka" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=bWjqvgLb}Nagaoka-han" short_name="Nagaoka" title="{=9iMMapjE}Nagaoka" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="utsunomiya" owner="Hero.lord_1_utsunomiya" banner_key="11.245.245.1536.1536.768.768.1.0.0.1044.217.217.483.483.773.729.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.nagaoka" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=bWjqvgLb}Nagaoka-han" short_name="{=9iMMapjE}Nagaoka" title="{=9iMMapjE}Nagaoka" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="satake" owner="Hero.lord_1_satake" banner_key="11.217.217.1528.1528.764.764.1.0.0.736.200.200.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.akita" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=0QhvafT9}Kubota-han" short_name="Kubota" title="{=ijCa8pDo}Kubota" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="satake" owner="Hero.lord_1_satake" banner_key="11.217.217.1528.1528.764.764.1.0.0.736.200.200.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.akita" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=0QhvafT9}Kubota-han" short_name="{=ijCa8pDo}Kubota" title="{=ijCa8pDo}Kubota" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_serve_emperor"/>
@@ -77,85 +77,85 @@
 		</policies>
 	</Kingdom>
 	<!--CHUBU 7-->
-	<Kingdom id="asakura" owner="Hero.lord_1_asakura" banner_key="24.172.216.4000.2000.764.764.1.0.0.695.213.213.400.400.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.fukui" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=97tn9Agd}Fukui-han" short_name="Fukui" title="{=Hwgq2oHf}Fukui" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="asakura" owner="Hero.lord_1_asakura" banner_key="24.172.216.4000.2000.764.764.1.0.0.695.213.213.400.400.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.fukui" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=97tn9Agd}Fukui-han" short_name="{=Hwgq2oHf}Fukui" title="{=Hwgq2oHf}Fukui" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_ranpo"/>
 			<policy id="bak_policy_currency"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="anekouji" owner="Hero.lord_1_anekouji" banner_key="11.217.217.1528.1528.764.764.1.0.0.1042.205.205.444.444.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.obama" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=4c5OF6TQ}Obama-han" short_name="Obama" title="{=QqEJybge}Obama" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="anekouji" owner="Hero.lord_1_anekouji" banner_key="11.217.217.1528.1528.764.764.1.0.0.1042.205.205.444.444.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.obama" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=4c5OF6TQ}Obama-han" short_name="{=QqEJybge}Obama" title="{=QqEJybge}Obama" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="tokugawa" owner="Hero.lord_1_tokugawa" banner_key="11.217.217.1528.1528.764.764.1.0.0.503.200.200.483.483.764.764.0.0.0.505.200.200.320.10000.764.764.0.0.0.695.252.252.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tenryo" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=OHqGIRhL}Tokugawa Bakufu" short_name="Tokugawa" title="{=nAUwT8JG}Tokugawa" ruler_title="Shogun" text="{=mOZsbV8j}TODO">
+	<Kingdom id="tokugawa" owner="Hero.lord_1_tokugawa" banner_key="11.217.217.1528.1528.764.764.1.0.0.503.200.200.483.483.764.764.0.0.0.505.200.200.320.10000.764.764.0.0.0.695.252.252.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tenryo" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=OHqGIRhL}Tokugawa Bakufu" short_name="{=nAUwT8JG}Tokugawa" title="{=nAUwT8JG}Tokugawa" ruler_title="Shogun" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_serve_shogun"/>
 			<policy id="bak_policy_import_firearms"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="uesugi" owner="Hero.lord_1_uesugi" banner_key="11.200.200.1528.1528.764.764.1.0.0.1023.217.171.550.550.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tosan" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=sWnHr5q5}Ouetsu Reppan Dōmei" short_name="Ou Reppan Domei" title="{=r3wkuN0u}Ou Reppan Domei" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="uesugi" owner="Hero.lord_1_uesugi" banner_key="11.200.200.1528.1528.764.764.1.0.0.1023.217.171.550.550.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tosan" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=sWnHr5q5}Ouetsu Reppan Dōmei" short_name="{=r3wkuN0u}Ou Reppan Domei" title="{=r3wkuN0u}Ou Reppan Domei" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_serve_shogun"/>
 			<policy id="bak_policy_import_firearms"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="honjo" owner="Hero.lord_1_daihoji" banner_key="11.40.40.4000.2000.764.764.0.0.0.503.83.83.300.300.765.712.0.0.0.503.116.116.100.100.765.917.0.0.0.503.116.116.100.100.890.917.0.0.0.503.116.116.100.100.640.917.0.0.0" primary_banner_color="0xffF3F4F8" secondary_banner_color="0xffff0000" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.shonai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=8kilNkSs}Shonai-han" short_name="Shonai" title="{=ASyaMblp}Shonai" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="honjo" owner="Hero.lord_1_daihoji" banner_key="11.40.40.4000.2000.764.764.0.0.0.503.83.83.300.300.765.712.0.0.0.503.116.116.100.100.765.917.0.0.0.503.116.116.100.100.890.917.0.0.0.503.116.116.100.100.640.917.0.0.0" primary_banner_color="0xffF3F4F8" secondary_banner_color="0xffff0000" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.shonai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=8kilNkSs}Shonai-han" short_name="{=ASyaMblp}Shonai" title="{=ASyaMblp}Shonai" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="takeda" owner="Hero.lord_1_takeda" banner_key="11.172.172.4000.2000.764.764.0.0.0.503.116.116.120.120.764.644.1.0.0.503.116.116.120.120.896.864.1.0.0.503.116.116.120.120.632.864.1.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tokai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=J3WAJxu3}Himeji-han" short_name="Himeji" title="{=AZkHq9Al}Himeji" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="takeda" owner="Hero.lord_1_takeda" banner_key="11.172.172.4000.2000.764.764.0.0.0.503.116.116.120.120.764.644.1.0.0.503.116.116.120.120.896.864.1.0.0.503.116.116.120.120.632.864.1.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tokai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=J3WAJxu3}Himeji-han" short_name="{=AZkHq9Al}Himeji" title="{=AZkHq9Al}Himeji" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="imagawa" owner="Hero.lord_1_asahina" banner_key="11.172.172.1528.1528.764.764.1.0.0.1027.158.171.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.matsuyama" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=hdkeGb7H}Iyo Matsuyama-han" short_name="Iyo Matsuyama" title="{=nJmwT7OT}Iyo Matsuyama" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="imagawa" owner="Hero.lord_1_asahina" banner_key="11.172.172.1528.1528.764.764.1.0.0.1027.158.171.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.matsuyama" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=hdkeGb7H}Iyo Matsuyama-han" short_name="{=nJmwT7OT}Iyo Matsuyama" title="{=nJmwT7OT}Iyo Matsuyama" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies> </policies>
 	</Kingdom>
 	<!-- KINKI 7 -->
-	<Kingdom id="ashikaga" owner="Hero.lord_1_ii" banner_key="11.216.216.1528.1528.764.764.1.0.0.699.217.217.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.hikone" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=RTJJQ1N4}Hikone-han" short_name="Hikone" title="{=hMz5eeje}Hikone" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="ashikaga" owner="Hero.lord_1_ii" banner_key="11.216.216.1528.1528.764.764.1.0.0.699.217.217.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.hikone" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=RTJJQ1N4}Hikone-han" short_name="{=hMz5eeje}Hikone" title="{=hMz5eeje}Hikone" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_sword_schools"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="hatakeyama" owner="Hero.lord_1_hatakeyama" banner_key="11.197.197.1528.1528.764.764.1.0.0.695.217.217.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kishu" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=lqGGI5WL}Kishu-han" short_name="Kishu" title="{=4cnmTBU0}Kishu" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="hatakeyama" owner="Hero.lord_1_hatakeyama" banner_key="11.197.197.1528.1528.764.764.1.0.0.695.217.217.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kishu" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=lqGGI5WL}Kishu-han" short_name="{=4cnmTBU0}Kishu" title="{=4cnmTBU0}Kishu" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="rokkaku" owner="Hero.lord_1_rokkaku_2" banner_key="11.214.214.1528.1528.764.764.1.0.0.1027.217.171.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kuwana" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=V9HoIoLf}Kuwana-han" short_name="Kuwana" title="{=PGOSBt3d}Kuwana" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="rokkaku" owner="Hero.lord_1_rokkaku_2" banner_key="11.214.214.1528.1528.764.764.1.0.0.1027.217.171.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kuwana" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=V9HoIoLf}Kuwana-han" short_name="{=PGOSBt3d}Kuwana" title="{=PGOSBt3d}Kuwana" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="azai" owner="Hero.lord_1_azai" banner_key="29.116.35.2000.2000.764.764.1.0.0.503.35.35.483.483.764.764.0.0.0.695.35.116.483.483.764.764.1.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.owari" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=ueioOrlR}Owari-han" short_name="Owari" title="{=0PavuhnS}Owari" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="azai" owner="Hero.lord_1_azai" banner_key="29.116.35.2000.2000.764.764.1.0.0.503.35.35.483.483.764.764.0.0.0.695.35.116.483.483.764.764.1.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.owari" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=ueioOrlR}Owari-han" short_name="{=0PavuhnS}Owari" title="{=0PavuhnS}Owari" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies> </policies>
 	</Kingdom>
-	<Kingdom id="oda" owner="Hero.lord_1_oda" banner_key="11.40.35.2000.2000.764.764.0.1.0.505.142.142.2000.60.764.764.0.0.0.505.142.142.2000.60.764.674.0.0.0.505.142.142.2000.60.764.854.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tsu" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=NE0beHdI}Tsu-han" short_name="Tsu" title="{=NBk1hBZz}Tsu" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="oda" owner="Hero.lord_1_oda" banner_key="11.40.35.2000.2000.764.764.0.1.0.505.142.142.2000.60.764.764.0.0.0.505.142.142.2000.60.764.674.0.0.0.505.142.142.2000.60.764.854.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tsu" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=NE0beHdI}Tsu-han" short_name="{=NBk1hBZz}Tsu" title="{=NBk1hBZz}Tsu" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="ikko_shu" owner="Hero.lord_1_maeda" banner_key="11.197.197.1528.1528.764.764.1.0.0.653.217.217.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kaga" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=bVqyvzea}Kaga-han" short_name="Kaga" title="{=qD1vg0RF}Kaga" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="ikko_shu" owner="Hero.lord_1_maeda" banner_key="11.197.197.1528.1528.764.764.1.0.0.653.217.217.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kaga" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=bVqyvzea}Kaga-han" short_name="{=qD1vg0RF}Kaga" title="{=qD1vg0RF}Kaga" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
@@ -164,15 +164,15 @@
 		</policies>
 	</Kingdom>
 	<!-- CHUGOKU 3 -->
-	<Kingdom id="uragami" owner="Hero.lord_1_uragami" banner_key="11.142.142.2000.2000.764.764.0.1.0.505.128.128.2000.1000.764.1164.0.0.0.505.128.128.2000.90.764.604.0.0.0.505.128.128.2000.800.764.134.0.0.0" primary_banner_color="0xFF006400" secondary_banner_color="0xffd1d1d1" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.hiroshima" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=PaA2zlKr}Hiroshima-han" short_name="Hiroshima" title="{=KolhtpUd}Hiroshima" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="uragami" owner="Hero.lord_1_uragami" banner_key="11.142.142.2000.2000.764.764.0.1.0.505.128.128.2000.1000.764.1164.0.0.0.505.128.128.2000.90.764.604.0.0.0.505.128.128.2000.800.764.134.0.0.0" primary_banner_color="0xFF006400" secondary_banner_color="0xffd1d1d1" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.hiroshima" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=PaA2zlKr}Hiroshima-han" short_name="{=KolhtpUd}Hiroshima" title="{=KolhtpUd}Hiroshima" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies> </policies>
 	</Kingdom>
-	<Kingdom id="amago" owner="Hero.lord_1_amago" banner_key="11.172.172.1528.1528.764.764.1.0.0.732.230.230.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tokai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=F4UZiV7f}Matsue-han" short_name="Matsue" title="{=LE5jbPP4}Matsue" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="amago" owner="Hero.lord_1_amago" banner_key="11.172.172.1528.1528.764.764.1.0.0.732.230.230.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tokai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=F4UZiV7f}Matsue-han" short_name="{=LE5jbPP4}Matsue" title="{=LE5jbPP4}Matsue" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies> </policies>
 	</Kingdom>
-	<Kingdom id="mori" owner="Hero.lord_1_mori" banner_key="1.142.40.2000.2000.764.764.0.1.45.505.40.40.1.1.763.765.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.sanyo" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=HanChosh}Choshu-han" short_name="Choshu" title="{=ShoChosh}Choshu" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="mori" owner="Hero.lord_1_mori" banner_key="1.142.40.2000.2000.764.764.0.1.45.505.40.40.1.1.763.765.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.sanyo" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=HanChosh}Choshu-han" short_name="{=ShoChosh}Choshu" title="{=ShoChosh}Choshu" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
@@ -181,20 +181,20 @@
 		</policies>
 	</Kingdom>
 	<!-- SHIKOKU 4 -->
-	<Kingdom id="saionji" owner="Hero.lord_1_saionji" banner_key="11.205.205.1536.1536.768.768.1.0.0.831.217.217.483.483.773.729.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.ozu" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=1kGV1kZG}Ozu-han" short_name="Ozu" title="{=2TWnRnkw}Ōzu" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="saionji" owner="Hero.lord_1_saionji" banner_key="11.205.205.1536.1536.768.768.1.0.0.831.217.217.483.483.773.729.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.ozu" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=1kGV1kZG}Ozu-han" short_name="{=2TWnRnkw}Ozu" title="{=2TWnRnkw}Ōzu" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_serve_emperor"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="ichijo" owner="Hero.lord_1_ichijo" banner_key="11.217.217.1528.1528.764.764.1.0.0.734.216.171.483.483.764.764.0.0.90" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.uwajima" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=aUUSaL8k}Uwajima-han" short_name="Uwajima" title="{=44ThIRyK}Uwajima" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
+	<Kingdom id="ichijo" owner="Hero.lord_1_ichijo" banner_key="11.217.217.1528.1528.764.764.1.0.0.734.216.171.483.483.764.764.0.0.90" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.uwajima" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=aUUSaL8k}Uwajima-han" short_name="{=44ThIRyK}Uwajima" title="{=44ThIRyK}Uwajima" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="chosokabe" owner="Hero.lord_1_chosokabe_6" banner_key="11.142.142.2000.2000.764.764.0.1.0.505.128.128.2000.320.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.nankai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=pWLiqObw}Tosa-han" short_name="Tosa" title="{=do4c1Wld}Tosa" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
+	<Kingdom id="chosokabe" owner="Hero.lord_1_chosokabe_6" banner_key="11.142.142.2000.2000.764.764.0.1.0.505.128.128.2000.320.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.nankai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=pWLiqObw}Tosa-han" short_name="{=do4c1Wld}Tosa" title="{=do4c1Wld}Tosa" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
@@ -202,12 +202,12 @@
 			<policy id="bak_policy_serve_emperor"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="miyoshi" owner="Hero.lord_1_miyoshi" banner_key="11.217.217.1528.1528.764.764.1.0.0.500.205.205.600.600.764.764.1.0.0.1026.205.205.344.344.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tosan" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=IyoVqTuy}Tokushima-han" short_name="Tokushima" title="{=YhbInKsq}Tokushima" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
+	<Kingdom id="miyoshi" owner="Hero.lord_1_miyoshi" banner_key="11.217.217.1528.1528.764.764.1.0.0.500.205.205.600.600.764.764.1.0.0.1026.205.205.344.344.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tosan" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=IyoVqTuy}Tokushima-han" short_name="{=YhbInKsq}Tokushima" title="{=YhbInKsq}Tokushima" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
 		<relationships> </relationships>
 		<policies> </policies>
 	</Kingdom>
 	<!-- KYUSHU 8 -->
-	<Kingdom id="shimazu" owner="Hero.lord_1_shimazu" banner_key="11.205.205.1528.1528.764.764.0.0.0.505.217.217.2000.4000.764.2564.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="0xff2f4211" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.saikai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=HanSatsu}Satsuma-han" short_name="Satsuma" title="{=ShoSatsu}Satsuma" ruler_title="Daimyo" text="{=SatsuSum}One of the most powerful tozama domains of the late Tokugawa period, the Satsuma Domain commands the southern tip of Kyushu with a proud samurai tradition and an eye toward modern reform. Governed by the Shimazu clan, Satsuma fields a disciplined military bolstered by imported Western firearms and artillery, alongside fiercely loyal retainers hardened by centuries of internal strife and external ambition. Though officially loyal to the shogunate, Satsuma grows increasingly defiant, backing the sonnō jōi movement while quietly forging alliances with other anti-Tokugawa domains. With its strong economy, built on barely legal trade through the Ryukyu Islands, and its modernizing army, the Satsuma-han is poised to play a decisive role in the struggle for Japan's future.">
+	<Kingdom id="shimazu" owner="Hero.lord_1_shimazu" banner_key="11.205.205.1528.1528.764.764.0.0.0.505.217.217.2000.4000.764.2564.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="0xff2f4211" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.saikai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=HanSatsu}Satsuma-han" short_name="{=ShoSatsu}Satsuma" title="{=ShoSatsu}Satsuma" ruler_title="Daimyo" text="{=SatsuSum}One of the most powerful tozama domains of the late Tokugawa period, the Satsuma Domain commands the southern tip of Kyushu with a proud samurai tradition and an eye toward modern reform. Governed by the Shimazu clan, Satsuma fields a disciplined military bolstered by imported Western firearms and artillery, alongside fiercely loyal retainers hardened by centuries of internal strife and external ambition. Though officially loyal to the shogunate, Satsuma grows increasingly defiant, backing the sonnō jōi movement while quietly forging alliances with other anti-Tokugawa domains. With its strong economy, built on barely legal trade through the Ryukyu Islands, and its modernizing army, the Satsuma-han is poised to play a decisive role in the struggle for Japan's future.">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
@@ -215,7 +215,7 @@
 			<policy id="bak_policy_serve_emperor"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="kimotsuki" owner="Hero.lord_1_yuki" banner_key="11.172.172.1536.1536.768.768.1.0.0.1053.200.200.1000.1000.773.975.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="0xff2f4211" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kanto" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=KrJolclO}Tenguto no Ran" short_name="Tenguto" title="{=nuOTMFnL}Tenguto" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
+	<Kingdom id="kimotsuki" owner="Hero.lord_1_yuki" banner_key="11.172.172.1536.1536.768.768.1.0.0.1053.200.200.1000.1000.773.975.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="0xff2f4211" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kanto" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=KrJolclO}Tenguto no Ran" short_name="{=nuOTMFnL}Tenguto" title="{=nuOTMFnL}Tenguto" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
@@ -224,34 +224,34 @@
 			<policy id="bak_policy_serve_emperor"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="ito" owner="Hero.lord_1_ito" banner_key="11.197.197.1536.1536.768.768.1.0.0.573.217.217.483.483.773.729.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kokura" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=16fyo47M}Kokura-han" short_name="Kokura" title="{=0rDc1SBx}Kokura" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
+	<Kingdom id="ito" owner="Hero.lord_1_ito" banner_key="11.197.197.1536.1536.768.768.1.0.0.573.217.217.483.483.773.729.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kokura" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=16fyo47M}Kokura-han" short_name="{=0rDc1SBx}Kokura" title="{=0rDc1SBx}Kokura" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="aso" owner="Hero.lord_1_nishi" banner_key="11.217.217.1528.1528.764.764.0.0.0.505.230.230.2000.50.764.489.0.0.0.505.230.230.2000.50.764.1079.0.0.0.755.205.205.483.483.764.784.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kumamoto" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=aFBneNkA}Kumamoto-han" short_name="Kumamoto" title="{=ONWqd9Hd}Kumamoto" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
+	<Kingdom id="aso" owner="Hero.lord_1_nishi" banner_key="11.217.217.1528.1528.764.764.0.0.0.505.230.230.2000.50.764.489.0.0.0.505.230.230.2000.50.764.1079.0.0.0.755.205.205.483.483.764.784.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kumamoto" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=aFBneNkA}Kumamoto-han" short_name="{=ONWqd9Hd}Kumamoto" title="{=ONWqd9Hd}Kumamoto" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_ranpo"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="sagara" owner="Hero.lord_1_sagara" banner_key="11.194.194.1528.1528.764.764.1.0.0.609.172.172.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.hitoyoshi" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=aiTAusH5}Hitoyoshi-han" short_name="Hitoyoshi" title="{=qZ86Dhcd}Hitoyoshi" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
+	<Kingdom id="sagara" owner="Hero.lord_1_sagara" banner_key="11.194.194.1528.1528.764.764.1.0.0.609.172.172.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.hitoyoshi" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=aiTAusH5}Hitoyoshi-han" short_name="{=qZ86Dhcd}Hitoyoshi" title="{=qZ86Dhcd}Hitoyoshi" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="otomo" owner="Hero.lord_1_otomo" banner_key="11.172.172.1536.1536.768.768.1.0.0.562.214.214.483.483.773.729.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tokai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=taM0M0u7}Yodo-han" short_name="Yodo" title="{=p6llIAZ9}Yodo" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
+	<Kingdom id="otomo" owner="Hero.lord_1_otomo" banner_key="11.172.172.1536.1536.768.768.1.0.0.562.214.214.483.483.773.729.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.tokai" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=taM0M0u7}Yodo-han" short_name="{=p6llIAZ9}Yodo" title="{=p6llIAZ9}Yodo" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="arima" owner="Hero.lord_1_arima" banner_key="11.217.217.1536.1536.768.768.1.0.0.505.213.213.400.400.764.764.0.0.45.505.217.217.100.100.764.764.0.0.45" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kurume" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=kveCZElo}Kurume-han" short_name="Kurume" title="{=HCBBJbxX}Kurume" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
+	<Kingdom id="arima" owner="Hero.lord_1_arima" banner_key="11.217.217.1536.1536.768.768.1.0.0.505.213.213.400.400.764.764.0.0.45.505.217.217.100.100.764.764.0.0.45" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.kurume" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=kveCZElo}Kurume-han" short_name="{=HCBBJbxX}Kurume" title="{=HCBBJbxX}Kurume" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
@@ -259,7 +259,7 @@
 			<policy id="bak_policy_serve_shogun"/>
 		</policies>
 	</Kingdom>
-	<Kingdom id="ryuzoji" owner="Hero.lord_1_nabeshima" banner_key="1.217.194.2000.2000.764.764.0.1.135.620.197.197.360.360.664.644.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FFff0000" alternative_color2="FFff0000" culture="Culture.saga" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=uIMPOA8l}Saga-han" short_name="Saga" title="{=5HSblONo}Saga" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
+	<Kingdom id="ryuzoji" owner="Hero.lord_1_nabeshima" banner_key="1.217.194.2000.2000.764.764.0.1.135.620.197.197.360.360.664.644.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FFff0000" alternative_color2="FFff0000" culture="Culture.saga" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=uIMPOA8l}Saga-han" short_name="{=5HSblONo}Saga" title="{=5HSblONo}Saga" ruler_title="Daimyo" text="{=A0igf4ST}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>
@@ -269,7 +269,7 @@
 		</policies>
 	</Kingdom>
 	<!-- PUT KURODA IN CHARGE, MOVE FULLY OVER -->
-	<Kingdom id="akamatsu" owner="Hero.lord_1_kuroda" banner_key="11.142.142.2000.2000.764.764.0.1.0.503.128.128.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.fukuoka" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=4SATjx3b}Fukuoka-han" short_name="Fukuoka" title="{=7EInH5Hq}Fukuoka" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
+	<Kingdom id="akamatsu" owner="Hero.lord_1_kuroda" banner_key="11.142.142.2000.2000.764.764.0.1.0.503.128.128.483.483.764.764.0.0.0" primary_banner_color="0xffabcdef" secondary_banner_color="0xffabcdef" label_color="FFDB8330" color="FF9E5072" color2="FFDE9953" alternative_color="FF1F1D1F" alternative_color2="FFc28446" culture="Culture.fukuoka" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_a" name="{=4SATjx3b}Fukuoka-han" short_name="{=7EInH5Hq}Fukuoka" title="{=7EInH5Hq}Fukuoka" ruler_title="Daimyo" text="{=mOZsbV8j}TODO">
 		<relationships> </relationships>
 		<policies>
 			<policy id="bak_policy_import_firearms"/>

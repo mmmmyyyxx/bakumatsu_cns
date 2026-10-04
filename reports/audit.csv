@@ -26,7 +26,7 @@
 0LHvahhd,Kadogawa Castle,门川城,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 0LcWeO9q,Fukuhara Takako,福原贵子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chugoku_heroes.xml | ModuleData/lords/chugoku_lords.xml
 0PAYYOYo,Shimazu Iwao,岛津岩雄,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
-0PavuhnS,Owari,尾张,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+0PavuhnS,Owari,尾张,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 0PkorrCr,Hikozaemon,彦左卫门,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 0QTdZKo2,Moji,门司,bak_strings.xml,translated,1,9,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 0QhvafT9,Kubota-han,久保田藩,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
@@ -70,7 +70,7 @@
 0mjbXTKL,"While many raged at the foreigners' arrival, you took a colder view. Their ships and guns could not simply be wished away. Alongside other forward-thinking retainers, you studied Western drill, firearms, and knowledge, believing that only by mastering these new methods could Japan hope to stand as an equal among nations.",当许多人对外国人的到来感到愤怒时，你却持冷淡的态度。他们的船只和火炮不可能凭空消失。您与其他有远见的家臣一起研究了西方的演习、枪械和知识，相信只有掌握这些新方法，日本才有希望在各国中平等立足。,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
 0nigus9o,Shirozu,白津,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 0peuGHvI,Kiyotake Castle,清武城,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-0rDc1SBx,Kokura,小仓,bak_strings.xml,translated,2,45,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spcultures/shokuho_main_cultures.xml | ModuleData/spkingdoms/spkingdoms.xml
+0rDc1SBx,Kokura,小仓,bak_strings.xml,translated,2,46,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spcultures/shokuho_main_cultures.xml | ModuleData/spkingdoms/spkingdoms.xml
 0rKkFwOg,Okubo-shi Yamanaka-ke,大久保氏山中家,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/tohoku_clans.xml
 0rmbhUDx,"Then you will swear the keppan. You will place your name in blood, and vow before the school.[ib:confident][if:convo_concentration]",然后你就会发誓 血判。你将把你的名字刻在血中，并在流派面前宣誓。[ib:confident][if:convo_concentration],bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
 0u4eOAjF,Nakata Honsho,中田本庄,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
@@ -185,7 +185,7 @@
 2SX9wMi3,Mori-shi Migita-ke,森氏御田家,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/chugoku_clans.xml
 2SX9wmc3,Masuda-shi,增田氏,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/chugoku_clans.xml
 2TMu4lC2,Gifu,岐阜,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-2TWnRnkw,Ōzu,大津,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+2TWnRnkw,Ōzu,大津,bak_strings.xml,translated,2,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 2UQC6ICH,Ii-shi,井伊氏,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/chubu_clans.xml
 2UZWHWxt,Kousuiji Castle,高水寺城,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 2UhVzhNg,Kanbara,神原,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
@@ -237,7 +237,7 @@
 3DxSAP5P,Honda Masakazu,本田雅一,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
 3E9YRaFR,Terajihama,寺治滨,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 3Gtl1ZWV,Umaji,马路,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-3HM2LZLz,Jozai,请西,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+3HM2LZLz,Jozai,请西,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 3IgBMBjO,Sassa Junjiro,佐佐纯二郎,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/lords/kyushu_lords.xml
 3LItuibO,Henry Clarke,亨利·克拉克,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 3LujlMb3,Minami-shi,南氏,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/tohoku_clans.xml
@@ -254,7 +254,7 @@
 3QxBLbew,Ishikawa Mitsuhiro,石川光宏,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 3R5j7RYA,Sukegoro,助五郎,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 3SBDbPjD,Good to hear that! Safe journeys.,很高兴听到这个消息！旅途安全。,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
-3VfyBmWe,Hyakusho (Peasant),百姓（农民）,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
+3VfyBmWe,Hyakusho (Peasant),百姓,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
 3WB4WKAb,Nabeshima Taneko,锅岛种子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
 3WRBgvB5,Fukuhara Echigo,福原越后,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chugoku_heroes.xml | ModuleData/lords/chugoku_lords.xml
 3Wf8WIUm,Hirosaki,弘前,bak_strings.xml,translated,1,5,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
@@ -305,7 +305,7 @@
 40woqJi6,Suko Castle,须古城,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 43b09aiy,"Your technique is sound and your control commendable. Continue in this manner, and you will surpass even your current abilities.",你的技术很不错，你的控制力值得称赞。继续这样下去，你甚至会超越你现在的能力。,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 43fknY0a,Haze,阴霾,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-44ThIRyK,Uwajima,宇和岛,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+44ThIRyK,Uwajima,宇和岛,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 45HFAruq,Hayashi Tadaakira,林忠明,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml
 45TRcl0v,Elizabeth Brown,伊丽莎白·布朗,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 46beFBYz,Naito-shi Mikawa-ke,内藤氏三河家,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/chubu_clans.xml
@@ -362,7 +362,7 @@
 4bBQ7spf,Frances Thompson,弗朗西斯·汤普森,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 4c5OF6TQ,Obama-han,小滨藩,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 4cOq5Qmb,training with swords.,用剑训练。,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
-4cnmTBU0,Kishu,纪州,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+4cnmTBU0,Kishu,纪州,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 4enjcrq2,Date Motoyasu,伊达元康,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
 4enmAjQG,Kamejuro,龟十郎,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 4fsMSmDZ,Nanbu Mutsuko,南部睦子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
@@ -416,7 +416,7 @@
 5ET5J1bf,{QUEST_GIVER}{.o} informants reported that {MALE_LESSER_NOBLE_NAME}{.o} party has been seen near {VILLAGE}.,{QUEST_GIVER}{.o} 线人报告说，{MALE_LESSER_NOBLE_NAME}{.o} 队伍在 {VILLAGE} 附近被发现。,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 5GFPjyZy,Mito Castle,水户城,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 5GMpq6XY,Sagara Motosaburo,相良元三郎,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
-5HSblONo,Saga,佐贺,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+5HSblONo,Saga,佐贺,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 5HkW8xSX,James Hamilton,詹姆斯·汉密尔顿,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 5HotxjQe,Inaba Masanori,稻叶雅则,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
 5IKyEBDc,Yamanaka-shi,山中氏,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/tohoku_clans.xml
@@ -574,7 +574,7 @@
 78tz8gaC,Matsudaira Ihoko,松平伊保子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kinki_heroes.xml | ModuleData/lords/kinki_lords.xml
 7CLX8g0B,Hatsuki,初木,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 7CRT9rFq,Tono,应用,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-7EInH5Hq,Fukuoka,福冈,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+7EInH5Hq,Fukuoka,福冈,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 7FYD9CMy,Joshigun,女子军,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/spclans.xml
 7GGb9pks,Matajiro,烦恼,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 7HhF6DBY,"Enables historical events, must be enabled from the start of the campaign.",启用历史事件，必须从活动开始时启用。,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
@@ -698,7 +698,7 @@
 90tYcZnV,Sena,塞纳,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 9107Gylz,Ishihara Mine,石原峰,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 916pH86X,Kamei Oga,男鹿龟井,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
-91xgVL5T,Chonin (Townsman),町人（城镇居民）,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
+91xgVL5T,Chonin (Townsman),町人,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
 92Plru2R,Hosokawa Tsuneko,细川常子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 92TzBQhy,You spent long hours copying reports and tax ledgers for domain officials. The work was tedious but taught you careful bookkeeping and administrative discipline.,您花了很长时间为藩官员复制报告和税务分类帐。这项工作很乏味，但教会了你仔细的记账和行政纪律。,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
 92mcWZ66,Yamauchi-shi,山内氏,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/shikoku_clans.xml
@@ -752,7 +752,7 @@
 9gdMPNbq,Honda Nobuhime,本田信姬,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 9hFMeM35,Shioya,盐谷,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 9iBq0QQK,Izaburo,警告,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
-9iMMapjE,Nagaoka,长冈,bak_strings.xml,translated,2,4,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spkingdoms/spkingdoms.xml
+9iMMapjE,Nagaoka,长冈,bak_strings.xml,translated,2,5,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spkingdoms/spkingdoms.xml
 9iUfpjzA,Hinoyama Castle,日野山城,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 9ipPC2rK,Inaba Akimichi,稻叶昭道,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
 9j0CtAEy,Katsura Hisakira,桂久明,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
@@ -771,7 +771,7 @@
 9tqn5PPq,Mori Michiaki,森道明,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chugoku_heroes.xml | ModuleData/lords/chugoku_lords.xml
 9u6MWvx2,Kakegawa,挂川,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 9v5f6eq6,Shishin Taisei Reforms (1868),四神体制改革（1868）,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/concept_strings.xml
-9vBSHbyz,Fukushima,福岛,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+9vBSHbyz,Fukushima,福岛,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 9w6vlX8J,Sadowara,佐渡原,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 9wTMtQuw,Saigo Takiko,西乡泷子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
 9wz88kH7,Rokuro,六郎,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
@@ -819,13 +819,13 @@ ASA1Ftv5,"Unable to make a living by regular means, you chose to join a group of
 ASDEUWqE,Kyu Gunto Hilt,久冈藤刀柄,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/crafting_pieces.xml
 ASQ0gZto,Date Motoko,伊达元子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
 ASrnwfgv,I feel safe knowing that you're looking after us. Please continue to follow us my friend!,知道你在照顾我们，我感到很安全。请朋友继续关注我们！,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml
-ASyaMblp,Shonai,庄内,bak_strings.xml,translated,2,4,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spkingdoms/spkingdoms.xml
+ASyaMblp,Shonai,庄内,bak_strings.xml,translated,2,5,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spkingdoms/spkingdoms.xml
 AUadhzCx,Rank: ,秩：,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 AV7mzihi,Shinto Munen-ryu,神道无念流,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/martial_schools.xml
 AWRMmV7h,Matsudaira-shi Hisamatsu-ke,松平氏久松家,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/chubu_clans.xml
 AWwPQ7GP,Maeda Shogen-in,前田正元院,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml | ModuleData/lords/kanto_lords.xml
 AX5JahyV,Genbukan,玄武馆,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/martial_schools.xml
-AZkHq9Al,Himeji,姬路,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+AZkHq9Al,Himeji,姬路,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 Aa6selTk,Matsudaira Takesato,松平武里,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chugoku_heroes.xml | ModuleData/lords/chugoku_lords.xml
 AabIiWIA,Arao Shigehiro,荒尾茂宏,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
 AbuVBtV8,Genzaemon,源左卫门,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
@@ -2120,7 +2120,7 @@ HAaOI8lO,Yamauchi Kuniko,山内邦子,bak_strings.xml,translated,1,3,ModuleData/
 HAtmAA4A,Sagara Suzu,相良铃,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
 HBQgU0KK,Murai Kane,村井凯恩,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 HByndZnP,Ikeda Hiroko,池田博子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
-HCBBJbxX,Kurume,久留米,bak_strings.xml,translated,2,4,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spkingdoms/spkingdoms.xml
+HCBBJbxX,Kurume,久留米,bak_strings.xml,translated,2,5,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spkingdoms/spkingdoms.xml
 HDO43hmP,Senemon,无私,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 HDe3jZZ9,Eleanor Baker,埃莉诺·贝克,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 HDm2PYc6, Shokuho and Bakumatsu,食补与幕末,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
@@ -2218,7 +2218,7 @@ HurqT7Hi,"Hirosaki, perched near the northern tip of Honshu, is defined as much 
 HvJERw0E,What? That's a breach of contract. {QUEST_GIVER.LINK} will certainly hear about this...[if:convo_grave][ib:aggressive],什么？这就是违约行为。 {QUEST_GIVER.LINK} 肯定会听说这个...[if:convo_grave][ib:aggressive],bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 HvKdwFFQ,Yamanobe Yoshimoto,山边义元,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml
 HwZEw9mI,Hirabayashi Castle,平林城,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-Hwgq2oHf,Fukui,福井,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+Hwgq2oHf,Fukui,福井,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 HxDyc3ql,Nakayama Tsuruko,中山鹤子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml | ModuleData/lords/kanto_lords.xml
 HxOIq1UO,Hida Harutatsu,飞騨晴达,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml | ModuleData/lords/kanto_lords.xml
 HxfQ7WNA,Ikeda Saki,池田早纪,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/shikoku_heroes.xml | ModuleData/lords/shikoku_lords.xml
@@ -2484,7 +2484,7 @@ KoKAbgHr,Kokura Caravan Master,小仓商队首领,bak_strings.xml,translated,1,2
 KoKuabnX,the Kokura,小仓,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 KoUScJZu,Kunieda,国枝,bak_strings.xml,translated,1,4,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 Koe4GEO4,Matsudaira Karu,松平轻,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml | ModuleData/lords/kanto_lords.xml
-KolhtpUd,Hiroshima,广岛,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+KolhtpUd,Hiroshima,广岛,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 KosWBhL0,The Kosanji Uprising,耕三寺起义,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
 Kpolqjpi,Takashima-ryu,高岛流,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/martial_schools.xml
 Kpqqt4hJ,"A Odawara, the stronghold of the powerful Hojo clan, stands as an impregnable fortress in the Kanto region. With its vast network of walls, moats, and outlying fortifications, it is considered one of the most well-defended castles in Japan. The city below is a thriving center of trade, with merchants, farmers, and artisans benefiting from Hojo governance. Odawara’s strategic location allows the Hojo to control access to eastern Japan, ensuring their dominance over the region.",小田原是北条氏的据点，是关东地区坚不可摧的堡垒。凭借其庞大的城墙、护城河和外围防御工事网络，它被认为是日本防守最严密的城堡之一。下面的城市是一个繁荣的贸易中心，商人、农民和工匠都受益于北条的统治。小田原的战略位置使北条氏族能够控制进入日本东部的通道，确保他们对该地区的统治地位。,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
@@ -2551,7 +2551,7 @@ LAMDOGev,Good. I count on you.[if:convo_relaxed_happy],好的。我指望你.[if
 LDqNZ123,"{ALL}, and {LAST}",{ALL} 和 {LAST},bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
 LDqNZq68,Martial Arts,武术,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
 LDqNZq86,{JUTSU1} and {JUTSU2},{JUTSU1} 和 {JUTSU2},bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
-LE5jbPP4,Matsue,松江,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+LE5jbPP4,Matsue,松江,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 LGjLJV7J,a lord,一位领主,bak_strings.xml,translated,1,31,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 LHiGuC3X,Yonkin-sanpo (Canon de Montagne de 4 La Hitte),四斤山炮（4磅拉希特山炮）,bak_strings.xml,translated,1,2,ModuleData/Items/artillery.xml | ModuleData/Languages/bak_strings.xml
 LIUPnJH9,Imperial gruff labor leader,帝国粗暴的劳工领袖,bak_strings.xml,translated,1,33,ModuleData/Languages/bak_strings.xml | ModuleData/spspecialcharacters/bak_notables.xml
@@ -2691,7 +2691,7 @@ MigAi2T0,Aizu,会津,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_str
 MigIA2T0,Aizu,会津,bak_strings.xml,translated,1,4,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 MitoabnX,the Mito,水户,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 MjQRacs8,Sakai Nogata,酒井直方,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
-MkoGgYTI,Eta-hinin (Untouchable),穢多／非人（被歧视阶层）,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
+MkoGgYTI,Eta-hinin (Untouchable),秽多·非人,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
 MlE07cvv,Date Aiko,伊达爱子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
 Mmlec0W6,Date-shi Mizusawa-ke,伊达氏水泽家,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/tohoku_clans.xml
 Mn6pLhBU,Nakanishi-ha,中西派,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/martial_schools.xml
@@ -2727,7 +2727,7 @@ N5o6P7q8,Hozoin-ryu,宝藏院流,bak_strings.xml,translated,1,2,ModuleData/Langu
 N7FUZLza,Matsudaira Yorinaga,松平赖永,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml | ModuleData/lords/kanto_lords.xml
 N7O8P9Q0,Tatsumi-ryu,辰巳流,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/concept_strings.xml
 N8YxPOIs,Mito Sadaaki,慈善的神话,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
-NBk1hBZz,Tsu,津,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+NBk1hBZz,Tsu,津,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 NC96SIAV,Yokichi,兰吉吉,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 NClTemsw,Maeda Kameko,前田龟子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml | ModuleData/lords/kanto_lords.xml
 NDluCjrj,Ishihara Hana,石原花,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
@@ -2861,7 +2861,7 @@ OMoDuAqu,Date Noriko,伊达典子,bak_strings.xml,translated,1,3,ModuleData/Lang
 OMs8hQyH,Ono-ha Kanajisho Mokuroku,小野叶金二所目録,bak_strings.xml,translated,1,2,ModuleData/Items/books.xml | ModuleData/Languages/bak_strings.xml
 OMsFEksS,Seinosuke,清之助,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 ON8mqnxs,Meiji Restoration Reforms (1870),明治维新改革（1870）,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/concept_strings.xml
-ONWqd9Hd,Kumamoto,熊本,bak_strings.xml,translated,2,44,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml | ModuleData/spkingdoms/spkingdoms.xml
+ONWqd9Hd,Kumamoto,熊本,bak_strings.xml,translated,2,45,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml | ModuleData/spkingdoms/spkingdoms.xml
 OO1CZVQY,Matsudaira Reihime,松平丽姬,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 OOBz6Cho,"Chōshū occupies the western tip of Honshu, with rugged mountains and jagged coasts that have long shaped the character of its people. The Mōri clan has ruled here for generations, cultivating a culture of fierce independence and hatred of the Shogunate. Samurai from Chōshū are known for their sharp swords, quick thinking, and readiness to defy authority when necessary. In recent years, Choshu has emerged as a hotbed of political action, containing many of the most radical ishin shishi in Japan.",长州岛位于本州岛的西端，崎岖的山脉和锯齿状的海岸长期以来塑造了该州人民的性格。毛利氏族世代统治这里，培育了强烈的独立和仇恨幕府的文化。长州武士以其锋利的刀剑、敏捷的思维以及在必要时随时准备反抗权威而闻名。近年来，长州已成为政治行动的温床，这里聚集了许多日本最激进的维新志士。,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 OOBz6Hir,"Hiroshima Domain sprawls across the fertile delta of the Ota River, with the castle town at its center serving as both administrative hub and cultural heart. The Asano clan has ruled here for generations, known for disciplined samurai and a stable, well-organized administration. The domain has long fostered artisans, merchants, and schools, giving it a reputation for both martial and cultural refinement. Politically, Hiroshima maintains a careful balance: its samurai enforce order and support the shogunate when called upon, but the radicals of Choshu force them further towards the sonno-joi side.",广岛藩横跨太田河肥沃的三角洲，其中心的城下町既是行政中心，也是文化中心。浅野氏族世代统治这里，以纪律严明的武士和稳定、组织良好的政府而闻名。该藩长期以来培育了工匠、商人和流派，使其享有军事和文化精致的声誉。在政治上，广岛保持着谨慎的平衡：其武士执行命令并在需要时支持幕府，但长州的激进分子迫使他们进一步偏向园奴制一方。,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
@@ -2943,7 +2943,7 @@ PBJm4EDg,Tsugaru Yukitsugu,津轻行继,bak_strings.xml,translated,1,3,ModuleDat
 PF8gDLpE,Inaba Takashi,稻叶隆,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
 PG1lH9J9,Magonosuke,孙之助,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 PGONDRwL,Kyuichiro,久一郎,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
-PGOSBt3d,Kuwana,桑名,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+PGOSBt3d,Kuwana,桑名,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 PGjI36Ae,Date Oshin,伊达阿信,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/shikoku_heroes.xml | ModuleData/lords/shikoku_lords.xml
 PH6vnz2s,Azuma Masazu,东正津,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
 PHWNIb1U,Senzaburo,千三郎,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
@@ -3057,7 +3057,7 @@ Qm5bAnQX,Zenzaburo,善三郎,bak_strings.xml,translated,1,42,ModuleData/Language
 QnqH5KZ0,Mori Naoki,森直树,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chugoku_heroes.xml | ModuleData/lords/chugoku_lords.xml
 QoJqPtiQ,Nabeshima Kuzuko,锅岛葛子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
 QowjvKFN,Toda-shi Tahara-ke,户田氏田原家,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/chubu_clans.xml
-QqEJybge,Obama,小滨,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+QqEJybge,Obama,小滨,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 QsBBAV6a,Matsudaira Sadakoto,松平贞琴,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 QsddX3eh,"My lord, it is a rare honor to address you within these walls. I await your direction.",陛下，能在这些墙内向您讲话是一种难得的荣幸。我等待你的指示。,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 QsnLEOc2,Nata,纳塔,bak_strings.xml,translated,1,43,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spcultures/shokuho_main_cultures.xml
@@ -3219,8 +3219,8 @@ SendT7ks,"Sprawling across southern Tōhoku, Sendai has been shaped over generat
 ShgIA2t0,Shonai,庄内,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 ShkIDiZt,Shonai{newline}{newline}Foreign Merchant: German,庄内,bak_strings.xml,translated,2,4,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 ShoAbgHr,Shonai Caravan Master,庄内商队首领,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spspecialcharacters/bak_notables.xml
-ShoChosh,Choshu,长州,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
-ShoSatsu,Satsuma,萨摩,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+ShoChosh,Choshu,长州,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+ShoSatsu,Satsuma,萨摩,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 Sj68FhWp,Cho Naritsura,曹成连,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
 Sl3saZgp,Ura,浦,bak_strings.xml,translated,1,45,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 Sl8tIOAe,Hayashi Sakae,林荣,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml | ModuleData/lords/kanto_lords.xml
@@ -3342,7 +3342,7 @@ Txtm8EQj,Ikeda-shi,池田氏,bak_strings.xml,translated,1,2,ModuleData/Languages
 Txz2u8Oq,Okubo Yuki,大久保由纪,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
 TyQ6HZYx,Sakai Kuma,酒井熊,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 Tz4Dextk,Ino,井野,bak_strings.xml,translated,1,43,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spcultures/shokuho_main_cultures.xml
-TzEzDGuV,Buke (Samurai),武士,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
+TzEzDGuV,Buke (Samurai),武家,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
 TzTHrzds,Tago Yotaro,田乡与太郎,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
 TztBu7HI,Shibue,涩江,bak_strings.xml,translated,1,8,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 U2fcoM3V,Nakano Yasukuni,中野靖国,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
@@ -3549,7 +3549,7 @@ Weis43hU,Uesugi Taki,上杉泷,bak_strings.xml,translated,1,2,ModuleData/Languag
 WepUrVKw,Kakiya,柿屋,bak_strings.xml,translated,1,6,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 WfUZsGO1,Zennai,善内,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 WhNyyoAt,Nabari,明显地,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-WhlNAwBH,Mito,水户,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+WhlNAwBH,Mito,水户,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 WkEGfvdg,Sakai Misa,酒井美沙,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
 WlbkIU1a,Sakai Tadayoshi,酒井忠义,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
 WpNXQ2Wg,Soujuro,总十郎,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
@@ -3701,7 +3701,7 @@ Ydi2eMWL,Shuzu,守津,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_st
 YequZz6U,'Oh the maidens of {RANDOM_TOWN} are merry and fair \n Plotting their mischief with flowers in their hair \n Were I still a young man I sure would be there \n But now I'll take warmth over trouble',“哦，{RANDOM_TOWN} 的少女们快乐而美丽  用头发上的花朵策划她们的恶作剧  如果我还是个年轻人，我肯定会在那里  但现在我会用温暖战胜麻烦”,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
 YgGJdujN,Tsuji Ichizaemon,辻氏左卫门,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/lords/kyushu_lords.xml
 YgTsZMc0,Kiroki,桐木,bak_strings.xml,translated,1,8,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
-YhbInKsq,Tokushima,德岛,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+YhbInKsq,Tokushima,德岛,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 Yhd8MKk4,Nanbu Haruaki,南部晴明,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
 YiDzP43I,Shimazu Tadayuki,岛津忠之,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
 YiKQhjoQ,Nagono,本能地,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
@@ -4110,7 +4110,7 @@ dlXo3cfH,Mori Hiroshige,森广重,bak_strings.xml,translated,1,3,ModuleData/Lang
 dmMvttf2,Cho Yasu,曹泰,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
 dme8x5FX,Matsudaira Yoshinari,松平义成,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kinki_heroes.xml | ModuleData/lords/kinki_lords.xml
 dn94xLIW,Jigen-ryu,示现流,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/martial_schools.xml
-do4c1Wld,Tosa,土佐,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+do4c1Wld,Tosa,土佐,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 doB4e6MT,Junikajō Mokuroku,十二カ条目録,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/martial_school_progression.xml
 dr8GFyIJ,Fukuhara,福原,bak_strings.xml,translated,1,5,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 drRb1eJx,Joganj,乔甘杰,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
@@ -4213,7 +4213,7 @@ fHnbNu30,Inaba-shi Masashige=ke,稻叶氏正重=ke,bak_strings.xml,translated,1,
 fJpLo9Gd,Omote no Maki Mokuroku,表之真目録,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/martial_school_progression.xml
 fJruoS8b,Renpeikan,练兵馆,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/martial_schools.xml
 fJzk4BNs,Tuta,所有的,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
-fKx72A6I,Sendai,仙台,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+fKx72A6I,Sendai,仙台,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 fLSGAgYC,Hasuda Hiromi,莲田博美,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml | ModuleData/lords/kanto_lords.xml
 fLVmeCsk,Naoetsu,直江津,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 fM3LfUYc,Robert Walker,罗伯特·沃克,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
@@ -4264,7 +4264,7 @@ fxIwAwp3,Kannonji,观音寺,bak_strings.xml,translated,1,2,ModuleData/Languages/
 fy68erIy,Matsudaira Hide,松平秀,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 fynHJTwu,Saigo-shi Aizu-ke,西乡氏会津家,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/tohoku_clans.xml
 fzrGQOuD,Fujikawa,藤川,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-g0DodcKB,Kuge (Court Noble),公家（朝廷贵族）,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
+g0DodcKB,Kuge (Court Noble),公家,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
 g1Jm3HVK,I aim to challenge the strength of this dojo itself. I seek a Dōjō-yaburi.,我的目标是挑战这个道场本身的实力。我寻找道场破。,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
 g1Mabrdw,Todo-shi Ueno-ke,藤堂氏上野家,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/kinki_clans.xml
 g1f9NiGl,Kaji,加治,bak_strings.xml,translated,1,6,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
@@ -4363,7 +4363,7 @@ hLETw6Gd,Nogata,野方,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_s
 hLzO6k62,{CURRENT_RYUHA} Keppan,{CURRENT_RYUHA} 血判,bak_strings.xml,translated,1,11,ModuleData/Languages/bak_strings.xml | ModuleData/spnpccharacters/dojo_spnpccharacters.xml
 hM5I9P0H,Inada Chiyo,稻田千代,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/lords/shikoku_lords.xml
 hMUcPr79,Dewa-Oura,出羽大浦,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-hMz5eeje,Hikone,彦根,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+hMz5eeje,Hikone,彦根,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 hN7GTqtN,Anotsu,安野津,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 hNnejvkq,Saburozaemon,三郎左卫门,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 hOcFw02K,Ferry Driver,渡轮司机,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
@@ -4426,7 +4426,7 @@ i9kiFKJ2,Tsushin-ryu,通信流,bak_strings.xml,translated,1,2,ModuleData/Languag
 iB14AOiv,Nakaniida Castle,中新田城,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 iBev6INY,Sophie Bernard,索菲·伯纳德,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 iBtjw2Qr,Sets the number of Gatling Guns you have in custom battles,设置您在自定义战斗中拥有的加特林机枪数量,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
-iDHwU4Af,Daimyo (Feudal Lord),大名（大名）,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
+iDHwU4Af,Daimyo (Feudal Lord),大名,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
 iDawiizs,Sakai Tadaaki,酒井忠明,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 iHzPlDkM,Takekoshi-shi,竹越氏,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/kinki_clans.xml
 iIBfwKXU,Sakata,坂田,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
@@ -4458,7 +4458,7 @@ ihU3yZM0,Iwami,石见,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_st
 ihsNfbUv,That's the right call. You seem a responsible type.[if:convo_nonchalant],这是正确的决定。你看起来是一个负责任的类型.[if:convo_nonchalant],bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 ii2cpykD,Achieve Mokuroku,实现目録,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
 iilNBXIF,Mizuno-shi Tarosaku-ke,水野氏太作家,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/chubu_clans.xml
-ijCa8pDo,Kubota,久保田,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+ijCa8pDo,Kubota,久保田,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 ijmNcreb,Obama,小滨,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 ijnOHHSh,Tokuzo,德藏,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 ikViyOmi,Ando-shi,安藤氏,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/kinki_clans.xml
@@ -4662,7 +4662,7 @@ lK7DyjrE,Yojiro,与次郎,bak_strings.xml,translated,1,42,ModuleData/Languages/b
 lKDCjpUw,Akasawa,赤泽,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 lKbRz6eD,Cho Tsurayasu,鹤安町,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
 lNlmN4wG,Miyabe Teizo,宫部祯藏,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml
-lOrWIIfh,Morioka,盛冈,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+lOrWIIfh,Morioka,盛冈,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 lQFaxxIJ,Watanabe Ikuko,渡边郁子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 lSytNxZV,Loyal samurai culture effect,忠诚的武士文化效应,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 lTEN0uBO,Satake Taki,佐竹泷,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml | ModuleData/lords/kanto_lords.xml
@@ -4672,7 +4672,7 @@ lUgrIbsy,Shingu,新宫,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_s
 lVI3T9fG,Ogasawara Sadanori,小笠原贞德,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
 lVNG6nvY,Hida Hamagoro,飞騨滨五郎,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml
 lVVZzX8n,"Originally a fortified temple complex of the Kaga Ikko movement, Oyama has evolved into a significant stronghold in the Hokuriku region and its strategic and religious value has drawn the attention of powerful neighbors.",大山最初是加贺一光运动的一座坚固的寺庙建筑群，现已发展成为北陆地区的重要据点，其战略和宗教价值引起了强大邻国的关注。,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-lVx3gqqL,Tottori,鸟取,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+lVx3gqqL,Tottori,鸟取,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 lXZFYdGf,Yanada,更多的,bak_strings.xml,translated,1,4,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 lXdj1TtH,Sakurabora,樱原,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 lXePKGIt,Martial Schools,武术流派,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/concept_strings.xml
@@ -4764,7 +4764,7 @@ mjElBkkf,Ashigaru,足轻,bak_strings.xml,translated,1,1,ModuleData/Languages/bak
 mlDukSZk,Kururi,库鲁里,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 mlSVyux6,Urustu,管理,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 mq4zhe9z,"Built during the Kamakura period, the castle town of Yonezawa has served as the seat of the Date clan since they drove out the previous lords and from here they plan the domination of neighbouring domains.",米泽城建于镰仓时代，是伊达氏族的所在地，他们驱逐了前代领主，并从这里计划统治邻近的藩。,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-mqDjDWjC,Gaikokujin (Foreigner),外国人（外国人）,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
+mqDjDWjC,Gaikokujin (Foreigner),外国人,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/class_system_strings.xml
 mrlEvoqd,{FIRSTNAME} the Foreign Mayor,{FIRSTNAME} 外国市长,bak_strings.xml,translated,1,6,ModuleData/Languages/bak_strings.xml | ModuleData/spspecialcharacters/bak_foreign_merchants.xml
 ms7EUWqE,Gothic Hilt,哥特式刀柄,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/crafting_pieces.xml
 ms7EUqEW,Three Bar Hilt,三连杆刀柄,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/crafting_pieces.xml
@@ -4792,7 +4792,7 @@ n6nnkLxo,Daimyo {RULER.NAME},大名 {RULER.NAME},bak_strings.xml,translated,1,35
 n7NKzOGo,Shinshin-ryu,神心流,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/martial_schools.xml
 n7NdjTwb,Zaodo,藏王堂,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 n8ygcUdT,Denzo,传藏,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
-nAUwT8JG,Tokugawa,德川,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+nAUwT8JG,Tokugawa,德川,bak_strings.xml,translated,1,4,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 nAzazSPE,Susaki,须崎,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 nBaMGgNo,Iwamatsu,岩松,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 nCvG3JeX,Hosokawa Toshinaga,细川利长,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml
@@ -4802,7 +4802,7 @@ nEkrt7ID,Fukushima-han,福岛藩,bak_strings.xml,translated,1,2,ModuleData/Langu
 nFeGwvdW,Noto,能登,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 nHld6Yx5,Willem van der Meer,威廉·范德米尔,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 nIcaL3N3,"Kyūshū is the core of Japan's reform in the Bakumatsu. Due to its isolation at the southwest of Japan, the island remained largely untouched by the Tokugawa when they founded the Bakufu, leaving the island largely under the control of powerful tozama daimyo, like the Shimazu of Satsuma, the Nabeshima of Saga, and the Hosokawa of Kumamoto. As the Shogun's authority continues to wane, the daimyo of Kyūshū have seen their chance, rapidly rearming with modern weapons in the hopes of becoming the dominant power in this new era.",九州是幕末日本改革的核心。由于地处日本西南部，该岛与世隔绝，在德川幕府创建时基本上没有受到德川氏的影响，该岛基本上处于强大的外样大名的控制之下，如萨摩的岛津、佐贺的锅岛和熊本的细川。随着幕府将军的权威不断衰落，九州的大名们看到了机会，迅速用现代武器重新武装，希望成为这个新时代的主导力量。,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
-nJmwT7OT,Iyo Matsuyama,伊予松山,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+nJmwT7OT,Iyo Matsuyama,伊予松山,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 nKMOkNFw,Sukezaemon,助左卫门,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 nKMoFXSw,Ariyoshi-shi,有吉氏,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/kyushu_clans.xml
 nKh0IYa0,Ikeda Chiyo,池田千代,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/shikoku_heroes.xml | ModuleData/lords/shikoku_lords.xml
@@ -4841,7 +4841,7 @@ none,no jutsus,没有忍术,bak_strings.xml,translated,1,1,ModuleData/Languages/
 npZ70oDb,Matsudaira Toshiko,松平敏子,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chugoku_heroes.xml | ModuleData/lords/chugoku_lords.xml
 nrW2LLb4,Seiichiro,精一郎,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 ntbMy243,Togouchi,户河内,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-nuOTMFnL,Tenguto,天狗党,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+nuOTMFnL,Tenguto,天狗党,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 nvCkXHAa,Kyoto,京都,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 nvlUciWt,Watanabe Yuki,渡边由纪,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 nvn46but,Kunitomo,大部头书,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
@@ -4921,7 +4921,7 @@ p4t1iXm5,Sakai Tadazumi,酒井忠纯,bak_strings.xml,translated,1,3,ModuleData/L
 p5ZVom76,Matsudaira Naoyuki,松平直之,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 p6O0gMzu,Imuta,学习,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 p6Qi9gzt,Hogi Castle,保木城,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-p6llIAZ9,Yodo,淀,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+p6llIAZ9,Yodo,淀,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 p6u25ahF,Nakagawa Iku,中川育,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
 p7HhzIOW,Some,一些,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 p7K9495f,Yanagawa,柳川,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
@@ -5009,7 +5009,7 @@ q4kHT4nt,Sassa Junjiro,佐佐纯二郎,bak_strings.xml,translated,1,2,ModuleData
 q6ybFEVI,Urado,浦户,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 q7dRw8dj,Shimazu Rei,岛津怜,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/shikoku_heroes.xml | ModuleData/lords/shikoku_lords.xml
 q8EmtRbW,Yuna,尤娜,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
-qD1vg0RF,Kaga,加贺,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+qD1vg0RF,Kaga,加贺,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 qDV6pQNJ,studying at a domain school.,在藩校校学习。,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
 qDo4xRn3,Nanbu Toshihisa,南部俊久,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml
 qEewJDux,Kawanoura,河之浦,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
@@ -5023,7 +5023,7 @@ qLjgsdLd,Rusu Haru,留守春,bak_strings.xml,translated,2,4,ModuleData/Languages
 qMS6rcJ7,Amagasaki,尼崎,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 qMUrlmZh,Inbe,因部,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 qNbyhQaj,Uesugi Narinori,上杉成教,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
-qO2LaEJH,Aizu,会津,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+qO2LaEJH,Aizu,会津,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 qOHD4hmz,Hikojiro,彦次郎,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 qPRl07mD,All right then. I'll try that.,那就好吧。我会尝试一下。,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
 qPinCtuZ,Maeda Toshikata,前田利方,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml
@@ -5041,7 +5041,7 @@ qX0hsHoS,Shinsengumi,新选组,bak_strings.xml,translated,1,2,ModuleData/Languag
 qXNWMbUO,Mayu,真由,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 qXPONqPW,Toujiro,东次郎,bak_strings.xml,translated,1,42,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 qYih12OY,Matsudaira Naoya,松平直哉,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chugoku_heroes.xml | ModuleData/lords/chugoku_lords.xml
-qZ86Dhcd,Hitoyoshi,人吉,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+qZ86Dhcd,Hitoyoshi,人吉,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 qZJxFCAP,Kouzashi,神指,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 qaSYtI7f,Kuroda Kazuyoshi,黑田和义,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/lords/kinki_lords.xml
 qaYb5hje,Chasseurs a Pied,徒步猎人,bak_strings.xml,translated,1,2,ModuleData/CharacterTroops/ashigaru_units.xml | ModuleData/Languages/bak_strings.xml
@@ -5083,7 +5083,7 @@ r0VfhBU0,Mifune,已删除,bak_strings.xml,translated,1,2,ModuleData/Languages/ba
 r0l7lIjW,Oka Castle,冈城,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 r2y3n7dR,Visited Settlements,参观过的定居点,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
 r2zh2zgG,Kashiwajima,柏岛,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
-r3wkuN0u,Ou Reppan Domei,奥羽越列藩同盟,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+r3wkuN0u,Ou Reppan Domei,奥羽越列藩同盟,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 r588MwWh,Sedition? You have been misinformed. My men and I are loyal servants of {RULER_NAME_AND_TITLE}. We are simply going about informing the people that our {RULER_TITLE} is surrounded by bad advisers who are advocating for the treasonous {ALIGNMENT} cause. We petition {RULER.NAME} to listen to us and join the righteous movement.[if:convo_normal][ib:hip],煽动叛乱？你被误导了。我和我的手下都是 {RULER_NAME_AND_TITLE} 的忠实仆人。我们只是要告诉人们，我们的 {RULER_TITLE} 周围都是坏顾问，他们鼓吹叛国的 {ALIGNMENT} 事业。我们请求{RULER.NAME}听我们的意见并加入正义运动。[if:convo_normal][ib:hip],bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 r5ANVqKb,Hane,羽根,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 r6clYwLT,Numata Castle,沼田城,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
@@ -5114,7 +5114,7 @@ rUBu7S4M,Tatsumi Naofumi,辰巳直文,bak_strings.xml,translated,1,3,ModuleData/
 rV9fvZPM,Todo Naganori,藤堂长则,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kinki_heroes.xml | ModuleData/lords/kinki_lords.xml
 rVHbbrCQ,We're not holding anyone in here right now. There's no reason for you to go in.[ib:closed],我们现在没有关押任何人。你没有理由进去.[ib:closed],bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
 rVx5v34O,assisting the village blacksmith.,协助村里的铁匠。,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
-rW0j3kZA,Burai Ronin,布赖浪人,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/spclans.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+rW0j3kZA,Burai Ronin,无赖浪人,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/spclans.xml | ModuleData/spcultures/shokuho_main_cultures.xml
 rWLTD0VP,Inada Uegei,稻田植英,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/lords/shikoku_lords.xml
 rZXDni5c,Tatebayashi,馆林,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 rcoESVVz,"Sorry, but we don't know you. We can't just let anyone in. (Not enough renown)",抱歉，我们不认识你。我们不能随便让任何人进来。（知名度不够）,bak_strings.xml,translated,1,1,ModuleData/Languages/bak_strings.xml
@@ -5526,7 +5526,7 @@ xRmEtOTl,Okuchi Castle,大口城,bak_strings.xml,translated,1,2,ModuleData/Langu
 xRnrOdTc,Honganji-shi,奥村氏杂毛,bak_strings.xml,translated,2,3,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/kinki_clans.xml
 xRwhSNem,Akami,赤美,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 xTIL6Lf0,Shimazu Tadayuki,岛津忠之,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml
-xU6k7DMZ,Hirosaki,弘前,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
+xU6k7DMZ,Hirosaki,弘前,bak_strings.xml,translated,1,3,ModuleData/Languages/bak_strings.xml | ModuleData/spkingdoms/spkingdoms.xml
 xVLc7xwo,I will take my leave.,我要告辞了。,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 xWdiU0s3,Jiro,次郎,bak_strings.xml,translated,1,6,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml
 xXSjHp5p,"You're doing a good thing, {?PLAYER.GENDER}madame{?}sir{\\?}. Our great cause will remember your kindness",你做得很好，{?PLAYER.GENDER}夫人{?}先生{\\?}。我们伟大的事业会铭记您的恩情,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml

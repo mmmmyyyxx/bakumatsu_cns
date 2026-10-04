@@ -1,0 +1,48 @@
+﻿file,key,old,new,reason
+ModuleData/Languages/CNs/bak_strings.xml,g0DodcKB,公家（朝廷贵族）,公家,final historical label cleanup
+ModuleData/Languages/CNs/bak_strings.xml,iDHwU4Af,大名（大名）,大名,final historical label cleanup
+ModuleData/Languages/CNs/bak_strings.xml,TzEzDGuV,武士,武家,final historical label cleanup
+ModuleData/Languages/CNs/bak_strings.xml,3VfyBmWe,百姓（农民）,百姓,final historical label cleanup
+ModuleData/Languages/CNs/bak_strings.xml,91xgVL5T,町人（城镇居民）,町人,final historical label cleanup
+ModuleData/Languages/CNs/bak_strings.xml,MkoGgYTI,穢多／非人（被歧视阶层）,秽多·非人,final historical label cleanup
+ModuleData/Languages/CNs/bak_strings.xml,mqDjDWjC,外国人（外国人）,外国人,final historical label cleanup
+ModuleData/Languages/CNs/bak_strings.xml,rW0j3kZA,布赖浪人,无赖浪人,final historical label cleanup
+ModuleData/spkingdoms/spkingdoms.xml,ashina,Aizu,{=qO2LaEJH}Aizu,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,soma,Tottori,{=lVx3gqqL}Tottori,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,date,Sendai,{=fKx72A6I}Sendai,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,mogami,Fukushima,{=9vBSHbyz}Fukushima,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,ando,Hirosaki,{=xU6k7DMZ}Hirosaki,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,nanbu,Morioka,{=lOrWIIfh}Morioka,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,hojo,Mito,{=WhlNAwBH}Mito,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,satomi,Jozai,{=3HM2LZLz}Jozai,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,utsunomiya,Nagaoka,{=9iMMapjE}Nagaoka,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,satake,Kubota,{=ijCa8pDo}Kubota,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,asakura,Fukui,{=Hwgq2oHf}Fukui,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,anekouji,Obama,{=QqEJybge}Obama,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,tokugawa,Tokugawa,{=nAUwT8JG}Tokugawa,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,uesugi,Ou Reppan Domei,{=r3wkuN0u}Ou Reppan Domei,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,honjo,Shonai,{=ASyaMblp}Shonai,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,takeda,Himeji,{=AZkHq9Al}Himeji,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,imagawa,Iyo Matsuyama,{=nJmwT7OT}Iyo Matsuyama,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,ashikaga,Hikone,{=hMz5eeje}Hikone,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,hatakeyama,Kishu,{=4cnmTBU0}Kishu,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,rokkaku,Kuwana,{=PGOSBt3d}Kuwana,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,azai,Owari,{=0PavuhnS}Owari,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,oda,Tsu,{=NBk1hBZz}Tsu,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,ikko_shu,Kaga,{=qD1vg0RF}Kaga,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,uragami,Hiroshima,{=KolhtpUd}Hiroshima,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,amago,Matsue,{=LE5jbPP4}Matsue,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,mori,Choshu,{=ShoChosh}Choshu,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,saionji,Ozu,{=2TWnRnkw}Ozu,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,ichijo,Uwajima,{=44ThIRyK}Uwajima,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,chosokabe,Tosa,{=do4c1Wld}Tosa,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,miyoshi,Tokushima,{=YhbInKsq}Tokushima,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,shimazu,Satsuma,{=ShoSatsu}Satsuma,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,kimotsuki,Tenguto,{=nuOTMFnL}Tenguto,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,ito,Kokura,{=0rDc1SBx}Kokura,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,aso,Kumamoto,{=ONWqd9Hd}Kumamoto,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,sagara,Hitoyoshi,{=qZ86Dhcd}Hitoyoshi,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,otomo,Yodo,{=p6llIAZ9}Yodo,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,arima,Kurume,{=HCBBJbxX}Kurume,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,ryuzoji,Saga,{=5HSblONo}Saga,localize Kingdom.short_name via title ID
+ModuleData/spkingdoms/spkingdoms.xml,akamatsu,Fukuoka,{=7EInH5Hq}Fukuoka,localize Kingdom.short_name via title ID
