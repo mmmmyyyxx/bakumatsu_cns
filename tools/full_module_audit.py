@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """Full-module localization coverage audit for Bakumatsu.
 
-Scans ModuleData for:
-1) explicit Bannerlord localization refs: {=ID}English
-2) canonical English language-table strings in ModuleData/Languages/bak_strings.xml
-3) likely user-facing naked English strings in XML attributes/text that have no {=ID}
-4) Simplified Chinese string tables under ModuleData/Languages/CNs
+High-confidence layer:
+- canonical English strings in ModuleData/Languages/bak_strings.xml
+- every explicit Bannerlord localization reference of the form {=ID}English
 
-The naked-string scan is intentionally heuristic: it identifies review candidates, not proof that
-an attribute is necessarily displayed in game. Explicit-ID coverage is the high-confidence metric.
+Heuristic layer:
+- likely user-facing naked English in XML attributes/text that has no {=ID}
+- synthetic CN overrides such as BakumatsuModels_<object>_<text>_<hash>
+
+The heuristic layer is a review aid, not proof that every candidate is rendered in game.
 """
 
 from __future__ import annotations
@@ -28,20 +29,23 @@ EN_TABLE = MODULE / "Languages" / "bak_strings.xml"
 OUT = ROOT / "reports"
 OUT.mkdir(exist_ok=True)
 
-LOC_RE = re.compile(r"\{=([^}]+)\}")
+# {=!} is Bannerlord's explicit do-not-localize/debug form and must not become a fake ID "!".
+LOC_RE = re.compile(r"\{=(?!\!)([^}]+)\}")
 CONTROL_RE = re.compile(r"\{[^{}]+\}")
 ASCII_RE = re.compile(r"[A-Za-z]")
 CJK_RE = re.compile(r"[\u3400-\u9fff]")
 WORD_RE = re.compile(r"[A-Za-z][A-Za-z'’-]{2,}")
 HASH_SUFFIX_RE = re.compile(r"_[0-9a-fA-F]{4,8}$")
 
-# Attributes most likely to contain visible prose/names. We intentionally do not scan arbitrary
-# attributes such as mesh/body_name/troop/item refs as naked text candidates.
 VISIBLE_ATTRS = {
     "name", "text", "description", "title", "label", "tooltip", "hint",
     "short_name", "display_name", "plural_name", "singular_name",
 }
 VISIBLE_TAGS = {"name", "text", "description", "title", "label", "tooltip", "hint"}
+TECHNICAL_NAKED_TAGS = {
+    "action", "flag", "attribute", "hair_mesh", "style_tag",
+    "xsl:attribute", "xsl:template", "template",
+}
 
 STOP = set(
     "the a an and or of to in on for with from by as at is are was were be been being this that "
@@ -98,7 +102,6 @@ def cn_status(source: str, cn: str | None) -> str:
     if cn.strip() == source.strip():
         return "untranslated_equal"
     if ASCII_RE.search(cn) and not CJK_RE.search(cn):
-        # Proper nouns/romaji can be legitimate, so this is a review bucket rather than definite error.
         return "latin_only_review"
     return "translated"
 
@@ -106,7 +109,7 @@ def cn_status(source: str, cn: str | None) -> str:
 def control_tokens(s: str):
     out = []
     for tok in CONTROL_RE.findall(s or ""):
-        if tok.startswith("{=") or tok.startswith("{=!"):
+        if tok.startswith("{="):
             continue
         out.append(tok)
     return out
@@ -123,11 +126,22 @@ def natural_visible_text(s: str) -> bool:
         return False
     if s.startswith("{") and s.endswith("}") and " " not in s:
         return False
-    # Obvious references rather than display strings.
     if " " not in s and re.fullmatch(r"[A-Za-z0-9_.:/\\-]+", s):
         if any(x in s for x in (".", "/", "\\", ":")):
             return False
     return True
+
+
+def naked_visibility(path: Path, tag: str, field: str) -> str:
+    t = tag.lower()
+    if path.suffix.lower() == ".xslt":
+        return "technical_or_transform"
+    if t in TECHNICAL_NAKED_TAGS:
+        return "technical_or_internal"
+    # short_name on kingdoms and item/string names are known game-facing patterns in this module.
+    if field.lower() == "short_name" or t in {"item", "kingdom", "clan", "settlement", "concept", "string", "npccharacter", "culture", "hero"}:
+        return "likely_user_facing"
+    return "review_visibility"
 
 
 def iter_source_files():
@@ -166,7 +180,6 @@ def choose_cn(sid: str):
     entries = cn_by_id.get(sid, [])
     if not entries:
         return None
-    # Prefer the main translation table for explicit IDs.
     entries = sorted(entries, key=lambda x: (0 if x["cn_file"] == "bak_strings.xml" else 1, x["cn_file"]))
     return entries[0]
 
@@ -188,9 +201,10 @@ for idx, r in enumerate(en_rows):
 
 parse_errors = []
 naked = []
+source_files = list(iter_source_files())
 
 # ------------------------ Scan every source XML -------------------------
-for path in iter_source_files():
+for path in source_files:
     if path == EN_TABLE:
         continue
     try:
@@ -208,8 +222,6 @@ for path in iter_source_files():
             value = raw or ""
             markers = list(LOC_RE.finditer(value))
             if markers:
-                # Common Bannerlord form is one marker at the beginning. If there are several, record each
-                # using the text after that marker up to the next marker/end.
                 for i, m in enumerate(markers):
                     end = markers[i + 1].start() if i + 1 < len(markers) else len(value)
                     english = value[m.end():end]
@@ -234,9 +246,9 @@ for path in iter_source_files():
                     "object_id": object_id,
                     "field": field,
                     "source": clean_ws(value),
+                    "visibility_class": naked_visibility(path, tag, field),
                 })
 
-        # Visible element text (rare, but included for completeness).
         if localname(el.tag).lower() in VISIBLE_TAGS and el.text:
             value = clean_ws(el.text)
             if value and not LOC_RE.search(value) and "{=!}" not in value and natural_visible_text(value):
@@ -246,9 +258,9 @@ for path in iter_source_files():
                     "object_id": object_id,
                     "field": "#text",
                     "source": value,
+                    "visibility_class": naked_visibility(path, tag, "#text"),
                 })
 
-# Deterministically deduplicate identical naked candidates from the same location.
 seen_naked = set()
 naked_unique = []
 for r in naked:
@@ -272,13 +284,12 @@ for sid in sorted(by_id):
     for r in occs:
         if r["source"] not in texts:
             texts.append(r["source"])
-
     table_texts = [r["source"] for r in occs if r["source_kind"] == "english_language_table"]
     canonical = table_texts[-1] if table_texts else texts[0]
     cn_rec = choose_cn(sid)
     cn = cn_rec["text"] if cn_rec else None
     status = cn_status(canonical, cn)
-    source_files = sorted({r["source_file"] for r in occs})
+    files = sorted({r["source_file"] for r in occs})
     row = {
         "id": sid,
         "canonical_source": canonical,
@@ -287,18 +298,16 @@ for sid in sorted(by_id):
         "status": status,
         "source_text_variants": len(texts),
         "usage_occurrences": len(occs),
-        "source_files": " | ".join(source_files),
+        "source_files": " | ".join(files),
     }
     explicit_audit.append(row)
-
     if len(texts) > 1:
         conflicts.append({
             "id": sid,
             "text_variants": " || ".join(texts),
-            "source_files": " | ".join(source_files),
+            "source_files": " | ".join(files),
             "current_cn": cn or "",
         })
-
     if cn is not None:
         src_tokens = Counter(control_tokens(canonical))
         cn_tokens = Counter(control_tokens(cn))
@@ -310,9 +319,10 @@ for sid in sorted(by_id):
                 "cn_file": cn_rec["cn_file"],
                 "source_tokens": " | ".join(control_tokens(canonical)),
                 "cn_tokens": " | ".join(control_tokens(cn)),
-                "source_files": " | ".join(source_files),
+                "source_files": " | ".join(files),
             })
 
+explicit_by_id = {r["id"]: r for r in explicit_audit}
 missing = [r for r in explicit_audit if r["status"] == "missing"]
 untranslated = [r for r in explicit_audit if r["status"] in {"untranslated_equal", "latin_only_review"}]
 
@@ -327,11 +337,8 @@ def synthetic_match(rec):
     if not oid:
         return None, "", 0.0
 
-    # First, a literal CN id match can happen for source string tables.
-    direct = choose_cn(rec["object_id"])
-    if direct:
-        return direct, "direct_object_id", 1.0
-
+    # Prefer synthetic overrides for naked source strings: these files exist specifically to localize
+    # raw XML values that do not carry a normal {=ID} marker.
     scored = []
     for c in synthetic_entries:
         cid = compact(HASH_SUFFIX_RE.sub("", c["id"]))
@@ -341,20 +348,23 @@ def synthetic_match(rec):
         if text and text in cid:
             score = 1.0
         else:
-            # Compare source text to the synthetic id after the object id. This catches mild singular/plural
-            # changes such as "Pistol Cartridges" vs "PistolCartridge".
             pos = cid.find(oid)
             tail = cid[pos + len(oid):] if pos >= 0 else cid
             ratio = SequenceMatcher(None, text, tail).ratio() if text and tail else 0.0
             score += min(0.27, ratio * 0.27)
         scored.append((score, c))
-    if not scored:
-        return None, "", 0.0
-    scored.sort(key=lambda x: (-x[0], x[1]["id"]))
-    best_score, best = scored[0]
-    if len(scored) > 1 and abs(best_score - scored[1][0]) < 0.03 and best_score < 0.95:
+    if scored:
+        scored.sort(key=lambda x: (-x[0], x[1]["id"]))
+        best_score, best = scored[0]
+        if len(scored) == 1 or abs(best_score - scored[1][0]) >= 0.03 or best_score >= 0.95:
+            return best, "synthetic_object_text", best_score
         return None, "ambiguous_synthetic", best_score
-    return best, "synthetic_object_text", best_score
+
+    # Fallback for source string tables whose raw id itself also appears in the main CN table.
+    direct = choose_cn(rec["object_id"])
+    if direct:
+        return direct, "direct_object_id", 1.0
+    return None, "", 0.0
 
 
 naked_rows = []
@@ -381,8 +391,9 @@ for rec in naked:
         "current_cn": current,
     })
 
-naked_uncovered = [r for r in naked_rows if r["status"] == "uncovered_candidate"]
-naked_untranslated = [r for r in naked_rows if r["status"] in {"untranslated_equal", "latin_only_review"}]
+naked_actionable = [r for r in naked_rows if r["visibility_class"] != "technical_or_transform" and r["visibility_class"] != "technical_or_internal"]
+naked_uncovered = [r for r in naked_actionable if r["status"] == "uncovered_candidate"]
+naked_untranslated = [r for r in naked_actionable if r["status"] in {"untranslated_equal", "latin_only_review"}]
 
 # ----------------------- CN-only / external-source ----------------------
 explicit_ids = set(by_id)
@@ -402,15 +413,17 @@ for c in sorted(cn_entries, key=lambda x: (x["cn_file"], x["id"])):
     cn_unmatched.append({**c, "classification": cls})
 
 # --------------------------- By-file stats ------------------------------
-file_stats = defaultdict(lambda: Counter())
+file_stats = defaultdict(Counter)
 for r in explicit_occurrences:
     file_stats[r["source_file"]]["explicit_occurrences"] += 1
-    aud = next((a for a in explicit_audit if a["id"] == r["id"]), None)
+    aud = explicit_by_id.get(r["id"])
     if aud and aud["status"] == "missing":
         file_stats[r["source_file"]]["explicit_missing_occurrences"] += 1
 for r in naked_rows:
     file_stats[r["source_file"]]["naked_candidates"] += 1
-    if r["status"] == "uncovered_candidate":
+    if r["visibility_class"].startswith("technical_"):
+        file_stats[r["source_file"]]["naked_technical"] += 1
+    elif r["status"] == "uncovered_candidate":
         file_stats[r["source_file"]]["naked_uncovered"] += 1
     elif r["status"] == "covered":
         file_stats[r["source_file"]]["naked_covered"] += 1
@@ -428,16 +441,14 @@ for path in sorted(file_stats):
         "naked_covered": c["naked_covered"],
         "naked_uncovered": c["naked_uncovered"],
         "naked_review": c["naked_review"],
+        "naked_technical": c["naked_technical"],
     })
 
 # --------------------------- Terms --------------------------------------
 freq = Counter()
 examples = defaultdict(list)
-term_sources = []
-for r in explicit_audit:
-    term_sources.append((r["id"], r["canonical_source"]))
-for r in naked_rows:
-    term_sources.append((r["object_id"] or r["source_file"], r["source"]))
+term_sources = [(r["id"], r["canonical_source"]) for r in explicit_audit]
+term_sources += [(r["object_id"] or r["source_file"], r["source"]) for r in naked_actionable]
 for key, txt in term_sources:
     for w in WORD_RE.findall(txt):
         lw = w.lower().replace("’", "'")
@@ -463,7 +474,7 @@ for r in token_bad:
 for r in naked_uncovered:
     review_queue.append({
         "priority": "P1", "category": "naked_english_uncovered", "source_file": r["source_file"],
-        "key": r["object_id"], "source": r["source"], "current_cn": "", "reason": f"visible field {r['field']} has no matched CN override"
+        "key": r["object_id"], "source": r["source"], "current_cn": "", "reason": f"{r['visibility_class']} field {r['field']} has no matched CN override"
     })
 for r in untranslated:
     review_queue.append({
@@ -496,17 +507,17 @@ write_csv("missing.csv", missing, ["id", "canonical_source", "current_cn", "cn_f
 write_csv("untranslated.csv", untranslated, ["id", "canonical_source", "current_cn", "cn_file", "status", "source_text_variants", "usage_occurrences", "source_files"])
 write_csv("variable_mismatch.csv", token_bad, ["id", "source", "current_cn", "cn_file", "source_tokens", "cn_tokens", "source_files"])
 write_csv("explicit_conflicts.csv", conflicts, ["id", "text_variants", "source_files", "current_cn"])
-write_csv("naked_candidates.csv", naked_rows, ["source_file", "element_tag", "object_id", "field", "source", "status", "match_method", "match_score", "cn_id", "cn_file", "current_cn"])
-write_csv("naked_untranslated.csv", naked_uncovered + naked_untranslated, ["source_file", "element_tag", "object_id", "field", "source", "status", "match_method", "match_score", "cn_id", "cn_file", "current_cn"])
+write_csv("naked_candidates.csv", naked_rows, ["source_file", "element_tag", "object_id", "field", "source", "visibility_class", "status", "match_method", "match_score", "cn_id", "cn_file", "current_cn"])
+write_csv("naked_untranslated.csv", naked_uncovered + naked_untranslated, ["source_file", "element_tag", "object_id", "field", "source", "visibility_class", "status", "match_method", "match_score", "cn_id", "cn_file", "current_cn"])
 write_csv("extra_cn.csv", cn_unmatched, ["id", "text", "cn_file", "classification"])
-write_csv("coverage_by_file.csv", coverage_by_file, ["source_file", "explicit_occurrences", "explicit_missing_occurrences", "naked_candidates", "naked_covered", "naked_uncovered", "naked_review"])
+write_csv("coverage_by_file.csv", coverage_by_file, ["source_file", "explicit_occurrences", "explicit_missing_occurrences", "naked_candidates", "naked_covered", "naked_uncovered", "naked_review", "naked_technical"])
 write_csv("parse_errors.csv", parse_errors, ["source_file", "error"])
 write_csv("terms.csv", terms, ["term", "count", "examples"])
 write_csv("translation_review_queue.csv", review_queue, ["priority", "category", "source_file", "key", "source", "current_cn", "reason"])
 write_csv("cn_duplicate_ids.csv", cn_duplicates, ["cn_file", "id"])
 
 summary = {
-    "module_source_files_scanned": len(list(iter_source_files())),
+    "module_source_files_scanned": len(source_files),
     "source_parse_errors": len(parse_errors),
     "cn_files": dict(sorted(cn_file_counts.items())),
     "cn_strings_total": len(cn_entries),
@@ -516,10 +527,12 @@ summary = {
     "explicit_untranslated_or_latin_only": len(untranslated),
     "explicit_control_token_mismatches": len(token_bad),
     "explicit_conflicting_ids": len(conflicts),
-    "naked_visible_candidates": len(naked_rows),
-    "naked_covered_by_cn_override": sum(r["status"] == "covered" for r in naked_rows),
-    "naked_uncovered_candidates": len(naked_uncovered),
-    "naked_untranslated_or_latin_only": len(naked_untranslated),
+    "naked_candidates_total": len(naked_rows),
+    "naked_technical_or_transform": sum(r["visibility_class"].startswith("technical_") for r in naked_rows),
+    "naked_actionable_candidates": len(naked_actionable),
+    "naked_covered_actionable": sum(r["status"] == "covered" for r in naked_actionable),
+    "naked_uncovered_actionable": len(naked_uncovered),
+    "naked_untranslated_or_latin_only_actionable": len(naked_untranslated),
     "cn_entries_without_module_source_match": len(cn_unmatched),
     "english_language_table_duplicate_ids": len(en_dups),
     "cn_duplicate_ids": len(cn_duplicates),
@@ -538,14 +551,16 @@ md = [
     f"- 控制变量/token 不一致：**{summary['explicit_control_token_mismatches']}**",
     f"- 上游同 ID 多英文冲突：**{summary['explicit_conflicting_ids']}**", "",
     "## 启发式：无 `{=ID}` 的裸英文", "",
-    f"- 疑似可见裸英文候选：**{summary['naked_visible_candidates']}**",
-    f"- 已匹配 CN override：**{summary['naked_covered_by_cn_override']}**",
-    f"- 未匹配、建议人工检查：**{summary['naked_uncovered_candidates']}**",
-    f"- 已有 override 但仍为英文/罗马字待审：**{summary['naked_untranslated_or_latin_only']}**", "",
-    "> 裸英文扫描只检查常见可见字段（如 `name/text/description/title`）。它是‘待审候选’，不能单凭这一表断言每一项都会在游戏 UI 显示。", "",
+    f"- 扫描到的裸英文候选总数：**{summary['naked_candidates_total']}**",
+    f"- 其中技术/XSLT 候选（保留记录但不进入翻译队列）：**{summary['naked_technical_or_transform']}**",
+    f"- 可操作候选：**{summary['naked_actionable_candidates']}**",
+    f"- 已匹配 CN override：**{summary['naked_covered_actionable']}**",
+    f"- 未匹配、建议人工检查：**{summary['naked_uncovered_actionable']}**",
+    f"- 已有 override 但仍为英文/罗马字待审：**{summary['naked_untranslated_or_latin_only_actionable']}**", "",
+    "> 裸英文层是‘待审候选’，不是对运行时 UI 的绝对证明；技术 action/flag/XSLT 名称单独标记，不再污染缺译统计。", "",
     "## CN 源外条目", "",
     f"- 无法在当前 `ModuleData` 中反向匹配的 CN 条目：**{summary['cn_entries_without_module_source_match']}**",
-    "- `generated_dll_strings.xml` 被标记为 `external_dll_source_not_in_ModuleData`：其英文源大概率来自 DLL/C#，本轮不会把它误判为多余翻译。", "",
+    "- `generated_dll_strings.xml` 标记为 `external_dll_source_not_in_ModuleData`，不会被误判为多余翻译。", "",
     "## 推荐人工检查顺序", "",
     "1. `translation_review_queue.csv`：P0 → P1 → P2。",
     "2. `missing.csv`：显式 ID 真缺失。",
@@ -555,7 +570,7 @@ md = [
     "## 主要产物", "",
     "- `audit.csv`：显式 ID 总表",
     "- `explicit_source_occurrences.csv`：每个 `{=ID}` 的具体来源",
-    "- `naked_candidates.csv`：裸英文候选及自动匹配结果",
+    "- `naked_candidates.csv`：全部裸英文候选、可见性分类与自动匹配结果",
     "- `coverage_by_file.csv`：按源文件统计覆盖情况",
     "- `translation_review_queue.csv`：按优先级合并的人工审阅队列",
     "- `terms.csv`：全模块高频英文术语", "",
