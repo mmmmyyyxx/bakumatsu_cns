@@ -22,6 +22,7 @@ jobs:
         run: |
           python tools/audit_translation.py
           python tools/extract_name_candidates.py
+          python tools/extract_factions.py
       - name: Commit reports
         run: |
           git config user.name "github-actions[bot]"
