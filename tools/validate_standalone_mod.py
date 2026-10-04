@@ -7,8 +7,14 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 EXPECTED_MODULE_ID = "Bakumatsu_CNs_HL"
-EXPECTED_DEPENDENCIES = {"Native", "SandBoxCore", "Sandbox", "Shokuho", "BakumatsuModels"}
+EXPECTED_DEPENDENCIES = {"Native", "SandBoxCore", "Sandbox", "Shokuho", "Shokuho_CNs_HL", "BakumatsuModels"}
 EXPECTED_KINGDOMS = 39
+EXPECTED_DEPENDENCY_OVERRIDES = {
+    "mAVRtypJ": "招募和升级火器部队的费用降低 10%。",
+    "s9og1E3Z": "藩国决策造成的关系损失增加 20%。",
+    "bo8sZ7gY": "与山阳势力控制的港口相连的城镇税收收入增加 20%。",
+    "iKA94zCe": "南海势力控制的城镇民兵增长 +1。",
+}
 LOC_PREFIX = re.compile(r"^\{=([^}]+)\}")
 CJK = re.compile(r"[\u3400-\u9fff]")
 
@@ -55,7 +61,6 @@ def main() -> None:
         fail("SubModule.xml must register exactly one Kingdoms -> spkingdoms XmlName")
 
     languages_dir = module_dir / "ModuleData" / "Languages"
-    # Match the known-working Shokuho CN module exactly: no root Languages/language_data.xml.
     if (languages_dir / "language_data.xml").exists():
         fail("unexpected ModuleData/Languages/language_data.xml; working layout uses only CNs/language_data.xml")
 
@@ -68,6 +73,7 @@ def main() -> None:
         fail("CNs/language_data.xml must be unqualified <LanguageData id=简体中文>")
 
     referenced = []
+    referenced_names = set()
     for node in lang_root.iter("LanguageFile"):
         rel = node.get("xml_path")
         if not rel:
@@ -76,11 +82,14 @@ def main() -> None:
         if not target.exists():
             fail(f"language_data.xml references missing file: {rel}")
         referenced.append(target)
+        referenced_names.add(Path(rel).name)
     if not referenced:
         fail("CNs/language_data.xml references no language files")
+    if "dependency_strings.xml" not in referenced_names:
+        fail("CNs/language_data.xml must load dependency_strings.xml")
 
-    # Every language table must use literal unqualified base/tags/tag/strings/string elements.
     seen: dict[str, Path] = {}
+    text_by_id: dict[str, str] = {}
     duplicates = []
     empty = []
     for path in sorted(cn_dir.glob("*.xml")):
@@ -108,6 +117,7 @@ def main() -> None:
                 duplicates.append((sid, seen[sid].name, path.name))
             else:
                 seen[sid] = path
+                text_by_id[sid] = text or ""
             if text is None or text == "":
                 empty.append((sid, path.name))
     if duplicates:
@@ -115,7 +125,13 @@ def main() -> None:
     if empty:
         fail(f"empty CN string text found, first examples: {empty[:5]}")
 
-    # Parse all runtime XML after the stricter language checks.
+    for sid, expected in EXPECTED_DEPENDENCY_OVERRIDES.items():
+        actual = text_by_id.get(sid)
+        if actual is None:
+            fail(f"missing Shokuho runtime override: {sid}")
+        if actual != expected:
+            fail(f"unexpected Shokuho runtime override for {sid}: {actual!r}")
+
     xml_files = sorted(module_dir.rglob("*.xml"))
     for path in xml_files:
         try:
@@ -164,6 +180,8 @@ def main() -> None:
     print(f"Module: {EXPECTED_MODULE_ID} {version_node.get('value')}")
     print("Language layout: Shokuho-compatible CNs-only manifest")
     print("Language XML namespace check: OK (unqualified elements)")
+    print("Shokuho_CNs_HL dependency: OK")
+    print(f"Shokuho runtime overrides: {len(EXPECTED_DEPENDENCY_OVERRIDES)}")
     print(f"Language files referenced: {len(referenced)}")
     print(f"CN string IDs: {len(seen)}")
     print(f"Kingdom short names localized: {len(kingdoms)}")
