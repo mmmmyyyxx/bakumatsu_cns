@@ -62,6 +62,16 @@ def main() -> None:
         fail("SubModule.xml must register exactly one Kingdoms -> spkingdoms XmlName")
 
     languages_dir = module_dir / "ModuleData" / "Languages"
+    root_lang_data = languages_dir / "language_data.xml"
+    if not root_lang_data.exists():
+        fail("ModuleData/Languages/language_data.xml root language manifest missing")
+    try:
+        root_lang = ET.parse(root_lang_data).getroot()
+    except ET.ParseError as exc:
+        fail(f"root language_data.xml parse error: {exc}")
+    if localname(root_lang.tag) != "LanguageData" or root_lang.get("id") != "English":
+        fail("root ModuleData/Languages/language_data.xml must be an English LanguageData anchor")
+
     cn_dir = languages_dir / "CNs"
     lang_data = cn_dir / "language_data.xml"
     if not lang_data.exists():
@@ -70,7 +80,9 @@ def main() -> None:
     try:
         lang_root = ET.parse(lang_data).getroot()
     except ET.ParseError as exc:
-        fail(f"language_data.xml parse error: {exc}")
+        fail(f"CNs language_data.xml parse error: {exc}")
+    if localname(lang_root.tag) != "LanguageData" or lang_root.get("id") != "简体中文":
+        fail("CNs language_data.xml must use LanguageData id=简体中文")
 
     referenced = []
     for node in lang_root.iter():
@@ -85,9 +97,8 @@ def main() -> None:
         referenced.append(target)
 
     if not referenced:
-        fail("language_data.xml references no language files")
+        fail("CNs language_data.xml references no language files")
 
-    # Parse all runtime XML files.
     xml_files = sorted(module_dir.rglob("*.xml"))
     for path in xml_files:
         try:
@@ -95,7 +106,6 @@ def main() -> None:
         except ET.ParseError as exc:
             fail(f"XML parse error in {path.relative_to(module_dir)}: {exc}")
 
-    # Check translated string tables for duplicate IDs and empty text.
     seen: dict[str, Path] = {}
     duplicates = []
     empty = []
@@ -166,18 +176,22 @@ def main() -> None:
     if non_cn_short_ids:
         fail(f"Kingdom.short_name localization IDs do not resolve to Chinese: {non_cn_short_ids[:10]}")
 
-    # Guard against accidentally packaging the whole audit/source ModuleData.
     runtime_files = [p.relative_to(module_dir).as_posix() for p in module_dir.rglob("*") if p.is_file()]
-    allowed_non_language = {"SubModule.xml", "ModuleData/spkingdoms.xml"}
+    allowed_non_cn = {
+        "SubModule.xml",
+        "ModuleData/spkingdoms.xml",
+        "ModuleData/Languages/language_data.xml",
+    }
     unexpected = [
         p for p in runtime_files
-        if not p.startswith("ModuleData/Languages/CNs/") and p not in allowed_non_language
+        if not p.startswith("ModuleData/Languages/CNs/") and p not in allowed_non_cn
     ]
     if unexpected:
         fail(f"unexpected runtime files in standalone package: {unexpected[:20]}")
 
     print("VALIDATION OK")
     print(f"Module: {EXPECTED_MODULE_ID} {version_node.get('value')}")
+    print("Root language discovery manifest: OK (English)")
     print(f"Language files referenced: {len(referenced)}")
     print(f"CN string IDs: {len(seen)}")
     print(f"Kingdom short names localized: {len(kingdoms)}")
