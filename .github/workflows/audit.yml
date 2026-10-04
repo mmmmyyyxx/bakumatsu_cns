@@ -23,6 +23,8 @@ jobs:
         run: python tools/apply_first_pass.py
       - name: Apply second-pass historical polish
         run: python tools/apply_second_pass.py
+      - name: Finalize kingdom short names and class labels
+        run: python tools/finalize_second_pass.py
       - name: Run full ModuleData coverage audit
         run: python tools/full_module_audit.py
       - name: Refine audit for upstream conflicting IDs
