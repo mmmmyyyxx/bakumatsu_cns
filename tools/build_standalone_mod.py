@@ -38,7 +38,7 @@ def localname(tag: str) -> str:
 
 def parse_args():
     p = argparse.ArgumentParser(description="Build the standalone Bakumatsu CN localization module")
-    p.add_argument("--version", default="v0.1.3")
+    p.add_argument("--version", default="v0.1.4")
     return p.parse_args()
 
 
