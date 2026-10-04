@@ -3,7 +3,6 @@ from __future__ import annotations
 
 import argparse
 import re
-from collections import defaultdict
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
@@ -12,6 +11,10 @@ EXPECTED_DEPENDENCIES = {"Native", "SandBoxCore", "Sandbox", "Shokuho", "Bakumat
 EXPECTED_KINGDOMS = 39
 LOC_PREFIX = re.compile(r"^\{=([^}]+)\}")
 CJK = re.compile(r"[\u3400-\u9fff]")
+
+
+def localname(tag: str) -> str:
+    return tag.rsplit("}", 1)[-1]
 
 
 def parse_args():
@@ -70,7 +73,9 @@ def main() -> None:
         fail(f"language_data.xml parse error: {exc}")
 
     referenced = []
-    for node in lang_root.findall("LanguageFile"):
+    for node in lang_root.iter():
+        if localname(node.tag) != "LanguageFile":
+            continue
         rel = node.get("xml_path")
         if not rel:
             fail("LanguageFile without xml_path")
@@ -98,7 +103,9 @@ def main() -> None:
         if path.name == "language_data.xml":
             continue
         root = ET.parse(path).getroot()
-        for node in root.iter("string"):
+        for node in root.iter():
+            if localname(node.tag) != "string":
+                continue
             sid = node.get("id")
             text = node.get("text")
             if not sid:
@@ -118,7 +125,7 @@ def main() -> None:
     if not kingdoms_path.exists():
         fail("ModuleData/spkingdoms.xml missing")
     kingdoms_root = ET.parse(kingdoms_path).getroot()
-    kingdoms = list(kingdoms_root.iter("Kingdom"))
+    kingdoms = [n for n in kingdoms_root.iter() if localname(n.tag) == "Kingdom"]
     if len(kingdoms) != EXPECTED_KINGDOMS:
         fail(f"expected {EXPECTED_KINGDOMS} Kingdom entries for BakumatsuModels v1.0.3, got {len(kingdoms)}")
 
@@ -126,13 +133,14 @@ def main() -> None:
     bak_root = ET.parse(bak_strings_path).getroot()
     bak_cn = {
         n.get("id"): n.get("text", "")
-        for n in bak_root.iter("string")
-        if n.get("id")
+        for n in bak_root.iter()
+        if localname(n.tag) == "string" and n.get("id")
     }
 
     raw_short_names = []
     missing_short_ids = []
     non_cn_short_ids = []
+    non_dedicated_ids = []
     for kingdom in kingdoms:
         kid = kingdom.get("id", "")
         short = kingdom.get("short_name", "")
@@ -141,6 +149,8 @@ def main() -> None:
             raw_short_names.append((kid, short))
             continue
         sid = m.group(1)
+        if sid != f"BCNSK_{kid}":
+            non_dedicated_ids.append((kid, sid, short))
         cn = bak_cn.get(sid)
         if cn is None:
             missing_short_ids.append((kid, sid, short))
@@ -149,6 +159,8 @@ def main() -> None:
 
     if raw_short_names:
         fail(f"Kingdom.short_name still contains raw text: {raw_short_names[:10]}")
+    if non_dedicated_ids:
+        fail(f"Kingdom.short_name does not use dedicated BCNSK IDs: {non_dedicated_ids[:10]}")
     if missing_short_ids:
         fail(f"Kingdom.short_name localization IDs missing in CN bak_strings.xml: {missing_short_ids[:10]}")
     if non_cn_short_ids:
