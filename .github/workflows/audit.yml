@@ -21,16 +21,20 @@ jobs:
           python-version: '3.12'
       - name: Apply first-pass polish
         run: python tools/apply_first_pass.py
+      - name: Apply second-pass historical polish
+        run: python tools/apply_second_pass.py
       - name: Run full ModuleData coverage audit
         run: python tools/full_module_audit.py
+      - name: Refine audit for upstream conflicting IDs
+        run: python tools/refine_audit_reports.py
       - name: Commit generated localization changes and reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ModuleData/Languages/CNs reports/
+          git add ModuleData/Languages/CNs ModuleData/spkingdoms/spkingdoms.xml reports/
           if git diff --cached --quiet; then
             echo "No generated changes"
           else
-            git commit -m "Run full ModuleData localization audit"
+            git commit -m "Run second-pass Bakumatsu localization polish"
             git push
           fi
