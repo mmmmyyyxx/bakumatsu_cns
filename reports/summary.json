@@ -1,11 +1,11 @@
 {
   "source_strings": 5697,
-  "cn_strings_total": 0,
-  "translated": 0,
-  "missing": 5697,
-  "untranslated_or_latin_only": 0,
-  "variable_mismatches": 0,
-  "extra_cn_ids_not_in_root_source": 0,
+  "cn_strings_total": 5716,
+  "translated": 5683,
+  "missing": 0,
+  "untranslated_or_latin_only": 14,
+  "variable_mismatches": 58,
+  "extra_cn_ids_not_in_root_source": 19,
   "source_duplicate_ids": [
     "NzbJtdPe",
     "NzbJtdPe",
@@ -214,12 +214,12 @@
   ],
   "cn_duplicate_ids": [],
   "cn_files": {
-    "bak_strings.xml": 0,
-    "class_system_strings.xml": 0,
-    "concept_strings.xml": 0,
-    "generated_dll_strings.xml": 0,
-    "guns.xml": 0,
-    "modern_guns.xml": 0,
-    "module_strings.xml": 0
+    "bak_strings.xml": 5697,
+    "class_system_strings.xml": 3,
+    "concept_strings.xml": 6,
+    "generated_dll_strings.xml": 4,
+    "guns.xml": 1,
+    "modern_guns.xml": 1,
+    "module_strings.xml": 4
   }
 }

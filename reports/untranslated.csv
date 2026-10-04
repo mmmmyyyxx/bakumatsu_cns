@@ -1,1 +1,15 @@
 ﻿id,source,current_cn,cn_file,status,variable_ok,source_variables,cn_variables
+DN7UiAyB,sho_katana_handle_4_brown,sho_katana_handle_4_brown,bak_strings.xml,untranslated_equal,yes,,
+gNSbsST8,0,0,bak_strings.xml,untranslated_equal,yes,,
+A4e5F6g7,{PROPER_NAME},{PROPER_NAME},bak_strings.xml,untranslated_equal,yes,{PROPER_NAME},{PROPER_NAME}
+J8VNP123,{FULL_RYUHA_INTRO}[ib:confident],{FULL_RYUHA_INTRO}[ib:confident],bak_strings.xml,untranslated_equal,yes,{FULL_RYUHA_INTRO},{FULL_RYUHA_INTRO}
+XlHdWNUg,{COMPLETED_MOKUROKU},{COMPLETED_MOKUROKU},bak_strings.xml,untranslated_equal,yes,{COMPLETED_MOKUROKU},{COMPLETED_MOKUROKU}
+bSo9hKwr,{PERSUASION_OPTION_LINE} {SUCCESS_CHANCE},{PERSUASION_OPTION_LINE} {SUCCESS_CHANCE},bak_strings.xml,untranslated_equal,yes,{PERSUASION_OPTION_LINE} | {SUCCESS_CHANCE},{PERSUASION_OPTION_LINE} | {SUCCESS_CHANCE}
+s6koeapc,{MAP_FACTION},{MAP_FACTION},bak_strings.xml,untranslated_equal,yes,{MAP_FACTION},{MAP_FACTION}
+HAaElX8X,{PARTY_OWNERS_FACTION},{PARTY_OWNERS_FACTION},bak_strings.xml,untranslated_equal,yes,{PARTY_OWNERS_FACTION},{PARTY_OWNERS_FACTION}
+Jyfkahka,{VALUE} ({?POSITIVE}+{?}{\\?}{DELTA_VALUE}),{VALUE} ({?POSITIVE}+{?}{\?}{DELTA_VALUE}),bak_strings.xml,latin_only_review,no,{VALUE} | {?POSITIVE} | {?} | {\\?} | {DELTA_VALUE},{VALUE} | {?POSITIVE} | {?} | {\?} | {DELTA_VALUE}
+iXXTONWb, ({PARTY_SIZE}),({PARTY_SIZE}),bak_strings.xml,untranslated_equal,yes,{PARTY_SIZE},{PARTY_SIZE}
+Dqydb21E, {PARTY_SIZE},{PARTY_SIZE},bak_strings.xml,untranslated_equal,yes,{PARTY_SIZE},{PARTY_SIZE}
+aE4ZRbB6, {HEALTH}%,{HEALTH}%,bak_strings.xml,untranslated_equal,yes,{HEALTH},{HEALTH}
+QyVbwGLp,{PARTY_SIZE},{PARTY_SIZE},bak_strings.xml,untranslated_equal,yes,{PARTY_SIZE},{PARTY_SIZE}
+dZDFxUvU,{A0},{A0},bak_strings.xml,untranslated_equal,yes,{A0},{A0}
