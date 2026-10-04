@@ -1,0 +1,28 @@
+{
+  "module_source_files_scanned": 116,
+  "source_parse_errors": 0,
+  "cn_files": {
+    "bak_strings.xml": 5697,
+    "class_system_strings.xml": 3,
+    "concept_strings.xml": 6,
+    "generated_dll_strings.xml": 4,
+    "guns.xml": 1,
+    "modern_guns.xml": 1,
+    "module_strings.xml": 4
+  },
+  "cn_strings_total": 5716,
+  "explicit_unique_ids": 5704,
+  "explicit_occurrences": 43356,
+  "explicit_missing_unique_ids": 1,
+  "explicit_untranslated_or_latin_only": 14,
+  "explicit_control_token_mismatches": 33,
+  "explicit_conflicting_ids": 120,
+  "naked_visible_candidates": 76,
+  "naked_covered_by_cn_override": 6,
+  "naked_uncovered_candidates": 70,
+  "naked_untranslated_or_latin_only": 0,
+  "cn_entries_without_module_source_match": 10,
+  "english_language_table_duplicate_ids": 204,
+  "cn_duplicate_ids": 0,
+  "review_queue_items": 238
+}

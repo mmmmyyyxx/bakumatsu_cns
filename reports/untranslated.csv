@@ -1,0 +1,15 @@
+﻿id,canonical_source,current_cn,cn_file,status,source_text_variants,usage_occurrences,source_files
+A4e5F6g7,{PROPER_NAME},{PROPER_NAME},bak_strings.xml,untranslated_equal,1,1,ModuleData/Languages/bak_strings.xml
+DN7UiAyB,sho_katana_handle_4_brown,sho_katana_handle_4_brown,bak_strings.xml,untranslated_equal,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/crafting_pieces.xml
+Dqydb21E, {PARTY_SIZE},{PARTY_SIZE},bak_strings.xml,untranslated_equal,1,1,ModuleData/Languages/bak_strings.xml
+HAaElX8X,{PARTY_OWNERS_FACTION},{PARTY_OWNERS_FACTION},bak_strings.xml,untranslated_equal,1,1,ModuleData/Languages/bak_strings.xml
+J8VNP123,{FULL_RYUHA_INTRO}[ib:confident],{FULL_RYUHA_INTRO}[ib:confident],bak_strings.xml,untranslated_equal,1,1,ModuleData/Languages/bak_strings.xml
+Jyfkahka,{VALUE} ({?POSITIVE}+{?}{\\?}{DELTA_VALUE}),{VALUE} ({?POSITIVE}+{?}{\\?}{DELTA_VALUE}),bak_strings.xml,untranslated_equal,1,1,ModuleData/Languages/bak_strings.xml
+QyVbwGLp,{PARTY_SIZE},{PARTY_SIZE},bak_strings.xml,untranslated_equal,1,1,ModuleData/Languages/bak_strings.xml
+XlHdWNUg,{COMPLETED_MOKUROKU},{COMPLETED_MOKUROKU},bak_strings.xml,untranslated_equal,1,1,ModuleData/Languages/bak_strings.xml
+aE4ZRbB6, {HEALTH}%,{HEALTH}%,bak_strings.xml,untranslated_equal,1,1,ModuleData/Languages/bak_strings.xml
+bSo9hKwr,{PERSUASION_OPTION_LINE} {SUCCESS_CHANCE},{PERSUASION_OPTION_LINE} {SUCCESS_CHANCE},bak_strings.xml,untranslated_equal,1,1,ModuleData/Languages/bak_strings.xml
+dZDFxUvU,{A0},{A0},bak_strings.xml,untranslated_equal,1,1,ModuleData/Languages/bak_strings.xml
+gNSbsST8,0,0,bak_strings.xml,untranslated_equal,1,1,ModuleData/Languages/bak_strings.xml
+iXXTONWb, ({PARTY_SIZE}),({PARTY_SIZE}),bak_strings.xml,untranslated_equal,1,1,ModuleData/Languages/bak_strings.xml
+s6koeapc,{MAP_FACTION},{MAP_FACTION},bak_strings.xml,untranslated_equal,1,1,ModuleData/Languages/bak_strings.xml
