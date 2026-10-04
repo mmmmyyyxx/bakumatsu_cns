@@ -1,5 +1,4 @@
 ﻿id,text_variants,source_files,current_cn
-!,Bakumatsu Banner Icon Group || ERROR: SHOULD NOT SHOW,ModuleData/banner_icons.xml | ModuleData/class_system_strings.xml,
 0VxHt8iA,Kazu-no-miya || Kazu-no-miya Chikako,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml,一之宫
 0rDc1SBx,Ito || Kokura,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spcultures/shokuho_main_cultures.xml | ModuleData/spkingdoms/spkingdoms.xml,小仓
 16V5w91f,Konze Shinpachi || Kikuchi Shichirozaemon,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml,金世新八

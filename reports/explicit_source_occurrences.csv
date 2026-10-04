@@ -6873,28 +6873,20 @@ MArICaQU,"A rifled breech-loading cannon of British manufacture, noted for its a
 Armstron,RBL 12-Pounder 8 CWT Armstrong Gun,ModuleData/bak_siegeengines.xml,explicit_ref,SiegeEngineType,armstrong_gun,name,10
 MLHICaGa,"A hand-cranked battery gun capable of sustained, rapid fire. Intended for crew service in field and fortress defense.",ModuleData/bak_siegeengines.xml,explicit_ref,SiegeEngineType,gatling_gun,description,11
 GatlingG,Model 1865 Gatling Gun,ModuleData/bak_siegeengines.xml,explicit_ref,SiegeEngineType,gatling_gun,name,12
-!,Bakumatsu Banner Icon Group,ModuleData/banner_icons.xml,explicit_ref,BannerIconGroup,20,name,1
-!,Bakumatsu Banner Icon Group,ModuleData/banner_icons.xml,explicit_ref,BannerIconGroup,21,name,2
-!,Bakumatsu Banner Icon Group,ModuleData/banner_icons.xml,explicit_ref,BannerIconGroup,22,name,3
-!,Bakumatsu Banner Icon Group,ModuleData/banner_icons.xml,explicit_ref,BannerIconGroup,23,name,4
-!,Bakumatsu Banner Icon Group,ModuleData/banner_icons.xml,explicit_ref,BannerIconGroup,24,name,5
 o3KzSAYk,Caste:,ModuleData/class_system_strings.xml,explicit_ref,string,str_enc_sf_caste,text,1
-!,ERROR: SHOULD NOT SHOW,ModuleData/class_system_strings.xml,explicit_ref,string,class_name.None,text,2
-g0DodcKB,Kuge (Court Noble),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Kuge,text,3
-iDHwU4Af,Daimyo (Feudal Lord),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Daimyo,text,4
-TzEzDGuV,Buke (Samurai),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Buke,text,5
-3VfyBmWe,Hyakusho (Peasant),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Hyakusho,text,6
-91xgVL5T,Chonin (Townsman),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Chonin,text,7
-MkoGgYTI,Eta-hinin (Untouchable),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Burakumin,text,8
-mqDjDWjC,Gaikokujin (Foreigner),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Gakokujin,text,9
-!,ERROR: SHOULD NOT SHOW,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.None,text,10
-oN4J4ebL,Right to carry the Daisho,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.Daisho,text,11
-9ZHz4mzS,Right to command a personal retinue,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.PersonalRetinues,text,12
-Ho2oaup3,Right to hold land,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.HoldFief,text,13
-b93tFvr6,Right to not pay agricultural taxes,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.NoLandTax,text,14
-YSqUrY2T,Right to engage in commerce,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.Commerce,text,15
-6QjQLkhL,Right to enter the keep,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.EnterKeep,text,16
-!,ERROR: SHOULD NOT SHOW,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.Influence,text,17
+g0DodcKB,Kuge (Court Noble),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Kuge,text,2
+iDHwU4Af,Daimyo (Feudal Lord),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Daimyo,text,3
+TzEzDGuV,Buke (Samurai),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Buke,text,4
+3VfyBmWe,Hyakusho (Peasant),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Hyakusho,text,5
+91xgVL5T,Chonin (Townsman),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Chonin,text,6
+MkoGgYTI,Eta-hinin (Untouchable),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Burakumin,text,7
+mqDjDWjC,Gaikokujin (Foreigner),ModuleData/class_system_strings.xml,explicit_ref,string,class_name.Gakokujin,text,8
+oN4J4ebL,Right to carry the Daisho,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.Daisho,text,9
+9ZHz4mzS,Right to command a personal retinue,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.PersonalRetinues,text,10
+Ho2oaup3,Right to hold land,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.HoldFief,text,11
+b93tFvr6,Right to not pay agricultural taxes,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.NoLandTax,text,12
+YSqUrY2T,Right to engage in commerce,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.Commerce,text,13
+6QjQLkhL,Right to enter the keep,ModuleData/class_system_strings.xml,explicit_ref,string,class_rights.EnterKeep,text,14
 9N832L1k,"Dojos are neutral settlements where the player and AI can recruit students, purchase martial manuals that improve combat skills, join a specific school, or duel instructors for rank and reputation. Each dojo follows a distinct martial lineage. Improving relations with a dojo strengthens relations with all dojos of that lineage, and may improve standing with their sponsoring domain.",ModuleData/concept_strings.xml,explicit_ref,Concept,str_temples,text,1
 lXePKGIt,Martial Schools,ModuleData/concept_strings.xml,explicit_ref,Concept,str_temples,title,2
 K5L6M7N8,"Itto-ryu is a prestigious family of kenjutsu schools emphasizing the principle of the 'one sword.' Practitioners, known as Itto-ryu kenshi, focus on decisive cuts, proper distancing, and timing. During the late Bakumatsu, its instructors were sought after by domains and samurai for dueling, military training, and personal defense.",ModuleData/concept_strings.xml,explicit_ref,Concept,str_school_itto,text,3

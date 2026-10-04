@@ -1,5 +1,4 @@
 ﻿id,canonical_source,current_cn,cn_file,status,source_text_variants,usage_occurrences,source_files
-!,Bakumatsu Banner Icon Group,,,missing,2,8,ModuleData/banner_icons.xml | ModuleData/class_system_strings.xml
 01dc0ds8,Buke,武家,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/concept_strings.xml
 02LbyErE,Matsuyama,松山,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml
 02pX6hRh,Uji,宇治,bak_strings.xml,translated,1,2,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml

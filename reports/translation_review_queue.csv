@@ -32,77 +32,45 @@ P0,control_token_mismatch,ModuleData/Languages/bak_strings.xml | ModuleData/spcu
 P0,control_token_mismatch,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,wIaHKFuk,Fukui{newline}{newline}Foreign Merchant: British,福井,control tokens differ
 P0,control_token_mismatch,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,wIaHKKag,Kaga{newline}{newline}Foreign Merchant: Dutch,来自你,control tokens differ
 P0,control_token_mismatch,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,wIaHKNag,Nagaoka{newline}{newline}Foreign Merchant: American,长冈,control tokens differ
-P0,explicit_missing,ModuleData/banner_icons.xml | ModuleData/class_system_strings.xml,!,Bakumatsu Banner Icon Group,,explicit {=ID} has no CN entry
-P1,naked_english_uncovered,ModuleData/CharacterTroops/bandits.xslt,,name,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/bak_action_types.xml,,act_austria_ready_pistol,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/bak_action_types.xml,,act_austria_ready_pistol_continue,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/bak_action_types.xml,,act_austria_release_pistol,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/bak_action_types.xml,,act_reload_breechloader,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/bak_action_types.xml,,act_reload_breechloader_continue,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/bak_action_types.xml,,act_austria_reload_pistol,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/bak_action_types.xml,,act_austria_reload_pistol_continue,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/bak_action_types.xml,,act_quick_release_overswing_musket,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/bak_action_types.xml,,act_release_overswing_musket,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/bak_action_types.xml,,act_quick_release_thrust_musket,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/bak_action_types.xml,,act_release_thrust_musket,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/bak_item_usage_sets.xml,,requires_no_shield,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/crafting_pieces.xml,,Civilian,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/settlements.xslt,,name,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/settlements.xslt,,prosperity,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/settlements.xslt,,hearth,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/settlements.xslt,,owner,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/settlements.xslt,,culture,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/skins.xslt,,bak_chonmage,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/skins.xslt,,Chonmage,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/skins.xslt,,bak_chonmage_2,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/skins.xslt,,bak_hondamage,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/skins.xslt,,Hondamage,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/skins.xslt,,bak_hondamage_2,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/skins.xslt,,bak_sakayaki,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/skins.xslt,,Sakayaki,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/skins.xslt,,bak_shimada,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/skins.xslt,,Shimada,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/skins.xslt,,taka_shimada,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/skins.xslt,,Taka Shimada,,visible field name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,akamatsu,Fukuoka,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,amago,Matsue,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ando,Hirosaki,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,anekouji,Obama,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,arima,Kurume,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,asakura,Fukui,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ashikaga,Hikone,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ashina,Aizu,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,aso,Kumamoto,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,azai,Owari,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,chosokabe,Tosa,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,date,Sendai,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,hatakeyama,Kishu,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,hojo,Mito,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,honjo,Shonai,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ichijo,Uwajima,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ikko_shu,Kaga,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,imagawa,Iyo Matsuyama,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ito,Kokura,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,kimotsuki,Tenguto,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,miyoshi,Tokushima,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,mogami,Fukushima,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,mori,Choshu,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,nanbu,Morioka,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,oda,Tsu,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,otomo,Yodo,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,rokkaku,Kuwana,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ryuzoji,Saga,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,sagara,Hitoyoshi,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,saionji,Ozu,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,satake,Kubota,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,satomi,Jozai,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,shimazu,Satsuma,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,soma,Tottori,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,takeda,Himeji,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,tokugawa,Tokugawa,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,uesugi,Ou Reppan Domei,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,uragami,Hiroshima,,visible field short_name has no matched CN override
-P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,utsunomiya,Nagaoka,,visible field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,akamatsu,Fukuoka,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,amago,Matsue,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ando,Hirosaki,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,anekouji,Obama,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,arima,Kurume,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,asakura,Fukui,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ashikaga,Hikone,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ashina,Aizu,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,aso,Kumamoto,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,azai,Owari,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,chosokabe,Tosa,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,date,Sendai,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,hatakeyama,Kishu,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,hojo,Mito,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,honjo,Shonai,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ichijo,Uwajima,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ikko_shu,Kaga,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,imagawa,Iyo Matsuyama,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ito,Kokura,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,kimotsuki,Tenguto,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,miyoshi,Tokushima,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,mogami,Fukushima,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,mori,Choshu,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,nanbu,Morioka,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,oda,Tsu,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,otomo,Yodo,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,rokkaku,Kuwana,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,ryuzoji,Saga,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,sagara,Hitoyoshi,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,saionji,Ozu,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,satake,Kubota,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,satomi,Jozai,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,shimazu,Satsuma,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,soma,Tottori,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,takeda,Himeji,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,tokugawa,Tokugawa,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,uesugi,Ou Reppan Domei,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,uragami,Hiroshima,,likely_user_facing field short_name has no matched CN override
+P1,naked_english_uncovered,ModuleData/spkingdoms/spkingdoms.xml,utsunomiya,Nagaoka,,likely_user_facing field short_name has no matched CN override
 P1,untranslated_equal,ModuleData/Languages/bak_strings.xml,A4e5F6g7,{PROPER_NAME},{PROPER_NAME},translation may still be English/romaji
 P1,untranslated_equal,ModuleData/Languages/bak_strings.xml,Dqydb21E, {PARTY_SIZE},{PARTY_SIZE},translation may still be English/romaji
 P1,untranslated_equal,ModuleData/Languages/bak_strings.xml,HAaElX8X,{PARTY_OWNERS_FACTION},{PARTY_OWNERS_FACTION},translation may still be English/romaji
@@ -236,4 +204,3 @@ P2,source_id_conflict,ModuleData/Languages/bak_strings.xml | ModuleData/spcultur
 P2,source_id_conflict,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml | ModuleData/spkingdoms/spkingdoms.xml,ONWqd9Hd,Aso || Kumamoto,熊本,same localization ID maps to multiple English strings
 P2,source_id_conflict,ModuleData/Languages/bak_strings.xml | ModuleData/spspecialcharacters/bak_foreign_merchants.xml,wKt2wTeR,American Arms Dealer || Foreign Arms Dealer,美国军火商,same localization ID maps to multiple English strings
 P2,source_id_conflict,ModuleData/Languages/bak_strings.xml | ModuleData/spspecialcharacters/bak_notables.xml,FuKAbgHr,Fukui Caravan Master || Fukuoka Caravan Master,福井房车大师,same localization ID maps to multiple English strings
-P2,source_id_conflict,ModuleData/banner_icons.xml | ModuleData/class_system_strings.xml,!,Bakumatsu Banner Icon Group || ERROR: SHOULD NOT SHOW,,same localization ID maps to multiple English strings
