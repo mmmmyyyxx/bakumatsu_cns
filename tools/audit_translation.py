@@ -17,11 +17,17 @@ CJK_RE = re.compile(r"[\u3400-\u9fff]")
 STOP = set("the a an and or of to in on for with from by as at is are was were be been being this that these those it its their his her they them you your we our not all into over under after before during through if then than can could would should may might will do does did done has have had more most less very such each any some only also both own same new old one two three first second which who whom whose what when where why how".split())
 
 
+def localname(tag):
+    return tag.rsplit('}', 1)[-1]
+
+
 def parse_strings(path):
     tree = ET.parse(path)
     out = {}
     dup = []
-    for el in tree.getroot().iter("string"):
+    for el in tree.getroot().iter():
+        if localname(el.tag) != "string":
+            continue
         sid = el.attrib.get("id")
         txt = el.attrib.get("text", "")
         if not sid:
