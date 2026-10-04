@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData id="简体中文">
+  <LanguageFile xml_path="CNs/bak_strings.xml"/>
+  <LanguageFile xml_path="CNs/concept_strings.xml"/>
+  <LanguageFile xml_path="CNs/generated_dll_strings.xml"/>
+  <LanguageFile xml_path="CNs/guns.xml"/>
+  <LanguageFile xml_path="CNs/modern_guns.xml"/>
+  <LanguageFile xml_path="CNs/module_strings.xml"/>
+  <LanguageFile xml_path="CNs/class_system_strings.xml"/>
+</LanguageData>

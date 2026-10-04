@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<base xmlns="http://schemas.taleworlds.com/2007/04/GameSystem/" type="string">
+  <tags>
+    <tag language="简体中文"/>
+  </tags>
+  <strings>
+    <string id="BakumatsuModels_class_name.None_ERRORSHOULDNOTS_239d" text="错误：不应显示"/>
+    <string id="BakumatsuModels_class_rights.None_ERRORSHOULDNOTS_e4bb" text="错误：不应显示"/>
+    <string id="BakumatsuModels_class_rights.Influence_ERRORSHOULDNOTS_0afe" text="错误：不应显示"/>
+  </strings>
+</base>
