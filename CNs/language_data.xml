@@ -7,4 +7,5 @@
   <LanguageFile xml_path="CNs/modern_guns.xml"/>
   <LanguageFile xml_path="CNs/module_strings.xml"/>
   <LanguageFile xml_path="CNs/class_system_strings.xml"/>
+  <LanguageFile xml_path="CNs/dependency_strings.xml"/>
 </LanguageData>
