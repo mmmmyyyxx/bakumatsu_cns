@@ -7,7 +7,8 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 MODULE = ROOT / 'ModuleData'
 SRC = MODULE / 'Languages' / 'bak_strings.xml'
-CN_PATH = MODULE / 'Languages' / 'CNs' / 'bak_strings.xml'
+CN_DIR = MODULE / 'Languages' / 'CNs'
+CN_PATH = CN_DIR / 'bak_strings.xml'
 REPORT = ROOT / 'reports' / 'first_pass_changes.csv'
 
 EXACT = {
@@ -72,6 +73,13 @@ EXACT = {
     'Tsuge': '柘植',
 }
 
+# High-confidence fixes for auto-generated CN tables whose runtime key is synthetic.
+SYNTHETIC_EXACT = {
+    'module_strings.xml': {
+        'BakumatsuModels_hR6Zo6pD_Reformer_e0f9': '改革派',
+    },
+}
+
 PLACES = {
     'Satsuma':'萨摩','Choshu':'长州','Chōshū':'长州','Tosa':'土佐','Aizu':'会津','Sendai':'仙台',
     'Shonai':'庄内','Morioka':'盛冈','Hirosaki':'弘前','Kubota':'久保田','Akita':'秋田','Nagaoka':'长冈',
@@ -107,12 +115,18 @@ for en, zh in PLACES.items():
     EXACT.setdefault(f'{en} Caravan Master', f'{zh}商队首领')
 
 last_source, duplicate_ids = source_info()
-raw = CN_PATH.read_text(encoding='utf-8-sig')
 entry_re = re.compile(r'(<string\s+id="(?P<id>[^"]+)"\s+text=")(?P<text>[^"]*)("\s*/>)')
 changes = []
 
 
-def repl(m):
+def rewrite_file(path, transform):
+    raw = path.read_text(encoding='utf-8-sig')
+    new_raw = entry_re.sub(transform, raw)
+    if new_raw != raw:
+        path.write_text(new_raw, encoding='utf-8')
+
+
+def main_repl(m):
     sid = m.group('id')
     old = html.unescape(m.group('text'))
     new = old
@@ -131,23 +145,37 @@ def repl(m):
                 new = new.replace('{\\?}', '{\\\\?}', 1)
             reasons.append('restore conditional token')
     if new != old:
-        changes.append({'id': sid, 'source': src, 'old_cn': old, 'new_cn': new, 'reason': ' + '.join(reasons)})
+        changes.append({'file': 'bak_strings.xml', 'id': sid, 'source': src, 'old_cn': old, 'new_cn': new, 'reason': ' + '.join(reasons)})
         return m.group(1) + html.escape(new, quote=True) + m.group(4)
     return m.group(0)
 
 
-new_raw = entry_re.sub(repl, raw)
-if new_raw != raw:
-    CN_PATH.write_text(new_raw, encoding='utf-8')
+rewrite_file(CN_PATH, main_repl)
+
+for filename, fixes in SYNTHETIC_EXACT.items():
+    path = CN_DIR / filename
+    if not path.exists():
+        continue
+
+    def synthetic_repl(m, _filename=filename, _fixes=fixes):
+        sid = m.group('id')
+        old = html.unescape(m.group('text'))
+        wanted = _fixes.get(sid)
+        if wanted is None or wanted == old:
+            return m.group(0)
+        changes.append({'file': _filename, 'id': sid, 'source': '', 'old_cn': old, 'new_cn': wanted, 'reason': 'synthetic localization correction'})
+        return m.group(1) + html.escape(wanted, quote=True) + m.group(4)
+
+    rewrite_file(path, synthetic_repl)
 
 REPORT.parent.mkdir(exist_ok=True)
 if changes:
     with REPORT.open('w', encoding='utf-8-sig', newline='') as f:
-        w = csv.DictWriter(f, fieldnames=['id', 'source', 'old_cn', 'new_cn', 'reason'])
+        w = csv.DictWriter(f, fieldnames=['file', 'id', 'source', 'old_cn', 'new_cn', 'reason'])
         w.writeheader()
         w.writerows(changes)
 elif not REPORT.exists():
     with REPORT.open('w', encoding='utf-8-sig', newline='') as f:
-        csv.DictWriter(f, fieldnames=['id', 'source', 'old_cn', 'new_cn', 'reason']).writeheader()
+        csv.DictWriter(f, fieldnames=['file', 'id', 'source', 'old_cn', 'new_cn', 'reason']).writeheader()
 
 print(f'applied {len(changes)} first-pass changes')
