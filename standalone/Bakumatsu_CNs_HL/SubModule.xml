@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="Bakumatsu 简体中文汉化"/>
+  <Id value="Bakumatsu_CNs_HL"/>
+  <Version value="v0.1.0"/>
+  <ModuleCategory value="Singleplayer"/>
+  <ModuleType value="Community"/>
+  <DependedModules>
+    <DependedModule Id="Native"/>
+    <DependedModule Id="SandBoxCore"/>
+    <DependedModule Id="Sandbox"/>
+    <DependedModule Id="Shokuho"/>
+    <DependedModule Id="BakumatsuModels"/>
+  </DependedModules>
+  <Xmls>
+    <XmlNode>
+      <XmlName id="Kingdoms" path="spkingdoms"/>
+    </XmlNode>
+  </Xmls>
+</Module>
