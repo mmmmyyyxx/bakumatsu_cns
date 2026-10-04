@@ -1,0 +1,33 @@
+name: Translation audit
+
+on:
+  push:
+    branches: [translation-audit-2026-10-04]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: translation-audit-2026-10-04
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run audit
+        run: python tools/audit_translation.py
+      - name: Commit reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          if git diff --cached --quiet; then
+            echo "No report changes"
+          else
+            git commit -m "Generate translation audit reports"
+            git push
+          fi
