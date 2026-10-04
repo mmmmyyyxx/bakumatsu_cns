@@ -52,14 +52,12 @@ def set_version(submodule: Path, version: str) -> None:
 
 
 def normalize_language_xml(path: Path) -> None:
-    """Match working Bannerlord/Shokuho language files: unqualified base/tags/string elements."""
+    """Match working Bannerlord/Shokuho language tables: no TaleWorlds default namespace."""
     tree = ET.parse(path)
     root = tree.getroot()
     for elem in root.iter():
         if isinstance(elem.tag, str):
             elem.tag = localname(elem.tag)
-    # Keep the familiar schema declarations used by working CN string files,
-    # but deliberately do not declare a default TaleWorlds namespace.
     if root.tag == "base":
         root.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
         root.set("xmlns:xsd", "http://www.w3.org/2001/XMLSchema")
@@ -85,7 +83,7 @@ def patch_kingdom_short_names(kingdoms_path: Path, cn_bak_strings_path: Path) ->
 
     ctree = ET.parse(cn_bak_strings_path)
     croot = ctree.getroot()
-    strings = next((n for n in croot.iter() if n.tag == "strings"), None)
+    strings = croot.find("strings")
     if strings is None:
         raise RuntimeError("CN bak_strings.xml has no <strings> container")
     for node in list(strings):
@@ -94,6 +92,7 @@ def patch_kingdom_short_names(kingdoms_path: Path, cn_bak_strings_path: Path) ->
     for kid, (_, chinese) in KINGDOM_SHORT_NAMES.items():
         ET.SubElement(strings, "string", {"id": f"BCNSK_{kid}", "text": chinese})
     ctree.write(cn_bak_strings_path, encoding="utf-8", xml_declaration=True)
+    normalize_language_xml(cn_bak_strings_path)
 
 
 def main() -> None:
@@ -116,14 +115,13 @@ def main() -> None:
     cn_dst.parent.mkdir(parents=True, exist_ok=True)
     shutil.copytree(SOURCE_CN, cn_dst)
 
-    # The known-working Shokuho CN module has only CNs/language_data.xml.
-    # Do not ship the v0.1.1 experimental root Languages/language_data.xml anchor.
+    # Match the working Shokuho CN module: only CNs/language_data.xml is used.
     root_manifest = build_dir / "ModuleData" / "Languages" / "language_data.xml"
     if root_manifest.exists():
         root_manifest.unlink()
 
-    # The repository source was parsed/written with a TaleWorlds default namespace.
-    # Strip it in the release artifacts so elements are literally <base>, <strings>, <string>.
+    # Repository sources were serialized with a TaleWorlds default namespace.
+    # Release tables must have literal <base>/<tags>/<strings>/<string> elements.
     for path in sorted(cn_dst.glob("*.xml")):
         if path.name != "language_data.xml":
             normalize_language_xml(path)
