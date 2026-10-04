@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Kingdoms>
+  <Kingdom id="ashina" short_name="{=qO2LaEJH}Aizu" />
+  <Kingdom id="soma" short_name="{=lVx3gqqL}Tottori" />
+  <Kingdom id="date" short_name="{=fKx72A6I}Sendai" />
+  <Kingdom id="mogami" short_name="{=9vBSHbyz}Fukushima" />
+  <Kingdom id="ando" short_name="{=xU6k7DMZ}Hirosaki" />
+  <Kingdom id="nanbu" short_name="{=lOrWIIfh}Morioka" />
+  <Kingdom id="hojo" short_name="{=WhlNAwBH}Mito" />
+  <Kingdom id="satomi" short_name="{=3HM2LZLz}Jozai" />
+  <Kingdom id="utsunomiya" short_name="{=9iMMapjE}Nagaoka" />
+  <Kingdom id="satake" short_name="{=ijCa8pDo}Kubota" />
+  <Kingdom id="asakura" short_name="{=Hwgq2oHf}Fukui" />
+  <Kingdom id="anekouji" short_name="{=QqEJybge}Obama" />
+  <Kingdom id="tokugawa" short_name="{=nAUwT8JG}Tokugawa" />
+  <Kingdom id="uesugi" short_name="{=r3wkuN0u}Ou Reppan Domei" />
+  <Kingdom id="honjo" short_name="{=ASyaMblp}Shonai" />
+  <Kingdom id="takeda" short_name="{=AZkHq9Al}Himeji" />
+  <Kingdom id="imagawa" short_name="{=nJmwT7OT}Iyo Matsuyama" />
+  <Kingdom id="ashikaga" short_name="{=hMz5eeje}Hikone" />
+  <Kingdom id="hatakeyama" short_name="{=4cnmTBU0}Kishu" />
+  <Kingdom id="rokkaku" short_name="{=PGOSBt3d}Kuwana" />
+  <Kingdom id="azai" short_name="{=0PavuhnS}Owari" />
+  <Kingdom id="oda" short_name="{=NBk1hBZz}Tsu" />
+  <Kingdom id="ikko_shu" short_name="{=qD1vg0RF}Kaga" />
+  <Kingdom id="uragami" short_name="{=KolhtpUd}Hiroshima" />
+  <Kingdom id="amago" short_name="{=LE5jbPP4}Matsue" />
+  <Kingdom id="mori" short_name="{=ShoChosh}Choshu" />
+  <Kingdom id="saionji" short_name="{=2TWnRnkw}Ozu" />
+  <Kingdom id="ichijo" short_name="{=44ThIRyK}Uwajima" />
+  <Kingdom id="chosokabe" short_name="{=do4c1Wld}Tosa" />
+  <Kingdom id="miyoshi" short_name="{=YhbInKsq}Tokushima" />
+  <Kingdom id="shimazu" short_name="{=ShoSatsu}Satsuma" />
+  <Kingdom id="kimotsuki" short_name="{=nuOTMFnL}Tenguto" />
+  <Kingdom id="ito" short_name="{=0rDc1SBx}Kokura" />
+  <Kingdom id="aso" short_name="{=ONWqd9Hd}Kumamoto" />
+  <Kingdom id="sagara" short_name="{=qZ86Dhcd}Hitoyoshi" />
+  <Kingdom id="otomo" short_name="{=p6llIAZ9}Yodo" />
+  <Kingdom id="arima" short_name="{=HCBBJbxX}Kurume" />
+  <Kingdom id="ryuzoji" short_name="{=5HSblONo}Saga" />
+  <Kingdom id="akamatsu" short_name="{=7EInH5Hq}Fukuoka" />
+</Kingdoms>

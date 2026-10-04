@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<base xmlns="http://schemas.taleworlds.com/2007/04/GameSystem/" type="string">
+  <tags>
+    <tag language="简体中文"/>
+  </tags>
+  <strings>
+    <string id="BakumatsuModels_NaMPa4ML_Loyalty_a182" text="忠诚"/>
+    <string id="BakumatsuModels_hR6Zo6pD_Reformer_e0f9" text="塑身机"/>
+    <string id="BakumatsuModels_HMFb1gaq_ForeignInfluenc_bdb1" text="外国影响"/>
+    <string id="BakumatsuModels_bo8sZ7gY_20moretaxincome_4f58" text="与佐贺领导人拥有的港口相连的城镇的税收收入增加 20%。"/>
+  </strings>
+</base>

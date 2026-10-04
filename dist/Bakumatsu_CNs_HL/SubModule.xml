@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="Bakumatsu 简体中文汉化" />
+  <Id value="Bakumatsu_CNs_HL" />
+  <Version value="v0.1.0" />
+  <DefaultModule value="false" />
+  <SinglePlayerModule value="true" />
+  <ModuleCategory value="Singleplayer" />
+  <ModuleType value="Community" />
+  <DependedModules>
+    <DependedModule Id="Native" />
+    <DependedModule Id="SandBoxCore" />
+    <DependedModule Id="Sandbox" />
+    <DependedModule Id="Shokuho" />
+    <DependedModule Id="BakumatsuModels" />
+  </DependedModules>
+  <DependedModuleMetadatas>
+    <DependedModuleMetadata id="Native" order="LoadBeforeThis" />
+    <DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis" />
+    <DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" />
+    <DependedModuleMetadata id="Shokuho" order="LoadBeforeThis" />
+    <DependedModuleMetadata id="BakumatsuModels" order="LoadBeforeThis" />
+  </DependedModuleMetadatas>
+  <Xmls>
+    <XmlNode>
+      <XmlName id="Kingdoms" path="spkingdoms" />
+      <IncludedGameTypes>
+        <GameType value="ShokuhoCampaign" />
+      </IncludedGameTypes>
+    </XmlNode>
+  </Xmls>
+</Module>
