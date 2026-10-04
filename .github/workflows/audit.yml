@@ -19,7 +19,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Run audit
-        run: python tools/audit_translation.py
+        run: |
+          python tools/audit_translation.py
+          python tools/extract_name_candidates.py
       - name: Commit reports
         run: |
           git config user.name "github-actions[bot]"
