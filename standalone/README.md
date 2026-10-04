@@ -6,30 +6,33 @@
 
 - Mount & Blade II: Bannerlord
 - Shokuho
-- **Shokuho_CNs_HL**（必需；Bakumatsu 会复用 Shokuho 的部分文化/特性字符串）
 - BakumatsuModels `v1.0.3`
-- 本汉化：`Bakumatsu_CNs_HL v0.1.3`
+- 本汉化：`Bakumatsu_CNs_HL v0.1.4`
+
+**不依赖 `Shokuho_CNs_HL`。** Bakumatsu 会复用少量 Shokuho 本体 localization ID；这些已确认会在 Bakumatsu 页面出现的字符串由本汉化自己的 `dependency_strings.xml` 提供中文，避免 Shokuho 汉化与 Bakumatsu 对同一 ID 的不同语义互相覆盖。
 
 推荐加载顺序：
 
 1. Native / SandBoxCore / Sandbox
 2. Shokuho
-3. Shokuho_CNs_HL
-4. BakumatsuModels
-5. Bakumatsu 简体中文汉化
+3. BakumatsuModels
+4. Bakumatsu 简体中文汉化
 
-## 为什么 v0.1.3 开始要求 Shokuho_CNs_HL
+## 为什么 v0.1.4 移除 Shokuho_CNs_HL 依赖
 
-游戏内实测确认，Bakumatsu 的人物创建/文化特性界面会直接复用 Shokuho 的 localization ID。此前只审计 `BakumatsuModels/ModuleData` 会漏掉这些跨模块依赖字符串，因此会出现同一页面中文和英文混排。
+实测发现 Shokuho 与 Bakumatsu 会复用部分 localization ID，但同一个 ID 在两个时代设定中可能已经换了语义。例如 `DEmMv6H8` 在 Shokuho 中表示 `Nankai`，而 Bakumatsu 将该文化改成了 `Tosa`。如果同时加载 `Shokuho_CNs_HL`，就可能把 Bakumatsu 应显示的“土佐”重新覆盖成“南海”。
 
-v0.1.3 做两层处理：
+因此 v0.1.4 改回自包含策略：
 
-1. 在 `SubModule.xml` 中把 `Shokuho_CNs_HL` 设为正式依赖，让 Shokuho 本体字符串由其对应汉化提供；
-2. 对已在 Bakumatsu 页面实测出现的 4 个 Shokuho runtime ID 在 `dependency_strings.xml` 中再次覆盖，保证本汉化最后加载时使用统一术语：
+1. 只依赖 Shokuho 本体和 BakumatsuModels；
+2. 不要求、也不建议把 `Shokuho_CNs_HL` 作为本汉化的依赖；
+3. 对已经确认在 Bakumatsu 页面实际出现、且来自 Shokuho 本体的少量字符串，继续在本包 `dependency_strings.xml` 中提供中文：
    - `mAVRtypJ` — 火器部队招募/升级费用降低 10%
    - `s9og1E3Z` — 藩国决策关系损失增加 20%
    - `bo8sZ7gY` — 山阳港口关联城镇税收增加 20%
    - `iKA94zCe` — 南海势力城镇民兵增长 +1
+
+以后若再发现 Bakumatsu 实际复用的 Shokuho 字符串，会继续按“选择性自包含”方式加入，而不是重新依赖整个 Shokuho 汉化包。
 
 ## 独立 MOD 结构
 
@@ -71,21 +74,22 @@ Mount & Blade II Bannerlord/Modules/Bakumatsu_CNs_HL/SubModule.xml
 Modules/Bakumatsu_CNs_HL/Bakumatsu_CNs_HL/SubModule.xml
 ```
 
-然后在 Launcher 中同时勾选：
+然后在 Launcher 中勾选：
 
 ```text
 Shokuho
-Shokuho_CNs_HL
 BakumatsuModels
 Bakumatsu 简体中文汉化
 ```
 
 并保证上述顺序。游戏语言设为简体中文。
 
+如果本机另外安装了 `Shokuho_CNs_HL`，建议测试 Bakumatsu 时先不要启用它，以避免共享 localization ID 的语义冲突。
+
 ## 构建
 
 ```bash
-python tools/build_standalone_mod.py --version v0.1.3
+python tools/build_standalone_mod.py --version v0.1.4
 python tools/validate_standalone_mod.py dist/Bakumatsu_CNs_HL
 ```
 
@@ -93,5 +97,5 @@ python tools/validate_standalone_mod.py dist/Bakumatsu_CNs_HL
 
 ```text
 dist/Bakumatsu_CNs_HL/
-dist/Bakumatsu_CNs_HL-v0.1.3.zip
+dist/Bakumatsu_CNs_HL-v0.1.4.zip
 ```
