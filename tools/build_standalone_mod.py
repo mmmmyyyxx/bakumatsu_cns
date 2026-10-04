@@ -38,7 +38,7 @@ def localname(tag: str) -> str:
 
 def parse_args():
     p = argparse.ArgumentParser(description="Build the standalone Bakumatsu CN localization module")
-    p.add_argument("--version", default="v0.1.2")
+    p.add_argument("--version", default="v0.1.3")
     return p.parse_args()
 
 
@@ -115,13 +115,10 @@ def main() -> None:
     cn_dst.parent.mkdir(parents=True, exist_ok=True)
     shutil.copytree(SOURCE_CN, cn_dst)
 
-    # Match the working Shokuho CN module: only CNs/language_data.xml is used.
     root_manifest = build_dir / "ModuleData" / "Languages" / "language_data.xml"
     if root_manifest.exists():
         root_manifest.unlink()
 
-    # Repository sources were serialized with a TaleWorlds default namespace.
-    # Release tables must have literal <base>/<tags>/<strings>/<string> elements.
     for path in sorted(cn_dst.glob("*.xml")):
         if path.name != "language_data.xml":
             normalize_language_xml(path)
