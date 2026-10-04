@@ -60,6 +60,10 @@ KINGDOM_SHORT_NAMES = {
 }
 
 
+def localname(tag: str) -> str:
+    return tag.rsplit("}", 1)[-1]
+
+
 def parse_args():
     p = argparse.ArgumentParser(description="Build the standalone Bakumatsu CN localization module")
     p.add_argument("--version", default="v0.1.0")
@@ -79,7 +83,7 @@ def set_version(submodule: Path, version: str) -> None:
 def patch_kingdom_short_names(kingdoms_path: Path, cn_bak_strings_path: Path) -> None:
     ktree = ET.parse(kingdoms_path)
     kroot = ktree.getroot()
-    kingdoms = list(kroot.iter("Kingdom"))
+    kingdoms = [n for n in kroot.iter() if localname(n.tag) == "Kingdom"]
     source_ids = {k.get("id") for k in kingdoms if k.get("id")}
     expected_ids = set(KINGDOM_SHORT_NAMES)
     if source_ids != expected_ids:
@@ -99,17 +103,20 @@ def patch_kingdom_short_names(kingdoms_path: Path, cn_bak_strings_path: Path) ->
 
     ctree = ET.parse(cn_bak_strings_path)
     croot = ctree.getroot()
-    strings = croot.find(".//strings")
+    strings = next((node for node in croot.iter() if localname(node.tag) == "strings"), None)
     if strings is None:
         raise RuntimeError("CN bak_strings.xml has no <strings> container")
 
+    sample_string = next((node for node in strings if localname(node.tag) == "string"), None)
+    string_tag = sample_string.tag if sample_string is not None else "string"
+
     # Remove stale generated entries if the build script is run on an already-generated tree.
     for node in list(strings):
-        if node.tag == "string" and (node.get("id") or "").startswith("BCNSK_"):
+        if localname(node.tag) == "string" and (node.get("id") or "").startswith("BCNSK_"):
             strings.remove(node)
 
     for kid, (_, chinese) in KINGDOM_SHORT_NAMES.items():
-        ET.SubElement(strings, "string", {"id": f"BCNSK_{kid}", "text": chinese})
+        ET.SubElement(strings, string_tag, {"id": f"BCNSK_{kid}", "text": chinese})
     ctree.write(cn_bak_strings_path, encoding="utf-8", xml_declaration=True)
 
 
