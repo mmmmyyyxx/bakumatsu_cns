@@ -3,7 +3,7 @@ name: Release standalone Bakumatsu CN
 on:
   push:
     branches:
-      - 'release/bakumatsu-cns-v0.1.3'
+      - 'release/bakumatsu-cns-v0.1.4'
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: release/bakumatsu-cns-v0.1.3
+          ref: release/bakumatsu-cns-v0.1.4
           fetch-depth: 0
 
       - uses: actions/setup-python@v5
@@ -23,7 +23,7 @@ jobs:
           python-version: '3.12'
 
       - name: Build standalone module
-        run: python tools/build_standalone_mod.py --version v0.1.3
+        run: python tools/build_standalone_mod.py --version v0.1.4
 
       - name: Validate standalone module
         run: python tools/validate_standalone_mod.py dist/Bakumatsu_CNs_HL
@@ -31,26 +31,26 @@ jobs:
       - name: Create checksum
         run: |
           cd dist
-          sha256sum Bakumatsu_CNs_HL-v0.1.3.zip > Bakumatsu_CNs_HL-v0.1.3.zip.sha256
+          sha256sum Bakumatsu_CNs_HL-v0.1.4.zip > Bakumatsu_CNs_HL-v0.1.4.zip.sha256
 
       - name: Align release tag with validated commit
         run: |
-          git tag -f v0.1.3 "$GITHUB_SHA"
-          git push origin refs/tags/v0.1.3 --force
+          git tag -f v0.1.4 "$GITHUB_SHA"
+          git push origin refs/tags/v0.1.4 --force
 
       - name: Publish GitHub Release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view v0.1.3 >/dev/null 2>&1; then
-            echo 'Release v0.1.3 already exists; replacing assets and notes.'
-            gh release upload v0.1.3 dist/Bakumatsu_CNs_HL-v0.1.3.zip dist/Bakumatsu_CNs_HL-v0.1.3.zip.sha256 --clobber
-            gh release edit v0.1.3 --title 'Bakumatsu 简体中文汉化 v0.1.3' --notes-file release_notes_v0.1.3.md
+          if gh release view v0.1.4 >/dev/null 2>&1; then
+            echo 'Release v0.1.4 already exists; replacing assets and notes.'
+            gh release upload v0.1.4 dist/Bakumatsu_CNs_HL-v0.1.4.zip dist/Bakumatsu_CNs_HL-v0.1.4.zip.sha256 --clobber
+            gh release edit v0.1.4 --title 'Bakumatsu 简体中文汉化 v0.1.4' --notes-file release_notes_v0.1.4.md
           else
-            gh release create v0.1.3 \
-              dist/Bakumatsu_CNs_HL-v0.1.3.zip \
-              dist/Bakumatsu_CNs_HL-v0.1.3.zip.sha256 \
+            gh release create v0.1.4 \
+              dist/Bakumatsu_CNs_HL-v0.1.4.zip \
+              dist/Bakumatsu_CNs_HL-v0.1.4.zip.sha256 \
               --target "$GITHUB_SHA" \
-              --title 'Bakumatsu 简体中文汉化 v0.1.3' \
-              --notes-file release_notes_v0.1.3.md
+              --title 'Bakumatsu 简体中文汉化 v0.1.4' \
+              --notes-file release_notes_v0.1.4.md
           fi
