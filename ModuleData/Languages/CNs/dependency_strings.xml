@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="简体中文"/>
+  </tags>
+  <strings>
+    <!-- Shokuho strings reused by Bakumatsu runtime/UI. Keep direct IDs because the game looks these up globally. -->
+    <string id="mAVRtypJ" text="招募和升级火器部队的费用降低 10%。"/>
+    <string id="s9og1E3Z" text="藩国决策造成的关系损失增加 20%。"/>
+    <string id="bo8sZ7gY" text="与山阳势力控制的港口相连的城镇税收收入增加 20%。"/>
+    <string id="iKA94zCe" text="南海势力控制的城镇民兵增长 +1。"/>
+  </strings>
+</base>
