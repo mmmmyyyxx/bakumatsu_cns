@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<base xmlns="http://schemas.taleworlds.com/2007/04/GameSystem/" type="string">
+  <tags>
+    <tag language="简体中文"/>
+  </tags>
+  <strings>
+    <string id="arena_master_30" text="我现在需要离开。再见。"/>
+    <string id="arena_master_38" text="其实，没关系。"/>
+    <string id="arena_master_36" text="再想一想，我会推迟。"/>
+    <string id="never_mind" text="没关系。"/>
+  </strings>
+</base>

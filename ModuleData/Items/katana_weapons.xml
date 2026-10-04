@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Items>
+    <Item id="bak_shinai" name="{=Vyt0bkFh}Shinai" body_name="bo_shinai" mesh="shinai" weight="3" value="1" is_merchandise="false" appearance="0.8" difficulty="0" Type="TwoHandedWeapon" item_holsters="sword_left_hip_katana_1" holster_position_shift="0,0,-0.25">
+        <ItemComponent>
+            <Weapon weapon_class="TwoHandedSword" thrust_speed="90" speed_rating="80" weapon_length="110" thrust_damage="100" swing_damage="90" thrust_damage_type="Blunt" swing_damage_type="Blunt" item_usage="twohanded_block_swing_thrust" physics_material="wood_weapon" center_of_mass="0,0,0.55" position="0.00, 0.00, 0.0" rotation="-5, 0, 0">
+                <WeaponFlags MeleeWeapon="true" TwoHandIdleOnMount="true" NoBlood="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags>
+        </Flags>
+    </Item>
+    <Item id="training_spear"
+          name="{=nVRMf2SK}Training Spear"
+          body_name="bo_sho_bamboo_spear"
+          recalculate_body="true"
+          mesh="sho_bamboo_spear"
+		  is_merchandise="false"
+          value="50"
+          weight="2"
+          difficulty="0"
+          appearance="1"
+          Type="Polearm"
+          item_holsters="polearm_back:polearm_back_2:polearm_back_3:polearm_back_4">
+        <ItemComponent>
+            <Weapon weapon_class="TwoHandedPolearm"
+                    weapon_balance="100"
+                    thrust_speed="90"
+                    speed_rating="100"
+                    physics_material="wood_weapon"
+                    weapon_length="150"
+                    position="0.0, 0.0, 0.3"
+                    thrust_damage="40"
+                    thrust_damage_type="Pierce"
+                    item_usage="polearm_block_thrust">
+                <WeaponFlags MeleeWeapon="true"
+                             PenaltyWithShield="true"
+                             NotUsableWithOneHand="true"
+                             TwoHandIdleOnMount="true"
+                             WideGrip="true"
+							 NoBlood="true"/>
+            </Weapon>
+        </ItemComponent>
+        <Flags WoodenParry="true"
+               DoNotScaleBodyAccordingToWeaponLength="true"/>
+    </Item>
+	<!--tier 3-->
+	<CraftedItem id="bak_nagae_katana_1" name="{=1N8vmNag}Robust Nagaekatana" crafting_template="SHO_TwoHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="sho_katana_blade_11" Type="Blade" scale_factor="100"/>
+			<Piece id="sho_ka_tsuba_a_7" Type="Guard" scale_factor="100"/>
+			<Piece id="sho_katana_curved_handle_4_green" Type="Handle" scale_factor="140"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_nagae_katana_2" name="{=yDvQJNag}Solid Nagaekatana" crafting_template="SHO_TwoHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="sho_katana_blade_12" Type="Blade" scale_factor="100"/>
+			<Piece id="sho_ka_tsuba_a_5" Type="Guard" scale_factor="100"/>
+			<Piece id="sho_katana_handle_4_darkblue" Type="Handle" scale_factor="140"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_nagae_katana_3" name="{=gQmNagif}Quality Nagaekatana" crafting_template="SHO_TwoHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="sho_katana_blade_16" Type="Blade" scale_factor="100"/>
+			<Piece id="sho_ka_tsuba_a_7" Type="Guard" scale_factor="100"/>
+			<Piece id="sho_katana_curved_handle_4_orange" Type="Handle" scale_factor="140"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_nagae_katana_4" name="{=HsKHrONa}Excellent Nagaekatana" crafting_template="SHO_TwoHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="sho_katana_blade_17" Type="Blade" scale_factor="100"/>
+			<Piece id="sho_ka_tsuba_a_8" Type="Guard" scale_factor="100"/>
+			<Piece id="sho_katana_handle_4_lightblue" Type="Handle" scale_factor="140"/>
+		</Pieces>
+	</CraftedItem>
+	<!--tier 4-->
+	<CraftedItem id="bak_nagae_katana_5" name="{=juKNag88}Superior Nagaekatana" crafting_template="SHO_TwoHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="sho_katana_blade_10" Type="Blade" scale_factor="100"/>
+			<Piece id="sho_ka_tsuba_a_2" Type="Guard" scale_factor="100"/>
+			<Piece id="sho_katana_curved_handle_5_black" Type="Handle" scale_factor="140"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_nagae_katana_6" name="{=AqNalzyn}Elegant Nagaekatana" crafting_template="SHO_TwoHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="sho_katana_blade_3" Type="Blade" scale_factor="100"/>
+			<Piece id="sho_ka_tsuba_a_9" Type="Guard" scale_factor="100"/>
+			<Piece id="sho_katana_curved_handle_5_gold" Type="Handle" scale_factor="140"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="bak_nagae_katana_7" name="{=UAEmZTNa}Superb Nagaekatana" crafting_template="SHO_TwoHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="sho_katana_blade_4" Type="Blade" scale_factor="100"/>
+			<Piece id="sho_ka_tsuba_a_2" Type="Guard" scale_factor="100"/>
+			<Piece id="sho_katana_handle_5_purple" Type="Handle" scale_factor="140"/>
+		</Pieces>
+	</CraftedItem>
+	<!--tier 5-->
+    <CraftedItem id="bak_nagae_katana_8" name="{=sR4rNagq}Stable Nagaekatana" crafting_template="SHO_TwoHandedSword" modifier_group="sword">
+        <Pieces>
+            <Piece id="sho_katana_blade_12" Type="Blade" scale_factor="104"/>
+            <Piece id="sho_ka_tsuba_a_7" Type="Guard" scale_factor="100"/>
+            <Piece id="sho_katana_handle_4_green" Type="Handle" scale_factor="140"/>
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="bak_nagae_katana_9" name="{=TQfGjNag}Sturdy Nagaekatana" crafting_template="SHO_TwoHandedSword" modifier_group="sword">
+        <Pieces>
+            <Piece id="sho_katana_blade_16" Type="Blade" scale_factor="103"/>
+            <Piece id="sho_ka_tsuba_a_7" Type="Guard" scale_factor="100"/>
+            <Piece id="sho_katana_curved_handle_4_orange" Type="Handle" scale_factor="140"/>
+        </Pieces>
+    </CraftedItem>
+    <CraftedItem id="bak_nagae_katana_10" name="{=9NgHxrqg}Strong Nagaekatana" crafting_template="SHO_TwoHandedSword" modifier_group="sword">
+        <Pieces>
+            <Piece id="sho_katana_blade_17" Type="Blade" scale_factor="104"/>
+            <Piece id="sho_ka_tsuba_a_6" Type="Guard" scale_factor="100"/>
+            <Piece id="sho_katana_curved_handle_4_red" Type="Handle" scale_factor="140"/>
+        </Pieces>
+    </CraftedItem>
+</Items>

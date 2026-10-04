@@ -5,11 +5,11 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / 'bak_strings.xml'
-CN_PATH = ROOT / 'CNs' / 'bak_strings.xml'
+MODULE = ROOT / 'ModuleData'
+SRC = MODULE / 'Languages' / 'bak_strings.xml'
+CN_PATH = MODULE / 'Languages' / 'CNs' / 'bak_strings.xml'
 REPORT = ROOT / 'reports' / 'first_pass_changes.csv'
 
-# High-confidence historical and terminology corrections.
 EXACT = {
     'Revere the Emperor': '尊王',
     'serving the emperor': '效忠天皇',
@@ -72,7 +72,6 @@ EXACT = {
     'Tsuge': '柘植',
 }
 
-# Source short-name -> standard historical Chinese for pattern-generated labels.
 PLACES = {
     'Satsuma':'萨摩','Choshu':'长州','Chōshū':'长州','Tosa':'土佐','Aizu':'会津','Sendai':'仙台',
     'Shonai':'庄内','Morioka':'盛冈','Hirosaki':'弘前','Kubota':'久保田','Akita':'秋田','Nagaoka':'长冈',
@@ -84,69 +83,71 @@ PLACES = {
 }
 
 
-def localname(tag): return tag.rsplit('}',1)[-1]
+def localname(tag):
+    return tag.rsplit('}', 1)[-1]
+
 
 def source_info():
-    ordered=[]
-    counts=Counter()
+    ordered = []
+    counts = Counter()
     for e in ET.parse(SRC).getroot().iter():
-        if localname(e.tag)=='string' and e.attrib.get('id'):
-            sid=e.attrib['id']; txt=e.attrib.get('text','')
-            ordered.append((sid,txt)); counts[sid]+=1
-    last={sid:txt for sid,txt in ordered}
-    dup={sid for sid,c in counts.items() if c>1}
+        if localname(e.tag) == 'string' and e.attrib.get('id'):
+            sid = e.attrib['id']
+            txt = e.attrib.get('text', '')
+            ordered.append((sid, txt))
+            counts[sid] += 1
+    last = {sid: txt for sid, txt in ordered}
+    dup = {sid for sid, c in counts.items() if c > 1}
     return last, dup
 
-last_source, duplicate_ids = source_info()
 
-# Pattern-derived safe labels.
 for en, zh in PLACES.items():
     EXACT.setdefault(f'{en}-han', f'{zh}藩')
     EXACT.setdefault(f'{en} Retainers', f'{zh}藩士')
     EXACT.setdefault(f'{en} Caravan Master', f'{zh}商队首领')
 
+last_source, duplicate_ids = source_info()
 raw = CN_PATH.read_text(encoding='utf-8-sig')
 entry_re = re.compile(r'(<string\s+id="(?P<id>[^"]+)"\s+text=")(?P<text>[^"]*)("\s*/>)')
-changes=[]
+changes = []
 
-def unescape_attr(s):
-    return html.unescape(s)
-
-def escape_attr(s):
-    return html.escape(s, quote=True)
 
 def repl(m):
-    sid=m.group('id')
-    old_xml=m.group('text')
-    old=unescape_attr(old_xml)
-    new=old
-    src=last_source.get(sid,'')
-    reasons=[]
-
-    # Do not source-align duplicated IDs automatically: upstream reuses IDs for different strings.
+    sid = m.group('id')
+    old = html.unescape(m.group('text'))
+    new = old
+    src = last_source.get(sid, '')
+    reasons = []
     if sid not in duplicate_ids:
         if src in EXACT and EXACT[src] != new:
-            new=EXACT[src]
+            new = EXACT[src]
             reasons.append('historical terminology')
-
-        # Bannerlord conditional closer in source is commonly {\\?}; current CN collapsed many to {\?}.
         expected_close = src.count('{\\\\?}')
         current_close = new.count('{\\\\?}')
         single_close = new.count('{\\?}')
         if expected_close > current_close and single_close:
-            need=min(expected_close-current_close, single_close)
+            need = min(expected_close - current_close, single_close)
             for _ in range(need):
-                new=new.replace('{\\?}', '{\\\\?}', 1)
+                new = new.replace('{\\?}', '{\\\\?}', 1)
             reasons.append('restore conditional token')
-
     if new != old:
-        changes.append({'id':sid,'source':src,'old_cn':old,'new_cn':new,'reason':' + '.join(reasons)})
-        return m.group(1) + escape_attr(new) + m.group(4)
+        changes.append({'id': sid, 'source': src, 'old_cn': old, 'new_cn': new, 'reason': ' + '.join(reasons)})
+        return m.group(1) + html.escape(new, quote=True) + m.group(4)
     return m.group(0)
 
+
 new_raw = entry_re.sub(repl, raw)
-CN_PATH.write_text(new_raw, encoding='utf-8')
+if new_raw != raw:
+    CN_PATH.write_text(new_raw, encoding='utf-8')
+
 REPORT.parent.mkdir(exist_ok=True)
-with REPORT.open('w', encoding='utf-8-sig', newline='') as f:
-    w=csv.DictWriter(f,fieldnames=['id','source','old_cn','new_cn','reason']); w.writeheader(); w.writerows(changes)
+if changes:
+    with REPORT.open('w', encoding='utf-8-sig', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=['id', 'source', 'old_cn', 'new_cn', 'reason'])
+        w.writeheader()
+        w.writerows(changes)
+elif not REPORT.exists():
+    with REPORT.open('w', encoding='utf-8-sig', newline='') as f:
+        csv.DictWriter(f, fieldnames=['id', 'source', 'old_cn', 'new_cn', 'reason']).writeheader()
+
 print(f'applied {len(changes)} first-pass changes')

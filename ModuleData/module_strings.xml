@@ -1,0 +1,1435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<!-- POLICIES -->
+	<string id="str_clashing_policies" text="{=zkOmz2oV}Kingdom has the {CONTRADICTORY_POLICY} policy" />
+
+	<string id="bak_import_firearms.name" text="{=BaPTImFi}Import Firearms" />
+	<string id="bak_import_firearms.desc" text="{=BaPDImFi}Given how outdated our current firearms are, it is better to import modern ones from across the sea to arm our troops, whatever the cost to our own domestic industry." />
+	<string id="bak_import_firearms.in_effect" text="{=BaPEImFi}importing firearms" />
+	<string id="bak_import_firearms.effects" text="{=BaPLImFi}Town prosperity is decreased by 0.5{newline}Modern troop recruitment rate increases by 20%{newline}Foreign Arms Dealers appear in town keeps" />
+
+	<string id="bak_western_drill.name" text="{=BaPTWeDr}Western Drill" />
+	<string id="bak_western_drill.desc" text="{=BaPDWeDr}Adopt military practices from Western powers, emphasizing drill, discipline, and battlefield maneuver. Lords begin training their retainers to fight in formation, rather than relying on traditional melee tactics." />
+	<string id="bak_western_drill.in_effect" text="{=BaPEWeDr}western drill" />
+	<string id="bak_western_drill.effects" text="{=BaPLWeDr}Lord party sizes are increased by 20{newline}Modern troop recruitment rate increases by 20%{newline}Troop wages are increased by 10%" />
+
+	<string id="bak_standard_uniforms.name" text="{=BaPTStUn}Standard Uniforms" />
+	<string id="bak_standard_uniforms.desc" text="{=BaPDStUn}Adopt standardized uniforms for modern units. These make units easier to identify, coordinate, and supply, while promoting discipline and unity among troops." />
+	<string id="bak_standard_uniforms.in_effect" text="{=BaPEStUn}standard uniforms" />
+	<string id="bak_standard_uniforms.effects" text="{=BaPLStUn}Gun troop upgrade costs are reduced by 20%{newline}Modern troop recruitment rate increases by 10%" />
+
+	<string id="bak_implement_conscription.name" text="{=BaPTImCo}Implement Conscription" />
+	<string id="bak_implement_conscription.desc" text="{=BaPDImCo}Implement conscription to create a standing modern army. By requiring all able-bodied men to serve, the military grows rapidly, though at the cost of social unrest and economic strain." />
+	<string id="bak_implement_conscription.in_effect" text="{=BaPEImCo}implemented conscription" />
+	<string id="bak_implement_conscription.effects" text="{=BaPLImCo}Town prosperity is decreased by 2{newline}Settlement loyalty is decreased by 1{newline}Troop wages are decreased by 20%{newline}Troop recruitment costs are decreased by 25%{newline}Modern troop recruitment rate increases by 50%" />
+
+	<string id="bak_industrialize_economy.name" text="{=BaPTInEc}Industrialize the Economy" />
+	<string id="bak_industrialize_economy.desc" text="{=BaPDInEc}Invest heavily in modern industries, with towns fostering ironworks, textiles, and modern construction. Villages grow as they supply food and manpower to new urban centers." />
+	<string id="bak_industrialize_economy.in_effect" text="{=BaPEInEc}industrializing economy" />
+	<string id="bak_industrialize_economy.effects" text="{=BaPLInEc}Town prosperity is increased by 5{newline}Village hearth is increased by 3{newline}Workshop production is increased by 10%{newline}Clans lose 2 influence per day" />
+
+	<string id="bak_dissolve_samurai.name" text="{=BaPTDiSa}Dissolve the Samurai" />
+	<string id="bak_dissolve_samurai.desc" text="{=BaPDDiSa}Abolish the privileges of the samurai class, stripping them of stipends and exclusive rights. Their former domains are reorganized under new laws and modern administration." />
+	<string id="bak_dissolve_samurai.in_effect" text="{=BaPEDiSa}dissolved the samurai" />
+	<string id="bak_dissolve_samurai.effects" text="{=BaPLDiSa}Clans lose 2 influence per day{newline}Town prosperity and village hearth is increased by 2{newline}Town security is increased by 1{newline}Social caste no longer has any effect in settlements owned by this kingdom" />
+
+	<string id="bak_british_mission.name" text="{=BaPTBrMi}British Military Mission" />
+	<string id="bak_british_mission.desc" text="{=BaPDBrMi}Invite British advisors to train troops and officers in modern military tactics and logistics, leading to more professional and skilled units." />
+	<string id="bak_british_mission.in_effect" text="{=BaPEBrMi}British military mission" />
+	<string id="bak_british_mission.effects" text="{=BaPLBrMi}Gun troop upgrade costs are reduced by 25%{newline}Troop wages are increased by 10%{newline}Modern troop recruitment rate increases by 10%" />
+
+	<string id="bak_french_mission.name" text="{=BaPTFrMi}French Military Mission" />
+	<string id="bak_french_mission.desc" text="{=BaPDFrMi}Invite French advisors to train troops and officers in modern military tactics and logistics, leading to more professional and skilled units." />
+	<string id="bak_french_mission.in_effect" text="{=BaPEFrMi}French military mission" />
+	<string id="bak_french_mission.effects" text="{=BaPLFrMi}Gun troop upgrade costs are reduced by 25%{newline}Troop wages are increased by 10%{newline}Modern troop recruitment rate increases by 10%" />
+
+	<string id="bak_expel_westerners.name" text="{=BaPTExWe}Expel the Barbarians" />
+	<string id="bak_expel_westerners.desc" text="{=BaPDExWe}Reignite sonnō-jōi sentiment and expel foreign advisors and missionaries. This policy unifies conservatives and traditionalists, but causes economic setbacks." />
+	<string id="bak_expel_westerners.in_effect" text="{=BaPEExWe}expelled the westerners" />
+	<string id="bak_expel_westerners.effects" text="{=BaPLExWe}Settlement security and loyalty is increased by 1{newline}Town prosperity is decreased by 2{newline}Clans gain 3 influence per day" />
+
+	<string id="bak_sakoku.name" text="{=BaPTSako}Sakoku" />
+	<string id="bak_sakoku.desc" text="{=BaPDSako}Reinstitute the closed country policy of previous centuries, isolating the nation from foreign influence while bolstering internal cohesion and traditional values." />
+	<string id="bak_sakoku.in_effect" text="{=BaPESako}closed country" />
+	<string id="bak_sakoku.effects" text="{=BaPLSako}Settlement security and loyalty is increased by 2{newline}Town prosperity is decreased by 3{newline}Clans gain 3 influence per day{newline}Traditional troop recruitment rate increases by 50%" />
+
+	<string id="bak_ranpo.name" text="{=BaPTRanp}Ranpo" />
+	<string id="bak_ranpo.desc" text="{=BaPDRanp}Embrace Western medical science, known as Ranpo, derived from Dutch texts and modern anatomy. Hospitals and domain physicians begin applying these foreign techniques to improve public health and treat battlefield wounds." />
+	<string id="bak_ranpo.in_effect" text="{=BaPERanp}ranpo" />
+	<string id="bak_ranpo.effects" text="{=BaPLRanp}Troops have 10% higher chance to recover from fatal wounds{newline}Troop wages are increased by 5%{newline}Town prosperity is increased by 1" />
+
+	<string id="bak_currency.name" text="{=BaPTCurr}New Currency Act" />
+	<string id="bak_currency.desc" text="{=BaPDCurr}Introduce a modern national currency system based on paper bills and minted coins. This replaces the feudal koku rice standard, streamlining commerce and aligning the economy with Western financial practices." />
+	<string id="bak_currency.in_effect" text="{=BaPECurr}currency system" />
+	<string id="bak_currency.effects" text="{=BaPLCurr}Town prosperity is increased by 2{newline}Village hearth is increased by 2" />
+
+	<string id="bak_zaibatsu.name" text="{=BaPTZaib}Zaibatsu" />
+	<string id="bak_zaibatsu.desc" text="{=BaPDZaib}Encourage the rise of powerful merchant families to organize and centralize industrial production, at the cost of diminishing local tax revenue." />
+	<string id="bak_zaibatsu.in_effect" text="{=BaPEZaib}zaibatsu" />
+	<string id="bak_zaibatsu.effects" text="{=BaPLZaib}Workshop production is increased by 25%{newline}Tax income in settlements are reduced by 10%" />
+
+	<string id="bak_public_education.name" text="{=BaPTPuEd}Gakusei" />
+	<string id="bak_public_education.desc" text="{=BaPDPuEd}Establish a nationwide school system to educate children of all classes in literacy, arithmetic, and civics. By fostering an informed and disciplined populace, the nation prepares future soldiers, administrators, and industrial workers." />
+	<string id="bak_public_education.in_effect" text="{=BaPEPuEd}public education" />
+	<string id="bak_public_education.effects" text="{=BaPLPuEd}Settlement loyalty is increased by 0.5{newline}Clans lose 0.5 influence per day{newline}Settlement prosperity is increased by 1" />
+
+	<string id="bak_national_spirit.name" text="{=BaPTNaSp}National Spirit" />
+	<string id="bak_national_spirit.desc" text="{=BaPDNaSp}Promote a national ideology rooted in loyalty, discipline, and Bushidō. Through ceremonies, oaths, and state rhetoric, soldiers and citizens alike are bound to the cause of unifying and strengthening the nation." />
+	<string id="bak_national_spirit.in_effect" text="{=BaPENaSp}national spirit" />
+	<string id="bak_national_spirit.effects" text="{=BaPLNaSp}The influence cost of creating an army is reduced by 10%{newline}Army cohesion deteriorates 20% slower{newline}Settlement security is increased by 0.5" />
+
+	<string id="bak_sword_schools.name" text="{=BaPTSwSc}Sword Schools" />
+	<string id="bak_sword_schools.desc" text="{=BaPDSwSc}Reform and fund kenjutsu dojos to train young samurai in traditional swordsmanship. These schools preserve martial heritage while preparing warriors for the shifting nature of modern warfare." />
+	<string id="bak_sword_schools.in_effect" text="{=BaPESwSc}sword schools" />
+	<string id="bak_sword_schools.effects" text="{=BaPLSwSc}Traditional troop recruitment rate increases by 10%" />
+
+	<string id="bak_traditional_war.name" text="{=BaPTTrWa}Traditional Wars" />
+	<string id="bak_traditional_war.desc" text="{=BaPDTrWa}No matter how much we adopt modern technology, war must not change. We are samurai, and we shall fight like it." />
+	<string id="bak_traditional_war.in_effect" text="{=BaPETrWa}traditional war" />
+	<string id="bak_traditional_war.effects" text="{=BaPLTrWa}Traditional troop recruitment rate increases by 30%" />
+
+	<string id="bak_officer_academies.name" text="{=BaPTOfAc}Officer Academies" />
+	<string id="bak_officer_academies.desc" text="{=BaPDOfAc}Establish modern officer academies to educate young samurai in Western military tactics, strategy, and leadership. These institutions lay the foundation for a professionalized command structure." />
+	<string id="bak_officer_academies.in_effect" text="{=BaPEOfAc}officer academies" />
+	<string id="bak_officer_academies.effects" text="{=BaPLOfAc}Modern troop recruitment rate increases by 10%" />
+
+	<string id="bak_establish_railroad_network.name" text="{=BaPTRail}Establish Railroad Network" />
+	<string id="bak_establish_railroad_network.desc" text="{=BaPDRail}TODO" />
+	<string id="bak_establish_railroad_network.in_effect" text="{=BaPERail}railroads" />
+	<string id="bak_establish_railroad_network.effects" text="{=BaPLRail}TODO" />
+
+	<string id="bak_serve_emperor.name" text="{=BaPTImAl}Revere the Emperor" />
+	<string id="bak_serve_emperor.desc" text="{=BaPDImAl}Elevate the Emperor as a living symbol of divine unity. Troops fight not for domain or province, but for the restoration of Imperial rule." />
+	<string id="bak_serve_emperor.in_effect" text="{=BaPEImAl}serving the emperor" />
+	<string id="bak_serve_emperor.effects" text="{=BaPLImAl}Allows recruitment of Imperial Army soldiers" />
+
+	<string id="bak_serve_shogun.name" text="{=BaPTShAl}Serve the Shogun" />
+	<string id="bak_serve_shogun.desc" text="{=BaPDShAl}Reaffirm loyalty to the Tokugawa Shogunate. Troops and administrators act in service to the established bakufu, preserving order and tradition." />
+	<string id="bak_serve_shogun.in_effect" text="{=BaPEShAl}serving the shogun" />
+	<string id="bak_serve_shogun.effects" text="{=BaPLShAl}Allows recruitment of Shogunate soldiers" />
+	<!-- MARTIAL SCHOOLS -->
+	<string id="jutsu.Kenjutsu" text="{=Bwlu7YVv}Kenjutsu" />
+    <string id="jutsu.Battojutsu" text="{=5wsW9s9w}Battojutsu" />
+	<string id="jutsu.Sojutsu" text="{=xMXxXOWn}Sojutsu" />
+    <string id="jutsu.Bojutsu" text="{=18ybQYwG}Bojutsu" />
+	<string id="jutsu.Naginatajutsu" text="{=hrGOqdkO}Naginatajutsu" />
+    <string id="jutsu.Jojutsu" text="{=0XyBvbgJ}Jojutsu" />
+	<string id="jutsu.Kyujutsu" text="{=9A8GAr1u}Kyujutsu" />
+    <string id="jutsu.Hojutsu" text="{=YYxcIhgg}Hojutsu" />
+	<string id="jutsu.Kasagake" text="{=PTIkb3DN}Kasagake" />
+    <string id="jutsu.Bajutsu" text="{=JtuBJ7vT}Bajutsu" />
+	<string id="dojo.head_title" text="{=5fbPC9f9}{CURRENT_RYUHA} Shihan"/>
+	<string id="dojo.generic_head_title" text="{=PNdRrX3M}Dojo Shihan"/>
+	<string id="dojo.ryuha" text="{=psszxhHA}Dojo:"/>
+	<string id="dojo.school" text="{=izlkGdyN}School:"/>
+	<string id="dojo.achievements" text="{=PaqnsR39}Achievements: "/>
+	<string id="dojo.rank" text="{=AUadhzCx}Rank: "/>
+	<string id="dojo.player_name" text="{=7RN91ZBe}Scrolls: "/>
+	<string id="str_town_ryuha_intro" text="{=sSi5NMFs}You are looking among the various dojos of {CURRENT_SETTLEMENT}"/>
+	<string id="str_ryuha_intro" text="{=UPcWJB5H}You approach {CURRENT_SETTLEMENT}, a school of the {SCHOOL_TEXT}. {PROSPERITY_STATEMENT}" />
+	<string id="ryuha_prosperity_low" text="{=Lxc2hdfU}The dojo appears to be half-abandoned and scarcely visited by local inhabitants, showing how unknown the martial school is." />
+	<string id="ryuha_prosperity_mid" text="{=eDJCjpfF}The dojo appears to be well-maintained and attracting a modest number of students from the province, showing that the school is averagely well known." />
+	<string id="ryuha_prosperity_high" text="{=Q9RbQzD9}The dojo appears to be richly decorated and crowded with students from across the region, demonstrating the fame of this martial school." />
+	<string id="rank.None" text="{=25jfMWVQ}None"/>
+	<string id="rank.Keppan" text="{=xzOSwEgp}Keppan"/>
+	<string id="rank.Mokuroku" text="{=B9L5IgZ0}Mokuroku"/>
+	<string id="rank.Menkyo" text="{=dBf2v3x1}Menkyo"/>
+	<string id="rank.MenkyoKaiden" text="{=c5bTIlzQ}Menkyo Kaiden"/>
+	<string id="rank.Soke" text="{=xbQk5sCF}Soke"/>
+	<string
+		id="str_dojo_post_TeAwase.0"
+		text="{=vQALmjEM}You have conducted yourself with diligence in today's sparring, {PLAYER.LINK}. While errors were present, your attentiveness to form is commendable. Continue to refine your technique." />
+	<string
+		id="str_dojo_post_TeAwase.1"
+		text="{=DVNtArBS}Your performance against {OPPONENT_COUNT} of your fellow students demonstrates growing competence. Remember, mastery is achieved through repetition and mindful correction of one's mistakes." />
+	<string
+		id="str_dojo_post_TeAwase.2"
+		text="{=hK5PFhNu}You displayed considerable skill and discipline in today's exercises. There remain lapses in timing and precision, but your effort against {OPPONENT_COUNT} peers is noted and serves as a foundation for further improvement." />
+	<string
+		id="str_dojo_post_TeAwase.3"
+		text="{=bZO4pIhj}Well done, {PLAYER.LINK}. Your engagements with {OPPONENT_COUNT} students were executed with composure and intent. Maintain this focus, and your proficiency will continue to advance." />
+	<string
+		id="str_dojo_post_TeAwase.4"
+		text="{=s1VKnfuj}Your discipline in sparring with {OPPONENT_COUNT} peers is evident. Each encounter should be regarded as a lesson. Take these observations to heart and let them guide your continued training." />
+	<string
+		id="str_dojo_post_TeAwase.5"
+		text="{=0wiYRdYM}A notable display of technique, {PLAYER.LINK}. You faced {OPPONENT_COUNT} fellow students with control and determination. Persist in attentive practice, and your abilities will be solidified." />
+	<string
+		id="str_dojo_post_TeAwase.6"
+		text="{=fkM6Q6QV}Congratulations, {PLAYER.LINK}. You have concluded today's series of exercises with distinction. Consistency, focus, and diligence are the hallmarks of a competent martial artist; continue to embody them." />
+	<!-- Same dojo -->
+	<string id="str_dojo_post_TameShiai.0" text="{=43b09aiy}Your technique is sound and your control commendable. Continue in this manner, and you will surpass even your current abilities." />
+	<string id="str_dojo_post_TameShiai.1" text="{=JDLHLW4z}You showed courage, yet your form faltered in key moments. Take this to heart, and refine your movements in preparation for the next encounter." />
+	<!-- Other dojo -->
+	<string id="str_dojo_post_TameShiai.2" text="{=sP43W5iP}You have bested my student, {PLAYER.LINK}. Take your victory, but know that this dojo will not yield so easily next time." />
+	<string id="str_dojo_post_TameShiai.3" text="{=OfvZBKj6}As expected, my student prevails. This dojo's training endures and proves its strength." />
+	<string id="str_dojo_post_TaryuShiai.0" text="{=CPHIlmTG}You have defeated our representative, {PLAYER.LINK}. While your skill is clear, this dojo's honor remains intact, and we shall prepare anew." />
+	<string id="str_dojo_post_TaryuShiai.1" text="{=HuQCw2xA}Our student has claimed victory. This outcome reaffirms the superiority of our training and the rigor of our discipline." />
+	<string id="str_dojo_post_ShinkenShobu.0" text="{=pc3lmTFV}The duel is lost. You have prevailed, {PLAYER.LINK}. Depart now, that I may properly attend to the consequences of this contest and honor those who have fallen." />
+	<string id="str_dojo_post_ShinkenShobu.1" text="{=ewuVlKhm}You have been defeated in this deadly contest, {PLAYER.LINK}. Your skill was noted, yet the outcome is clear. Your life shall be spared, but consider this a grave lesson." />
+	<string id="str_dojo_post_DojoYaburi.0" text="{=BHmyQ4x3}It is as it must be. This dojo has been vanquished, {PLAYER.LINK}. Our signboard shall be removed, and my students must follow where honor now permits. You have claimed what was once ours." />
+	<string id="str_dojo_post_DojoYaburi.1" text="{=fOX9DG6S}The challenge has been met and repelled. This dojo stands, our honor intact, and my students remain under my guidance. Remember this lesson, {PLAYER.LINK}." />
+	<!-- Announcements -->
+	<string id="str_dojo_gained_renown.True" text="{=gyqgse3m}You have won {AMOUNT} renown for {SCHOOL_NAME}" />
+	<string id="str_dojo_gained_renown.False" text="{=vNlEozjp}{SCHOOL_NAME} has gained {AMOUNT} renown" />
+	<string id="str_dojo_lost_renown.True" text="{=Xgkay8ZZ}You have lose {AMOUNT} renown for {SCHOOL_NAME_2}" />
+	<string id="str_dojo_lost_renown.False" text="{=AHy8Jymb}{SCHOOL_NAME_2} has lost {AMOUNT} renown" />
+	<!-- TROOP UPGRADES -->
+	<string id="str_requires_alignment" text="{=9tIiOAnC}Upgrade to {UPGRADE_TARGET}{newline}Requires: {REQUIRED_ALIGNMENT}-Aligned (You are {PARTY_ALIGNMENT})" />
+	<string id="str_needs_reform" text="{=LS8v6nSG}Upgrade to {UPGRADE_TARGET}{NEEDS_REFORM}{NEEDS_POLICY}" />
+	<string id="str_too_many_artillerists" text="{=Iujoylyl}Upgrade to {UPGRADE_TARGET}{newline}You have too many artillerists" />
+	<!-- TRAITS -->
+	<!-- Alignment -->
+	<string id="str_trait.loyalty" text="{=BaTratLT}Loyalty" />
+	<string id="str_trait_name_loyalty.0" text="{=BaTrtLoA}Sabaku-ha" />
+	<string id="str_trait_name_loyalty.1" text="{=BaTrtLoB}Hōkoku" />
+	<string id="str_trait_name_loyalty.3" text="{=BaTrtLoC}Sonnō" />
+	<string id="str_trait_name_loyalty.4" text="{=BaTrtLoD}Kinnō-Tobaku" />
+	<!-- Reformer -->
+	<string id="str_trait.reformer" text="{=BaTratRT}Reformer" />
+	<string id="str_trait_name_reformer.0" text="{=BaTrtReA}Kōbudō" />
+	<string id="str_trait_name_reformer.1" text="{=BaTrtReB}Kōshū" />
+	<string id="str_trait_name_reformer.3" text="{=BaTrtReC}Kairyō" />
+	<string id="str_trait_name_reformer.4" text="{=BaTrtReD}Kyōhei" />
+	<!-- Foreign Influence -->
+	<string id="str_trait.foreigninfluence" text="{=BaTratCT}Foreign Influence" />
+	<string id="str_trait_name_foreigninfluence.0" text="{=BaTrtFIA}Sakoku" />
+	<string id="str_trait_name_foreigninfluence.1" text="{=BaTrtFIB}Jōi" />
+	<string id="str_trait_name_foreigninfluence.3" text="{=BaTrtFIC}Fukoku" />
+	<string id="str_trait_name_foreigninfluence.4" text="{=BaTrtFID}Bunmei-kaika" />
+	<string id="str_kingdom_political_inclination.Authoritarian" text="{=NaMPa4ML}Loyalty"/>
+	<string id="str_kingdom_political_inclination.Oligarchic" text="{=hR6Zo6pD}Reformer"/>
+	<string id="str_kingdom_political_inclination.Egalitarian" text="{=HMFb1gaq}Foreign Influence"/>
+    <string id="NaMPa4ML" text="Loyalty" />
+    <string id="hR6Zo6pD" text="Reformer" />
+    <string id="HMFb1gaq" text="Foreign Influence" />
+    <string id="str_item_category.bak_artillery" text="{=aWns3XLH}Artillery"/>
+	<!-- REGIONS -->
+	<string id="bak_region_rich_name" text="{=Bu3WNzRR}Region"/>
+	<string id="bak_region_rich_name.kinai" text="{=Bu3WNzr5}Kansai"/>
+	<string id="bak_region_rich_name.ou" text="{=a0iCUC9O}Tōhoku"/>
+	<string id="bak_region_rich_name.nankai" text="{=VBYqEwdI}Shikoku"/>
+	<string id="bak_region_rich_name.saikai" text="{=NsGC9toI}Kyūshū"/>
+	<string id="bak_region_rich_name.sanyo" text="{=Q1EKFvj8}Chūgoku"/>
+	<string id="bak_region_rich_name.kanto" text="{=NUjXCfvp}Kantō"/>
+	<string id="bak_region_rich_name.tokai" text="{=jqNGNZAe}Tōkai"/>
+	<string id="bak_region_rich_name.tosan" text="{=FKP2xyMw}Tōsan"/>
+	<string id="bak_region_rich_name.hokuriku" text="{=Xg8SifD3}Hokuriku"/>
+	<string id="bak_region_rich_name.ainu" text="{=Ar3WNzr5}Ezo"/>
+	<!-- <string id="bak_region_epithet.kinai" text="{=vB9pXLex}The Court of the Emperor"/>
+	<string id="bak_region_epithet.ou" text="{=Oh0CFqmN}The Old North"/>
+	<string id="bak_region_epithet.nankai" text="{=mM79y0Qn}The Broker of Power"/>
+	<string id="bak_region_epithet.saikai" text="{=wW2JWSdn}The Forge of Reform"/>
+	<string id="bak_region_epithet.sanyo" text="{=o4N0AKUh}The Hotbed of Revolt"/>
+	<string id="bak_region_epithet.kanto" text="{=BmwNr0qQ}The Seat of the Shogun"/>
+	<string id="bak_region_epithet.tokai" text="{=1m6uURng}The Great Road"/>
+	<string id="bak_region_epithet.tosan" text="{=IKWrry8v}The Spine of the Shogunate"/>
+	<string id="bak_region_epithet.hokuriku" text="{=4YaXI0sl}The Loyal Coast"/>
+	<string id="bak_region_epithet.ainu" text="{=4aYXI0sl}The Farflung Colony"/> -->
+	<string id="bak_region_description" text="{=F8ARrN5C}REGION DESC"/>
+	<string id="bak_region_description.kinai" text="{=8FARrN5C}Kansai is the centermost region of Japan, and the origin of most strife in the Bakumatsu. Here sonno-joi radicals and shogunate loyalists clash in the streets of Kyoto and in the court of the Emperor. From here arose Tokugawa Iemochi, the current Shogun, and Ii Naosuke, the Tairo who dominated the Bakufu throughout the period until his assassination in 1860. The domains of Kansai were once some of the strongest for the Shogun, but many are being pushed away by their political rivals, forcing them into joining the Imperial cause."/>
+	<string id="bak_region_description.ou" text="{=37mpLUZE}Tōhoku, the northernmost region of Honshū, was the home of the last holdouts of the Shogunate cause in the Boshin war. The domains here are some of the oldest and most entrenched in Japan, with clans such as the Date of Sendai, the Nanbu of Morioka, and the Tsugaru of Hirosaki having ruled in the same region for centuries. Tōhoku, due to its isolation, is also fairly conservative. Few domains have truly begun reforming, leaving them far behind the rapidly modernizing domains of the southwest."/>
+	<string id="bak_region_description.nankai" text="{=Vybsd8CE}Shikoku maintains a more cautious stance than the rest of Japan. With very few large domains, the island is almost entirely dominated by the Yamauchi of Tosa and the Hachisuka of Tokushima, as well as the Date of Uwajima, a cousin of the larger main house in Sendai. Even so, these few domains are tiny compared to some of the mighty domains in the rest of Japan. The samurai of Shikoku have flocked to the sonno-joi cause en masse, much to the dismay of the more pro-Shogunate daimyo of their domains, and internal conflicts have begun to tear them apart."/>
+	<string id="bak_region_description.saikai" text="{=nIcaL3N3}Kyūshū is the core of Japan's reform in the Bakumatsu. Due to its isolation at the southwest of Japan, the island remained largely untouched by the Tokugawa when they founded the Bakufu, leaving the island largely under the control of powerful tozama daimyo, like the Shimazu of Satsuma, the Nabeshima of Saga, and the Hosokawa of Kumamoto. As the Shogun's authority continues to wane, the daimyo of Kyūshū have seen their chance, rapidly rearming with modern weapons in the hopes of becoming the dominant power in this new era."/>
+	<string id="bak_region_description.sanyo" text="{=Tv1hioxg}Chūgoku, stretching across western Honshū, has become one of the most unstable regions of Japan in the Bakumatsu. Once a stronghold of loyalist domains guarding the western approaches to the capital, the region is now defined by upheaval and rebellion, chiefly in Chōshū, whose radical samurai and reformist leadership openly defy the Bakufu, clashing repeatedly with shogunate forces and other loyal domains. Neighboring territories such as Hiroshima and Okayama have been drawn into the turmoil, and Chūgoku is becoming the spark that will light the fire of war."/>
+	<string id="bak_region_description.kanto" text="{=3i4huJOq}Kantō is the heart of the Shogunate. Within it is Edo, the capital of the Bakufu, and in which all daimyo were required to live in off years until 1862. Despite that, the region is not as stable as the Shogun wishes it to be. The samurai of Mito, ruled by one of the chief branches of the Tokugawa, are fierce advocates of expelling the foreign barbarians, a stance that the Shogunate is unable to take, leading to constant agitation and the ongoing Mito rebellion. Even so, the region remains loyal to the Tokugawa, with even the Mito samurai wishing to reform, rather than overthrow the Shogunate."/>
+	<string id="bak_region_description.tokai" text="{=lrQiE8yv}Tōkai, stretching along the southern coast, is the home of the Tōkaidō, the most important of the Five Routes that link Edo to the rest of central Honshū. The Tōkaidō specifically links Edo and Kyoto, and is vital for maintaining the Shogun's control of the Imperial Court. Tōkai is almost entirely Tenryō land, alongside a handful of smaller Fudai domains, with the sole large domain being the Tokugawa branch in Owari. These domains largely remain loyal to the Shogun, but will be some of the first to roll over against the Imperial forces when they marched to Edo."/>
+	<string id="bak_region_description.tosan" text="{=rNXMKhtE}Tōsan, the mountainous heart of central Japan, is highly conservative. Made up almost entirely of Tenryō land and a handful of Fudai daimyo, Tōsan has no great lords of their own, leading to their growing irrelavance in this period, as the powerful daimyo in the fringes of Japan increasingly dominate politics. Even so, Tōsan is vital to the Shogunate's continued dominance, providing a great deal of their manpower and influence."/>
+	<string id="bak_region_description.hokuriku" text="{=zMOC9gh6}Hokuriku, along the northern coast of Honshū, is one of the most prosperous regions of Japan. Home to some of the wealthiest domains in Japan, especially the Maeda of Kaga, the single wealthiest domain in all of Japan, Hokuriku produces a great deal of the rice used to feed central Honshū. Hokuriku is almost entirely loyal to the Shogunate, with most domains either staying loyal throughout the future Boshin War or refusing to take side. However, their reluctance to reform has placed the domains of Hokuriku in the backseat, becoming less relevant than the poorer but more fiery domains in the southwest and north."/>
+	<string id="bak_region_description.ainu" text="{=zMOC9gh6}Ezo (modern Hokkaidō), home to the Ainu, remained a remote frontier. In the late Bakumatsu, the Matsumae Domain managed small garrisons and fortified trading posts to assert shogunate influence, while Ainu communities maintained autonomous governance. The region was a delicate frontier where indigenous autonomy, limited shogunate oversight, and foreign concerns, particularly Russian encroachment, intersected."/>
+	<!-- CULTURES -->
+	<!-- Feats -->
+	<string id="bak_feat_loyal_samurai.desc" text="{=KGDDUJjU}Settlements with this culture gain loyalty faster."/>
+    <string id="bak_feat_loyal_samurai.in_effect" text="{=lSytNxZV}Loyal samurai culture effect"/>
+	<string id="bak_feat_lower_wages.desc" text="{=BkbLaOcc}Daily wages of troops in the party are decreased by 5%."/>
+	<string id="bak_feat_tenryo_cheaper_armies.desc" text="{=Kr77jBts}Recruiting lords to armies costs 30% less influence."/>
+	<string id="bak_feat_tosa_cohesion_loss.desc" text="{=TsduigLB}Armies lose 20% more daily cohesion."/>
+	<string id="bak_feat_tosa_relation_loss.desc" text="{=cQZMNw3q}20% less relationship loss from kingdom decisions."/>
+	<string id="bak_feat_cheaper_traditional.desc" text="{=dZpw8M8P}Recruiting and upgrading traditional troops are 10% cheaper."/>
+	<string id="bak_feat_expensive_firearm.desc" text="{=2Oi84ecA}Recruiting and upgrading firearm troops are 10% more expensive."/>
+	<string id="bak_feat_decision_relation_gain.desc" text="{=eHP0XVYF}100% more relationship gain from kingdom decisions."/>
+	<string id="bo8sZ7gY" text="20% more tax income from towns connected to ports owned by Saga leaders."/>
+	<string id="bak_feat_tozama_security.desc" text="{=REFZixVt}Settlements with the same culture gain security 25% faster."/>
+	<string id="bak_feat_tozama_security.in_effect" text="{=LhrnDIgt}Same culture security effect"/>
+	<string id="bak_feat_shotai_militias.desc" text="{=xIYdjP0P}Chance to recruit various Shotai units from towns and villages"/>
+	<!-- Tozama -->
+	<string id="str_faction_informal_name_for_culture.tosan" text="{=zye2jYMQ}the Tozama"/>
+	<string id="str_neutral_term_for_culture.tosan" text="{=u7PBQjoy}Tozama"/>
+	<string id="str_adjective_for_culture.tosan" text="{=u7PBQjoy}Tozama"/>
+    <string id="str_culture_description.tosan" text="{=Ol9J0wU3}The Tozama are 'outside' lords who, although they submit to the Tokugawa after the decisive battles that establish shogunal supremacy, maintain control over large, semi-autonomous domains and wield considerable local power, wealth, and military strength, yet their political influence within the inner councils of the shogunate remains limited, forcing them to act cautiously and independently in matters of national importance. Their position allows them to preserve strong local authority and maintain sizable, loyal armies, making them capable of both defending their interests and exerting pressure when opportunities arise, but always under the shadow of Tokugawa oversight and exclusion from key decision-making."/>
+    <string id="str_faction_formal_name_for_culture.tosan" text="{=u7PBQjoy}Tozama"/>
+    <string id="str_culture_rich_name.tosan" text="{=u7PBQjoy}Tozama"/>
+    <string id="str_culture_description_a.tosan" text="{=Ol9J0wU3}The Tozama are 'outside' lords who, although they submit to the Tokugawa after the decisive battles that establish shogunal supremacy, maintain control over large, semi-autonomous domains and wield considerable local power, wealth, and military strength, yet their political influence within the inner councils of the shogunate remains limited, forcing them to act cautiously and independently in matters of national importance. Their position allows them to preserve strong local authority and maintain sizable, loyal armies, making them capable of both defending their interests and exerting pressure when opportunities arise, but always under the shadow of Tokugawa oversight and exclusion from key decision-making."/>
+    <string id="str_culture_rich_name_a.tosan" text="{=u7PBQjoy}Tozama"/>
+	<!-- Fudai -->
+	<string id="str_faction_informal_name_for_culture.tokai" text="{=o7hk291y}the Fudai"/>
+	<string id="str_neutral_term_for_culture.tokai" text="{=VKXYcAgo}Fudai"/>
+	<string id="str_adjective_for_culture.tokai" text="{=VKXYcAgo}Fudai"/>
+    <string id="str_culture_description.tokai" text="{=kraPcdwy}The Fudai are hereditary vassals of the Tokugawa who enjoy long-standing trust and occupy critical administrative and military roles within the shogunate, overseeing strategically located domains that, while often smaller in size, provide essential political and military leverage to maintain the Tokugawa order; their loyalty is relied upon to enforce shogunal policies and manage affairs across the country, giving them consistent access to influence and power, yet they remain tightly constrained by the carefully maintained balance of authority that the shogunate imposes to prevent any one ally from becoming too dominant."/>
+    <string id="str_faction_formal_name_for_culture.tokai" text="{=VKXYcAgo}Fudai"/>
+    <string id="str_culture_rich_name.tokai" text="{=VKXYcAgo}Fudai"/>
+    <string id="str_culture_description_a.tokai" text="{=kraPcdwy}The Fudai are hereditary vassals of the Tokugawa who enjoy long-standing trust and occupy critical administrative and military roles within the shogunate, overseeing strategically located domains that, while often smaller in size, provide essential political and military leverage to maintain the Tokugawa order; their loyalty is relied upon to enforce shogunal policies and manage affairs across the country, giving them consistent access to influence and power, yet they remain tightly constrained by the carefully maintained balance of authority that the shogunate imposes to prevent any one ally from becoming too dominant."/>
+    <string id="str_culture_rich_name_a.tokai" text="{=VKXYcAgo}Fudai"/>
+    <string id="str_culture_description_a.nankai" text="{=TonPcdwy}Tosa dominates southern Shikoku, a land of steep mountains and sheltered valleys that have allowed the Yamauchi clan to cultivate a tradition of independence. The domain produces politically active samurai and reformist thinkers, who travel to Kyoto and Edo to debate modernization and imperial loyalty. Rivers carry lumber and silk to coastal ports, linking the inland valleys to trade networks. When disputes flare between coastal and inland powers, Tosa's samurai are quick to act, using both diplomacy and force to advance the clan's interests."/>
+    <string id="str_culture_rich_name_a.nankai" text="{=DEmMv6H8}Tosa"/>
+	<!-- Morioka -->
+    <string id="str_liege_title.morioka" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.morioka"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="SaikaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.morioka" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.morioka" text="{=tRwThwR8}Daimyo"/>
+	<string id="str_faction_ruler_name_with_title.morioka" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.morioka" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.morioka" text="{=KznUzEjM}the Morioka"/>
+	<string id="str_neutral_term_for_culture.morioka" text="{=3Wf8Wium}Morioka"/>
+	<string id="str_adjective_for_culture.morioka" text="{=3Wf8Wium}Morioka"/>
+	<string id="str_faction_official.morioka" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.morioka_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.morioka" text="{=kc0qT7Mo}Spread across river valleys and rugged hills, Morioka has been the seat of the Nanbu clan for centuries. The domain's winters are harsh, but its villages and fortified towns reflect careful planning and resilience. Morioka's samurai maintain long-standing martial traditions, while the local economy depends on a mix of agriculture and horse breeding. Centuries of governance have forged a community where survival and endurance shape both politics and everyday life."/>
+    <string id="str_faction_formal_name_for_culture.morioka" text="{=3Wf8WiuC}Morioka"/>
+    <string id="str_culture_rich_name.morioka" text="{=3Wf8WiuC}Morioka"/>
+	<string id="str_player_father_name.morioka" text="{=u7lr2CeS}Magokichi"/>
+	<string id="str_player_mother_name.morioka" text="{=19Iasms7}Ashi"/>
+	<!-- Hirosaki -->
+    <string id="str_liege_title.hirosaki" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.hirosaki"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="SaikaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.hirosaki" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.hirosaki" text="{=tRwThwR8}Daimyo"/>
+	<string id="str_faction_ruler_name_with_title.hirosaki" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.hirosaki" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.hirosaki" text="{=KzNUzEjM}the Hirosaki"/>
+	<string id="str_neutral_term_for_culture.hirosaki" text="{=3Wf8WIUm}Hirosaki"/>
+	<string id="str_adjective_for_culture.hirosaki" text="{=3Wf8WIUm}Hirosaki"/>
+	<string id="str_faction_official.hirosaki" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.hirosaki_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.hirosaki" text="{=HurqT7Hi}Hirosaki, perched near the northern tip of Honshu, is defined as much by its rivalry with Morioka as by its own lands. The Tsugaru clan governs fertile plains crossed by rivers, supporting villages and castle towns that thrive despite the harsh climate. Its samurai are fewer than Morioka's but disciplined, and the domain often shifts alliances to avoid being dominated by neighbors. Festivals, shrines, and the rhythms of local life give Hirosaki a cultural identity distinct from its northern rivals."/>
+    <string id="str_faction_formal_name_for_culture.hirosaki" text="{=3Wf8WIUm}Hirosaki"/>
+    <string id="str_culture_rich_name.hirosaki" text="{=3Wf8WIUm}Hirosaki"/>
+	<string id="str_player_father_name.hirosaki" text="{=u7lr2CeS}Magokichi"/>
+	<string id="str_player_mother_name.hirosaki" text="{=19Iasms7}Ashi"/>
+	<!-- Akita -->
+    <string id="str_liege_title.akita" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.akita"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="SaikaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.akita" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.akita" text="{=tRwThwR8}Daimyo"/>
+	<string id="str_faction_ruler_name_with_title.akita" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.akita" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.akita" text="{=KznUzEjA}the Akita"/>
+	<string id="str_neutral_term_for_culture.akita" text="{=3Wf8WiAm}Akita"/>
+	<string id="str_adjective_for_culture.akita" text="{=3Wf8WiAm}Akita"/>
+	<string id="str_faction_official.akita" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.akita_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.akita" text="{=kc0qT7Ak}Kubota stretches across the northern plains toward the Sea of Japan, where the Satake clan balances tradition with pragmatism. Its winters are bitter, but the land yields rice and supports horse breeding, sustaining both townspeople and samurai. The domain is famous for retaining the old ways: its warriors are said to be the last in Japan to fight fully armored. Though deeply conservative, Kubota leans toward the imperial cause, guided by practical concerns rather than ideology, blending old martial habits with careful political calculation."/>
+    <string id="str_faction_formal_name_for_culture.akita" text="{=3Wf8WiAm}Akita"/>
+    <string id="str_culture_rich_name.akita" text="{=3Wf8WiAm}Akita"/>
+	<string id="str_player_father_name.akita" text="{=u7lr2CeS}Magokichi"/>
+	<string id="str_player_mother_name.akita" text="{=19Iasms7}Ashi"/>
+	<!-- Shonai -->
+    <string id="str_liege_title.shonai" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.shonai"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="SaikaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.shonai" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.shonai" text="{=tRwThwR8}Daimyo"/>
+	<string id="str_faction_ruler_name_with_title.shonai" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.shonai" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.shonai" text="{=KShUzEjM}the Shonai"/>
+	<string id="str_neutral_term_for_culture.shonai" text="{=3Wf8WShm}Shonai"/>
+	<string id="str_adjective_for_culture.shonai" text="{=3Wf8WShm}Shonai"/>
+	<string id="str_faction_official.shonai" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.shonai_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.shonai" text="{=kc0qT7Sh}Shonai occupies a long strip along the Sea of Japan, where fertile farmland and maritime trade enrich the Sakai clan. Unlike many northern neighbors, Shonai adapts quickly, modernizing weapons and training without abandoning its traditions. Its castle towns hum with commerce, and local craftsmanship flourishes alongside the growing military reforms. The domain's leaders remain deeply loyal to the shogunate, yet their readiness and organization make Shonai one of the most capable forces in the north."/>
+    <string id="str_faction_formal_name_for_culture.shonai" text="{=3Wf8WShm}Shonai"/>
+    <string id="str_culture_rich_name.shonai" text="{=ShgIA2t0}Shonai"/>
+	<string id="str_player_father_name.shonai" text="{=u7lr2CeS}Magokichi"/>
+	<string id="str_player_mother_name.shonai" text="{=19Iasms7}Ashi"/>
+	<!-- Sendai -->
+    <string id="str_liege_title.sendai" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.sendai"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="SaikaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.sendai" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.sendai" text="{=tRwThwR8}Daimyo"/>
+	<string id="str_faction_ruler_name_with_title.sendai" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.sendai" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.sendai" text="{=KznUzSjM}the Sendai"/>
+	<string id="str_neutral_term_for_culture.sendai" text="{=3Wf8WSen}Sendai"/>
+	<string id="str_adjective_for_culture.sendai" text="{=3Wf8WSen}Sendai"/>
+	<string id="str_faction_official.sendai" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.sendai_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.sendai" text="{=SendT7ks}Sprawling across southern Tōhoku, Sendai has been shaped over generations by the Date clan. Rivers, plains, and rolling hills support large towns and productive farms, while fortified castles reflect the clan's long martial history. Sendai's culture values practical governance and education, and samurai numbers are substantial. Politically, the domain remains loyal to the shogunate, but the leadership watches events in the southwest closely, balancing caution with preparation for change."/>
+    <string id="str_faction_formal_name_for_culture.sendai" text="{=3Wf8WSen}Sendai"/>
+    <string id="str_culture_rich_name.sendai" text="{=SegIA2t0}Sendai"/>
+	<string id="str_player_father_name.sendai" text="{=u7lr2CeS}Magokichi"/>
+	<string id="str_player_mother_name.sendai" text="{=19Iasms7}Ashi"/>
+	<!-- Yonezawa -->
+    <string id="str_liege_title.yonezawa" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.yonezawa"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="SaikaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.yonezawa" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.yonezawa" text="{=tRwThwR8}Daimyo"/>
+	<string id="str_faction_ruler_name_with_title.yonezawa" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.yonezawa" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.yonezawa" text="{=KznUYojM}the Yonezawa"/>
+	<string id="str_neutral_term_for_culture.yonezawa" text="{=3Wf8WYon}Yonezawa"/>
+	<string id="str_adjective_for_culture.yonezawa" text="{=3Wf8WYon}Yonezawa"/>
+	<string id="str_faction_official.yonezawa" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.yonezawa_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.yonezawa" text="{=kc0qT7Yo}Yonezawa is a smaller, mountainous domain under the Uesugi clan, with a history of careful stewardship after past losses. Its towns cling to hillsides and valleys, sustaining a tight-knit community of farmers and samurai. Local culture emphasizes tradition, efficiency, and scholarly pursuits, and the samurai are respected as much for their administrative skill as for martial ability. Politically, Yonezawa treads carefully, maintaining loyalty while watching the ambitions of larger neighbors."/>
+    <string id="str_faction_formal_name_for_culture.yonezawa" text="{=3Wf8WYon}Yonezawa"/>
+    <string id="str_culture_rich_name.yonezawa" text="{=3Wf8WYon}Yonezawa"/>
+	<string id="str_player_father_name.yonezawa" text="{=u7lr2CeS}Magokichi"/>
+	<string id="str_player_mother_name.yonezawa" text="{=19Iasms7}Ashi"/>
+	<!-- Aizu -->
+    <string id="str_liege_title.ou" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.ou" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.ou" text="{=tRwThwR8}Daimyo"/>
+	<string id="str_faction_ruler_name_with_title.ou" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.ou" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.ou" text="{=29h82Jh6}the Aizu"/>
+	<string id="str_neutral_term_for_culture.ou" text="{=MigIA2T0}Aizu"/>
+	<string id="str_adjective_for_culture.ou" text="{=MigIA2T0}Aizu"/>
+	<string id="str_faction_official.ou" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.ou_f" text="{=A8YrI6XH}a lord"/>
+	<string id="str_player_father_name.ou" text="{=u7lr2CeS}Magokichi"/>
+	<string id="str_player_mother_name.ou" text="{=19Iasms7}Ashi"/>
+    <string id="str_culture_description.ou" text="{=kc0qT7Ai}Nestled in the mountains of southern Tōhoku, Aizu has long been a fortress of the Tokugawa. Its river valleys support fertile rice fields, while dense forests provide timber and fuel for the region's castles and towns. Generations of Matsudaira rulers shaped the domain into a stronghold of martial tradition, where warriors trained from youth and the people prized honor and duty. Temples, local crafts, and educational institutions thrive alongside military life, giving Aizu a culture both disciplined and deeply rooted in centuries of history."/>
+    <string id="str_faction_formal_name_for_culture.ou" text="{=MigIA2T0}Aizu"/>
+    <string id="str_culture_rich_name.ou" text="{=MigAi2T0}Aizu"/>
+    <string id="str_culture_description_a.ou" text="{=kc0qT7Ai}Nestled in the mountains of southern Tōhoku, Aizu has long been a fortress of the Tokugawa. Its river valleys support fertile rice fields, while dense forests provide timber and fuel for the region's castles and towns. Generations of Matsudaira rulers shaped the domain into a stronghold of martial tradition, where warriors trained from youth and the people prized honor and duty. Temples, local crafts, and educational institutions thrive alongside military life, giving Aizu a culture both disciplined and deeply rooted in centuries of history."/>
+    <string id="str_culture_rich_name_a.ou" text="{=MigAi2T0}Aizu"/>
+	<!-- Ozu -->
+    <string id="str_liege_title.ozu" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="NankaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.ozu"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="NankaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.ozu" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.ozu" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.ozu" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.ozu" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.ozu" text="{=k7visbOX}the Ozu"/>
+	<string id="str_neutral_term_for_culture.ozu" text="{=OJR7iyKD}Ozu"/>
+	<string id="str_adjective_for_culture.ozu" text="{=OJR7iyKD}Ozu"/>
+	<string id="str_faction_official.ozu" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.ozu_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.ozu" text="{=Ozu7C2Ky}Ozu sits on the western coast of Shikoku, where rocky shores and sheltered bays shape both life and defense. The Katō clan governs a domain where fishing, salt production, and local trade sustain towns and samurai alike. Its castle overlooks the sea, a reminder of past conflicts and the domain's reliance on maritime knowledge. Ozu values prudence and order, blending coastal commerce with disciplined administration to maintain stability in a small but tightly organized domain."/>
+    <string id="str_faction_formal_name_for_culture.ozu" text="{=OJR7iyKD}Ozu"/>
+    <string id="str_culture_rich_name.ozu" text="{=OJR7iyKD}Ozu"/>
+	<string id="str_player_father_name.ozu" text="{=aVpIoaPz}Taro"/>
+	<string id="str_player_mother_name.ozu" text="{=tFdd1GPj}Mitu"/>
+	<!-- Matsuyama -->
+    <string id="str_liege_title.matsuyama" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="NankaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.matsuyama"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="NankaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.matsuyama" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.matsuyama" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.matsuyama" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.matsuyama" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.matsuyama" text="{=M7visbnX}the Matsuyama"/>
+	<string id="str_neutral_term_for_culture.matsuyama" text="{=MJR7iyKD}Matsuyama"/>
+	<string id="str_adjective_for_culture.matsuyama" text="{=MJR7iyKD}Matsuyama"/>
+	<string id="str_faction_official.matsuyama" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.matsuyama_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.matsuyama" text="{=Da97CIwo}Iwo-Matsuyama, ruled by the Matsudaira clan, occupies a coastal and mountainous region of Shikoku, where fertile river valleys meet rocky hills. Its towns are modest but well-organized, with local markets supporting both farmers and samurai households. The domain has a long history of managing these challenging lands, emphasizing careful administration and fortification rather than sheer military strength. While its samurai maintain traditional martial training, the domain also leans on commerce, fishing, and regional trade to sustain its people."/>
+    <string id="str_faction_formal_name_for_culture.matsuyama" text="{=MJR7iyKD}Matsuyama"/>
+    <string id="str_culture_rich_name.matsuyama" text="{=MJR7iyKD}Matsuyama"/>
+	<string id="str_player_father_name.matsuyama" text="{=aVpIoaPz}Taro"/>
+	<string id="str_player_mother_name.matsuyama" text="{=tFdd1GPj}Mitu"/>
+	<!-- Uwajima -->
+    <string id="str_liege_title.uwajima" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="NankaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.uwajima"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="NankaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.uwajima" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.uwajima" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.uwajima" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.uwajima" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.uwajima" text="{=U7visbnX}the Uwajima"/>
+	<string id="str_neutral_term_for_culture.uwajima" text="{=UwR7iyKD}Uwajima"/>
+	<string id="str_adjective_for_culture.uwajima" text="{=UwR7iyKD}Uwajima"/>
+	<string id="str_faction_official.uwajima" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.uwajima_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.uwajima" text="{=Da97CUwa}Uwajima domain is led by a branch of the Date clan, located far from their homeland in Sendai. During the Bakumatsu period, their Daimyo, Date Munenari, was considered one of the Four Wise Lords of the Bakumatsu, alongside Yamauchi Toyoshige, Shimazu Nariakira, and Matsudaira Yoshinaga. During the Bakumatsu, they remained neutral, acting as a go between between the two sides, a stance which ultimately left them less relevant in the Meiji era."/>
+    <string id="str_faction_formal_name_for_culture.uwajima" text="{=UwR7iyKD}Uwajima"/>
+    <string id="str_culture_rich_name.uwajima" text="{=UwR7iyKD}Uwajima"/>
+	<string id="str_player_father_name.uwajima" text="{=aVpIoaPz}Taro"/>
+	<string id="str_player_mother_name.uwajima" text="{=tFdd1GPj}Mitu"/>
+	<!-- Tokushima -->
+    <string id="str_liege_title.tokushima" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="NankaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.tokushima"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="NankaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.tokushima" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.tokushima" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.tokushima" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.tokushima" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.tokushima" text="{=TovisbnX}the Tokushima"/>
+	<string id="str_neutral_term_for_culture.tokushima" text="{=ToR7iyKD}Tokushima"/>
+	<string id="str_adjective_for_culture.tokushima" text="{=ToR7iyKD}Tokushima"/>
+	<string id="str_faction_official.tokushima" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.tokushima_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.tokushima" text="{=Da97CTok}Tokushima Domain, despite their strong connections to the Shogunate, remained neutral during the Bakumatsu. Instead of supporting the Shogun or Emperor, they advocated for the kōbu gattai movement, which proposed the unification of the Imperial court and Shogunate against the western powers. Even so, many Tokushima samurai were rather radically pro-Imperial."/>
+    <string id="str_faction_formal_name_for_culture.tokushima" text="{=ToR7iyKD}Tokushima"/>
+    <string id="str_culture_rich_name.tokushima" text="{=ToR7iyKD}Tokushima"/>
+	<string id="str_player_father_name.tokushima" text="{=aVpIoaPz}Taro"/>
+	<string id="str_player_mother_name.tokushima" text="{=tFdd1GPj}Mitu"/>
+	<!-- Kyoto -->
+    <string id="str_liege_title.kyoto" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="KinaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.kyoto"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="KinaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.kyoto" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.kyoto" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.kyoto" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.kyoto" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.kyoto" text="{=4xetxME5}Kyoto"/>
+	<string id="str_neutral_term_for_culture.kyoto" text="{=4xetxME5}Kyoto"/>
+	<string id="str_adjective_for_culture.kyoto" text="{=4xetxME5}Kyoto"/>
+	<string id="str_faction_official.kyoto" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.kyoto_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.kyoto" text="{=c1iM3mw8}The capital in name of Japan, Kyoto is the seat of the Emperor. Once the power center of Japan, its decline during the late Sengoku period and throughout the Edo period have left the city a shell of its former self. However, the turmoil of the Bakumatsu has brought the city back to relevance, as Daimyo clash in the halls of government and samurai and ronin clash in the streets of the city."/>
+    <string id="str_faction_formal_name_for_culture.kyoto" text="{=4xetxME5}Kyoto"/>
+    <string id="str_culture_rich_name.kyoto" text="{=4xetxME5}Kyoto"/>
+	<string id="str_player_father_name.kyoto" text="{=xWdiU0s3}Jiro"/>
+	<string id="str_player_mother_name.kyoto" text="{=5n2wTzWg}Naka"/>
+	<!-- Hikone -->
+    <string id="str_liege_title.hikone" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="KinaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.hikone"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="KinaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.hikone" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.hikone" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.hikone" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.hikone" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.hikone" text="{=HikisbnX}the Hikone"/>
+	<string id="str_neutral_term_for_culture.hikone" text="{=HiR7iyKD}Hikone"/>
+	<string id="str_adjective_for_culture.hikone" text="{=HiR7iyKD}Hikone"/>
+	<string id="str_faction_official.hikone" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.hikone_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.hikone" text="{=2FMOGwHi}Hikone sits along the shores of Lake Biwa, dominated by its sprawling castle and the Ii clan, whose samurai are famous for their bright red armor and fierce discipline. The Ii have long been loyal to the Tokugawa, serving as both military leaders and administrators of the shogunate. The assassination of Ii Naosuke sent shockwaves through the domain, and his retainers seethe with outrage against the Sonno-joi movement."/>
+    <string id="str_faction_formal_name_for_culture.hikone" text="{=HiR7iyKD}Hikone"/>
+    <string id="str_culture_rich_name.hikone" text="{=HiR7iyKD}Hikone"/>
+	<string id="str_player_father_name.hikone" text="{=xWdiU0s3}Jiro"/>
+	<string id="str_player_mother_name.hikone" text="{=5n2wTzWg}Naka"/>
+	<!-- Kuwana -->
+    <string id="str_liege_title.kuwana" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="KinaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.kuwana"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="KinaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.kuwana" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.kuwana" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.kuwana" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.kuwana" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.kuwana" text="{=KuwisbnX}the Kuwana"/>
+	<string id="str_neutral_term_for_culture.kuwana" text="{=KuR7iyKD}Kuwana"/>
+	<string id="str_adjective_for_culture.kuwana" text="{=KuR7iyKD}Kuwana"/>
+	<string id="str_faction_official.kuwana" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.kuwana_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.kuwana" text="{=2FMOGwKu}Ruled by the Hisamatsu Matsudaira, the Kuwana domain is fiercely loyal to the Shogunate, with members of the domain fighting through the end of the war in the North and in Ezo. During the war, their soldiers will be some of the best trained and drilled among all the Shogunate troops."/>
+    <string id="str_faction_formal_name_for_culture.kuwana" text="{=KuR7iyKD}Kuwana"/>
+    <string id="str_culture_rich_name.kuwana" text="{=KuR7iyKD}Kuwana"/>
+	<string id="str_player_father_name.kuwana" text="{=xWdiU0s3}Jiro"/>
+	<string id="str_player_mother_name.kuwana" text="{=5n2wTzWg}Naka"/>
+	<!-- Kii -->
+    <string id="str_liege_title.kishu" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="KinaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.kishu"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="KinaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.kishu" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.kishu" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.kishu" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.kishu" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.kishu" text="{=KiiisbnX}the Kishu"/>
+	<string id="str_neutral_term_for_culture.kishu" text="{=Kii7iyKD}Kishu"/>
+	<string id="str_adjective_for_culture.kishu" text="{=Kii7iyKD}Kishu"/>
+	<string id="str_faction_official.kishu" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.kishu_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.kishu" text="{=2FMOGKis}Kishu, alternatively named Kii or Wakayama, is a powerful shinpan domain and the fifth richest domain in Japan. It is ruled by one of the three Gosanke houses, descendants of Tokugawa Ieyasu who exist as backups in case the main Tokugawa line ever falters. Despite providing the current Shogun, Iemochi, Kishu domain will go on to surrender to and join the Imperial side"/>
+    <string id="str_faction_formal_name_for_culture.kishu" text="{=Kii7iyKD}Kishu"/>
+    <string id="str_culture_rich_name.kishu" text="{=Kii7iyKD}Kishu"/>
+	<string id="str_player_father_name.kishu" text="{=xWdiU0s3}Jiro"/>
+	<string id="str_player_mother_name.kishu" text="{=5n2wTzWg}Naka"/>
+	<!-- Tsu -->
+    <string id="str_liege_title.tsu" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="KinaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.tsu"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="KinaiTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.tsu" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.tsu" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.tsu" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.tsu" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.tsu" text="{=TsuisbnX}the Tsu"/>
+	<string id="str_neutral_term_for_culture.tsu" text="{=Tsu7iyKD}Tsu"/>
+	<string id="str_adjective_for_culture.tsu" text="{=Tsu7iyKD}Tsu"/>
+	<string id="str_faction_official.tsu" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.tsu_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.tsu" text="{=2FMOGTsu}Rising out of humble roots, Tsu domain was founded by Todo Takatora, a low ranking ashigaru who later became a daimyo under Toyotomi Hideyoshi and Oda Nobunaga. Due to their loyalty to the Shogunate, samurai in the Edo period often state that 'If the battle occurs, the vanguard is the Hikone's Ii clan and the Todo clan of Ise.'"/>
+    <string id="str_faction_formal_name_for_culture.tsu" text="{=Tsu7iyKD}Tsu"/>
+    <string id="str_culture_rich_name.tsu" text="{=Tsu7iyKD}Tsu"/>
+	<string id="str_player_father_name.tsu" text="{=xWdiU0s3}Jiro"/>
+	<string id="str_player_mother_name.tsu" text="{=5n2wTzWg}Naka"/>
+	<!-- Fukui -->
+    <string id="str_liege_title.fukui" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="HokurikuTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.fukui"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="HokurikuTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.fukui" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.fukui" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.fukui" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.fukui" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.fukui" text="{=FuKisbnX}the Fukui"/>
+	<string id="str_neutral_term_for_culture.fukui" text="{=FuK7iyKD}Fukui"/>
+	<string id="str_adjective_for_culture.fukui" text="{=FuK7iyKD}Fukui"/>
+	<string id="str_faction_official.fukui" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.fukui_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.fukui" text="{=vNsphaFu}The location of the main branch of the Yuki Matsudaira, Fukui-han is a wealthy modernized domain. In the 1850s, they instituted one of the first vaccination programs in Japan, and they've modernized their military, phasing out their archery corps in favor of riflemen. Their lord had an eye for talent, with statesmen like Yokoi Shōnan, Hashimoto Sanai and Yuri Kimimasa rising out of Fukui."/>
+    <string id="str_faction_formal_name_for_culture.fukui" text="{=FuK7iyKD}Fukui"/>
+    <string id="str_culture_rich_name.fukui" text="{=FuK7iyKD}Fukui"/>
+	<string id="str_player_father_name.fukui" text="{=T84XD6Di}Saburo"/>
+	<string id="str_player_mother_name.fukui" text="{=za5d9NWg}Tosi"/>
+	<!-- Nagaoka -->
+    <string id="str_liege_title.nagaoka" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="HokurikuTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.nagaoka"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="HokurikuTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.nagaoka" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.nagaoka" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.nagaoka" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.nagaoka" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.nagaoka" text="{=NaGisbnX}the Nagaoka"/>
+	<string id="str_neutral_term_for_culture.nagaoka" text="{=NaG7iyKD}Nagaoka"/>
+	<string id="str_adjective_for_culture.nagaoka" text="{=NaG7iyKD}Nagaoka"/>
+	<string id="str_faction_official.nagaoka" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.nagaoka_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.nagaoka" text="{=vNsphNga}Nagaoka is far more modernized than most Shogunate domains, reforming under the leadership of Kawai Tsugunosuke. Nagaoka is the rare exception to the northern refusal to modernize, being one of the few domains in Hokuriku and Tohoku to fully modernize, at one point owning 2/3 of the Gatling Guns in Japan."/>
+    <string id="str_faction_formal_name_for_culture.nagaoka" text="{=NaG7iyKD}Nagaoka"/>
+    <string id="str_culture_rich_name.nagaoka" text="{=NaG7iyKD}Nagaoka"/>
+	<string id="str_player_father_name.nagaoka" text="{=T84XD6Di}Saburo"/>
+	<string id="str_player_mother_name.nagaoka" text="{=za5d9NWg}Tosi"/>
+	<!-- Kaga -->
+    <string id="str_liege_title.kaga" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="HokurikuTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.kaga"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="HokurikuTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.kaga" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.kaga" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.kaga" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.kaga" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.kaga" text="{=KAGisbnX}the Kaga"/>
+	<string id="str_neutral_term_for_culture.kaga" text="{=KAG7iyKD}Kaga"/>
+	<string id="str_adjective_for_culture.kaga" text="{=KAG7iyKD}Kaga"/>
+	<string id="str_faction_official.kaga" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.kaga_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.kaga" text="{=vNsphKag}Kaga Domain stretches across Hokuriku, a land of fertile plains, bustling towns, and the glittering rivers that feed into the Sea of Japan. The Maeda clan has ruled for generations, amassing wealth that rivals even the shogunate in scale, and even their lesser retainers are as wealthy as Daimyo. However, Kaga is also deeply unwilling to reform, for fear of being targetted by the Shogunate."/>
+    <string id="str_faction_formal_name_for_culture.kaga" text="{=KAG7iyKD}Kaga"/>
+    <string id="str_culture_rich_name.kaga" text="{=KAG7iyKD}Kaga"/>
+	<string id="str_player_father_name.kaga" text="{=T84XD6Di}Saburo"/>
+	<string id="str_player_mother_name.kaga" text="{=za5d9NWg}Tosi"/>
+	<!-- Obama -->
+    <string id="str_liege_title.obama" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="HokurikuTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.obama"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="HokurikuTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.obama" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.obama" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.obama" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.obama" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.obama" text="{=ObaisbnX}the Obama"/>
+	<string id="str_neutral_term_for_culture.obama" text="{=Oba7iyKD}Obama"/>
+	<string id="str_adjective_for_culture.obama" text="{=Oba7iyKD}Obama"/>
+	<string id="str_faction_official.obama" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.obama_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.obama" text="{=vNsphOba}Obama Domain hugs the northern coast of Wakasa Bay, where the town's harbor has long connected the mountains to the sea. The Sakai clan rules here with a careful hand, balancing the needs of merchants, fishermen, and samurai. The domain is known for its skilled boatmen and fortified castle that watches over both river traffic and coastal approaches."/>
+    <string id="str_faction_formal_name_for_culture.obama" text="{=Oba7iyKD}Obama"/>
+    <string id="str_culture_rich_name.obama" text="{=Oba7iyKD}Obama"/>
+	<string id="str_player_father_name.obama" text="{=T84XD6Di}Saburo"/>
+	<string id="str_player_mother_name.obama" text="{=za5d9NWg}Tosi"/>
+	<!-- Jozai -->
+    <string id="str_liege_title.jozai" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="KantoTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.jozai"
+			text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="KantoTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.jozai" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.jozai" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.jozai" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.jozai" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.jozai" text="{=JoziabnX}the Jozai"/>
+	<string id="str_neutral_term_for_culture.jozai" text="{=K6sg7Joz}Jozai"/>
+	<string id="str_adjective_for_culture.jozai" text="{=K6sg7Joz}Jozai"/>
+	<string id="str_faction_official.jozai" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.jozai_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.jozai" text="{=y6BfVJoz}A fairly new and small domain, Jozai is highly loyal to the Shogunate. They would fight throughout the entire war, only surrendering upon hearing that the Shogun would keep a fief after the war. Jozai was one of only two domains to be stripped of their holdings during the Boshin war."/>
+    <string id="str_faction_formal_name_for_culture.jozai" text="{=K6sg7Joz}Jozai"/>
+    <string id="str_culture_rich_name.jozai" text="{=K6sg7Joz}Jozai"/>
+	<string id="str_player_father_name.jozai" text="{=greVHxgb}Genzaemon"/>
+	<string id="str_player_mother_name.jozai" text="{=ltuJdbxe}Kiso"/>
+	<!-- Owari -->
+    <string id="str_liege_title.owari" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="KantoTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.owari"
+			text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="KantoTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.owari" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.owari" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.owari" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.owari" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.owari" text="{=OwaiabnX}the Owari"/>
+	<string id="str_neutral_term_for_culture.owari" text="{=K6sg7Owa}Owari"/>
+	<string id="str_adjective_for_culture.owari" text="{=K6sg7Owa}Owari"/>
+	<string id="str_faction_official.owari" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.owari_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.owari" text="{=y6BfVOwa}Owari is ruled by the seniormost of the Gosanke of the Tokugawa. Owari-han is a powerful and wealthy domain, behind only the Kaga, Satsuma, and Sendai domains, and the most powerful of the Tokugawa houses besides the Shogunate itself. Despite their family ties, however, Owari would go on to support the Imperial forces during the Boshin War."/>
+    <string id="str_faction_formal_name_for_culture.owari" text="{=K6sg7Owa}Owari"/>
+    <string id="str_culture_rich_name.owari" text="{=K6sg7Owa}Owari"/>
+	<string id="str_player_father_name.owari" text="{=greVHxgb}Genzaemon"/>
+	<string id="str_player_mother_name.owari" text="{=ltuJdbxe}Kiso"/>
+	<!-- Kanto -->
+    <string id="str_liege_title.kanto" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="KantoTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.kanto"
+			text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="KantoTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.kanto" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.kanto" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.kanto" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.kanto" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.kanto" text="{=MitoabnX}the Mito"/>
+	<string id="str_neutral_term_for_culture.kanto" text="{=K6sg7Mit}Mito"/>
+	<string id="str_adjective_for_culture.kanto" text="{=K6sg7Mit}Mito"/>
+	<string id="str_faction_official.kanto" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.kanto_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.kanto" text="{=y6BfVMit}Despite being ruled by one of the Gosanke of the Tokugawa, Mito Domain is a hotbed of Sonno-joi and anti-Shogunate sentiment in the Bakumatsu. Throughout this period, agitators from Mito constantly undermine the Shogunate and push other domains to adopt the ideology. While not as influential as Satsuma and Choshu would come to be, it cannot be denied that Mito was one of the cores of the Sonno-joi."/>
+    <string id="str_faction_formal_name_for_culture.kanto" text="{=K6sg7Mit}Mito"/>
+    <string id="str_culture_rich_name.kanto" text="{=K6sg7Mit}Mito"/>
+	<string id="str_player_father_name.kanto" text="{=greVHxgb}Genzaemon"/>
+	<string id="str_player_mother_name.kanto" text="{=ltuJdbxe}Kiso"/>
+    <string id="str_culture_description_a.kanto" text="{=y6BfVMit}Despite being ruled by one of the Gosanke of the Tokugawa, Mito Domain is a hotbed of Sonno-joi and anti-Shogunate sentiment in the Bakumatsu. Throughout this period, agitators from Mito constantly undermine the Shogunate and push other domains to adopt the ideology. While not as influential as Satsuma and Choshu would come to be, it cannot be denied that Mito was one of the cores of the Sonno-joi."/>
+    <string id="str_culture_rich_name_a.kanto" text="{=K6sg7Mit}Mito"/>
+	<!-- Tenryo -->
+    <string id="str_liege_title.tenryo" text="{=tRwThwSh}Shogun">
+        <tags>
+            <tag tag_name="TokaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.tenryo"
+			text="{=tRwThwSh}Shogun">
+        <tags>
+            <tag tag_name="TokaiTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.tenryo" text="{=tRwThwSh}Shogun"/>
+    <string id="str_faction_official.tenryo" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.tenryo" text="{=n6nnkLxS}Shogun {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.tenryo" text="{=UdiPb3Da}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.tenryo" text="{=TenrabnX}the Tokugawa"/>
+	<string id="str_neutral_term_for_culture.tenryo" text="{=K6sg7Ten}Tenryo"/>
+	<string id="str_adjective_for_culture.tenryo" text="{=K6sg7Tok}Tenryo"/>
+	<string id="str_faction_official.tenryo" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.tenryo_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.tenryo" text="{=y6BfVTen}The Tokugawa may be the Shoguns, but they are also daimyo. At its core, the Bakufu is simply a domain so powerful that all others must bow to it. This power is maintained via Tenryo, land directly under the control of the Tokugawa. Containing some of the wealthiest cities and areas of Japan, most of Tokai, Tosan, and Kanto was Tenryo, as was significant chunks of Kyushu, Chugoku, and Kansai."/>
+    <string id="str_faction_formal_name_for_culture.tenryo" text="{=K6sg7Tok}Tenryo"/>
+    <string id="str_culture_rich_name.tenryo" text="{=K6sg7Tok}Tenryo"/>
+	<string id="str_player_father_name.tenryo" text="{=8zD7DOe1}Yosuke"/>
+	<string id="str_player_mother_name.tenryo" text="{=evkgbLwl}Kosi"/>
+	<!-- Edo -->
+    <string id="str_liege_title.edo" text="{=tRwThwSh}Shogun">
+        <tags>
+            <tag tag_name="TokaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.edo"
+			text="{=tRwThwSh}Shogun">
+        <tags>
+            <tag tag_name="TokaiTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.edo" text="{=tRwThwSh}Shogun"/>
+    <string id="str_faction_official.edo" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.edo" text="{=n6nnkLxS}Shogun {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.edo" text="{=UdiPb3Da}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.edo" text="{=TenrabnX}the Tokugawa"/>
+	<string id="str_neutral_term_for_culture.edo" text="{=HILwjvTW}Edo"/>
+	<string id="str_adjective_for_culture.edo" text="{=HILwjvTW}Edo"/>
+	<string id="str_faction_official.edo" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.edo_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.edo" text="{=y6BfVEdo}No city in Japan is greater than Edo, the seat of the Shogunate. From here reign the Tokugawa shoguns, and it is here that over one million people live in the peace that is the Edo period. The center of Japan in many ways, Edo is the center of culture, administration, the economy, and the military. The influence it had upon Japan in this period cannot be overstated, and it is here that the deals and alliances that led to the fall of the Bakufu were formed."/>
+    <string id="str_faction_formal_name_for_culture.edo" text="{=HILwjvTW}Edo"/>
+    <string id="str_culture_rich_name.edo" text="{=HILwjvTW}Edo"/>
+	<string id="str_player_father_name.edo" text="{=8zD7DOe1}Yosuke"/>
+	<string id="str_player_mother_name.edo" text="{=evkgbLwl}Kosi"/>
+	<!-- Samurai Generic -->
+    <string id="str_liege_title.samurai" text="{=tRwThwSh}Daimyo">
+        <tags>
+            <tag tag_name="TokaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.samurai"
+			text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="TokaiTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.samurai" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.samurai" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.samurai" text="{=n6nnkLxD}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.samurai" text="{=UdiPb3Lo}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.samurai" text="{=TenrabnX}the Tenryo"/>
+	<string id="str_neutral_term_for_culture.samurai" text="{=K6sg7Ten}Tenryo"/>
+	<string id="str_adjective_for_culture.samurai" text="{=K6sg7Tok}Tokugawa"/>
+	<string id="str_faction_official.samurai" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.samurai_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.samurai" text="{=y6BfVTen}The Tokugawa may be the Shoguns, but they are also daimyo. At its core, the Bakufu is simply a domain so powerful that all others must bow to it. This power is maintained via Tenryo, land directly under the control of the Tokugawa. Containing some of the wealthiest cities and areas of Japan, most of Tokai, Tosan, and Kanto was Tenryo, as was significant chunks of Kyushu, Chugoku, and Kansai."/>
+    <string id="str_faction_formal_name_for_culture.samurai" text="{=K6sg7Tok}Tokugawa"/>
+    <string id="str_culture_rich_name.samurai" text="{=K6sg7Tok}Tokugawa"/>
+	<string id="str_player_father_name.samurai" text="{=8zD7DOe1}Yosuke"/>
+	<string id="str_player_mother_name.samurai" text="{=evkgbLwl}Kosi"/>
+	<!-- Choshu -->
+    <string id="str_liege_title.sanyo" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SanyoTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.sanyo"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="SanyoTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.sanyo" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.sanyo" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.sanyo" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.sanyo" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.sanyo" text="{=9TCedFd1}the Choshu"/>
+	<string id="str_neutral_term_for_culture.sanyo" text="{=LiAaSgTz}Choshu"/>
+	<string id="str_adjective_for_culture.sanyo" text="{=LiAaSgTz}Choshu"/>
+	<string id="str_faction_official.sanyo" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.sanyo_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.sanyo" text="{=OOBz6Cho}Chōshū occupies the western tip of Honshu, with rugged mountains and jagged coasts that have long shaped the character of its people. The Mōri clan has ruled here for generations, cultivating a culture of fierce independence and hatred of the Shogunate. Samurai from Chōshū are known for their sharp swords, quick thinking, and readiness to defy authority when necessary. In recent years, Choshu has emerged as a hotbed of political action, containing many of the most radical ishin shishi in Japan."/>
+    <string id="str_faction_formal_name_for_culture.sanyo" text="{=LiAaSgTz}Choshu"/>
+    <string id="str_culture_rich_name.sanyo" text="{=LiAaSgTz}Choshu"/>
+    <string id="str_culture_description_a.sanyo" text="{=OOBz6Cho}Chōshū occupies the western tip of Honshu, with rugged mountains and jagged coasts that have long shaped the character of its people. The Mōri clan has ruled here for generations, cultivating a culture of fierce independence and hatred of the Shogunate. Samurai from Chōshū are known for their sharp swords, quick thinking, and readiness to defy authority when necessary. In recent years, Choshu has emerged as a hotbed of political action, containing many of the most radical ishin shishi in Japan."/>
+    <string id="str_culture_rich_name_a.sanyo" text="{=LiAaSgTz}Choshu"/>
+	<string id="str_player_father_name.sanyo" text="{=qi7Awili}Ichiro"/>
+	<string id="str_player_mother_name.sanyo" text="{=4DPIxoKe}Hisi"/>
+	<!-- Hiroshima -->
+    <string id="str_liege_title.hiroshima" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SanyoTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.hiroshima"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="SanyoTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.hiroshima" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.hiroshima" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.hiroshima" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.hiroshima" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.hiroshima" text="{=9TCedFHi}the Hiroshima"/>
+	<string id="str_neutral_term_for_culture.hiroshima" text="{=HiAaSgTz}Hiroshima"/>
+	<string id="str_adjective_for_culture.hiroshima" text="{=HiAaSgTz}Hiroshima"/>
+	<string id="str_faction_official.hiroshima" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.hiroshima_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.hiroshima" text="{=OOBz6Hir}Hiroshima Domain sprawls across the fertile delta of the Ota River, with the castle town at its center serving as both administrative hub and cultural heart. The Asano clan has ruled here for generations, known for disciplined samurai and a stable, well-organized administration. The domain has long fostered artisans, merchants, and schools, giving it a reputation for both martial and cultural refinement. Politically, Hiroshima maintains a careful balance: its samurai enforce order and support the shogunate when called upon, but the radicals of Choshu force them further towards the sonno-joi side."/>
+    <string id="str_faction_formal_name_for_culture.hiroshima" text="{=HiAaSgTz}Hiroshima"/>
+    <string id="str_culture_rich_name.hiroshima" text="{=HiAaSgTz}Hiroshima"/>
+	<string id="str_player_father_name.hiroshima" text="{=qi7Awili}Ichiro"/>
+	<string id="str_player_mother_name.hiroshima" text="{=4DPIxoKe}Hisi"/>
+	<!-- Tottori -->
+    <string id="str_liege_title.tottori" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SanyoTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.tottori"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="SanyoTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.tottori" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.tottori" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.tottori" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.tottori" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.tottori" text="{=9TCedFTo}the Tottori"/>
+	<string id="str_neutral_term_for_culture.tottori" text="{=ToAaSgTz}Tottori"/>
+	<string id="str_adjective_for_culture.tottori" text="{=ToAaSgTz}Tottori"/>
+	<string id="str_faction_official.tottori" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.tottori_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.tottori" text="{=Totz6uxY}Tottori-han, ruled by the Ikeda, has long been close with the Shogunate. Their daimyo are allowed to use the Matsudaira name and crest, they have the right to carry their swords into Edo castle, and their daimyo is the half brother of the man who will one day become the last shogun, Tokugawa Yoshinobu. However, they also have many proponents of the Imperial cause within, and just the year ago a pro-Imperial samurai assassinated a pro-Shogunate official within their domain."/>
+    <string id="str_faction_formal_name_for_culture.tottori" text="{=ToAaSgTz}Tottori"/>
+    <string id="str_culture_rich_name.tottori" text="{=ToAaSgTz}Tottori"/>
+	<string id="str_player_father_name.tottori" text="{=qi7Awili}Ichiro"/>
+	<string id="str_player_mother_name.tottori" text="{=4DPIxoKe}Hisi"/>
+	<!-- Okayama -->
+    <string id="str_liege_title.okayama" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SanyoTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.okayama"
+			text="{=tRwThwR8}Daimyo">
+		<tags>
+			<tag tag_name="SanyoTag"/>
+		</tags>
+	</string>
+    <string id="str_faction_ruler.okayama" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.okayama" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.okayama" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.okayama" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.okayama" text="{=9TCedFOk}the Okayama"/>
+	<string id="str_neutral_term_for_culture.okayama" text="{=OkaySgTz}Okayama"/>
+	<string id="str_adjective_for_culture.okayama" text="{=OkaySgTz}Okayama"/>
+	<string id="str_faction_official.okayama" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.okayama_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.okayama" text="{=OOBz6uOk}One of the few Tozama daimyo to serve under the Shogunate, the Ikeda of Okayama domain are relatively sonno-joi, but still support the Shogunate. During the Boshin War, seeing the threat, the daimyo adopted a more pro-imperial successor and retired, so as to allow the domain to take the winning side without violating his own beliefs. While the domain itself avoided joining the war, many units formed in the domain would go fight in the north."/>
+    <string id="str_faction_formal_name_for_culture.okayama" text="{=OkaySgTz}Okayama"/>
+    <string id="str_culture_rich_name.okayama" text="{=OkaySgTz}Okayama"/>
+	<string id="str_player_father_name.okayama" text="{=qi7Awili}Ichiro"/>
+	<string id="str_player_mother_name.okayama" text="{=4DPIxoKe}Hisi"/>
+	<!-- Kurume -->
+    <string id="str_liege_title.kurume" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.kurume"
+			text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.kurume" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.kurume" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.kurume" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.kurume" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.kurume" text="{=KuruabnX}the Kurume"/>
+	<string id="str_neutral_term_for_culture.kurume" text="{=Kusg7Oum}Kurume"/>
+	<string id="str_adjective_for_culture.kurume" text="{=Kusg7Oum}Kurume"/>
+	<string id="str_faction_official.kurume" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.kurume_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.kurume" text="{=BTSZWKur}Kurume domain is a fierce battleground between Sonno-Joi and Shogunate supporters, both originating from the Tenpo School. Following the death of Arima Yorinaga in 1846, they split into the Gai-doshi, a radical sonno-joi traditionalist faction, and Nai-doshi, a reformer, pro-western, pro-shogunate factions. Currently, the Nai-doshi hold sway, but who knows if that will change."/>
+    <string id="str_faction_formal_name_for_culture.kurume" text="{=Kusg7Oum}Kurume"/>
+    <string id="str_culture_rich_name.kurume" text="{=Kusg7Oum}Kurume"/>
+	<string id="str_player_father_name.kurume" text="{=Xufzvdj8}Sukesaburo"/>
+	<string id="str_player_mother_name.kurume" text="{=SQPfPWOw}Yuna"/>
+	<!-- Kumamoto -->
+    <string id="str_liege_title.kumamoto" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.kumamoto"
+			text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.kumamoto" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.kumamoto" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.kumamoto" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.kumamoto" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.kumamoto" text="{=KumuabnX}the Kumamoto"/>
+	<string id="str_neutral_term_for_culture.kumamoto" text="{=KMsg7Oum}Kumamoto"/>
+	<string id="str_adjective_for_culture.kumamoto" text="{=KMsg7Oum}Kumamoto"/>
+	<string id="str_faction_official.kumamoto" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.kumamoto_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.kumamoto" text="{=BTSZWKum}One of the wealthiest domains in Japan, Kumamoto is ruled by the Hosokawa clan, one of the most powerful clans in Japan. They are more hesitant to join the Emperor than many of the more radical domains, but are still a powerful modern domain."/>
+    <string id="str_faction_formal_name_for_culture.kumamoto" text="{=KMsg7Oum}Kumamoto"/>
+    <string id="str_culture_rich_name.kumamoto" text="{=KMsg7Oum}Kumamoto"/>
+	<string id="str_player_father_name.kumamoto" text="{=Xufzvdj8}Sukesaburo"/>
+	<string id="str_player_mother_name.kumamoto" text="{=SQPfPWOw}Yuna"/>
+	<!-- Hitoyoshi -->
+    <string id="str_liege_title.hitoyoshi" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.hitoyoshi"
+			text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.hitoyoshi" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.hitoyoshi" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.hitoyoshi" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.hitoyoshi" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.hitoyoshi" text="{=HitoabnX}the Hitoyoshi"/>
+	<string id="str_neutral_term_for_culture.hitoyoshi" text="{=Hiog7Oum}Hitoyoshi"/>
+	<string id="str_adjective_for_culture.hitoyoshi" text="{=Hiog7Oum}Hitoyoshi"/>
+	<string id="str_faction_official.hitoyoshi" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.hitoyoshi_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.hitoyoshi" text="{=BTSZWHit}Nestled in the valleys of southern Kyushu, Hitoyoshi is a small but proud domain, its hills and rivers shaping life as much as the Sagara clan that rules it. Their samurai, like so many others in the period, are deeply split between the Shogunate and Emperor, leading to their own internal clashes."/>
+    <string id="str_faction_formal_name_for_culture.hitoyoshi" text="{=Hiog7Oum}Hitoyoshi"/>
+    <string id="str_culture_rich_name.hitoyoshi" text="{=Hiog7Oum}Hitoyoshi"/>
+	<string id="str_player_father_name.hitoyoshi" text="{=Xufzvdj8}Sukesaburo"/>
+	<string id="str_player_mother_name.hitoyoshi" text="{=SQPfPWOw}Yuna"/>
+	<!-- Fukuoka -->
+    <string id="str_liege_title.fukuoka" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.fukuoka"
+			text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.fukuoka" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.fukuoka" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.fukuoka" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.fukuoka" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.fukuoka" text="{=FuKuabnX}the Fukuoka"/>
+	<string id="str_neutral_term_for_culture.fukuoka" text="{=FMsg7Ouk}Fukuoka"/>
+	<string id="str_adjective_for_culture.fukuoka" text="{=FMsg7Ouk}Fukuoka"/>
+	<string id="str_faction_official.fukuoka" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.fukuoka_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.fukuoka" text="{=BTSZFuku}Fukuoka is very prominently Sonno-joi, so much so that the Shogunate is considering arresting their daimyo on suspicion of rebellion. However, they are unwilling to actually dedicate their own troops to the cause, instead using forces they consider expendable, cobbled together from what the dregs of society to war against the Shogunate."/>
+    <string id="str_faction_formal_name_for_culture.fukuoka" text="{=FMsg7Ouk}Fukuoka"/>
+    <string id="str_culture_rich_name.fukuoka" text="{=FMsg7Ouk}Fukuoka"/>
+	<string id="str_player_father_name.fukuoka" text="{=Xufzvdj8}Sukesaburo"/>
+	<string id="str_player_mother_name.fukuoka" text="{=SQPfPWOw}Yuna"/>
+	<!-- Kokura -->
+    <string id="str_liege_title.kokura" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.kokura"
+			text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.kokura" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.kokura" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.kokura" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.kokura" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.kokura" text="{=KoKuabnX}the Kokura"/>
+	<string id="str_neutral_term_for_culture.kokura" text="{=KMsg7Ook}Kokura"/>
+	<string id="str_adjective_for_culture.kokura" text="{=KMsg7Ook}Kokura"/>
+	<string id="str_faction_official.kokura" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.kokura_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.kokura" text="{=BTSZWkKo}Kokura is the rare Shogunate loyalist in the southwest, supporting the Shogun even despite being surrounded by larger, more pro-Imperial domains. This attitude remains ever despite losses against the sonno-joi forces, an almost admirable attitude if it didn't end up with a burning castle."/>
+    <string id="str_faction_formal_name_for_culture.kokura" text="{=KMsg7Ook}Kokura"/>
+    <string id="str_culture_rich_name.kokura" text="{=KMsg7Ook}Kokura"/>
+	<string id="str_player_father_name.kokura" text="{=Xufzvdj8}Sukesaburo"/>
+	<string id="str_player_mother_name.kokura" text="{=SQPfPWOw}Yuna"/>
+	<!-- Saga -->
+    <string id="str_liege_title.saga" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.saga"
+			text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.saga" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.saga" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.saga" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.saga" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.saga" text="{=SaguabnX}the Saga"/>
+	<string id="str_neutral_term_for_culture.saga" text="{=SMsg7Oag}Saga"/>
+	<string id="str_adjective_for_culture.saga" text="{=SMsg7Oag}Saga"/>
+	<string id="str_faction_official.saga" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.saga_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.saga" text="{=BTSZWSaga}Saga is perhaps the most modern domain in Japan. The Nabeshima have invested in steam engines, steel refining, artillery, and modern firearms, alongside vaccination programs and significant domain reforms, modernizing even before the Black Ships arrived in 1853. There are few domains friendlier to the west than Saga."/>
+    <string id="str_faction_formal_name_for_culture.saga" text="{=SMsg7Oag}Saga"/>
+    <string id="str_culture_rich_name.saga" text="{=SMsg7Oag}Saga"/>
+	<string id="str_player_father_name.saga" text="{=Xufzvdj8}Sukesaburo"/>
+	<string id="str_player_mother_name.saga" text="{=SQPfPWOw}Yuna"/>
+	<!-- Satsuma -->
+    <string id="str_liege_title.saikai" text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+	<string id="str_liege_title_female.saikai"
+			text="{=tRwThwR8}Daimyo">
+        <tags>
+            <tag tag_name="SaikaiTag"/>
+        </tags>
+    </string>
+    <string id="str_faction_ruler.saikai" text="{=tRwThwR8}Daimyo"/>
+    <string id="str_faction_official.saikai" text="{=LGjLJV7J}a lord"/>
+	<string id="str_faction_ruler_name_with_title.saikai" text="{=n6nnkLxo}Daimyo {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.saikai" text="{=UdiPb3xt}Lord {RULER.NAME}"/>
+	<string id="str_faction_informal_name_for_culture.saikai" text="{=SaTuabnX}the Satsuma"/>
+	<string id="str_neutral_term_for_culture.saikai" text="{=SMsg7Oat}Satsuma"/>
+	<string id="str_adjective_for_culture.saikai" text="{=SMsg7Oat}Satsuma"/>
+	<string id="str_faction_official.saikai" text="{=A8YrI6XH}a lord"/>
+	<string id="str_faction_official.saikai_f" text="{=A8YrI6XH}a lord"/>
+    <string id="str_culture_description.saikai" text="{=BTSZWSat}Satsuma occupies a unique position in the late Bakumatsu. The Shimazu joined the shogunate under their own terms due to their distance from the rest of Japan and their military power, providing them with a semi-independent status. The domain is highly militarized, with more samurai than any other domain in Japan, and samurai renowned for their loyalty, identifying first as Satsuma men before anything else. They are also rapidly reforming, forming some of the most modern troops in Japan."/>
+    <string id="str_faction_formal_name_for_culture.saikai" text="{=SMsg7Oat}Satsuma"/>
+    <string id="str_culture_rich_name.saikai" text="{=SMsg7Oat}Satsuma"/>
+    <string id="str_culture_description_a.saikai" text="{=BTSZWSat}Satsuma occupies a unique position in the late Bakumatsu. The Shimazu joined the shogunate under their own terms due to their distance from the rest of Japan and their military power, providing them with a semi-independent status. The domain is highly militarized, with more samurai than any other domain in Japan, and samurai renowned for their loyalty, identifying first as Satsuma men before anything else. They are also rapidly reforming, forming some of the most modern troops in Japan."/>
+    <string id="str_culture_rich_name_a.saikai" text="{=SMsg7Oat}Satsuma"/>
+	<string id="str_player_father_name.saikai" text="{=Xufzvdj8}Sukesaburo"/>
+	<string id="str_player_mother_name.saikai" text="{=SQPfPWOw}Yuna"/>
+	<!-- DIALOGUES -->
+    <string id="bak_foreign_merchant.introLow" text="{=Ahstr123}Sir, I have been granted leave to attend within the castle. If you have business with me, I will answer as I am able." />
+    <string id="bak_foreign_merchant.introMid" text="{=5btjxLtj}I am honored to be received here. If you wish to examine arms or equipment, I am prepared to present them." />
+    <string id="bak_foreign_merchant.introHigh" text="{=QsddX3eh}My lord, it is a rare honor to address you within these walls. I await your direction." />
+    <string id="bak_foreign_merchant.buyGunsLow" text="{=Wtb31Hs3}If it would not trouble you, might I look over the firearms and artillery you have for sale?" />
+    <string id="bak_foreign_merchant.buyGunsMid" text="{=mva5nyTl}I am reviewing available firearms and artillery. Show me what you can provide." />
+    <string id="bak_foreign_merchant.buyGunsHigh" text="{=8TuyK72M}Present the catalogue of firearms and artillery presently in your possession." />
+    <string id="bak_foreign_merchant.buyUniformLow" text="{=OM89d4ck}I was also hoping to see what uniforms or military dress you handle, if any." />
+    <string id="bak_foreign_merchant.buyUniformMid" text="{=AuTzBWN7}I will examine your Western-style uniforms and military equipment." />
+    <string id="bak_foreign_merchant.buyUniformHigh" text="{=uPJkgdGD}Lay out the patterns and specifications of the uniforms you supply." />
+    <string id="bak_foreign_merchant.closeShopLow" text="{=ZFQR3SvO}I thank you. I will see that the matter is recorded and reported properly." />
+    <string id="bak_foreign_merchant.closeShopMid" text="{=Nx38bSD2}Your commission will be conveyed through the proper channels. You have my thanks." />
+    <string id="bak_foreign_merchant.closeShopHigh" text="{=pqJd9JUm}I accept this commission with humility. I will ensure it is carried out with due care." />
+    <string id="bak_foreign_merchant.leave" text="{=xVLc7xwo}I will take my leave." />
+	<!-- QUESTS -->
+	<!-- Generic -->
+    <string id="bak_generic_quest.fail_log_war" text="{=ZKHy2fwB}Your clan is now at war with {QUEST_GIVER.LINK}'s realm. Your agreement with {QUEST_GIVER.LINK} was canceled." />
+    <string id="bak_generic_quest.fail_log_war_pf" text="{=4ULpJzxb}Your actions have started a war with {QUEST_GIVER.LINK}'s faction. {?QUEST_GIVER.GENDER}She{?}He{\\?} cancels your agreement and the quest is a failure." />
+	<!-- Lord Needs Modern Firearms -->
+    <string id="bak_lord_needs_arms.title" text="{=JBODfHad}Lord Needs Modern Firearms" />
+    <string id="bak_lord_needs_arms.desc" text="{=8I7rnZgU}{QUEST_GIVER.LINK} asks you to provide them firearms for their military campaign." />
+    <string id="bak_lord_needs_arms.start_log" text="{=eFZZnz5R}{QUEST_GIVER.LINK}, a retainer of the {QUEST_GIVER_FACTION} has told you that they need smoothbore Geweer for their upcoming military campaign. {?QUEST_GIVER.GENDER}She{?}He{\\?} wanted you to deliver {SMOOTHBORE_AMOUNT} Geweer guns and although it's not necessary, to provide {RIFLE_AMOUNT} Minieru rifles and {CARTRIDGE_AMOUNT} cartridge boxes. {?QUEST_GIVER.GENDER}she{?}he{\\?} would appreciate it." />
+    <string id="bak_lord_needs_arms.success_log" text="{=w5ewvISR}You have successfully delivered the weapons as requested." />
+    <string id="bak_lord_needs_arms.fail_log" text="{=u8acevoA}You have failed to deliver the weapons in time." />
+    <string id="bak_lord_needs_arms.fail_leave_faction" text="{=HGgXm9vO}You have left {QUEST_GIVER_FACTION}. Your agreement with {QUEST_GIVER.LINK} is terminated." />
+    <string id="bak_lord_needs_arms.collected_s" text="{=bPu4G6n5}Collected Smoothbore Amount" />
+    <string id="bak_lord_needs_arms.collected_r" text="{=wpZCGO2b}Collected Minieru Amount (Optional)" />
+    <string id="bak_lord_needs_arms.collected_c" text="{=B7DazJe3}Collected Cartridge Amount (Optional)" />
+    <string id="bak_lord_needs_arms.collected_all" text="{=ZTxn6upe}You have collected all the weapons that the retainer requested. Return to their party and deliver the firearms" />
+    <string id="bak_lord_needs_arms.collected_enough" text="{=sUgW9gby}You have collected enough smoothbores that the retainer requested. Return to their party and deliver the firearms" />
+    <string id="bak_lord_needs_arms.intro" text="{=hQjI73CI}We are preparing for a major engagement, but my arsenal is dangerously lacking in modern firearms. Without rifles and ammunition, my troops will be hopelessly outmatched. I cannot spare any of my own captains for this task, so I need someone else to secure a sufficient supply and deliver it to me without delay. Can you do this?" />
+    <string id="bak_lord_needs_arms.accept" text="{=CAF3byiv}Of course I can supply you with weapons. What do you need?" />
+    <string id="bak_lord_needs_arms.explanation" text="{=KrY6pO4T}We need {SMOOTHBORE_AMOUNT} Geweer muskets to meet our basic needs. And if you can find {RIFLE_AMOUNT} Minieru or Geberu and {CARTRIDGE_AMOUNT} of ammunition, that would be a great favor. Better weapons are a great advantage." />
+    <string id="bak_lord_needs_arms.explanation_accept" text="{=J1fGA6AF}I'll deliver {SMOOTHBORE_AMOUNT} Geweer muskets as soon as possible {?QUEST_GIVER.GENDER}lady{?}sir{\\?}, and try to find some Minieru and cartridges as you requested." />
+    <string id="bak_lord_needs_arms.accept_response" text="{=G1KdJiXD}Very well. Don't worry, all your expenses will be covered." />
+    <string id="bak_lord_needs_arms.discuss" text="{=8ixXU8Nr}Have you brought our firearms?" />
+    <string id="bak_lord_needs_arms.bring_src" text="{=0EszIjuf}Yes commander, I have brought your Geweer, Minieru, and cartridges as you requested." />
+    <string id="bak_lord_needs_arms.bring_sr_" text="{=V5udi1Xh}Yes commander, I have brought your Geweer and Minieru as you requested." />
+    <string id="bak_lord_needs_arms.bring_s_c" text="{=OD88mtYy}Yes commander, I have brought your Geweer and cartridges as you requested." />
+    <string id="bak_lord_needs_arms.bring_s__" text="{=JGgYyIoJ}Yes commander, I have brought your Geweer as you requested." />
+    <string id="bak_lord_needs_arms.bring____" text="{=XKd7mvR2}Not yet commander. I'm still working on it." />
+    <string id="bak_lord_needs_arms.response_good" text="{=tPprUTs1}Splendid. I will never forget your service, my friend." />
+    <string id="bak_lord_needs_arms.response" text="{=MZtHSWQD}Thank you. Your service will be remembered." />
+    <string id="bak_lord_needs_arms.response_bad" text="{=HVb55Sz8}Good. We need them as soon as possible." />
+	<!-- Merchant Arms Smuggling -->
+    <string id="bak_merchant_arms_smuggler.title" text="{=wK5gBuZh}Merchants can't sell foreign firearms in {ISSUE_GIVER_SETTLEMENT}" />
+    <string id="bak_merchant_arms_smuggler.title_short" text="{=CqaJXXVp}Merchant can't sell foreign guns" />
+    <string id="bak_merchant_arms_smuggler.desc" text="{=ia427Wig}The laws of {ISSUE_GIVER_SETTLEMENT} dictate that only Japanese-made firearms may be bought or sold by in town. Now the merchants wish to smuggle the guns out to sell in other towns." />
+    <string id="bak_merchant_arms_smuggler.rumor" text="{=7QnWKCcZ}The smiths are watching the merchants fiercely. I bet {QUEST_GIVER.NAME} is planning a way to sell off their foreign stock right now." />
+    <string id="bak_merchant_arms_smuggler.alt_log" text="{=zZlOr4dD}{ISSUE_GIVER.LINK} a merchant from {ISSUE_GIVER_SETTLEMENT} has complained to you about not being able to sell foreign made firearms in the town. {?ISSUE_GIVER.GENDER}She{?}He{\\?} will pay {REWARD}{GOLD_ICON} for you to take the guns to another town. You have tasked {COMPANION.LINK} and {ALTERNATIVE_SOLUTION_TROOP_COUNT} men to smuggle {?ISSUE_GIVER.GENDER}her{?}his{\\?} goods to a “friend” in {TARGET_TOWN}. They will return to you in {RETURN_DAYS} days with a sizable sum of {REWARD}{GOLD_ICON}." />
+    <string id="bak_merchant_arms_smuggler.start_log" text="{=y6l0Z6qH}{QUEST_GIVER.LINK} a merchant from {QUEST_GIVER_SETTLEMENT} has complained to you about not being able to sell their stock of foreign guns because of the unfair local laws. {?QUEST_GIVER.GENDER}She{?}He{\\?} will pay {REWARD_AMOUNT}{GOLD_ICON} for you to take the guns to another town. You agreed to take {?QUEST_GIVER.GENDER}her{?}his{\\?} guns to {TARGET_HERO.LINK} in {TARGET_SETTLEMENT}." />
+    <string id="bak_merchant_arms_smuggler.delivered" text="{=84ZkcDua}Delivered {RIFLE}" />
+    <string id="bak_merchant_arms_smuggler.success_log" text="{=g7jLAowc}{QUEST_GIVER.LINK} sends {?QUEST_GIVER.GENDER}her{?}his{\\?} regards for a fine job done with the {REWARD}{GOLD_ICON} {?QUEST_GIVER.GENDER}she{?}he{\\?} promised." />
+    <string id="bak_merchant_arms_smuggler.fail_log" text="{=h3Peswv5}You have failed to deliver {REQUESTED_AMOUNT} {.%}{?(REQUESTED_AMOUNT > 1)}rifles{?}rifle{\\?}{.%} to {TARGET_SETTLEMENT} in time as {QUEST_GIVER.LINK} asked you." />
+    <string id="bak_merchant_arms_smuggler.fail_log_refuse" text="{=NqFagpyg}You refused to hand over the items. {QUEST_GIVER.LINK} must be furious." />
+    <string id="bak_merchant_arms_smuggler.intro" text="{=K3X6XuPz}I move more than most in these markets, yet my purse stays thin. Some trades are tied by law, others by who watches the coin. The goods that could change fortunes must sometimes find their way quietly, to the right hands, or they gather dust.[if:convo_annoyed]" />
+    <string id="bak_merchant_arms_smuggler.accept" text="{=jxC6tvL0}How can I help?" />
+    <string id="bak_merchant_arms_smuggler.explanation" text="{=NJGmstlZ}I need you to deliver {REQUESTED_AMOUNT} {.%}{?(REQUESTED_AMOUNT > 1)}{PLURAL(RIFLES)}{?}{RIFLES}{\?}{.%} to my contact {TARGET_HERO.LINK} in {TARGET_SETTLEMENT}. Keep it quiet—what we're moving isn't exactly welcome at the market. The town's authorities and merchants might sniff around, but as long as it reaches him intact, that's all that matters." />
+    <string id="bak_merchant_arms_smuggler.explanation_alt" text="{=RiI7PuFu}If you aren't going towards {TARGET_SETTLEMENT}, maybe you could have some of your men take my goods and bring back the profit? It shouldn't take more than {ALTERNATIVE_SOLUTION_MEN_AMOUNT} men and one of your trusted lieutenants with decent grasp of trade. They can go and be back in about {RETURN_DAYS} days.[if:convo_annoyed]" />
+    <string id="bak_merchant_arms_smuggler.explanation_lord" text="{=rpAeFiru}You could change this law, my {?PLAYER.GENDER}lady{?}lord{\\?}. All of us would be grateful. and we're willing to donate {REWARD}{GOLD_ICON} to show our thanks..." />
+    <string id="bak_merchant_arms_smuggler.accept_lord" text="{=vRVYf3fc}I will issue a decree to remove the restrictions on the sale of firearms." />
+    <string id="bak_merchant_arms_smuggler.accept_lord_condition" text="{=pnnMDlGh}You need to be the owner of this settlement!" />
+    <string id="bak_merchant_arms_smuggler.accept_lord_log" text="{=Gg2Q9lOH}You issued a decree to remove the restrictions on the sale of firearms, as the merchants had requested." />
+    <string id="bak_merchant_arms_smuggler.accept_lord_response" text="{=apQbh0Sp}My {?PLAYER.GENDER}lady{?}lord{\\?}, that would be very good. The artisans won't like it but hard-working merchants like me will be grateful to you." />
+    <string id="bak_merchant_arms_smuggler.accept_lord_counter_brief" text="{=wbfpKxTZ}(One of the artisans in the town comes to talk as you are preparing to depart.)" />
+    <string id="bak_merchant_arms_smuggler.accept_lord_counter" text="{=mi2RZIty}My {?PLAYER.GENDER}lady{?}lord{\\?}, we heard that you wish to issue a decree allowing the sale of foreign weapons. This will devastate the business of our smithies who have toiled for generations. Please reconsider this." />
+    <string id="bak_merchant_arms_smuggler.accept_lord_counter_accept" text="{=OJ99XYAc}I understand. I'll hold off on the decree, then." />
+    <string id="bak_merchant_arms_smuggler.accept_lord_counter_accept_response" text="{=hc7G86ft}That's the right call. Thank you for listening to the voice of reason." />
+    <string id="bak_merchant_arms_smuggler.accept_lord_counter_accept_log" text="{=mi1zGfb3}After listening to the town artisans, you decided to keep the restrictions on the sale of firearms. Your decision made the artisans happy but disappointed the {QUEST_GIVER.LINK}." />
+    <string id="bak_merchant_arms_smuggler.accept_lord_counter_decline" text="{=EItqPPaR}Sorry, I have to do it." />
+    <string id="bak_merchant_arms_smuggler.accept_lord_counter_decline_response" text="{=bys96mgQ}That's your right, my {?PLAYER.GENDER}lady{?}lord{\\?}. But if you can't get the support of the artisans here when you next need it, well, don't say no one said anything." />
+    <string id="bak_merchant_arms_smuggler.accept_normal" text="{=NizER6fW}I can take your “goods” to {TARGET_HERO.LINK} in {TARGET_SETTLEMENT} myself." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_deliver" text="{=8U7Cqtte}Excellent. I'll have the goods delivered to you right away.[if:convo_nonchalant]" />
+    <string id="bak_merchant_arms_smuggler.accept_normal_discuss" text="{=03E9TCrn}I believe the goods have been delivered to you." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_discuss_leave" text="{=6ZCAQ1S9}Great. I will be heading out soon." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_discuss_leave_response" text="{=3SBDbPjD}Good to hear that! Safe journeys." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_discuss_delay" text="{=JOaD2BlP}In due time. Let's not be too hasty here." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_discuss_delay_response" text="{=ppi6eVos}As you wish." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_counter" text="{=dS9S5DR5}We have heard rumors that you have purchased foreign firearms from {QUEST_GIVER.NAME}. Well, our laws require that only domestic firearms may be bought or sold here.[if:convo_annoyed][ib:hip]" />
+    <string id="bak_merchant_arms_smuggler.accept_normal_counter_2" text="{=4EB6Mc7G}I'm sure what you did was an honest mistake, but there are laws. Hand over the contraband to me, and this will be the end of it." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_counter_2c" text="{=FfBgIdhQ}This town has laws about unauthorized trade. Turn over the guns to me now." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_counter_accept" text="{=nTKr0Mhx}I don't want to break the law. You can take the guns." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_counter_accept_response" text="{=ihsNfbUv}That's the right call. You seem a responsible type.[if:convo_nonchalant]" />
+    <string id="bak_merchant_arms_smuggler.accept_normal_counter_decline" text="{=ZBqrd46y}That's just robbery under the cover of law. I'm not giving you anything." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_counter_decline_response" text="{=dD1PdT8o}Respectfully, you're making a big mistake and I think you're going to regret it.[if:convo_furious]" />
+    <string id="bak_merchant_arms_smuggler.accept_normal_counter_l" text="{=XQvqkFkO}My {?PLAYER.GENDER}lady{?}lord{\\?}, we have heard rumors that you have purchased foreign firearms from {QUEST_GIVER.NAME}.[ib:demure] Surely this cannot be true. Our laws require that only Japanese-made firearms may be bought or sold here." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_counter_l_2" text="{=JqjY2Kz1}Perhaps, my {?PLAYER.GENDER}lady{?}lord{\\?}, it was a mistake? If you were to relinquish the goods, it would avoid a situation that might appear, well, a bit unseemly." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_counter_l_accept" text="{=6xFbPCqg}I suppose the laws of this town bind me as well. You can take the guns." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_counter_l_accept_response" text="{=wXCkhAih}A just decision, my {?PLAYER.GENDER}lady{?}lord{\\?}." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_counter_l_decline" text="{=8BYZOARX}I decide how the law here is applied, merchant." />
+    <string id="bak_merchant_arms_smuggler.accept_normal_counter_l_decline_response" text="{=36fxek2x}Respectfully, my {?PLAYER.GENDER}lady{?}lord{\\?}, I must protest this. But of course you are free to do what you will." />
+    <string id="bak_merchant_arms_smuggler.accept_alt" text="{=X6XhPEx0}You can have one of my companions and {REQUIRED_TROOP_AMOUNT} of my men to take your “goods” to {TARGET_TOWN}" />
+    <string id="bak_merchant_arms_smuggler.accept_alt_response" text="{=WO3YxOLJ}Thank you my {?PLAYER.GENDER}lady{?}lord{\\?}. I am sure your men will take care of the problem." />
+    <string id="bak_merchant_arms_smuggler.discuss_alt" text="{=kbfCQVn1}I am still waiting for news from {TARGET_SETTLEMENT}. Thanks again for sparing your men." />
+    <string id="bak_merchant_arms_smuggler.delivery_start" text="{=WPOZWfEx}About the task {QUEST_GIVER.LINK} gave me..." />
+    <string id="bak_merchant_arms_smuggler.delivery" text="{=jBuerjt5}Yes... {QUEST_GIVER.LINK} sent word to us. We are expecting the {.%}{RIFLES}{.%} that {?QUEST_GIVER.GENDER}she{?}he{\\?} had." />
+    <!-- <string id="bak_merchant_arms_smuggler.delivery_2" text="{=KzO8KtgQ}Have you brought {REQUESTED_AMOUNT} {.%}{?(REQUESTED_AMOUNT > 1)}rifles{?}rifle{\\?}{.%}? I have a fat purse of {REWARD}{GOLD_ICON} for you as promised." /> -->
+    <!-- <string id="bak_merchant_arms_smuggler.delivery_all" text="{=1X5EGsW5}Yes. I have the goods right here. I brought {REQUESTED_AMOUNT} {.%}{?(REQUESTED_AMOUNT > 1)}rifles{?}rifle{\\?}{.%} as we agreed." /> -->
+    <string id="bak_merchant_arms_smuggler.delivery_all_response" text="{=LiSVfbAw}Very good! Here is your money. Thank you.[if:convo_grateful]" />
+    <string id="bak_merchant_arms_smuggler.full_log" text="{=ZA6nv3x4}You have delivered the goods from {QUEST_GIVER.NAME}." />
+    <string id="bak_merchant_arms_smuggler.delivery_some" text="{=C2nMCGgX}Most of the goods are here, but I lost some of them along the way. I have {AVAILABLE_AMOUNT} with me." />
+    <string id="bak_merchant_arms_smuggler.delivery_some_response" text="{=mBSHMLJX}Yes, things come up, but my agreement with {QUEST_GIVER.LINK} was for a fixed amount of goods. I don't want to negotiate a new deal. Please come back when you can get the full amount.[if:convo_nervous2][ib:closed]" />
+    <string id="bak_merchant_arms_smuggler.partial_log" text="{=3PoEAXXg}You have delivered {DELIVERED_ITEM_COUNT} rifles from {QUEST_GIVER.NAME}." />
+    <string id="bak_merchant_arms_smuggler.partial_log_2" text="{=jOUTl8Ap}You have to bring in amount {REQUIRED_AMOUNT} more to fulfill your end of the deal." />
+    <string id="bak_merchant_arms_smuggler.delivery_none" text="{=vDcOjrxO}Sorry. I don't have anything for you this time." />
+    <string id="bak_merchant_arms_smuggler.delivery_none_response" text="{=bS7WJIMq}Well, try to bring it soon.[if:convo_thinking][ib:closed]" />
+    <string id="bak_merchant_arms_smuggler.delivery_refuse" text="{=U722hDoU}You know, these goods are worth more to me than what you'll paying. I will keep them." />
+    <string id="bak_merchant_arms_smuggler.delivery_refuse_response" text="{=HvJERw0E}What? That's a breach of contract. {QUEST_GIVER.LINK} will certainly hear about this...[if:convo_grave][ib:aggressive]" />
+	<!-- Escort Foreign Merchant -->
+    <string id="bak_escort_foreign_merchant.title" text="{=bFwPCPzN}Escort Foreign Merchant" />
+    <string id="bak_escort_foreign_merchant.intro" text="{=mcYqVaNp}There's been a real surge of radical activity around here recently. I don't know if it's because the lords are away fighting or something else, but it's a miracle if a foreigner can make three leagues beyond the gates without being set upon by shishi. As the host of one such merchant, I must ensure his safety." />
+    <string id="bak_escort_foreign_merchant.intro_cs" text="{=AA5OOS8p}Things have gotten a lot worse recently with the shishi radicals on the roads around town. I cannot risk the safety of my guest when he leaves the city." />
+    <string id="bak_escort_foreign_merchant.accept" text="{=NRUYf35y}Go on." />
+    <string id="bak_escort_foreign_merchant.explanation" text="{=mA9UXRxz}My foreign guest wishes to go on a trade mission, but I fear he will be murdered before along the way. So I am looking for some good fighters who can escort him until he finds his footing and visits a couple of settlements." />
+	<string id="str_foreign_caravan_party_name" text="{=CRaOL9Y9}Caravan of the {NATION}" />
+	<string id="str_foreign_caravan_shishi_name" text="{=vvj4J3GI}Ishin Shishi Radicals" />
+    <!-- <string id="bak_escort_foreign_merchant.explanation_2" text="{=Bk6bWGnc}I will be willing to pay generously {BASE_REWARD}{GOLD_ICON} for each day the foreigner is on the road. It will be more than I usually pay for guards, but you look like the type who send a message to these radicals, that foreign merchants aren't to be messed with." />
+    <string id="bak_escort_foreign_merchant.explanation_2cs" text="{=TXI42rzU}I will be willing to pay generously {BASE_REWARD}{GOLD_ICON} for each day the foreigner is on the road. It will be more than I usually pay for guards, but figure maybe you can scare these radicals off. I can't afford the cost of a foreign reprisal just because some fools hate outsiders." />
+	<string id="bak_escort_foreign_merchant.accept_normal" text="{=rmRGFaXP}Don't worry, I'll escort the foreigner myself." />
+	<string id="bak_escort_foreign_merchant.accept_alt" text="{=ADNlFhdf}I'll assign one of my companions and {NEEDED_MEN_COUNT} of my men to protect your guest for {RETURN_DAYS} days." />
+	<string id="bak_escort_foreign_merchant.accept_alt_response" text="{=1vtMvEHX}I am sure your men are as capable as you are and will look after my guest. Thanks again for your help, my friend." />
+	<string id="bak_escort_foreign_merchant.accept_alt_response2" text="{=bkTnHGbI}Thank you, {?PLAYER.GENDER}madam{?}sir{\\?}, I think they will be enough." />
+	<string id="bak_escort_foreign_merchant.start_log_alt" text="{=E9rOQzPT}{ISSUEGIVER.LINK}, a merchant from {SETTLEMENT}, has told you about {?ISSUEGIVER.GENDER}her{?}his{\\?} recent problems with shishi radicals. {?ISSUEGIVER.GENDER}She{?}he{\\?} asked you to guard {?ISSUEGIVER.GENDER}her{?}his{\\?} foreign guest for a while and deal with any attackers. In return {?ISSUEGIVER.GENDER}she{?}he{\\?} offered you {GOLD}{GOLD_ICON} for each day your troops spend on escort duty.{newline}You agreed to lend {?ISSUEGIVER.GENDER}her{?}him{\\?} {NEEDED_MEN_COUNT} men. They should be enough to turn away most of the radicals. Your troops should return after {RETURN_DAYS} days." />
+	<string id="bak_escort_foreign_merchant.success_log_alt" text="{=8Hulmn4B}Your companion has protected the foreign merchant from {SETTLEMENT} as promised. {?ISSUE_GIVER.GENDER}She{?}He{\\?} was happy with your work." />
+	<string id="bak_escort_foreign_merchant.desc" text="{=e1rRz5fw}A foreign merchant needs an escort for protection against ishin shishi radicals." />
+	<string id="bak_escort_foreign_merchant.start_log" text="{=Lbhu9Pg9}{ISSUE_GIVER.LINK}, a merchant from {SETTLEMENT}, has told you about {?ISSUE_GIVER.GENDER}her{?}his{\\?} recent problems with shishi radicals. {?ISSUE_GIVER.GENDER}She{?}He{\\?} asked you to guard {?ISSUE_GIVER.GENDER}her{?}his{\\?} foreign guest for a while and deal with any attackers. In return {?ISSUE_GIVER.GENDER}she{?}he{\\?} offered you {GOLD}{GOLD_ICON} denars for each day you spend on escort duty.{newline}You have agreed to guard him yourself until he visits {NUMBER_OF_SETTLEMENTS} settlements." />
+	<string id="bak_escort_foreign_merchant.fail_log" text="{=JtNLRexB}The merchant was killed. Quest failed." />
+	<string id="bak_escort_foreign_merchant.fail_log_lost" text="{=xPGULV91}You have lost the track of the merchant. Your agreement with {ISSUE_GIVER.LINK} is failed." />
+	<string id="bak_escort_foreign_merchant.fail_log_shishi" text="{=gdwEkklF}The merchant was killed by Shishi radicals. Your agreement with {ISSUE_GIVER.LINK} is failed." />
+	<string id="bak_escort_foreign_merchant.fail_log_player" text="{=rr1JIrHP}You have attacked the merchant." />
+	<string id="bak_escort_foreign_merchant.fail_log_port" text="{=G5F2rg6G}The merchant is traveling between ports, and you do not have enough ships to follow. Your agreement with {QUEST_GIVER.LINK} was canceled and they have paid you for the merchant's progress." />
+	<string id="bak_escort_foreign_merchant.fail_log_no_trade" text="{=10j7vXkT}All profitable trade routes of the foreign merchant are blocked by recent wars. He has decided to return until the situation gets better. {QUEST_GIVER.LINK} was happy with your service and sent you {REWARD}{GOLD_ICON} as promised." />
+	<string id="bak_escort_foreign_merchant.success_log" text="{=RlMNWer2}You have protected the foreign merchant from {SETTLEMENT} as promised. He was happy with your work." />
+	<string id="bak_escort_foreign_merchant.visited_log" text="{=i3hC6h7B}Visited Settlements" />
+	<string id="bak_escort_foreign_merchant.start_dialogue" text="{=gF7k2Z7p}Thank you. You can find the foreigner just outside the settlement." />
+	<string id="bak_escort_foreign_merchant.discuss" text="{=O0XnHdx6}I feel good knowing that you're looking after the foreigner. Safe journeys, my friend!" />
+	<string id="bak_escort_foreign_merchant.discuss_foreigner" text="{=ASrnwfgv}I feel safe knowing that you're looking after us. Please continue to follow us my friend!" />
+	<string id="bak_escort_foreign_merchant.greet_american" text="{=mMP5n9dT}Greetings. This caravan is under the authority of the President of the United States of America and is guaranteed by {MERCHANT.LINK} of {SETTLEMENT}. How may we be of service?[if:convo_normal]" />
+	<string id="bak_escort_foreign_merchant.greet_british" text="{=Khi1HFAj}Greetings. This caravan is under the protection of Her Majesty, Queen Victoria of the United Kingdom of Great Britain and Ireland, and is guaranteed by {MERCHANT.LINK} of {SETTLEMENT}. How may we assist you?[if:convo_normal]" />
+	<string id="bak_escort_foreign_merchant.greet_french" text="{=Zo06Fz4z}Greetings. This caravan travels under the authority of His Imperial Majesty, Napoleon III of the French Empire, and is guaranteed by {MERCHANT.LINK} of {SETTLEMENT}. How may we be of service?[if:convo_normal]" />
+	<string id="bak_escort_foreign_merchant.greet_french_late" text="{=xdlx5HK7}Greetings. This caravan travels under the authority of the President of the Third French Republic and is guaranteed by {MERCHANT.LINK} of {SETTLEMENT}. How may we be of service?[if:convo_normal]" />
+	<string id="bak_escort_foreign_merchant.greet_german" text="{=uyzr5G62}Greetings. These goods are secured by His Majesty, King Wilhelm I of Prussia and is guaranteed by {MERCHANT.LINK} of {SETTLEMENT}. How may we help you?[if:convo_normal]" />
+	<string id="bak_escort_foreign_merchant.greet_german_late" text="{=1UbGKna4}Greetings. These goods are secured by His Majesty, Wilhelm I, German Emperor and King of Prussia, and is guaranteed by {MERCHANT.LINK} of {SETTLEMENT}. How may we help you?[if:convo_normal]" />
+	<string id="bak_escort_foreign_merchant.greet_dutch" text="{=kbBJ7Sby}Greetings. This caravan operates under the protection of His Majesty, King William III of the Netherlands, and is guaranteed by {MERCHANT.LINK} of {SETTLEMENT}. How may we assist you?[if:convo_normal]" />
+	<string id="bak_escort_foreign_merchant.under_attack" text="{=FmCDGaIG}The merchant you are protecting is ambushed by shishi radicals!" />-->
+	<!-- Samurai Revolt Opposing Views -->
+    <string id="bak_retainer_revolt.title" text="{=IMmMRUaR}{MALE_LESSER_NOBLE_NAME}{.o} {ALIGNMENT} Revolt" />
+    <string id="bak_retainer_revolt.start_log_alt" text="{=O0aur7dN}{ISSUE_GIVER.LINK}, lord of {SETTLEMENT}, says that a {MALE_LESSER_NOBLE_TITLE} named {MALE_LESSER_NOBLE_NAME} is stirring up unrest in the countryside. You asked your companion to deal with {MALE_LESSER_NOBLE_NAME}'s band. They should rejoin your party in {RETURN_DAYS} days" />
+    <string id="bak_retainer_revolt.start_log" text="{=hQc8EEzS}{QUEST_GIVER.LINK} says that a {MALE_LESSER_NOBLE_TITLE} named {MALE_LESSER_NOBLE_NAME} is stirring up unrest in the countryside. {?QUEST_GIVER.GENDER}She{?}He{\\?} asked you to disperse {MALE_LESSER_NOBLE_NAME}'s band using whatever means necessary before the movement gets enough support." />
+    <string id="bak_retainer_revolt.location_log" text="{=5ET5J1bf}{QUEST_GIVER}{.o} informants reported that {MALE_LESSER_NOBLE_NAME}{.o} party has been seen near {VILLAGE}." />
+    <string id="bak_retainer_revolt.fail_log_convinced" text="{=pK1cyTKG}You were convinced by {MALE_LESSER_NOBLE_NAME} to let him gather support. {QUEST_GIVER.LINK} will be very upset about this." />
+    <string id="bak_retainer_revolt.fail_log_time" text="{=AFm4CMvA}You failed to stop {MALE_LESSER_NOBLE_NAME} before he stirred up unrest in the countryside. {QUEST_GIVER.LINK} will be very upset about this." />
+    <string id="bak_retainer_revolt.fail_log" text="{=f4f2bzaP}You lost the battle against {MALE_LESSER_NOBLE_NAME} and failed to help {QUEST_GIVER.LINK} as promised." />
+    <string id="bak_retainer_revolt.cancel_log" text="{=IFH3fzAZ}{QUEST_GIVER.LINK} has left {KINGDOM}. Your agreement with {?QUEST_GIVER.GENDER}her{?}him{\\?} has been canceled." />
+    <string id="bak_retainer_revolt.success_log_convinced" text="{=9pJsnMgo}You have persuaded {MALE_LESSER_NOBLE_NAME} to disband his party and return home. You received {REWARD}{GOLD_ICON} in return for your service." />
+    <string id="bak_retainer_revolt.success_log" text="{=xuBLopmE}You have defeated {MALE_LESSER_NOBLE_NAME} and helped {QUEST_GIVER.LINK} as promised. You received {REWARD}{GOLD_ICON} in return for your service." />
+    <string id="bak_retainer_revolt.support_level" text="{=YcpUKz3W}Support level of {MALE_LESSER_NOBLE_NAME}" />
+    <string id="bak_retainer_revolt.party" text="{=0D9sHq49}{MALE_LESSER_NOBLE_NAME}{.o} {ALIGNMENT} Party" />
+    <string id="bak_retainer_revolt.desc" text="{=tMeStSOS}{ISSUE_GIVER.LINK} wants you to stop the {MALE_LESSER_NOBLE_NAME}'s movement before it turns into a strong resistance." />
+    <string id="bak_retainer_revolt.intro" text="{=J4oQk0mR}Yes... As you know, this realm is deeply divided between the Imperial and Shogunate cause. Despite the stance taken by the great lords, many of our lower retainers hold an opposing stance. A few of us, myself included, wish to take a stronger stance. I don't know how we will end up acting, but rumors of it have gotten out in my district, and many of the kachi are growing restless. Now, most of us are doing their part to keep a lid on things. But there's one, {MALE_LESSER_NOBLE_NAME}, who I am ashamed to say was once a {TOP_TIER_CAV_TITLE} under my banner, who's been going around the countryside, stirring up trouble. He's gathered a following and they have a whole list of demands, including a requirement that our domain take a {OPP_STANCE} stance. I'd take care of him myself, but that would imply I can't control my own men. Maybe you can help?[if:convo_thinking][ib:closed2]" />
+    <string id="bak_retainer_revolt.accept" text="{=IALbJ6to}Maybe. What do you need exactly?" />
+    <string id="bak_retainer_revolt.explanation" text="{=ZFHyr785}His band has been going about from village to village. Find him and stop him. You can tell him he's guilty of sedition, and if he doesn't disperse, then you can use force.[if:convo_thinking][ib:hip2]" />
+    <string id="bak_retainer_revolt.ask_explanation_alt" text="{=M1kjUlYl}Is there any other way to solve this problem?" />
+    <string id="bak_retainer_revolt.explanation_alt" text="{=FlnCOwS1}Not that I can think of. But if you don't want to do it, you can nominate someone from your party. It's not going to be easy, though. Whoever you name should be a good leader and have a good knowledge of tactics, and should take along at least {ALTERNATIVE_SOLUTION_NEEDED_MAN_COUNT} men. I'm ready to pay {REWARD}{GOLD_ICON} for your service. And if it comes to a fight, you can take whatever loot you want as spoils of war.[if:convo_thinking]" />
+    <string id="bak_retainer_revolt.accept_normal" text="{=rPtBmUau}I'll find them and put a stop to what they're doing." />
+    <string id="bak_retainer_revolt.accept_normal_response" text="{=OMhPSSTm}Thank you. {MALE_LESSER_NOBLE_NAME} is always on the move, so finding him might be tricky. But don't worry, I get regular reports from the landowners around here and I'll keep you updated on his movements...[if:convo_undecided_closed]" />
+    <string id="bak_retainer_revolt.accept_alt" text="{=cqIoRnBL}Don't worry. I will send my best men to deal with this." />
+    <string id="bak_retainer_revolt.accept_alt_response" text="{=j74yIXRJ}Thank you.[if:convo_relaxed_happy] I hope your men deal with them as soon as possible." />
+    <string id="bak_retainer_revolt.discuss" text="{=QxPyfgaF}Have you put a stop to {MALE_LESSER_NOBLE_TITLE}{.s}?[if:convo_undecided_open]" />
+    <string id="bak_retainer_revolt.discuss_player" text="{=Qg9ggtOm}Yes, we know where he is. It's just a matter of time to catch them." />
+    <string id="bak_retainer_revolt.discuss_player_response" text="{=LAMDOGev}Good. I count on you.[if:convo_relaxed_happy]" />
+    <string id="bak_retainer_revolt.discuss_neutral" text="{=z6WZwsTu}We are working on it." />
+    <string id="bak_retainer_revolt.discuss_neutral_response" text="{=4KSZcsTW}Very well. But every day he's out there spreading sedition make things more dangerous for all of us.[if:convo_undecided_closed]" />
+    <string id="bak_retainer_revolt.rebel_greeting" text="{=SHoWDmG2}Greetings, {?PLAYER.GENDER}madame{?}sir{\\?}. May I help you?" />
+    <string id="bak_retainer_revolt.rebel_greeting_2" text="{=ZkMqeK65}Anything else to say?" />
+    <string id="bak_retainer_revolt.rebel_line" text="{=r588MwWh}Sedition? You have been misinformed. My men and I are loyal servants of {RULER_NAME_AND_TITLE}. We are simply going about informing the people that our {RULER_TITLE} is surrounded by bad advisers who are advocating for the treasonous {ALIGNMENT} cause. We petition {RULER.NAME} to listen to us and join the righteous movement.[if:convo_normal][ib:hip]" />
+    <string id="bak_retainer_revolt.rebel_line_2" text="{=qcOnI5AG}Consequences? You would shed the blood of {RULER.NAME}'s loyal servants just for raising their voices against a wicked cause?[if:convo_confused_normal][ib:closed]" />
+    <string id="bak_retainer_revolt.player_order" text="{=m4ykHih7}Yes, that's sedition all right. Disperse now or face the consequences." />
+    <string id="bak_retainer_revolt.player_fight" text="{=9kt3ZjGJ}I will talk no more. Get ready to fight." />
+    <string id="bak_retainer_revolt.player_fight_response" text="{=4ysdp0dV}The Heavens will grant victory to the just![ib:warrior][if:convo_contemptuous]" />
+    <string id="bak_retainer_revolt.player_no_fight" text="{=qdRwGOmg}No, I don't want to shed your blood." />
+    <string id="bak_retainer_revolt.player_no_fight_response" text="{=59ooBNpU}Wise decision.[if:convo_undecided_closed][ib:normal]" />
+    <string id="bak_retainer_revolt.player_leave" text="{=uqe1N18S}Well, I have indeed been misinformed. You may go on your way..." />
+    <string id="bak_retainer_revolt.player_leave_response" text="{=xXSjHp5p}You're doing a good thing, {?PLAYER.GENDER}madame{?}sir{\\?}. Our great cause will remember your kindness" />
+    <string id="bak_retainer_revolt.player_convince" text="{=pKjYnoKr}Let me try to talk some sense into you..." />
+    <string id="bak_retainer_revolt.player_convince_1" text="{=rSLgT9yU}If you start a rebellion, you're just going to get a lot of samurai around here killed..." />
+    <string id="bak_retainer_revolt.player_convince_2" text="{=kdDoqJxM}The nobles aren't trying to defend a wicked cause, but they cannot risk the domain's destruction by its enemies" />
+    <string id="bak_retainer_revolt.player_convince_3" text="{=5T9v3DNk}You know the dark hearts of men... Those who start as rebels end up turning bandit. Rebellion brings anarchy, not justice." />
+    <string id="bak_retainer_revolt.player_convince_final_fail" text="{=kxdkmOPu}Thus always spoke the wicked to the just! We can only pray that the Heavens help the righteous cause. Now stay out of my way.[if:convo_undecided_closed][ib:closed]" />
+<!-- 
+T9NgjM0X
+0LIGsf1e
+6FHEY8o0-->
+    <string id="str_weapon_usage.SHO_Yari_CouchA" text="{=MciIqod6}Couch Lance"/>
+    <string id="str_crafting_template.BAK_OneHandedSaber" text="{=DaP0zCuL}Saber"/>
+    <string id="str_weapon_usage.BAK_OneHandedSaber" text="{=PiHpR4QL}One Handed"/>
+</strings>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+	<CraftingPiece
+		id="bak_spear_handle"
+		name="{=R3mMjibn}Western Lance Shaft"
+		tier="2"
+		piece_type="Handle"
+		mesh="spear_handle_26"
+		length="280"
+		weight="1.2"
+		CraftingCost="120">
+		<BuildData
+			piece_offset="22.9" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece
+		id="bak_spear_blade"
+		name="{=VodYaQio}Western Lance Head"
+		tier="5"
+		piece_type="Blade"
+		mesh="spear_blade_5"
+		length="52.242"
+		weight="0.4056"
+		excluded_item_usage_features="swing">
+        <BuildData next_piece_offset="0"
+                   previous_piece_offset="0"/>
+		<BladeData
+			stack_amount="3"
+			physics_material="wood_weapon"
+			body_name="bo_spear_b">
+			<Thrust
+				damage_type="Pierce"
+				damage_factor="4.0" />
+		</BladeData>
+		<Materials>
+			<Material
+				id="Iron5"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece
+		id="bak_spear_banner"
+		name="{=hV7Gcuw8}Western Lance Banner"
+		tier="4"
+		piece_type="Guard"
+		mesh="lance_banner"
+		culture="Culture.saikai"
+		length="20"
+		weight="0">
+        <BuildData next_piece_offset="0"
+                   previous_piece_offset="0"/>
+		<Materials>
+			<Material
+				id="Wood"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="yataghan_blade" name="{=2a7zdKCr}Yataghan Blade" tier="1" piece_type="Blade" mesh="yataghan_blade" length="58.6" weight=".35"
+                   is_default="true">
+		<BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="yataghan_scabbard">
+            <Thrust damage_type="Pierce"
+                    damage_factor="2.1"/>
+            <Swing damage_type="Blunt"
+                   damage_factor="1.5"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian" type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron1" count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="1822_saber_blade" name="{=aWyfg2PR}French Light Cavalry Blade" tier="3" piece_type="Blade" mesh="1822_saber_blade" length="92" weight=".65">
+		<BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="1822_saber_scabbard">
+			<Thrust damage_type="Pierce" damage_factor="2.6"/>
+			<Swing damage_type="Cut" damage_factor="3.5"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian" type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3" count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="1822_saber_blade_1" name="{=aWyfg2PR}French Light Cavalry Blade" tier="4" piece_type="Blade" mesh="1822_saber_blade" length="92" weight=".75">
+		<BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="1822_saber_scabbard_alt">
+			<Thrust damage_type="Pierce" damage_factor="2.7"/>
+			<Swing damage_type="Cut" damage_factor="3.8"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian" type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron4" count="2"/>
+			<Material id="Wood" count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="1860_saber_blade" name="{=AoVPomGX}American Light Cavalry Blade" tier="3" piece_type="Blade" mesh="1860_saber_blade" length="88.9" weight=".75">
+		<BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="1860_saber_scabbard">
+			<Thrust damage_type="Pierce" damage_factor="2.9"/>
+			<Swing damage_type="Cut" damage_factor="3.3"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian" type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3" count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="1860_saber_blade_1" name="{=AoVPomGX}American Light Cavalry Blade" tier="4" piece_type="Blade" mesh="1860_saber_blade" length="88.9" weight=".85">
+		<BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="1860_saber_scabbard_alt">
+			<Thrust damage_type="Pierce" damage_factor="3.05"/>
+			<Swing damage_type="Cut" damage_factor="3.55"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian" type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron4" count="2"/>
+			<Material id="Wood" count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="wilkinson_saber_blade" name="{=pcyDR24D}Wilkinson-style Blade" tier="4" piece_type="Blade" mesh="wilkinson_saber_blade" length="83.5" weight=".5">
+		<BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="wilkinson_saber_scabbard">
+			<Thrust damage_type="Pierce" damage_factor="3.6"/>
+			<Swing damage_type="Cut" damage_factor="3.0"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian" type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron4" count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="wilkinson_saber_blade_1" name="{=pcyDR24D}Wilkinson-style Blade" tier="5" piece_type="Blade" mesh="wilkinson_saber_blade" length="83.5" weight=".6">
+		<BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="wilkinson_saber_scabbard_alt">
+			<Thrust damage_type="Pierce" damage_factor="3.8"/>
+			<Swing damage_type="Cut" damage_factor="3.1"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian" type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron4" count="3"/>
+			<Material id="Wood" count="1"/>
+		</Materials>
+	</CraftingPiece>
+    <CraftingPiece id="yataghan_hilt"
+                   name="{=VYzQT7Gz}Socket Hilt"
+                   tier="1"
+                   piece_type="Handle"
+                   mesh="yataghan_hilt"
+                   length="13.2"
+                   weight="0.1"
+                   is_default="true">
+        <BuildData piece_offset="-0.5" next_piece_offset="1.6"/>
+        <Materials>
+            <Material id="Iron1"
+                      count="1"/>
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="shin_gunto_handle_4_brown"
+                   name="{=DN7UiAyB}sho_katana_handle_4_brown"
+                   tier="3"
+                   piece_type="Handle"
+                   mesh="sho_katana_handle_4_brown"
+                   length="27.7"
+                   weight="0.3"
+                   is_default="false">
+        <BuildData piece_offset="-7" next_piece_offset="1.6"/>
+        <Materials>
+            <Material id="Wood"
+                      count="1"/>
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="bak_saber_hilt_gothic"
+                   name="{=ms7EUWqE}Gothic Hilt"
+                   tier="4"
+                   piece_type="Handle"
+                   mesh="bak_b_gothic_hilt"
+                   length="14.2"
+                   weight="0.3"
+                   is_default="false">
+        <BuildData piece_offset="0" next_piece_offset="1.6"/>
+        <Materials>
+            <Material id="Iron3"
+                      count="1"/>
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="bak_saber_hilt_three_bar"
+                   name="{=ms7EUqEW}Three Bar Hilt"
+                   tier="3"
+                   piece_type="Handle"
+                   mesh="bak_three_bar_hilt"
+                   length="14.6"
+                   weight="0.34"
+                   is_default="false">
+        <BuildData piece_offset="0" next_piece_offset="1.6"/>
+        <Materials>
+            <Material id="Iron2"
+                      count="1"/>
+        </Materials>
+    </CraftingPiece>
+    <CraftingPiece id="bak_kyu_gunto_hilt"
+                   name="{=ASDEUWqE}Kyu Gunto Hilt"
+                   tier="5"
+                   piece_type="Handle"
+                   mesh="bak_kyu_gunto_hilt"
+                   length="18.1"
+                   weight="0.35"
+                   is_default="false">
+        <BuildData piece_offset="0" next_piece_offset="1.6"/>
+        <Materials>
+            <Material id="Iron4"
+                      count="1"/>
+        </Materials>
+    </CraftingPiece>
+</CraftingPieces>

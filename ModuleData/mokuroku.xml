@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Books>
+    <!--Book Xml:
+        Book
+         item - Item Object that coresponds to the book. The name, value, and mesh is based on the Item
+         length - Length in hours it takes to read the book
+         rarity - (common, rare, unique) effects the chance of a book spawning in a temple
+         desc - Text that displays in the book menu
+        Benefit
+         skill - Skill Object that is improved by reading the book
+         exp - the total amount of xp that is gained by reading the book (exp/length = amount of xp gained per hour)
+         finalExp - the chunk of xp gained on finishing book
+         addFocus - if true, adds a focus point to the skill upon completion-->
+    <!--Hōzōin-ryū Hyōhōmokuroku-->
+    <Book id="book_7" item="Item.book_7" length="160" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Polearm" exp="45000" finalExp="4500" addFocus="true"/>
+    </Book>
+    
+    <!-- REMOVEFROMBASE -->
+    <!-- book_3
+         book_7
+          -->
+    <!-- Hokushin Itto-ryu -->
+    <!-- Hatsumokuroku -->
+    <Book id="hir_hatsu_mokuroku" item="Item.hir_hatsu_mokuroku" length="180" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="19000" finalExp="2000" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="18000" finalExp="2000" addFocus="false"/>
+    </Book>
+    <!-- Chumokuroku-menkyo -->
+    <Book id="hir_chu_mokuroku" item="Item.hir_chu_mokuroku" length="200" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="22000" finalExp="2200" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="20000" finalExp="2000" addFocus="false"/>
+    </Book>
+    <!-- Daimokuroku-kaiden -->
+    <Book id="hir_dai_mokuroku" item="Item.hir_dai_mokuroku" length="250" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="35000" finalExp="3200" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="35000" finalExp="3200" addFocus="true"/>
+        <Benefit skill="Skill.Polearm" exp="28000" finalExp="2000" addFocus="false"/>
+    </Book>
+    <!-- Naginata Mokuroku -->
+    <Book id="hir_naginata_mokuroku" item="Item.hir_naginata_mokuroku" length="160" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Polearm" exp="16000" finalExp="1500" addFocus="false"/>
+    </Book>
+    <!-- Ono-ha Itto-ryu -->
+    <!-- Junikajo Mokuroku -->
+    <Book id="oir_juni_mokuroku" item="Item.oir_juni_mokuroku" length="190" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="19000" finalExp="2000" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="18000" finalExp="2000" addFocus="false"/>
+    </Book>
+    <!-- Kanajisho Mokuroku -->
+    <Book id="oir_kana_mokuroku" item="Item.oir_kana_mokuroku" length="220" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="22000" finalExp="2100" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="20000" finalExp="2100" addFocus="false"/>
+    </Book>
+    <!-- Hon Mokuroku -->
+    <Book id="oir_hon_mokuroku" item="Item.oir_hon_mokuroku" length="275" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="35000" finalExp="3200" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="35000" finalExp="3200" addFocus="true"/>
+    </Book>
+    <!-- Generic Ryu -->
+    <!-- Sho-Mokuroku -->
+    <Book id="gr_sho_mokuroku" item="Item.gr_sho_mokuroku" length="190" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.OneHanded" exp="15000" finalExp="2000" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="15000" finalExp="2000" addFocus="false"/>
+    </Book>
+    <!-- Hatsumokuroku -->
+    <Book id="gr_hatsumokuroku" item="Item.gr_hatsumokuroku" length="210" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="16000" finalExp="2100" addFocus="false"/>
+        <Benefit skill="Skill.Tactics" exp="16000" finalExp="2100" addFocus="false"/>
+    </Book>
+    <!-- Go-Mokuroku -->
+    <Book id="gr_gomokuroku" item="Item.gr_gomokuroku" length="225" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="19000" finalExp="2400" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="19000" finalExp="2400" addFocus="false"/>
+    </Book>
+    <!-- Menkyo Mokuroku -->
+    <Book id="gr_menkyo_mokuroku" item="Item.gr_menkyo_mokuroku" length="250" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="25000" finalExp="2800" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="25000" finalExp="2800" addFocus="false"/>
+    </Book>
+    <!-- Kaiden Mokuroku -->
+    <Book id="gr_kaiden_mokuroku" item="Item.gr_kaiden_mokuroku" length="300" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="28000" finalExp="3200" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="28000" finalExp="3200" addFocus="true"/>
+    </Book>
+    <!-- Jigen-ryu -->
+    <!-- Sho-mokuroku -->
+    <Book id="jr_sho_mokuroku" item="Item.jr_sho_mokuroku" length="180" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="20000" finalExp="2000" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="16000" finalExp="1700" addFocus="false"/>
+    </Book>
+    <!-- Chu-mokuroku-menkyo -->
+    <Book id="jr_chu_mokuroku" item="Item.jr_chu_mokuroku" length="200" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="24000" finalExp="2100" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="18000" finalExp="1900" addFocus="false"/>
+    </Book>
+    <!-- Okumokuroku-kaiden -->
+    <Book id="jr_oku_mokuroku" item="Item.jr_oku_mokuroku" length="225" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="30000" finalExp="3200" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="26000" finalExp="3000" addFocus="true"/>
+    </Book>
+    <!-- Somokuroku -->
+    <Book id="jr_somokuroku" item="Item.jr_somokuroku" length="250" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="40000" finalExp="4000" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="30000" finalExp="2000" addFocus="true"/>
+    </Book>
+    <!-- Shinkage Ryu -->
+    <!-- Omote -->
+    <Book id="shr_omote_mokuroku" item="Item.shr_omote_mokuroku" length="120" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Athletics" exp="23000" finalExp="2000" addFocus="false"/>
+    </Book>
+    <!-- O-marobashi -->
+    <Book id="shr_o_marobashi" item="Item.shr_o_marobashi" length="140" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="28000" finalExp="2500" addFocus="false"/>
+    </Book>
+    <!-- Ko-marobashi -->
+    <Book id="shr_ko_marobashi" item="Item.shr_ko_marobashi" length="160" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Tactics" exp="35000" finalExp="3000" addFocus="false"/>
+    </Book>
+    <!-- Tengu-sho -->
+    <Book id="shr_tengu_sho" item="Item.shr_tengu_sho" length="180" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.OneHanded" exp="21000" finalExp="2100" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="19000" finalExp="2100" addFocus="false"/>
+    </Book>
+    <!-- Karimokuroku -->
+    <Book id="shr_karimokuroku" item="Item.shr_karimokuroku" length="200" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="22000" finalExp="2500" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="22000" finalExp="2500" addFocus="false"/>
+    </Book>
+    <!-- Mokuroku -->
+    <Book id="shr_mokuroku" item="Item.shr_mokuroku" length="230" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.OneHanded" exp="24000" finalExp="2800" addFocus="false"/>
+        <Benefit skill="Skill.Tactics" exp="25000" finalExp="2800" addFocus="true"/>
+    </Book>
+    <!-- Gaiden -->
+    <Book id="shr_gaiden" item="Item.shr_gaiden" length="265" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="27000" finalExp="2800" addFocus="false"/>
+        <Benefit skill="Skill.Polearm" exp="27000" finalExp="2800" addFocus="true"/>
+    </Book>
+    <!-- Naiden -->
+    <Book id="shr_naiden" item="Item.shr_naiden" length="280" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="30000" finalExp="3000" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="30000" finalExp="3000" addFocus="false"/>
+    </Book>
+    <!-- Kaiden -->
+    <Book id="shr_kaiden" item="Item.shr_kaiden" length="300" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="10000" finalExp="1000" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="10000" finalExp="1000" addFocus="false"/>
+        <Benefit skill="Skill.OneHanded" exp="10000" finalExp="1000" addFocus="false"/>
+        <Benefit skill="Skill.Polearm" exp="10000" finalExp="1000" addFocus="false"/>
+        <Benefit skill="Skill.Tactics" exp="10000" finalExp="1000" addFocus="false"/>
+    </Book>
+    <!-- Jikishinkage Ryu -->
+    <!-- Shomokuroku -->
+    <Book id="jshr_shomokuroku" item="Item.jshr_shomokuroku" length="175" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="16000" finalExp="2100" addFocus="false"/>
+        <Benefit skill="Skill.OneHanded" exp="11000" finalExp="1900" addFocus="false"/>
+    </Book>
+    <!-- Jomokuroku -->
+    <Book id="jshr_jomokuroku" item="Item.jshr_jomokuroku" length="200" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="11000" finalExp="1500" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="18000" finalExp="2600" addFocus="false"/>
+    </Book>
+    <!-- Reikenden -->
+    <Book id="jshr_reikenden" item="Item.jshr_reikenden" length="225" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="17000" finalExp="2500" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="17000" finalExp="2100" addFocus="false"/>
+    </Book>
+    <!-- Kyuri-no-maki -->
+    <Book id="jshr_kyuri_no_maki" item="Item.jshr_kyuri_no_maki" length="250" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="22000" finalExp="2500" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="21000" finalExp="2500" addFocus="false"/>
+    </Book>
+    <!-- Goku-i -->
+    <Book id="jshr_goku_i" item="Item.jshr_goku_i" length="275" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="25000" finalExp="2800" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="25000" finalExp="2800" addFocus="true"/>
+    </Book>
+    <!-- Menkyo -->
+    <Book id="jshr_menkyo_mokuroku" item="Item.jshr_menkyo_mokuroku" length="300" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="28000" finalExp="3000" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="28000" finalExp="3000" addFocus="false"/>
+    </Book>
+    <!-- Mugai-ryu -->
+    <!-- Goyo Mokuroku -->
+    <Book id="mr_goyo_mokuroku" item="Item.mr_goyo_mokuroku" length="180" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="12000" finalExp="1200" addFocus="false"/>
+        <Benefit skill="Skill.OneHanded" exp="12000" finalExp="1200" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="12000" finalExp="1200" addFocus="false"/>
+    </Book>
+    <!-- Goka Mokuroku -->
+    <Book id="mr_goka_mokuroku" item="Item.mr_goka_mokuroku" length="200" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="14000" finalExp="1400" addFocus="true"/>
+        <Benefit skill="Skill.OneHanded" exp="14000" finalExp="1400" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="14000" finalExp="1400" addFocus="false"/>
+    </Book>
+    <!-- Goo Mokuroku -->
+    <Book id="mr_goo_mokuroku" item="Item.mr_goo_mokuroku" length="225" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="28000" finalExp="3100" addFocus="false"/>
+        <Benefit skill="Skill.OneHanded" exp="28000" finalExp="3100" addFocus="true"/>
+    </Book>
+    <!-- Hashiri-gakari Mokuroku -->
+    <Book id="mr_hashiri_gakari" item="Item.mr_hashiri_gakari" length="240" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="32000" finalExp="3200" addFocus="true"/>
+        <Benefit skill="Skill.OneHanded" exp="30000" finalExp="3200" addFocus="false"/>
+    </Book>
+    <!-- Naiden Mokuroku -->
+    <Book id="mr_naiden_mokuroku" item="Item.mr_naiden_mokuroku" length="250" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="40000" finalExp="4000" addFocus="false"/>
+        <Benefit skill="Skill.OneHanded" exp="30000" finalExp="2000" addFocus="true"/>
+    </Book>
+    <!-- Wakizashi Mokuroku -->
+    <Book id="mr_wakizashi_mokuroku" item="Item.mr_wakizashi_mokuroku" length="160" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.OneHanded" exp="16000" finalExp="1500" addFocus="false"/>
+    </Book>
+    <!-- Tachi Mokuroku -->
+    <Book id="mr_tachi_mokuroku" item="Item.mr_tachi_mokuroku" length="160" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="16000" finalExp="1500" addFocus="false"/>
+    </Book>
+    <!-- Tatsumi-ryu -->
+    <!-- Oden Mokuroku -->
+    <Book id="tatr_oden_mokuroku" item="Item.tatr_oden_mokuroku" length="180" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="25000" finalExp="2800" addFocus="false"/>
+    </Book>
+    <!-- Tachiai Mokuroku -->
+    <Book id="tatr_tachiai_mokuroku" item="Item.tatr_tachiai_mokuroku" length="200" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="37500" finalExp="3700" addFocus="false"/>
+    </Book>
+    <!-- Iai Mokuroku -->
+    <Book id="tatr_iai_mokuroku" item="Item.tatr_iai_mokuroku" length="225" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="50000" finalExp="5200" addFocus="true"/>
+    </Book>
+    <!-- Menkyo Mokuroku -->
+    <Book id="tatr_menkyo_mokuroku" item="Item.tatr_menkyo_mokuroku" length="240" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="60000" finalExp="6400" addFocus="true"/>
+    </Book>
+    <!-- Yari Mokuroku -->
+    <Book id="tatr_yari_mokuroku" item="Item.tatr_yari_mokuroku" length="160" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Polearm" exp="16000" finalExp="1500" addFocus="false"/>
+    </Book>
+    <!-- Shuriken Mokuroku -->
+    <Book id="tatr_shuriken_mokuroku" item="Item.tatr_shuriken_mokuroku" length="160" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Throwing" exp="16000" finalExp="1500" addFocus="false"/>
+    </Book>
+    <!-- Monomi Mokuroku -->
+    <Book id="tatr_monomi_mokuroku" item="Item.tatr_monomi_mokuroku" length="160" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Scouting" exp="16000" finalExp="1500" addFocus="false"/>
+    </Book>
+    <!-- Shudan Sentoho Mokuroku -->
+    <Book id="tatr_shudan_sentoho_mokuroku" item="Item.tatr_shudan_sentoho_mokuroku" length="160" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Tactics" exp="16000" finalExp="1500" addFocus="false"/>
+    </Book>
+    <!-- Wakizashi Mokuroku -->
+    <Book id="tatr_wakizashi_mokuroku" item="Item.tatr_wakizashi_mokuroku" length="160" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.OneHanded" exp="16000" finalExp="1500" addFocus="false"/>
+    </Book>
+    <!-- Monomi Mokuroku -->
+    <Book id="tatr_naginata_mokuroku" item="Item.tatr_naginata_mokuroku" length="160" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Polearm" exp="16000" finalExp="1500" addFocus="false"/>
+    </Book>
+    <!-- Heki-ryu -->
+    <!-- Yumi Mokuroku -->
+    <Book id="her_yumi_mokuroku" item="Item.her_yumi_mokuroku" length="300" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Bow" exp="35000" finalExp="3500" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="20000" finalExp="2000" addFocus="false"/>
+    </Book>
+    <!-- Hyohomokuroku -->
+    <Book id="her_hyohomokuroku" item="Item.her_hyohomokuroku" length="400" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Bow" exp="60000" finalExp="6000" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="30000" finalExp="3000" addFocus="true"/>
+    </Book>
+    <!-- Tamiya-ryu -->
+    <!-- Yumi Mokuroku -->
+    <Book id="tr_omote_mokuroku" item="Item.tr_omote_mokuroku" length="300" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="35000" finalExp="3500" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="20000" finalExp="2000" addFocus="true"/>
+    </Book>
+    <!-- Hyohomokuroku -->
+    <Book id="tr_koran_mokuroku" item="Item.tr_koran_mokuroku" length="400" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.TwoHanded" exp="60000" finalExp="6000" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="30000" finalExp="3000" addFocus="true"/>
+    </Book>
+    <!-- Hozoin-ryu -->
+    <!-- Omote-mokuroku -->
+    <Book id="hor_omote_mokuroku" item="Item.hor_omote_mokuroku" length="180" rarity="common" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Polearm" exp="20000" finalExp="2000" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="16000" finalExp="1700" addFocus="false"/>
+    </Book>
+    <!-- Ura-mokuroku -->
+    <Book id="hor_ura_mokuroku" item="Item.hor_ura_mokuroku" length="200" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Polearm" exp="42000" finalExp="4000" addFocus="true"/>
+    </Book>
+    <!-- Shinshikake Mokuroku -->
+    <Book id="hor_shinshikake_mokuroku" item="Item.hor_shinshikake_mokuroku" length="225" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Polearm" exp="30000" finalExp="3200" addFocus="false"/>
+        <Benefit skill="Skill.Athletics" exp="26000" finalExp="3000" addFocus="true"/>
+    </Book>
+    <!-- Hyohomokuroku -->
+    <Book id="hor_kaiden" item="Item.hor_kaiden" length="250" rarity="unique" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Polearm" exp="40000" finalExp="4000" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="30000" finalExp="2000" addFocus="true"/>
+    </Book>
+    <!-- Ogasawara-ryu -->
+    <!-- Kasagake Mokuroku -->
+    <Book id="ogr_kasagake_mokuroku" item="Item.ogr_kasagake_mokuroku" length="180" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Bow" exp="16000" finalExp="1500" addFocus="false"/>
+        <Benefit skill="Skill.Riding" exp="16000" finalExp="1500" addFocus="true"/>
+    </Book>
+    <!-- Kyujutsu Mokuroku -->
+    <Book id="ogr_kyujutsu_mokuroku" item="Item.ogr_kyujutsu_mokuroku" length="180" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Bow" exp="16000" finalExp="1500" addFocus="true"/>
+        <Benefit skill="Skill.Athletics" exp="16000" finalExp="1500" addFocus="false"/>
+    </Book>
+    <!-- Bajutsu Mokuroku -->
+    <Book id="ogr_bajutsu_mokuroku" item="Item.ogr_bajutsu_mokuroku" length="180" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Polearm" exp="16000" finalExp="1500" addFocus="false"/>
+        <Benefit skill="Skill.Riding" exp="16000" finalExp="1500" addFocus="true"/>
+    </Book>
+    <!-- Reiho Mokuroku -->
+    <Book id="ogr_reiho_mokuroku" item="Item.ogr_reiho_mokuroku" length="180" rarity="rare" desc="{=YDassFgV}A scroll depicting the techniques of Hōzōin-ryū school, a spear martial arts specialised in the use of the Jumonji sickle spear to enable diverse offensive and defensive techniques." addFreeFocus="true">
+        <Benefit skill="Skill.Charm" exp="32000" finalExp="3200" addFocus="true"/>
+    </Book>
+</Books>

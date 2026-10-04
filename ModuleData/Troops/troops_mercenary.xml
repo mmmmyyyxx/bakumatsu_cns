@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NPCCharacters>
+	<NPCCharacter id="bak_ronin_base" default_group="Infantry" level="6" occupation="Mercenary" culture="Culture.ashigaru" name="{=BosRoBas}Ronin">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_ronin"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="35"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="20"/>
+			<skill id="Riding" value="5"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_ronin_skilled"/>
+            <upgrade_target id="NPCCharacter.bak_ronin_yumi"/>
+            <upgrade_target id="NPCCharacter.bak_ronin_teppo"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_training"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_21"/>
+				<equipment slot="Head" id="Item.sho_nomadgasa_hat"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_1"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_training"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_2"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Head" id="Item.sho_roningasa_hat"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_10"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_21"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_4"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_training"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_3"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_5"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_21"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_6"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_training"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_training"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_22"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_ronin_skilled" default_group="Infantry" level="11" occupation="Mercenary" culture="Culture.ashigaru" name="{=BosRoKat}Jozu-na Ronin">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_ronin"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="40"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Athletics" value="80"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_7"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_17"/>
+				<equipment slot="Head" id="Item.sho_nomadgasa_hat"/>
+				<equipment slot="Body" id="Item.bak_haori_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_30"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_17"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Body" id="Item.bak_haori_brown"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_10"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_14"/>
+				<equipment slot="Head" id="Item.sho_roningasa_hat"/>
+				<equipment slot="Body" id="Item.bak_haori_black"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_10"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_11"/>
+				<equipment slot="Item2" id="Item.sho_yari_16"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.bak_haori_black_brown"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_10"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_11"/>
+				<equipment slot="Item2" id="Item.sho_yari_17"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.bak_haori_ornate_1"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_10"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_11"/>
+				<equipment slot="Item2" id="Item.sho_yari_9"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.bak_haori_ornate"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_9"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_17"/>
+				<equipment slot="Item2" id="Item.sho_nodachi_7"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_h"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_30"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_17"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_i"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_8"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_11"/>
+				<equipment slot="Head" id="Item.sho_roningasa_hat"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_go_mai_j"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_8"/>
+				<equipment slot="Item1" id="Item.sho_wakizashi_17"/>
+				<equipment slot="Head" id="Item.sho_roningasa_hat"/>
+				<equipment slot="Body" id="Item.sho_ashi_2_hotoke_h"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_ronin_yumi" default_group="Ranged" level="11" occupation="Mercenary" culture="Culture.ashigaru" name="{=BosRoYum}Yumi Ronin">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_ronin"/>
+        </face>
+        <skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="40"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Athletics" value="75"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_11"/>
+				<equipment slot="Item1" id="Item.sho_new_yumi_1_war_bow"/>
+				<equipment slot="Item2" id="Item.sho_utsubo_b_piercing"/>
+				<equipment slot="Head" id="Item.sho_nomadgasa_hat"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_8"/>
+				<equipment slot="Item1" id="Item.sho_new_yumi_1_war_bow"/>
+				<equipment slot="Item2" id="Item.sho_utsubo_b_piercing"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_10"/>
+				<equipment slot="Item1" id="Item.sho_new_yumi_1_war_bow"/>
+				<equipment slot="Item2" id="Item.sho_utsubo_b_piercing"/>
+				<equipment slot="Head" id="Item.sho_roningasa_hat"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_7"/>
+				<equipment slot="Item1" id="Item.sho_new_yumi_1_war_bow"/>
+				<equipment slot="Item2" id="Item.sho_utsubo_b_piercing"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_9"/>
+				<equipment slot="Item1" id="Item.sho_new_yumi_1_war_bow"/>
+				<equipment slot="Item2" id="Item.sho_utsubo_b_piercing"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_10"/>
+				<equipment slot="Item1" id="Item.sho_new_yumi_1_war_bow"/>
+				<equipment slot="Item2" id="Item.sho_utsubo_b_piercing"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_5"/>
+				<equipment slot="Item1" id="Item.sho_new_yumi_1_war_bow"/>
+				<equipment slot="Item2" id="Item.sho_utsubo_a_piercing"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_6"/>
+				<equipment slot="Item1" id="Item.sho_new_yumi_1_war_bow"/>
+				<equipment slot="Item2" id="Item.sho_utsubo_a_piercing"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_7"/>
+				<equipment slot="Item1" id="Item.sho_new_yumi_1_war_bow"/>
+				<equipment slot="Item2" id="Item.sho_utsubo_a_piercing"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_9"/>
+				<equipment slot="Item1" id="Item.sho_new_yumi_1_war_bow"/>
+				<equipment slot="Item2" id="Item.sho_utsubo_a_piercing"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_ronin_teppo" default_group="Ranged" level="11" occupation="Mercenary" culture="Culture.ashigaru" name="{=BosRoTep}Teppo Ronin">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_ronin"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="25"/>
+			<skill id="Polearm" value="25"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="35"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Athletics" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_6"/>
+				<equipment slot="Item1" id="Item.tanegashima_musket_3"/>
+				<equipment slot="Item2" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_7"/>
+				<equipment slot="Item1" id="Item.tanegashima_musket_3"/>
+				<equipment slot="Item2" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_8"/>
+				<equipment slot="Item1" id="Item.tanegashima_musket"/>
+				<equipment slot="Item2" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_9"/>
+				<equipment slot="Item1" id="Item.tanegashima_musket_3"/>
+				<equipment slot="Item2" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_10"/>
+				<equipment slot="Item1" id="Item.tanegashima_musket_3"/>
+				<equipment slot="Item2" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_sandogasa_hat"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_11"/>
+				<equipment slot="Item1" id="Item.tanegashima_musket"/>
+				<equipment slot="Item2" id="Item.teppo_ammo"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_a"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_23"/>
+				<equipment slot="Item1" id="Item.tanegashima_musket"/>
+				<equipment slot="Item2" id="Item.teppo_ammo"/>
+				<equipment slot="Head" id="Item.sho_roningasa_hat"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_b"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_13"/>
+				<equipment slot="Item1" id="Item.tanegashima_musket"/>
+				<equipment slot="Item2" id="Item.teppo_ammo"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_15"/>
+				<equipment slot="Item1" id="Item.tanegashima_musket_3"/>
+				<equipment slot="Item2" id="Item.teppo_ammo"/>
+				<equipment slot="Cape" id="Item.sho_minko_cape"/>
+				<equipment slot="Body" id="Item.sho_peasant_outfit_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sho_katana_5"/>
+				<equipment slot="Item1" id="Item.tanegashima_musket_2"/>
+				<equipment slot="Item2" id="Item.teppo_ammo"/>
+				<equipment slot="Body" id="Item.sho_samurai_gear_c"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

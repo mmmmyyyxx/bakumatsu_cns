@@ -1,0 +1,1113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MartialSchools>
+	<MartialSchool id="jigen_ryu"
+                   name="{=dn94xLIW}Jigen-ryu"
+				   renown="260"
+                   settlement="Settlement.temple_location_1"
+                   patron="Kingdom.shimazu"
+                   school="Religion.jigen_ryu"
+				   mokuroku="MokurokuProgression.jigen_ryu">
+		<skills>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Athletics" value="70"/>
+		</skills>
+		<students>
+			<student id="Hero.lord_1_b_okubo"/>
+			<student id="Hero.lord_1_b_saigo"/>
+			<student id="Hero.lord_1_kawakami_16"/>
+			<student id="Hero.lord_1_kawakami_13"/>
+			<student id="Hero.lord_1_kawakami_15"/>
+			<student id="Hero.spc_hitokiri_leader_1"/>
+		</students>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="taisha_ryu"
+                   name="{=HWVx2RQH}Taisha-ryu"
+				   renown="120"
+                   settlement="Settlement.temple_location_2"
+                   patron="Kingdom.sagara"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Athletics" value="60"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"
+			  Bojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="hozoin_ryu"
+                   name="{=FYDuP4qf}Hozoin-ryu"
+				   renown="140"
+                   settlement="Settlement.temple_location_3"
+                   patron="Kingdom.aso"
+                   school="Religion.hozoin_ryu"
+				   mokuroku="MokurokuProgression.hozoin_ryu">
+		<skills>
+			<skill id="OneHanded" value="20"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Athletics" value="30"/>
+		</skills>
+		<arts Sojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="takashima_ryu"
+                   name="{=Kpolqjpi}Takashima-ryu"
+				   head_name="{=e9up78iw}Takashima Shuhan"
+				   head_age="66"
+				   renown="170"
+                   settlement="Settlement.temple_location_4"
+                   patron="Kingdom.ryuzoji"
+                   school="Religion.takashima_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Tactics" value="20"/>
+			<skill id="Engineering" value="50"/>
+		</skills>
+		<arts Hojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="ogasawara_ryu"
+                   name="{=aRG5NBuh}Ogasawara-ryu"
+				   renown="180"
+                   settlement="Settlement.temple_location_6"
+                   patron="Kingdom.ito"
+                   school="Religion.ogasawara_ryu"
+				   mokuroku="MokurokuProgression.ogasawara_ryu">
+		<skills>
+			<skill id="Bow" value="60"/>
+			<skill id="Riding" value="50"/>
+			<skill id="Charm" value="40"/>
+		</skills>
+		<arts Kasagake="true"
+			  Bajutsu="true"
+			  Kyujutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="yagyu_shinkage_ryu"
+                   name="{=YAEjsSpk}Yagyu Shinkage-ryu"
+				   renown="140"
+                   settlement="Settlement.temple_location_7"
+                   patron="Kingdom.akamatsu"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.shinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Athletics" value="20"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shingyoto_ryu"
+                   name="{=zUk95oK7}Shingyoto-ryu"
+				   renown="99"
+                   settlement="Settlement.temple_location_8"
+                   school="Religion.shingyoto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Athletics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"
+			  Naginatajutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shingyoto_ryu_1"
+                   name="{=GNxujC5z}Shingyoto-ryu"
+				   renown="110"
+                   settlement="Settlement.temple_location_9"
+                   patron="Kingdom.shimazu"
+                   school="Religion.shingyoto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Athletics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"
+			  Naginatajutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="oshima_ryu"
+                   name="{=dy7etYVM}Oshima-ryu"
+                   settlement="Settlement.temple_location_10"
+                   school="Religion.oshima_ryu"
+				   mokuroku="MokurokuProgression.hozoin_ryu">
+		<skills>
+			<skill id="Polearm" value="90"/>
+			<skill id="Athletics" value="60"/>
+		</skills>
+		<arts Sojutsu="true"
+			  Naginatajutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shinto_munen_ryu"
+                   name="{=xA0WdHYT}Choshu-den"
+				   renown="180"
+                   settlement="Settlement.temple_location_14"
+                   patron="Kingdom.mori"
+                   school="Religion.shinto_munen_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="hoki_ryu"
+                   name="{=b4t9t4Tu}Hoki-ryu"
+				   renown="100"
+                   settlement="Settlement.temple_location_15"
+                   patron="Kingdom.mori"
+                   school="Religion.hoki_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Athletics" value="70"/>
+		</skills>
+	</MartialSchool>
+	<MartialSchool id="shinto_munen_ryu_1"
+                   name="{=HtHpm6rr}Shinto Munen-ryu"
+				   renown="110"
+                   settlement="Settlement.temple_location_16"
+                   patron="Kingdom.mori"
+                   school="Religion.shinto_munen_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="itto_ryu"
+                   name="{=KG71fYbj}Itto-ryu"
+				   renown="80"
+                   settlement="Settlement.temple_location_17"
+                   patron="Kingdom.amago"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Tactics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="jikishinkage_ryu"
+                   name="{=C2c7YI66}Jikishinkage-ryu"
+				   renown="150"
+                   settlement="Settlement.temple_location_18"
+                   patron="Kingdom.amago"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.jikishinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="fujioka_ryu"
+                   name="{=cV55WleZ}Fujioka-ryu"
+				   renown="100"
+                   settlement="Settlement.temple_location_19"
+                   school="Religion.tanegashima_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Athletics" value="10"/>
+			<skill id="Engineering" value="30"/>
+		</skills>
+		<arts Hojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="itto_ryu_nakanishi_ha"
+                   name="{=Mn6pLhBU}Nakanishi-ha"
+				   renown="120"
+                   settlement="Settlement.temple_location_20"
+                   patron="Kingdom.soma"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Tactics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="itto_ryu_kawada_ryu"
+                   name="{=VQVEpj4H}Kawada-ha"
+				   renown="120"
+                   settlement="Settlement.temple_location_21"
+                   patron="Kingdom.soma"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="jikishinkage_ryu_1"
+                   name="{=9l9o7D6I}Jikishinkage-ryu"
+				   renown="150"
+                   settlement="Settlement.temple_location_12"
+                   patron="Kingdom.imagawa"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.jikishinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="mugai_ryu"
+                   name="{=Js3OQ9k6}Mugai-ryu"
+				   renown="160"
+                   settlement="Settlement.temple_location_13"
+                   patron="Kingdom.chosokabe"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.mugai_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Athletics" value="20"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="mugai_ryu_1"
+                   name="{=hZsd2hMw}Mugai-ryu"
+				   renown="120"
+                   settlement="Settlement.temple_location_23"
+                   patron="Kingdom.takeda"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.mugai_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Athletics" value="20"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shinto_munen_ryu_2"
+                   name="{=AV7mzihi}Shinto Munen-ryu"
+				   renown="110"
+                   settlement="Settlement.temple_location_22"
+                   school="Religion.shinto_munen_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="heki_ryu"
+                   name="{=u7p7dq3N}Heki-ryu"
+				   renown="120"
+                   settlement="Settlement.temple_location_24"
+                   school="Religion.heki_ryu"
+				   mokuroku="MokurokuProgression.heki_ryu">
+		<skills>
+			<skill id="Bow" value="100"/>
+			<skill id="Athletics" value="10"/>
+			<skill id="Tactics" value="40"/>
+		</skills>
+		<arts Kyujutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="kofu_den_shinkage_ryu"
+                   name="{=yY3JpPW2}Kofu-den"
+				   renown="140"
+                   settlement="Settlement.temple_location_25"
+                   patron="Kingdom.rokkaku"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.shinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Athletics" value="20"/>
+			<skill id="Tactics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shinkage_ryu"
+                   name="{=16PE9DkR}Shinkage-ryu"
+				   renown="95"
+                   settlement="Settlement.temple_location_29"
+                   patron="Kingdom.hatakeyama"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.shinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Athletics" value="20"/>
+			<skill id="Tactics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="inatomi_ryu"
+                   name="{=e0nMZ5CL}Inatomi-ryu"
+				   renown="95"
+                   settlement="Settlement.temple_location_31"
+                   patron="Kingdom.hatakeyama"
+                   school="Religion.tanegashima_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Athletics" value="20"/>
+			<skill id="Tactics" value="20"/>
+			<skill id="Engineering" value="40"/>
+		</skills>
+		<arts Hojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="kishu_tamiya_ryu"
+                   name="{=l8vKVgGg}Kishu Tamiya Ryu"
+				   renown="160"
+				   head_name="{=xbod2ThM}Tsumaki Ataka Motonari"
+				   head_age="29"
+                   settlement="Settlement.temple_location_32"
+                   patron="Kingdom.hatakeyama"
+                   school="Religion.tamiya_ryu"
+				   mokuroku="MokurokuProgression.tamiya_ryu">
+		<skills>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Athletics" value="30"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="ono_ha_itto_ryu"
+                   name="{=VzjMcLl8}Ono-ha"
+				   renown="120"
+                   settlement="Settlement.temple_location_33"
+                   patron="Kingdom.hatakeyama"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.ono_ha_itto_ryu">
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Tactics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="itto_ryu_kenjutsu"
+                   name="{=8mNOZIZp}Itto-Ryu"
+				   renown="100"
+                   settlement="Settlement.temple_location_26"
+                   patron="Kingdom.oda"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Tactics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+    <!-- Unclear descent so we're going with Wakayama-ryu -->
+	<MartialSchool id="wakayama_ryu"
+                   name="{=FAQ6NbvP}Wakayama-ryu"
+				   renown="120"
+                   settlement="Settlement.temple_location_28"
+                   patron="Kingdom.oda"
+                   school="Religion.tamiya_ryu"
+				   mokuroku="MokurokuProgression.tamiya_ryu">
+		<skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Athletics" value="30"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shinkage_ryu_1"
+                   name="{=BSEXS69U}Shinkage-ryu"
+				   renown="100"
+                   settlement="Settlement.temple_location_27"
+                   patron="Kingdom.oda"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.shinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Athletics" value="20"/>
+			<skill id="Tactics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="moriuchi_ryu"
+                   name="{=uXDtR3ft}Moriuchi-ryu"
+				   renown="30"
+                   settlement="Settlement.temple_location_34"
+                   patron="Kingdom.oda"
+                   school="Religion.moriuchi_ryu"
+				   mokuroku="MokurokuProgression.ogasawara_ryu">
+		<skills>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Riding" value="60"/>
+		</skills>
+		<arts Kasagake="true"
+			  Bajutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="yagyu_shinkage_ryu_1"
+                   name="{=KYOoP3uN}Yagyu Shinkage-ryu"
+				   renown="110"
+                   settlement="Settlement.temple_location_35"
+                   patron="Kingdom.azai"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.shinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Athletics" value="20"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="owari_kan_ryu"
+                   name="{=itQ7pFYL}Owari Kan-ryu"
+				   renown="130"
+                   settlement="Settlement.temple_location_37"
+                   patron="Kingdom.azai"
+                   school="Religion.owari_kan_ryu"
+				   mokuroku="MokurokuProgression.hozoin_ryu">
+		<skills>
+			<skill id="Polearm" value="90"/>
+			<skill id="Athletics" value="60"/>
+		</skills>
+		<arts Sojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="chikurin_ryu"
+                   name="{=ZRMWzgVh}Chikurin-ha"
+				   renown="110"
+                   settlement="Settlement.temple_location_36"
+                   school="Religion.heki_ryu"
+				   mokuroku="MokurokuProgression.heki_ryu">
+		<skills>
+			<skill id="Bow" value="90"/>
+			<skill id="Athletics" value="60"/>
+		</skills>
+		<arts Kyujutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="mugai_ryu_2"
+                   name="{=G34Dov6O}Mugai-ryu"
+				   renown="110"
+                   settlement="Settlement.temple_location_38"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.mugai_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Athletics" value="20"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shinto_munen_ryu_3"
+                   name="{=TE3jtjR4}Shinto Munen-ryu"
+				   renown="70"
+                   settlement="Settlement.temple_location_39"
+                   school="Religion.shinto_munen_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shinto_munen_ryu_4"
+                   name="{=8MKqmT5c}Shinto Munen-ryu"
+				   renown="70"
+                   settlement="Settlement.temple_location_40"
+                   school="Religion.shinto_munen_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="hokushin_itto_ryu"
+                   name="{=Wwp4MRWh}Hokushin Itto-ryu"
+				   renown="90"
+                   settlement="Settlement.temple_location_41"
+                   school="Religion.hokushin_itto_ryu"
+				   mokuroku="MokurokuProgression.hokushin_itto_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"
+			  Naginatajutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shinto_munen_ryu_5"
+                   name="{=he1f7X6N}Shinto Munen-ryu"
+				   renown="70"
+                   settlement="Settlement.temple_location_42"
+                   school="Religion.shinto_munen_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="hokushin_itto_ryu_1"
+                   name="{=K4lN6AVO}Hokushin Itto-ryu"
+				   renown="90"
+                   settlement="Settlement.temple_location_43"
+                   school="Religion.hokushin_itto_ryu"
+				   mokuroku="MokurokuProgression.hokushin_itto_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"
+			  Naginatajutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="jigo_tenshin_ryu"
+                   name="{=CmjCURLr}Jigo Tenshin-ryu"
+				   renown="120"
+                   settlement="Settlement.temple_location_44"
+                   patron="Kingdom.asakura"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Tactics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Jojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="yashima_itto_ryu"
+                   name="{=kfzGKJ3C}Yashima-ha"
+				   renown="90"
+                   settlement="Settlement.temple_location_45"
+                   patron="Kingdom.ikko_shu"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Tactics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shinkage_ryu_2"
+                   name="{=jCPQ6j2z}Shinkage-ryu"
+				   renown="110"
+                   settlement="Settlement.temple_location_46"
+                   patron="Kingdom.ikko_shu"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.shinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Athletics" value="20"/>
+			<skill id="Tactics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="heki_ryu_1"
+                   name="{=Y0DGjRFS}Heki-ryu"
+				   renown="90"
+                   settlement="Settlement.temple_location_47"
+                   patron="Kingdom.ikko_shu"
+                   school="Religion.heki_ryu"
+				   mokuroku="MokurokuProgression.heki_ryu">
+		<skills>
+			<skill id="Bow" value="100"/>
+			<skill id="Athletics" value="10"/>
+			<skill id="Tactics" value="40"/>
+		</skills>
+		<arts Kyujutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="yagyu_shinkage_ryu_2"
+                   name="{=O9liCb1M}Yagyu Shinkage-ryu"
+				   renown="90"
+                   settlement="Settlement.temple_location_48"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.shinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Athletics" value="20"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shinto_munen_ryu_6"
+                   name="{=Jj1toL1Y}Shinto Munen-ryu"
+				   renown="110"
+                   settlement="Settlement.temple_location_49"
+                   patron="Kingdom.utsunomiya"
+                   school="Religion.shinto_munen_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="jikishinkage_ryu_2"
+                   name="{=h1I7PEur}Jikishinkage-ryu"
+				   renown="90"
+                   settlement="Settlement.temple_location_50"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.jikishinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="heki_ryu_2"
+                   name="{=z5m7bXmK}Heki-ryu"
+				   renown="80"
+                   settlement="Settlement.temple_location_51"
+                   school="Religion.heki_ryu"
+				   mokuroku="MokurokuProgression.heki_ryu">
+		<skills>
+			<skill id="Bow" value="100"/>
+			<skill id="Athletics" value="10"/>
+			<skill id="Tactics" value="40"/>
+		</skills>
+		<arts Kyujutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="mugai_ryu_3"
+                   name="{=fOnKALpl}Mugai-ryu"
+				   renown="100"
+                   settlement="Settlement.temple_location_52"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.mugai_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Athletics" value="20"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="jikishinkage_ryu_3"
+                   name="{=L7LRVFPB}Jikishinkage-ryu"
+				   renown="90"
+                   settlement="Settlement.temple_location_53"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.jikishinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="tsushin_ryu"
+                   name="{=i9kiFKJ2}Tsushin-ryu"
+				   renown="90"
+                   settlement="Settlement.temple_location_54"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Athletics" value="50"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="sekiguchi_shin_shin_ryu"
+                   name="{=v4LvjYZX}Sekiguchi Shin Shin-ryu"
+				   renown="90"
+                   settlement="Settlement.temple_location_55"
+                   school="Religion.shinshin_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Athletics" value="30"/>
+			<skill id="Medicine" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+    <!-- Link unclear -->
+	<MartialSchool id="rishin_ryu"
+                   name="{=IfZDvkbY}Rishin-ryu"
+				   renown="20"
+                   settlement="Settlement.temple_location_56"
+                   school="Religion.tennen_rishin_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Athletics" value="30"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"
+			  Bojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="tatsumi_ryu"
+                   name="{=c3qcXyBO}Tatsumi-ryu"
+				   renown="120"
+                   settlement="Settlement.temple_location_57"
+                   school="Religion.tatsumi_ryu"
+				   mokuroku="MokurokuProgression.tatsumi_ryu">
+		<skills>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Tactics" value="30"/>
+			<skill id="Medicine" value="30"/>
+			<skill id="Scouting" value="30"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"
+			  Sojutsu="true"
+			  Bojutsu="true"
+			  Naginatajutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shinin_itto_ryu"
+                   name="{=OfgUFL4H}Shin'in Itto-ryu"
+				   renown="90"
+                   settlement="Settlement.temple_location_58"
+                   patron="Kingdom.hojo"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Tactics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="kodokan_hokushin_itto_ryu"
+                   name="{=HV1MNEAJ}Kodokan"
+				   head_name="{=yytMdnlK}Kozawa Torakichi"
+				   head_age="34"
+				   renown="210"
+                   settlement="Settlement.temple_location_59"
+                   patron="Kingdom.hojo"
+                   school="Religion.hokushin_itto_ryu"
+				   mokuroku="MokurokuProgression.hokushin_itto_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"
+			  Naginatajutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="hozoin_ryu_takada_ha"
+                   name="{=ZycbgH4K}Takada-ha"
+				   renown="150"
+                   settlement="Settlement.temple_location_60"
+                   patron="Kingdom.ashina"
+                   school="Religion.hozoin_ryu"
+				   mokuroku="MokurokuProgression.hozoin_ryu">
+		<skills>
+			<skill id="OneHanded" value="20"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Athletics" value="30"/>
+		</skills>
+		<arts Sojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="yagyu_shinkage_ryu_3"
+                   name="{=pxWL5EoM}Yagyu Shinkage-ryu"
+				   renown="140"
+                   settlement="Settlement.temple_location_61"
+                   patron="Kingdom.date"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.shinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Athletics" value="20"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shinshin_ryu"
+                   name="{=n7NKzOGo}Shinshin-ryu"
+				   renown="100"
+                   settlement="Settlement.temple_location_62"
+                   school="Religion.shinshin_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Athletics" value="30"/>
+			<skill id="Medicine" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="mugai_ryu_4"
+                   name="{=Y0g3OtyR}Mugai-ryu"
+				   renown="80"
+                   settlement="Settlement.temple_location_63"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.mugai_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Athletics" value="20"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="mizoguchi_ha_itto_ryu"
+                   name="{=FjWtFjkl}Mizoguchi-ha"
+				   renown="110"
+                   settlement="Settlement.temple_location_64"
+                   patron="Kingdom.ashina"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Tactics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="itto_ryu_kawada_ryu_1"
+				   renown="80"
+                   name="{=F47pnUmJ}Kawada-ha"
+                   settlement="Settlement.temple_location_65"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Athletics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="itto_ryu_1"
+                   name="{=ftmr7rHR}Itto-ryu"
+				   renown="80"
+                   settlement="Settlement.temple_location_66"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Tactics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="ono_ha_itto_ryu"
+                   name="{=cqWsQsQW}Ono-ha"
+				   renown="160"
+                   settlement="Settlement.temple_location_67"
+                   patron="Kingdom.satake"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.ono_ha_itto_ryu">
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Tactics" value="40"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="yagyu_shinkage_ryu_4"
+                   name="{=BAacPI2x}Yagyu Shinkage-ryu"
+				   renown="140"
+                   settlement="Settlement.temple_location_68"
+                   school="Religion.shinkage_ryu"
+				   mokuroku="MokurokuProgression.shinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Athletics" value="20"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="nanbu_ryu"
+                   name="{=WeaDmapf}Nanbu-ryu"
+				   renown="80"
+                   settlement="Settlement.temple_location_69"
+                   patron="Kingdom.nanbu"
+                   school="Religion.nanbu_ryu"
+				   mokuroku="MokurokuProgression.ogasawara_ryu">
+		<skills>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Riding" value="60"/>
+		</skills>
+		<arts Kasagake="true"
+			  Bajutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="tenshin_itto_ryu"
+                   name="{=PaOSYLs2}Tenshin Itto-ryu"
+				   renown="150"
+                   settlement="Settlement.temple_location_70"
+                   patron="Kingdom.date"
+                   school="Religion.itto_ryu"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Athletics" value="10"/>
+			<skill id="Tactics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+    <!-- Edo Dojos -->
+	<MartialSchool id="genbukan"
+                   name="{=AX5JahyV}Genbukan"
+				   head_name="{=kyyUdUWj}Chiba Michisaburō"
+				   head_age="29"
+				   renown="285"
+                   settlement="Settlement.town_KA2"
+                   patron="Kingdom.hojo"
+                   school="Religion.hokushin_itto_ryu"
+                   in_city="true"
+				   mokuroku="MokurokuProgression.hokushin_itto_ryu">
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="90"/>
+			<skill id="Polearm" value="50"/>
+		</skills>
+		<students>
+			<student id="Hero.spc_kaientai_leader_0"/>
+			<student id="Hero.lord_1_sho_ret_9"/>
+			<student id="Hero.spc_shinsengumi_leader_2"/>
+		</students>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"
+			  Naginatajutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="renpeikan"
+                   name="{=fJruoS8b}Renpeikan"
+				   head_name="{=pPhUxKwN}Saito Yakuro"
+				   head_age="66"
+				   renown="280"
+                   settlement="Settlement.town_KA2"
+                   patron="Kingdom.mori"
+                   school="Religion.shinto_munen_ryu"
+                   in_city="true"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="110"/>
+			<skill id="Athletics" value="50"/>
+		</skills>
+		<students>
+			<student id="Hero.lord_1_b_kido"/>
+			<student id="Hero.lord_1_b_seigiha_2"/>
+		</students>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shigakukan"
+                   name="{=pA57gbh0}Shigakukan"
+				   head_name="{=2YwFm87K}Momoi Junzō"
+				   head_age="39"
+				   renown="270"
+                   settlement="Settlement.town_KA2"
+                   patron="Kingdom.chosokabe"
+                   school="Religion.kyosin_meiichi_ryu"
+                   in_city="true"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Charm" value="50"/>
+		</skills>
+		<students>
+			<student id="Hero.lord_1_tsutsui"/>
+			<student id="Hero.spc_hitokiri_leader_2"/>
+		</students>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="odani_dojo"
+                   name="{=300v5mE3}Odani Dojo"
+				   head_name="{=Fgw9DOs0}Otani Nobutomo"
+				   head_age="66"
+				   renown="250"
+                   settlement="Settlement.town_KA2"
+                   patron="Kingdom.tokugawa"
+                   school="Religion.shinkage_ryu"
+                   in_city="true"
+				   mokuroku="MokurokuProgression.jikishinkage_ryu">
+		<skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Athletics" value="50"/>
+		</skills>
+		<students>
+			<student id="Hero.lord_1_sho_ret"/>
+			<student id="Hero.spc_shogitai_leader_0"/>
+		</students>
+		<arts Kenjutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="shieikan"
+                   name="{=NgHLM8I4}Shieikan"
+				   head_name="{=lmEWdeLY}Sato Hikogoro"
+				   head_age="37"
+				   renown="199"
+                   settlement="Settlement.town_KA2"
+                   patron="Kingdom.tokugawa"
+                   school="Religion.tennen_rishin_ryu"
+                   in_city="true"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="TwoHanded" value="90"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Athletics" value="50"/>
+		</skills>
+		<students>
+			<student id="Hero.spc_shinsengumi_leader_0"/>
+			<student id="Hero.spc_shinsengumi_leader_1"/>
+			<student id="Hero.spc_shinsengumi_leader_3"/>
+			<student id="Hero.spc_shinchogumi_leader_3"/>
+		</students>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"
+			  Bojutsu="true"/>
+	</MartialSchool>
+	<MartialSchool id="renbukan"
+                   name="{=NgHLM841}Renbukan"
+                   settlement="Settlement.town_KA2"
+				   renown="180"
+                   school="Religion.shingyoto_ryu"
+                   in_city="true"
+				   mokuroku="MokurokuProgression.generic_ryu">
+		<skills>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Athletics" value="10"/>
+		</skills>
+		<arts Kenjutsu="true"
+			  Battojutsu="true"
+			  Naginatajutsu="true"/>
+	</MartialSchool>
+</MartialSchools>

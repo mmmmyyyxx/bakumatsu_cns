@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NPCCharacters>
+	<NPCCharacter id="bak_base_naval_suiheitai" default_group="Ranged" level="11" occupation="Soldier" is_basic_troop="true" culture="Culture.ashigaru" name="{=BosNBSui}Suiheitai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_mixed"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="35"/>
+			<skill id="Polearm" value="35"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="65"/>
+			<skill id="Throwing" value="35"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Athletics" value="65"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_base_naval_kaigun_heitai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_rifle_2"/>
+				<equipment slot="Item1" id="Item.sho_katana_5"/>
+				<equipment slot="Item2" id="Item.sho_wakizashi_12"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.bak_haori_modern_full_2"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_rifle_1"/>
+				<equipment slot="Item1" id="Item.sho_katana_6"/>
+				<equipment slot="Item2" id="Item.sho_wakizashi_11"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.bak_haori_modern_full_2"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_rifle"/>
+				<equipment slot="Item1" id="Item.sho_katana_7"/>
+				<equipment slot="Item2" id="Item.sho_wakizashi_10"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.bak_haori_modern_full_2"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_rifle_3"/>
+				<equipment slot="Item1" id="Item.sho_katana_4"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_short"/>
+				<equipment slot="Body" id="Item.bak_haori_modern_full_2"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_d_geweer_rifle_4"/>
+				<equipment slot="Item1" id="Item.sho_katana_5"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_hachimaki_long"/>
+				<equipment slot="Body" id="Item.bak_haori_modern_full_2"/>
+				<equipment slot="Leg" id="Item.sho_waraji_a"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_base_naval_kaigun_heitai" default_group="Ranged" level="16" occupation="Soldier" is_basic_troop="true" culture="Culture.ashigaru" name="{=BosNBKai}Kaigun Heitai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_mixed"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="55"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="45"/>
+			<skill id="Riding" value="15"/>
+			<skill id="Athletics" value="85"/>
+		</skills>
+		<upgrade_targets>
+            <upgrade_target id="NPCCharacter.bak_base_naval_kaiheitai"/>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1861_1"/>
+				<equipment slot="Item1" id="Item.sho_katana_9"/>
+				<equipment slot="Item2" id="Item.sho_wakizashi_12"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1861"/>
+				<equipment slot="Item1" id="Item.sho_katana_8"/>
+				<equipment slot="Item2" id="Item.sho_wakizashi_11"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1861_1"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber_1"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1861"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber_1"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1861_1"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1861"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1861_1"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber_1"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1861"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_enfield_1861_1"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber_1"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_colt_revolver"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_blue"/>
+				<equipment slot="Leg" id="Item.bak_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="bak_base_naval_kaiheitai" default_group="Ranged" level="21" occupation="Soldier" culture="Culture.ashigaru" name="{=BosNBKai}Kaiheitai">
+        <face>
+            <face_key_template value="BodyProperty.fighter_m_mixed"/>
+        </face>
+		<skills>
+			<skill id="OneHanded" value="85"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="170"/>
+			<skill id="Throwing" value="45"/>
+			<skill id="Riding" value="15"/>
+			<skill id="Athletics" value="100"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_snider_enfield_short"/>
+				<equipment slot="Item1" id="Item.bak_kyu_gunto"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_marines"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_snider_enfield_short_1"/>
+				<equipment slot="Item1" id="Item.bak_kyu_gunto"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_marines"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_snider_enfield_short"/>
+				<equipment slot="Item1" id="Item.bak_kyu_gunto"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_marines"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_snider_enfield_short_1"/>
+				<equipment slot="Item1" id="Item.bak_kyu_gunto"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_marines"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_snider_enfield_short_1"/>
+				<equipment slot="Item1" id="Item.bak_kyu_gunto"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_marines"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_snider_enfield_short"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber_1"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_marines"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_snider_enfield_short_1"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_marines"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_b_snider_enfield_short"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber_1"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_marines"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imp_a_colt_dragoon"/>
+				<equipment slot="Item1" id="Item.bak_wilkinson_saber"/>
+				<equipment slot="Item2" id="Item.imp_d_cartridges"/>
+				<equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+				<equipment slot="Head" id="Item.bak_kepi_french_blue"/>
+				<equipment slot="Cape" id="Item.bak_shoulderbelt_square_white"/>
+				<equipment slot="Body" id="Item.bak_service_tunic_marines"/>
+				<equipment slot="Leg" id="Item.bak_boots_black"/>
+			</EquipmentRoster>
+		</Equipments>
+    </NPCCharacter>
+</NPCCharacters>

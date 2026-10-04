@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="main_hero_party_template" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.main_hero" />
+      </stacks>
+    </MBPartyTemplate>
+	<MBPartyTemplate
+		id="crazyman_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="20"
+				max_value="20"
+				troop="NPCCharacter.looter" />
+			<PartyTemplateStack
+				min_value="10"
+				max_value="10"
+				troop="NPCCharacter.zoku_bandit" />
+		</stacks>
+	</MBPartyTemplate>
+  <MBPartyTemplate id="mixture_template" >
+      <stacks>
+        <PartyTemplateStack min_value="30" max_value="80" troop="NPCCharacter.guard" />
+      </stacks>
+    </MBPartyTemplate>
+  <MBPartyTemplate id="looters_quest_template" >
+    <stacks>
+      <PartyTemplateStack min_value="15" max_value="15" troop="NPCCharacter.looter" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="looters_template" >
+    <stacks>
+      <PartyTemplateStack min_value="4" max_value="36" troop="NPCCharacter.looter" />
+    </stacks>
+  </MBPartyTemplate>
+	<MBPartyTemplate id="zoku_template" >
+		<stacks>
+			<PartyTemplateStack min_value="4" max_value="36" troop="NPCCharacter.zoku_thief" />
+			<PartyTemplateStack min_value="0" max_value="12" troop="NPCCharacter.zoku_bandit" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="yato_template" >
+		<stacks>
+			<PartyTemplateStack min_value="4" max_value="36" troop="NPCCharacter.yato_thief" />
+			<PartyTemplateStack min_value="0" max_value="12" troop="NPCCharacter.yato_bandit" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="wokou_template" >
+		<stacks>
+			<PartyTemplateStack min_value="4" max_value="36" troop="NPCCharacter.wokou_pirate" />
+			<PartyTemplateStack min_value="3" max_value="15" troop="NPCCharacter.hardened_wokou_pirate" />
+			<PartyTemplateStack min_value="0" max_value="12" troop="NPCCharacter.wokou_raider" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="sanzoku_template" >
+		<stacks>
+			<PartyTemplateStack min_value="4" max_value="36" troop="NPCCharacter.sanzoku_bandit" />
+			<PartyTemplateStack min_value="2" max_value="16" troop="NPCCharacter.sanzoku_robber" />
+			<PartyTemplateStack min_value="0" max_value="12" troop="NPCCharacter.sanzoku_raider" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="ochimusya_template" >
+		<stacks>
+			<PartyTemplateStack min_value="4" max_value="32" troop="NPCCharacter.ochimusya" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="villager_template" >
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.peasant_farmer" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="rebels_template" >
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="caravan_template" >
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.bak_base_traditional_yumi_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="elite_caravan_template" >
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_ronin_teppo" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="militia_template" >
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bak_base_militia_chugen" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_saikai_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_satsuma_modern_tojotai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_satsuma_modern_shiryotai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_saikai" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_satsuma_modern_shiryotai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_saga_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="3" max_value="4" troop="NPCCharacter.bak_saga_modern_heisotsu_tai" />
+			<PartyTemplateStack min_value="3" max_value="4" troop="NPCCharacter.bak_saga_modern_heishi_tai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_art_saga_modern_houheisotsu_tai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_saga" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_saga_modern_heishi_tai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_kurume_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_kurume_modern_shingekitai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_kurume_modern_ohentai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_kurume" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_kurume_modern_ohentai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_hitoyoshi_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_hitoyoshi_modern_yamaga_tai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_hitoyoshi_modern_yamaga_heitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_hitoyoshi" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_hitoyoshi_modern_yamaga_heitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_fukuoka_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_fukuoka_modern_yukantai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_fukuoka_modern_yugeki_jutai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_fukuoka" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_fukuoka_modern_yugeki_jutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_kokura_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_kokura_modern_nohei_gozutsutai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_kokura_modern_sekishintai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_kokura" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_kokura_modern_sekishintai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_nankai_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_tosa_modern_koeitai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_tosa_modern_chueitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_nankai" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_tosa_modern_chueitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_ozu_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_ozu_modern_geberutai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_ozu_modern_shinsentai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_ozu" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_ozu_modern_shinsentai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_matsuyama_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_matsuyama_modern_go_ashigarutai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_matsuyama_modern_shinseitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_matsuyama" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_matsuyama_modern_shinseitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_uwajima_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="14" max_value="15" troop="NPCCharacter.bak_uwajima_modern_ranshikitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_uwajima" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_uwajima_modern_eishikitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_tokushima_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_tokushima_modern_senshitai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_tokushima_modern_jusotsutai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_tokushima" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_tokushima_modern_jusotsutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_sanyo_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_choshu_modern_togo_shotai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_choshu_modern_hanpeitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_sanyo" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_notassigned_choshu_modern_kiheitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_hiroshima_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_ruralnotable_hiroshima_modern_shinkitai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_hiroshima_modern_hanpeitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_hiroshima" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_hiroshima_modern_hanpeitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_tottori_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_tottori_modern_kangekitai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_tottori_modern_matsunamitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_tottori" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_tottori_modern_yamagunitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_kinai_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_base_modern_teppotai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_base_modern_hoheitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_kinai" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_base_modern_hoheitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_hikone_template" >
+		<stacks>
+			<!-- Accurate to Hikone, maybe spread to other domains? -->
+			<!-- 31 Cavalry -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_hikone_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_hikone_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_hikone_traditional_umamawari_gumi" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bak_hikone_traditional_akaoni" />
+			<!-- 8 Swords -->
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bak_hikone_traditional_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_hikone_traditional_battogumi" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_hikone_traditional_sakitegumi" />
+			<!-- 14 Spears -->
+			<PartyTemplateStack min_value="8" max_value="10" troop="NPCCharacter.bak_hikone_traditional_yari_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.bak_hikone_traditional_nagae_ashigaru" />
+			<!-- 19 Muskets -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_hikone_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_hikone_traditional_teppo_kachisamurai" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_hikone_traditional_yugekitai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_modern_teppotai" />
+			<!-- 3 Rifles -->
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_modern_hoheitai" />
+			<!-- 6 Artillery -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_hikone" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_base_modern_hoheitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_kuwana_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_kuwana_modern_chijintai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_kuwana_modern_shinputai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_kuwana" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_kuwana_modern_shinputai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_kishu_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="14" max_value="15" troop="NPCCharacter.bak_kishu_modern_kotai_heitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_kishu" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_kishu_modern_yobi_heitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_tsu_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_tsu_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_tsu_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_tsu_traditional_mannaka_gumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_tsu_traditional_shinei_mannaka_gumi" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_tsu_modern_musokunin_jutai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_tsu_modern_ashigaru_jutai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_tsu" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_tsu_modern_ashigaru_jutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_hokuriku_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_base_modern_teppotai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_base_modern_hoheitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_hokuriku" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_base_modern_hoheitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_obama_template" >
+		<stacks>
+		    <!-- Accurate to Obama. Use either this or Hikone for the rest -->
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.bak_obama_traditional_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_obama_traditional_yumi_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_obama_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_obama_traditional_yari_tai" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_obama_traditional_osente" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_obama_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_obama_modern_shinjutai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_obama_modern_jutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_obama" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_obama_modern_jutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_fukui_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_fukui_modern_jutai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_fukui_modern_hoheitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_fukui" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_fukui_modern_hoheitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_nagaoka_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_nagaoka_modern_jutai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_nagaoka_modern_jushitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_nagaoka" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_nagaoka_modern_jushitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_kaga_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_kaga_modern_seiheitai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_kaga_modern_jutai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_kaga" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_kaga_modern_jutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_okayama_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_okayama_modern_yukitai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_okayama_modern_dengekitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_okayama" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_okayama_modern_dengekitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_tosan_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_base_modern_teppotai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_base_modern_hoheitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_tosan" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_base_modern_hoheitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_tokai_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_base_modern_teppotai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_base_modern_hoheitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_tokai" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_base_modern_hoheitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_tenryo_template" >
+		<stacks>
+			<!-- Traditional Inf (41) -->
+			<PartyTemplateStack min_value="15" max_value="15" troop="NPCCharacter.bak_bakufu_traditional_yari_ashigaru" />
+			<PartyTemplateStack min_value="15" max_value="15" troop="NPCCharacter.bak_bakufu_traditional_teppo_gokenin" />
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_bakufu_traditional_katana_ashigaru" />
+			<!-- Modern Inf (13) -->
+			<PartyTemplateStack min_value="13" max_value="13" troop="NPCCharacter.bak_bakufu_modern_hohei_sampeitai" />
+			<!-- Modern Cav (6) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_bakufu_modern_kihei_sampeitai" />
+			<!-- Traditional Cav (1) -->
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bak_bakufu_traditional_koshogumi" />
+			<!-- Officers (9) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_bakufu_traditional_odachi_hatamoto" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_bakufu_traditional_yari_gokenin" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_bakufu_traditional_shoinban" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_tenryo" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_bakufu_modern_yugekitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_kanto_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.bak_mito_modern_daihatsuzei" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_kanto" >
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="15" troop="NPCCharacter.bak_mito_modern_daihatsuzei" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_jozai_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_jozai_modern_yobitai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_jozai_modern_jobitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_jozai" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_jozai_modern_jobitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_owari_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_owari_modern_bishu_shugitai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_owari_modern_kusanagi_tai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_owari" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_owari_modern_kusanagi_tai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_ou_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_base_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_base_modern_teppotai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_base_modern_hoheitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_ou" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_base_modern_hoheitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_akita_template" >
+		<stacks>
+		    <!-- Ashigaru (19) -->
+			<PartyTemplateStack min_value="11" max_value="11" troop="NPCCharacter.bak_akita_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_akita_traditional_yari_ashigaru" />
+		    <!-- Spears (12) -->
+			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.bak_akita_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_akita_traditional_nagae_kachisamurai" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bak_akita_traditional_kachisamurai" />
+			<!-- Cavalry (17) -->
+			<PartyTemplateStack min_value="8" max_value="11" troop="NPCCharacter.bak_akita_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.bak_akita_traditional_kishazamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_akita_traditional_umamawari_gumi" />
+			<!-- Infantry (6) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_akita_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_akita_traditional_sakitegumi" />
+			<!-- Muskets/Rifles (19) -->
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.bak_akita_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.bak_akita_modern_yushitai" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.bak_akita_modern_hoheitai" />
+			<!-- Artillery (?) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_akita" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_akita_modern_hoheitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_sendai_template" >
+		<stacks>
+			<!-- Mounted (9) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<!-- Spear/Swords (23) -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_sendai_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets (mainly Ashigaru) (27) -->
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_sendai_traditional_teppo_kachisamurai" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_sendai_modern_mikunidai" />
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_sendai_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_sendai_traditional_yugekitai" />
+			<!-- Officers/Specialists (8) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_sendai_traditional_karasugumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_sendai" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_sendai_modern_gobutotai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_aizu_template" >
+		<stacks>
+			<!-- Mounted (9) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<!-- Spear/Swords (23) -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_aizu_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_aizu_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_nagae_kachisamurai" />
+			<!-- Muskets (mainly Ashigaru) (27) -->
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_base_traditional_teppo_kachisamurai" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_aizu_modern_byakkotai" />
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_yugekitai" />
+			<!-- Officers/Specialists (8) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_art_base_houshutai" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_aizu_traditional_betsusengumi" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_aizu" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_aizu_modern_suzakutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_morioka_template" >
+		<stacks>
+			<!-- Mounted (9) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<!-- Spear/Swords (23) -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_morioka_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_morioka_traditional_yari_ashigaru" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bak_morioka_traditional_fusetsutai" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets (mainly Ashigaru) (27) -->
+			<PartyTemplateStack min_value="8" max_value="10" troop="NPCCharacter.bak_base_traditional_teppo_kachisamurai" />
+			<PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.bak_morioka_modern_hotsukitai" />
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_yugekitai" />
+			<!-- Officers/Specialists (8) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_morioka" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_morioka_modern_chigitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_shonai_template" >
+		<stacks>
+			<!-- Mounted (9) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_base_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_kishazamurai" />
+			<!-- Spear/Swords (23) -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_base_traditional_yari_ashigaru" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bak_base_traditional_kachisamurai" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_base_traditional_sakitegumi" />
+			<!-- Muskets (mainly Ashigaru) (27) -->
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_shonai_modern_kijotai" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_shonai_modern_sakuho_tai" />
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_base_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_base_traditional_yugekitai" />
+			<!-- Officers/Specialists (8) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_base_traditional_umamawari_gumi" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_shonai" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_shonai_modern_sakuho_tai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_yonezawa_template" >
+		<stacks>
+			<!-- Mounted (9) -->
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.bak_yonezawa_traditional_bajosamurai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_yonezawa_traditional_gojuki_gumi" />
+			<!-- Spear/Swords (23) -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_yonezawa_traditional_ashigaru" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.bak_yonezawa_traditional_yari_ashigaru" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bak_yonezawa_traditional_nagae_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_yonezawa_traditional_battogumi" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.bak_yonezawa_traditional_yoita_yari_gumi" />
+			<!-- Muskets (mainly Ashigaru) (27) -->
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_yonezawa_traditional_teppo_ashigaru" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_yonezawa_modern_goshitai" />
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_yonezawa_traditional_wajutai" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.bak_yonezawa_traditional_yoita_teppo_gumi" />
+			<!-- Officers/Specialists (8) -->
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_yonezawa_traditional_o_umamawari_gumi" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.bak_art_base_houshutai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_yonezawa" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.bak_yonezawa_modern_saimintai" />
+		</stacks>
+	</MBPartyTemplate>
+	<!-- party template for caravan ambush issue -->
+	<MBPartyTemplate
+		id="kingdom_hero_party_caravan_ambushers">
+		<stacks>
+			<PartyTemplateStack
+				min_value="8"
+				max_value="8"
+				troop="NPCCharacter.mounted_ransacker" />
+			<PartyTemplateStack
+				min_value="16"
+				max_value="16"
+				troop="NPCCharacter.mounted_pillager" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="zoku_bandits_boss_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="2"
+				max_value="4"
+				troop="NPCCharacter.zoku_thief" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.zoku_bandit" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.zoku_bandit_boss" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="yato_bandits_boss_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="2"
+				max_value="4"
+				troop="NPCCharacter.yato_thief" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.yato_bandit" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.yato_bandit_boss" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="wokou_bandits_boss_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="2"
+				max_value="4"
+				troop="NPCCharacter.hardened_wokou_pirate" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.wokou_raider" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.wokou_bandit_boss" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="sanzoku_bandits_boss_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="2"
+				max_value="4"
+				troop="NPCCharacter.sanzoku_robber" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.sanzoku_raider" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.sanzoku_bandit_boss" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="ochimusya_bandits_boss_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="2"
+				max_value="4"
+				troop="NPCCharacter.ochimusya" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.ochimusya" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.ochimusya_bandit_boss" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="kingdom_hero_party_shinsengumi_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="12"
+				max_value="12"
+				troop="NPCCharacter.bak_shinsengumi" />
+			<PartyTemplateStack
+				min_value="16"
+				max_value="16"
+				troop="NPCCharacter.bak_shinsengumi_roshigumi" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="kingdom_hero_party_shogitai_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="12"
+				max_value="12"
+				troop="NPCCharacter.bak_shogitai_kosan" />
+			<PartyTemplateStack
+				min_value="16"
+				max_value="16"
+				troop="NPCCharacter.bak_shogitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="kingdom_hero_party_kotetsu_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="4"
+				max_value="4"
+				troop="NPCCharacter.bak_kotetsu_yojimbo" />
+			<PartyTemplateStack
+				min_value="8"
+				max_value="8"
+				troop="NPCCharacter.bak_kotetsu_kyodai" />
+			<PartyTemplateStack
+				min_value="16"
+				max_value="16"
+				troop="NPCCharacter.bak_kotetsu_wakashu" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="kingdom_hero_party_joshigun_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="8"
+				max_value="8"
+				troop="NPCCharacter.bak_joshigun" />
+			<PartyTemplateStack
+				min_value="20"
+				max_value="20"
+				troop="NPCCharacter.bak_joshitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="kingdom_hero_party_shinchogumi_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="12"
+				max_value="12"
+				troop="NPCCharacter.bak_shinchogumi" />
+			<PartyTemplateStack
+				min_value="16"
+				max_value="16"
+				troop="NPCCharacter.bak_shinchogumi_roshigumi" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="kingdom_hero_party_kaientai_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="12"
+				max_value="12"
+				troop="NPCCharacter.bak_kamayama_goei_heitai" />
+			<PartyTemplateStack
+				min_value="16"
+				max_value="16"
+				troop="NPCCharacter.bak_kameyama_suiheitai" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="kingdom_hero_party_tenchugumi_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="2"
+				max_value="2"
+				troop="NPCCharacter.bak_tenchugumi_geberutai" />
+			<PartyTemplateStack
+				min_value="2"
+				max_value="2"
+				troop="NPCCharacter.bak_tenchugumi_yaritai" />
+			<PartyTemplateStack
+				min_value="24"
+				max_value="24"
+				troop="NPCCharacter.bak_totsukawa_goshi" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="kingdom_hero_party_hitokiri_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="2"
+				max_value="2"
+				troop="NPCCharacter.bak_hitokiri" />
+			<PartyTemplateStack
+				min_value="4"
+				max_value="4"
+				troop="NPCCharacter.bak_teppo_shishi" />
+			<PartyTemplateStack
+				min_value="6"
+				max_value="6"
+				troop="NPCCharacter.bak_ishin_shishi" />
+			<PartyTemplateStack
+				min_value="16"
+				max_value="16"
+				troop="NPCCharacter.bak_shishi" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		id="kingdom_hero_party_foreign_ambushers">
+		<stacks>
+			<PartyTemplateStack
+				min_value="8"
+				max_value="8"
+				troop="NPCCharacter.bak_teppo_shishi" />
+			<PartyTemplateStack
+				min_value="6"
+				max_value="6"
+				troop="NPCCharacter.bak_ishin_shishi" />
+			<PartyTemplateStack
+				min_value="12"
+				max_value="12"
+				troop="NPCCharacter.bak_shishi" />
+		</stacks>
+	</MBPartyTemplate>
+</partyTemplates>

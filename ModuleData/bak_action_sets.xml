@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<action_sets>
+	<action_set id="as_human_warrior" skeleton="human_skeleton" movement_system="bipedal">
+		<action type="act_reload_breechloader" animation="reload_breechloader"/>
+		<action type="act_reload_breechloader_continue" animation="reload_breechloader_continue"/>
+		<action type="act_austria_ready_pistol" animation="ready_pistol"/>
+		<action type="act_austria_ready_pistol_continue" animation="ready_pistol_continue"/>
+		<action type="act_austria_release_pistol" animation="release_pistol"/>
+		<action type="act_austria_reload_pistol" animation="reload_pistol"/>
+		<action type="act_austria_reload_pistol_continue" animation="reload_pistol_continue"/>
+		<action type="act_austria_idle_pistol" animation="stand_pistol"/>
+		<action type="act_walk_idle_pistol" animation="idle_pistol"/>
+		<action type="act_run_idle_pistol" animation="idle_pistol"/>
+		<action type="act_quick_release_overswing_musket" animation="quick_release_overswing_musket"/>
+		<action type="act_release_overswing_musket" animation="release_overswing_musket"/>
+		<action type="act_quick_release_thrust_musket" animation="quick_release_thrust_musket"/>
+		<action type="act_release_thrust_musket" animation="release_thrust_musket"/>
+	</action_set>
+</action_sets>

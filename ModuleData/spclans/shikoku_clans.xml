@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Factions>
+	<!--player faction-->
+	<!-- Ozu Faction
+			Kato
+			Shintani Kato
+			-->
+	<Faction id="clan_saionji_1" is_noble="true" name="{=wApBgknq}Kato-shi" tier="5" owner="Hero.lord_1_saionji" culture="Culture.ozu" super_faction="Kingdom.saionji" banner_key="11.205.205.1536.1536.768.768.1.0.0.831.217.217.483.483.773.729.0.0.0"/>
+	<Faction id="clan_kashuji_1" is_noble="true" name="{=fjHaaIVW}Kato-shi Shintani-ke" tier="4" owner="Hero.lord_1_kashuji" culture="Culture.ozu" super_faction="Kingdom.saionji" banner_key="11.172.172.1536.1536.768.768.1.0.0.831.205.205.483.483.773.729.0.0.0"/>
+	<!-- BAKUFU -->
+	<Faction id="clan_hoketsu_1" is_noble="true" name="{=PpQpwq85}Naito-shi" tier="3" owner="Hero.lord_1_hoketsu" culture="Culture.tokai" super_faction="Kingdom.tokugawa" banner_key="11.172.172.1528.1528.764.764.1.0.0.644.231.231.483.483.764.764.0.0.0"/>
+	<!--Uwajima Faction
+			Date
+			Yoshida Date
+			Matsumura?
+			Omura?
+			Kaneko?
+			-->
+	<Faction id="clan_ichijo_1" is_noble="true" name="{=B2hBOm0p}Date-shi Uwajima-ke" tier="5" owner="Hero.lord_1_ichijo" culture="Culture.uwajima" super_faction="Kingdom.ichijo" banner_key="11.217.217.1528.1528.764.764.1.0.0.752.194.194.483.483.764.764.0.0.0"/>
+	<Faction id="clan_doi_1" is_noble="true" name="{=pM9CGa9T}Doi-shi" tier="3" owner="Hero.lord_1_doi" culture="Culture.uwajima" super_faction="Kingdom.ichijo" banner_key="11.217.217.1528.1528.764.764.1.0.0.630.236.171.483.483.764.764.0.0.0"/>
+	<Faction id="clan_aki_1" is_noble="true" name="{=KFO7OUtf}Kojima-shi" tier="3" owner="Hero.lord_1_aki" culture="Culture.uwajima" super_faction="Kingdom.ichijo" banner_key="11.217.217.1528.1528.764.764.1.0.0.583.194.171.483.483.764.764.0.0.0"/>
+	<Faction id="clan_tsuno_1" is_noble="true" name="{=uymXzBkI}Date-shi Yoshida-ke" tier="4" owner="Hero.lord_1_tsuno" culture="Culture.uwajima" super_faction="Kingdom.ichijo" banner_key="11.217.217.1528.1528.764.764.1.0.0.752.216.216.483.483.764.764.0.0.0"/>
+	<!--Tosa Faction
+			Yamauchi DONE
+			Iga Yamauchi DONE
+			Azabu Yamauchi DONE
+			Inui/Itagaki DONE
+			Fukao DONE
+			Goto DONE
+			Tosa Retainers
+			Tosa Kinno-to-->
+	<Faction id="clan_chosokabe_1" is_noble="true" name="{=92mcWZ66}Yamauchi-shi" tier="6" owner="Hero.lord_1_chosokabe_6" culture="Culture.nankai" super_faction="Kingdom.chosokabe" banner_key="11.205.205.1528.1528.764.764.1.0.0.1021.217.236.609.609.764.764.0.0.0"/>
+	<Faction id="clan_kosokabe_1" is_noble="true" name="{=VweRUc2K}Iga-shi" tier="5" owner="Hero.lord_1_kosokabe" culture="Culture.nankai" super_faction="Kingdom.chosokabe" banner_key="11.236.236.1528.1528.764.764.1.0.0.1025.172.172.483.483.764.764.0.0.0"/>
+	<Faction id="clan_kira_1" is_noble="true" name="{=YrjfSw48}Fukao-shi" tier="4" owner="Hero.lord_1_kira_2" culture="Culture.nankai" super_faction="Kingdom.chosokabe" banner_key="11.221.221.1528.1528.764.764.1.0.0.500.217.217.550.550.764.764.1.0.0.691.217.217.374.374.764.754.0.0.0"/>
+	<Faction id="clan_hisatake_1" is_noble="true" name="{=Ec8VRUVe}Inui-shi" tier="3" owner="Hero.lord_1_hisatake" culture="Culture.nankai" super_faction="Kingdom.chosokabe" banner_key="11.161.161.1528.1528.764.764.1.0.0.762.217.171.483.483.764.764.0.0.0"/>
+	<Faction id="clan_yoshida_1" is_noble="true" name="{=DNhzKMbS}Yamauchi-shi Azabu-ke" tier="4" owner="Hero.lord_1_yoshida" culture="Culture.nankai" super_faction="Kingdom.chosokabe" banner_key="11.236.236.1528.1528.764.764.1.0.0.1021.172.172.483.483.764.764.0.0.0"/>
+	<Faction id="clan_fukudome_1" is_noble="true" name="{=flZ5WVeG}Goto-shi" tier="2" owner="Hero.lord_1_fukudome" culture="Culture.nankai" super_faction="Kingdom.chosokabe" banner_key="11.194.194.1528.1528.764.764.1.0.0.717.196.196.483.483.764.764.0.0.0"/>
+	<!--Tokushima Faction (3 others in Kinki, move 1 to Tosa)
+			Hachisuka
+			Inada (Sumoto Castle)
+			Kajima (Ushiki Castle)
+			Amagi Ikeda
+			Awa Ikoma
+			Mori Jingobei (Mori Mura)-->
+	<Faction id="clan_miyoshi_1" is_noble="true" name="{=mBoaB6DD}Hachisuka-shi" tier="6" owner="Hero.lord_1_miyoshi" culture="Culture.tokushima" super_faction="Kingdom.miyoshi" banner_key="11.217.217.1528.1528.764.764.1.0.0.500.205.205.600.600.764.764.1.0.0.1026.205.205.344.344.764.764.0.0.0"/>
+	<!-- Unclear if they're actually related to the Ikeda, but they seem to be -->
+	<Faction id="clan_sogo_1" is_noble="true" name="{=IYIPPzhY}Ikeda-shi Amagi-ke" tier="4" owner="Hero.lord_1_sogo" culture="Culture.tokushima" super_faction="Kingdom.miyoshi" banner_key="11.217.217.1528.1528.764.764.1.0.0.694.228.228.483.483.764.764.0.0.0"/>
+	<!-- MON UNKNOWN -->
+	<Faction id="clan_shingai_1" is_noble="true" name="{=bE75tDOy}Kashima-shi" tier="4" owner="Hero.lord_1_shingai" culture="Culture.tokushima" super_faction="Kingdom.miyoshi" banner_key="11.172.172.1536.1536.768.768.1.0.0.583.228.228.483.483.773.729.0.0.0"/>
+	<Faction id="clan_onishi_1" is_noble="true" name="{=sb0Pv1Rt}Inada-shi" tier="5" owner="Hero.lord_1_onishi" culture="Culture.tokushima" super_faction="Kingdom.miyoshi" banner_key="11.217.217.1528.1528.764.764.1.0.0.1032.216.216.483.483.764.764.0.0.0"/>
+</Factions>

@@ -1,0 +1,3267 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NPCCharacters>
+	<!-- Inoue Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_obata" name="{=t4DRKSAY}Inoue Masanao" age="27" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="-1"/>
+			<Trait id="Reformer" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_obata_1" name="{=asA0b5mz}Inoue Yoshi" age="28" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father (dead) -->
+	<NPCCharacter id="lord_1_obata_2" name="{=6U06bX7V}Inoue Masaharu" age="41" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother (dead) -->
+	<NPCCharacter id="lord_1_obata_3" name="{=k7pTFu2E}Inoue Eiko" age="42" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Grandfather (dead) -->
+	<NPCCharacter id="lord_1_obata_4" name="{=SRa7FYKy}Inoue Masamoto" age="83" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Grandmother (dead) -->
+	<NPCCharacter id="lord_1_obata_5" name="{=cy3gpggj}Inoue Kihime" age="80" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son -->
+	<NPCCharacter id="lord_1_obata_6" name="{=7lHBstOq}Inoue Masahide" age="7" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son 2 -->
+	<NPCCharacter id="lord_1_obata_7" name="{=ayqIRS5x}Inoue Masaaki" age="4" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son 3 -->
+	<NPCCharacter id="lord_1_obata_8" name="{=K4rav43o}Inoue Masanao" age="0" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Uncle -->
+	<NPCCharacter id="lord_1_obata_9" name="{=zVUgQ4Mr}Inoue Masakane" age="41" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Uncle Spouse -->
+	<NPCCharacter id="lord_1_obata_10" name="{=ZPjH5pVz}Inoue Kiyo" age="40" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Cousin -->
+	<NPCCharacter id="lord_1_obata_11" name="{=9IFe41L8}Inoue Masato" age="8" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ota Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_yura" name="{=nSIP71V7}Ota Sukemoto" age="65" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_yura_1" name="{=Q4wQhlze}Ota Ryo" age="64" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son (dead) -->
+	<NPCCharacter id="lord_1_yura_2" name="{=yWf4nQeJ}Ota Sukekatsu" age="35" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son Spouse -->
+	<NPCCharacter id="lord_1_yura_3" name="{=V5SvHfO0}Ota Misao" age="36" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Granddaughter -->
+	<NPCCharacter id="lord_1_yura_4" name="{=b3YDzA8r}Ota Kiyoko" age="8" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son 2 -->
+	<NPCCharacter id="lord_1_yura_5" name="{=ZiQq8JDT}Ota Sukeyoshi" age="10" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Sakai in Tokugawa -->
+	<!-- Mother -->
+	<NPCCharacter id="lord_1_yura_6" name="{=uog9xjJ7}Sakai Takiko" age="55" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.tokai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mito Faction -->
+	<!-- Mito Tokugawa Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_hojo" name="{=P3zTiZCm}Tokugawa Yoshiatsu" age="32" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Reformer" value="2"/>
+			<Trait id="Loyalty" value="1"/>
+			<Trait id="ForeignInfluence" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_hojo_1" name="{=RSvvwQuG}Hirohata Kyoko" age="27" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father -->
+	<NPCCharacter id="lord_1_hojo_2" name="{=fpxfCA95}Tokugawa Nariaki" age="60" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother -->
+	<NPCCharacter id="lord_1_hojo_3" name="{=w54S5I3N}Tokugawa Yoshiko" age="60" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Daughter -->
+	<NPCCharacter id="lord_1_hojo_4" name="{=pizr75r3}Tokugawa Yoriko" age="10" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son -->
+	<NPCCharacter id="lord_1_hojo_5" name="{=1agVt6tW}Tokugawa Atsuyoshi" age="9" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son 2 -->
+	<NPCCharacter id="lord_1_hojo_6" name="{=iUvP6aFv}Tokugawa Atsumori" age="8" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother -->
+	<NPCCharacter id="lord_1_hojo_7" name="{=fAdkH6BS}Tokugawa Akinori" age="18" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother 2 -->
+	<NPCCharacter id="lord_1_hojo_8" name="{=Ihhdccnz}Tokugawa Tsuchiya" age="12" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother 3 -->
+	<NPCCharacter id="lord_1_hojo_9" name="{=I6HLatlC}Tokugawa Akitake" age="11" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother 4 -->
+	<NPCCharacter id="lord_1_hojo_10" name="{=XT3whBO1}Tokugawa Akichika" age="6" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Sister -->
+	<NPCCharacter id="lord_1_hojo_11" name="{=HMftyqYc}Tokugawa Sadako" age="14" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ishioka Matsudaira Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_matsuda" name="{=IFVBo0UW}Matsudaira Yoritsugu" age="59" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Reformer" value="2"/>
+			<Trait id="Loyalty" value="1"/>
+			<Trait id="ForeignInfluence" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_matsuda_1" name="{=Koe4GEO4}Matsudaira Karu" age="56" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son -->
+	<NPCCharacter id="lord_1_matsuda_2" name="{=uzEB7rTO}Matsudaira Yorifumi" age="18" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son Spouse -->
+	<NPCCharacter id="lord_1_matsuda_3" name="{=1ME4J4P8}Matsudaira Mamoru" age="18" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Daughter -->
+	<NPCCharacter id="dead_lord_1_matsuda_4" name="{=GXvLySIv}Matsudaira Masako" age="20" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Daughter 2 -->
+	<NPCCharacter id="dead_lord_1_matsuda_5" name="{=ViSD5Bbn}Matsudaira Yasuko" age="19" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father (dead) -->
+	<NPCCharacter id="lord_1_matsuda_6" name="{=tgMbwfiE}Matsudaira Yorihisa" age="55" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother (dead) -->
+	<NPCCharacter id="lord_1_matsuda_7" name="{=zDjE64TE}Matsudaira Toshi" age="49" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother (dead) -->
+	<NPCCharacter id="lord_1_matsuda_8" name="{=IOihIX4O}Matsudaira Yorinori" age="14" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother 2 (dead) -->
+	<NPCCharacter id="lord_1_matsuda_9" name="{=N7FUZLza}Matsudaira Yorinaga" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother 3 (dead) -->
+	<NPCCharacter id="lord_1_matsuda_10" name="{=8rJWmjlH}Matsudaira Yorimi" age="16" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Takamatsu Matsudaira Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_toyama" name="{=WSOVFn2s}Matsudaira Yoritoshi" age="30" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="-1"/>
+			<Trait id="Reformer" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_toyama_1" name="{=iSVGS3Xg}Matsudaira Chiyoko" age="18" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>		
+	<!-- Father (dead) -->
+	<NPCCharacter id="dead_lord_1_toyama_2" name="{=hbrNLVoD}Matsudaira Yoritane" age="53" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Reformer" value="1"/>
+			<Trait id="ForeignInfluence" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother (Dead) -->
+	<NPCCharacter id="dead_lord_1_toyama_3" name="{=KxM5VRa1}Matsudaira Fumihime" age="28" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Daughter -->
+	<NPCCharacter id="lord_1_toyama_4" name="{=zp5C0etl}Matsudaira Hisako" age="12" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son -->
+	<NPCCharacter id="lord_1_toyama_5" name="{=lsVY4d0J}Matsudaira Yoshiakira" age="1" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother -->
+	<NPCCharacter id="lord_1_toyama_6" name="{=wTLH9970}Matsudaira Yoriyasu" age="2" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Nakayama Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_didoji" name="{=f3MMiYMN}Nakayama Nobuaki" age="18" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="-1"/>
+			<Trait id="Reformer" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_didoji_1" name="{=HxDyc3ql}Nakayama Tsuruko" age="18" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son -->
+	<NPCCharacter id="lord_1_didoji_2" name="{=nDpdaTzx}Nakayama Nobuzane" age="5" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son 2 -->
+	<NPCCharacter id="lord_1_didoji_3" name="{=Id4pOfky}Nakayama Nobuaki" age="2" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son 3 -->
+	<NPCCharacter id="lord_1_toyama_7" name="{=BEOaffU2}Nakayama Nobuteru" age="0" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father (dead) -->
+	<NPCCharacter id="lord_1_toyama_8" name="{=PgAQVzbF}Nakayama Nobumori" age="50" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother (dead) -->
+	<NPCCharacter id="lord_1_toyama_9" name="{=gSd6sI0U}Nakayama Iro" age="49" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother -->
+	<NPCCharacter id="lord_1_toyama_10" name="{=szgwXx0f}Nakayama Nobutomi" age="17" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Yamanobe Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_narita" name="{=SwQ02lSF}Yamanobe Yoshitsune" age="32" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Reformer" value="1"/>
+			<Trait id="Loyalty" value="1"/>
+			<Trait id="ForeignInfluence" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_narita_1" name="{=Vm16qd8L}Yamanobe Mina" age="33" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father (dead) -->
+	<NPCCharacter id="lord_1_narita_2" name="{=78h2ApYu}Yamanobe Yoshimi" age="56" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother (dead) -->
+	<NPCCharacter id="lord_1_narita_3" name="{=5Zj9vfbh}Yamanobe Shizuka" age="57" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Grandfather (dead) -->
+	<NPCCharacter id="dead_lord_1_narita_4" name="{=dP4NuLXZ}Yamanobe Yoshimoto" age="59" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Grandmother (Dead) -->
+	<NPCCharacter id="dead_lord_1_narita_5" name="{=PiGMjXxP}Yamanobe Hisa" age="60" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother Spouse (dead) -->
+	<NPCCharacter id="lord_1_narita_6" name="{=QWiufJBx}Yamanobe Iwahime" age="27" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother (dead) -->
+	<NPCCharacter id="lord_1_narita_7" name="{=z0hkNFGC}Yamanobe Yoshimasa" age="22" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Hasuda Clan -->
+	<!-- Lord -->
+	<NPCCharacter id="lord_1_narita_8" name="{=l0dKAD1a}Hasuda Hiroyasu" age="25" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_narita_9" name="{=HyfCYlLK}Hasuda Sumako" age="18" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Daughter -->
+	<NPCCharacter id="lord_1_narita_10" name="{=wAcogWf3}Hasuda Shihoko" age="2" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son (not yet born) -->
+	<NPCCharacter id="lord_1_narita_11" name="{=fLSGAgYC}Hasuda Hiromi" age="0" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son 2 (not yet born) -->
+	<NPCCharacter id="lord_1_narita_12" name="{=qjnRwQly}Hasuda Sakurao" age="0" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father -->
+	<NPCCharacter id="lord_1_chiba_8" name="{=RUVHqSha}Hasuda Takasada" age="58" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother -->
+	<NPCCharacter id="lord_1_chiba_9" name="{=r8PNf9r5}Hasuda Sode" age="56" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother (dead) -->
+	<NPCCharacter id="lord_1_chiba_10" name="{=L4V95dkR}Hasuda Tozo" age="21" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother 2 (dead) -->
+	<NPCCharacter id="lord_1_kogakubo_7" name="{=olSVCZmf}Hasuda Hiroichi" age="5" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Suzuki Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_chiba" name="{=KrY4IEpg}Suzuki Shigemune" age="25" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Reformer" value="-2"/>
+			<Trait id="ForeignInfluence" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_chiba_1" name="{=WYTqPJNj}Suzuki Chiyo" age="24" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father -->
+	<NPCCharacter id="dead_lord_1_chiba_2" name="{=RUVHqSha}Suzuki Shigenori" age="61" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother -->
+	<NPCCharacter id="dead_lord_1_chiba_3" name="{=zsUPpaIN}Suzuki Haru" age="58" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son -->
+	<NPCCharacter id="lord_1_chiba_4" name="{=BSQ982ou}Suzuki Haritaro" age="4" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son 2 -->
+	<NPCCharacter id="lord_1_chiba_5" name="{=lHQ3t4SP}Suzuki Jinjiro" age="0" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Grandfather (dead) -->
+	<NPCCharacter id="lord_1_chiba_6" name="{=jdtXL2lm}Suzuki Shigekyo" age="62" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Grandmother (dead) -->
+	<NPCCharacter id="lord_1_chiba_7" name="{=WYTqPJNj}Suzuki Misa" age="54" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ota Clan (Not Oda) -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_2_oda" name="{=N0wdIy1B}Ota Sukenobu" age="37" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="-1"/>
+			<Trait id="Reformer" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_2_oda_1" name="{=vC6z8WVM}Ota Misao" age="38" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father -->
+	<NPCCharacter id="dead_lord_2_oda_2" name="{=oBXKUC02}Ota Sukemoto" age="65" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother -->
+	<NPCCharacter id="dead_lord_2_oda_3" name="{=lIMwYkmk}Ota Ryo" age="64" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother -->
+	<NPCCharacter id="lord_2_oda_4" name="{=73thINiW}Ota Sukeyoshi" age="10" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Sister -->
+	<NPCCharacter id="lord_2_oda_5" name="{=40uzrYwA}Ota Takara" age="25" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Sister 2 -->
+	<NPCCharacter id="lord_2_oda_6" name="{=KDNrkROu}Ota Cho" age="20" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Sister 3 -->
+	<NPCCharacter id="lord_2_oda_9" name="{=73thINiW}Ota Tanko" age="18" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Grandfather (dead) -->
+	<NPCCharacter id="lord_2_oda_7" name="{=73thINiW}Ota Suketoki" age="39" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Grandmother (dead) -->
+	<NPCCharacter id="lord_2_oda_8" name="{=QYDzg3jA}Ota Enhime" age="41" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Hida Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_sano" name="{=7JhWt0Cr}Hida Hamagoro" age="34" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Reformer" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_sano_1" name="{=OjtJRVA8}Hida Kiyo" age="19" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father -->
+	<NPCCharacter id="dead_lord_1_sano_2" name="{=DkDMVX0S}Hida Haruyasu" age="77" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother (Dead) -->
+	<NPCCharacter id="dead_lord_1_sano_3" name="{=aVzIfT5b}Hida Nobu" age="75" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Adoptive Son (in-law?) -->
+	<NPCCharacter id="lord_1_sano_4" name="{=jTPsXTQs}Hida Shosaku" age="24" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Adoptive Daughter -->
+	<NPCCharacter id="lord_1_sano_5" name="{=CimHJY3v}Hida Ine" age="18" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Grandfather (dead) -->
+	<NPCCharacter id="dead_lord_1_sano_6" name="{=HxOIq1UO}Hida Harutatsu" age="56" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Grandmother (dead) -->
+	<NPCCharacter id="lord_1_sano_7" name="{=TtRVEzF9}Hida Kuni" age="64" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Relative, actual relation unknown -->
+	<NPCCharacter id="lord_1_sano_8" name="{=OjNzZ4z7}Hida Daisuke" age="78" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Shosei Party -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_kogakubo" name="{=tCf4lIPu}Ichikawa Sanzaemon" age="48" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="15"/>
+			<Trait id="Politician" value="14"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Reformer" value="-2"/>
+			<Trait id="Loyalty" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Member -->
+	<NPCCharacter id="lord_1_kogakubo_1" name="{=NxaysxUC}Asahina Yataro" age="43" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Reformer" value="-2"/>
+			<Trait id="Loyalty" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Member -->
+	<NPCCharacter id="dead_lord_1_kogakubo_2" name="{=O06DIhu2}Sato Tosho" age="39" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Reformer" value="-2"/>
+			<Trait id="Loyalty" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Member -->
+	<NPCCharacter id="dead_lord_1_kogakubo_3" name="{=xKCKGPUy}Oi Kanzaburo" age="32" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Reformer" value="-2"/>
+			<Trait id="Loyalty" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Member -->
+	<NPCCharacter id="lord_1_kogakubo_4" name="{=9zqTKcqA}Tomobe Yataro" age="27" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Reformer" value="-2"/>
+			<Trait id="Loyalty" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Member -->
+	<NPCCharacter id="lord_1_kogakubo_5" name="{=2cUjpzfQ}Watanabe Iemon" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Reformer" value="-2"/>
+			<Trait id="Loyalty" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Member -->
+	<NPCCharacter id="lord_1_kogakubo_6" name="{=8doVlvNw}Oiwa Banjiro" age="51" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Reformer" value="-2"/>
+			<Trait id="Loyalty" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Tengu-to -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_yuki" name="{=peuTgDWX}Takeda Kounsai" age="61" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="61.00" weight="0.1898" build="0.591"  key="003FDC0FC07004C253864BC798C8E669AA853766BA99699B785036B267B9999800893603085D85B800000000000000000000000000000000000000003F1C2040"  />
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="9"/>
+			<Trait id="Commander" value="20"/>
+			<Trait id="Politician" value="15"/>
+			<Trait id="Manager" value="17"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="1"/>
+			<Trait id="ForeignInfluence" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_yuki_1" name="{=2axdqLeU}Takeda Nobuko" age="39" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son (one of many) -->
+	<NPCCharacter id="lord_1_yuki_2" name="{=l7gGIVfb}Takeda Hikoemon" age="43" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    		<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="14"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="1"/>
+			<Trait id="ForeignInfluence" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Tamaru Inanoemon -->
+	<NPCCharacter id="lord_1_yuki_3" name="{=KaW2u7Wt}Tamaru Inanoemon" age="59" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    		<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="14"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="1"/>
+			<Trait id="ForeignInfluence" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Yamakuni Hyobu -->
+	<NPCCharacter id="lord_1_yuki_4" name="{=3dRiCHIH}Yamakuni Hyobu" age="71" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kanto" occupation="Lord" face_mesh_cache="true">
+		<face>
+    		<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="14"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Loyalty" value="2"/>
+			<Trait id="Reformer" value="1"/>
+			<Trait id="ForeignInfluence" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Jozai Faction -->
+	<!-- Hayashi Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_satomi" name="{=WNXdlC6n}Hayashi Tadataka" age="18" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="11"/>
+			<Trait id="Commander" value="16"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Reformer" value="1"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Valor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_satomi_1" name="{=mF93OB0Z}Hayashi Chie" age="18" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father -->
+	<NPCCharacter id="lord_1_satomi_2" name="{=Vjv0jhtU}Hayashi Tadaakira" age="59" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother -->
+	<NPCCharacter id="lord_1_satomi_3" name="{=6pWBEhfi}Hayashi Toyo" age="58" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Grandfather (dead) -->
+	<NPCCharacter id="lord_1_satomi_4" name="{=1VsYAGf0}Hayashi Tadafusa" age="80" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Grandmother (dead) -->
+	<NPCCharacter id="lord_1_satomi_5" name="{=Sl8tIOAe}Hayashi Sakae" age="76" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Uncle (technically still the lord) -->
+	<NPCCharacter id="lord_1_satomi_6" name="{=ZOyxIYLt}Hayashi Tadakata" age="32" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Uncle Spouse -->
+	<NPCCharacter id="lord_1_satomi_7" name="{=RZW4u1bw}Hayashi Kiyoko" age="31" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Cousin -->
+	<NPCCharacter id="lord_1_satomi_13" name="{=BLEI9odB}Hayashi Tadahiro" age="7" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Uncle (dead) -->
+	<NPCCharacter id="lord_1_satomi_8" name="{=BijTmjLN}Hayashi Tadaoki" age="20" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Aunt -->
+	<NPCCharacter id="lord_1_satomi_9" name="{=mSLw5dla}Hayashi Chiyo" age="42" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother (dead) -->
+	<NPCCharacter id="lord_1_satomi_10" name="{=ojHJapKr}Hayashi Tadasada" age="23" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother 2 (dead) -->
+	<NPCCharacter id="lord_1_satomi_11" name="{=XsI6P4Lw}Hayashi Tadamasa" age="16" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Sister -->
+	<NPCCharacter id="lord_1_satomi_12" name="{=Ae4oJ078}Hayashi Kanako" age="28" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.jozai" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Maeda Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_masaki" name="{=3u6MPLG6}Maeda Toshika" age="23" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="-1"/>
+			<Trait id="Reformer" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_masaki_1" name="{=wTQEOpa7}Maeda Hisashi" age="22" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother -->
+	<NPCCharacter id="lord_1_masaki_2" name="{=eCgQgJ32}Maeda Toshinori" age="22" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother Spouse -->
+	<NPCCharacter id="lord_1_masaki_3" name="{=AWwPQ7GP}Maeda Shogen-in" age="30" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother 2 -->
+	<NPCCharacter id="lord_1_masaki_4" name="{=r9bbr3VW}Maeda Toshimichi" age="20" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son -->
+	<NPCCharacter id="lord_1_masaki_5" name="{=NClTemsw}Maeda Kameko" age="2" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Relative -->
+	<NPCCharacter id="lord_1_masaki_6" name="{=y968PY0G}Maeda Toshihira" age="25" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Relative Spouse -->
+	<NPCCharacter id="lord_1_masaki_7" name="{=10oV0mMQ}Maeda Ai" age="39" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Okumura Bunke -->
+	<!-- Brother -->
+	<NPCCharacter id="lord_1_masaki_8" name="{=jysbc6Uf}Okumura Noritomo" age="22" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother Spouse -->
+	<NPCCharacter id="lord_1_masaki_9" name="{=FxCpKg3G}Okumura Hatsu" age="21" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Niece -->
+	<NPCCharacter id="lord_1_masaki_10" name="{=MHd8ZnPH}Okumura Mine" age="2" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father (dead) -->
+	<NPCCharacter id="lord_1_masaki_11" name="{=P3Qi7ksg}Okumura Atsunori" age="44" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother (dead) -->
+	<NPCCharacter id="lord_1_masaki_12" name="{=UkMRMuYI}Okumura Tora" age="43" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Tosa no Kami Maeda Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_2_sakai" name="{=EnNxr4sS}Maeda Naonobu" age="23" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_2_sakai_1" name="{=L3rcTXEN}Maeda Riyo" age="22" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son -->
+	<NPCCharacter id="lord_2_sakai_2" name="{=JgzJTQRD}Maeda Nobuyoshi" age="3" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.kaga" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Nagaoka Faction -->
+	<!-- Makino Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_utsunomiya" name="{=4UF3c1YO}Makino Tadayuki" age="40" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+    		<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_utsunomiya_1" name="{=k8YjNpOk}Makino Cho" age="39" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son -->
+	<NPCCharacter id="lord_1_utsunomiya_2" name="{=YMsdSa5O}Makino Tadakuni" age="20" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Inagaki Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_haga" name="{=gwB9W7mm}Inagaki Shigemitsu" age="28" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_m_samurai"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="1"/>
+			<Trait id="ForeignInfluence" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_haga_1" name="{=J0VnbU4a}Inagaki Kane" age="27" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_f_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son -->
+	<NPCCharacter id="lord_1_haga_2" name="{=0xmB7XJS}Inagaki Shigeyasu" age="4" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Daughter (not yet born) -->
+	<NPCCharacter id="lord_1_haga_3" name="{=l2brrFCq}Inagaki Etsuko" age="0" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Other Branch Lord -->
+	<NPCCharacter id="lord_1_haga_4" name="{=WO5zvxR8}Inagaki Gonichi" age="42" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Relative Spouse -->
+	<NPCCharacter id="lord_1_haga_5" name="{=tGEgf2XE}Inagaki Mitsu" age="48" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Yamamoto Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_kasama" name="{=7vqf8p1x}Yamamoto Yoshimichi" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="-2"/>
+			<Trait id="Reformer" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_kasama_1" name="{=B55gNGt8}Yamamoto Chiyo" age="18" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father -->
+	<NPCCharacter id="lord_1_kasama_2" name="{=GhX1cQFn}Yamamoto Yoshikazu" age="46" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother -->
+	<NPCCharacter id="lord_1_kasama_3" name="{=u6pL0K8t}Yamamoto Yumi" age="45" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son 2 -->
+	<NPCCharacter id="lord_1_kasama_4" name="{=qs5YLGCM}Yamamoto Ihoko" age="18" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nagaoka" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Kobuta Faction -->
+	<!-- Satake Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_satake" name="{=IpGWXGXO}Satake Yoshitaka" age="39" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="1"/>
+			<Trait id="ForeignInfluence" value="1"/>
+			<Trait id="Reformer" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_satake_1" name="{=lTEN0uBO}Satake Taki" age="36" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Adopted Father (dead) -->
+	<NPCCharacter id="dead_lord_1_satake_2" name="{=lEBzZaFW}Satake Yoshichika" age="18" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother (Dead) -->
+	<NPCCharacter id="dead_lord_1_satake_3" name="{=cyPZnisM}Satake Setsuko" age="24" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother (adopted as son) -->
+	<NPCCharacter id="lord_1_satake_4" name="{=cS0BYmEj}Satake Yoshitaka" age="27" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_satake_5" name="{=O91iIET8}Satake Kotobuki" age="29" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother Son -->
+	<NPCCharacter id="lord_1_satake_6" name="{=TO3KcPYq}Satake Yoshinobu" age="10" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Daughter -->
+	<NPCCharacter id="lord_1_satake_7" name="{=di3hvLje}Satake Masako" age="6" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    		<face_key_template value="BodyProperty.fighter_f_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Daughter 2 -->
+	<NPCCharacter id="lord_1_satake_8" name="{=RlQJPV7D}Satake Kaname" age="4" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    		<face_key_template value="BodyProperty.fighter_f_samurai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Satake Hokke Clan -->
+	<!-- Leader, born 1848 so 16 and also died 4 years ago but aged up -->
+	<NPCCharacter id="lord_1_edo" name="{=f5XYXxSk}Satake Yoshitomo" age="18" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Reformer" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse, never existed (due to aformentioned death at age 12) -->
+	<NPCCharacter id="lord_1_edo_1" name="{=tLFdyt4x}Satake Naka" age="19" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son -->
+	<NPCCharacter id="lord_1_edo_2" name="{=isJ2mg9v}Satake Yoshihisa" age="16" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Daijo Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_daijo" name="{=pRzOVEbH}Tagaya Chikasada" age="28" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Reformer" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse, name made up -->
+	<NPCCharacter id="lord_1_daijo_1" name="{=iK6pKdiD}Tagaya Mitsu" age="26" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father (dead) -->
+	<NPCCharacter id="dead_lord_1_daijo_2" name="{=JrCw7IOL}Tagaya Atsutaka" age="40" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother (Dead) -->
+	<NPCCharacter id="dead_lord_1_daijo_3" name="{=ad2F8T2d}Tagaya Okuri" age="48" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother -->
+	<NPCCharacter id="lord_1_daijo_4" name="{=mWRFq0Y2}Tagaya Mutsuaki" age="25" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son, not entirely historical, real probationary judge from Showa era unclear relation -->
+	<NPCCharacter id="lord_1_daijo_5" name="{=RHgM2Jbk}Tagaya Yuichi" age="1" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Kashima Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_kashima" name="{=fFzatPZB}Satake Yoshikatsu" age="29" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Father (dead) -->
+	<NPCCharacter id="dead_lord_1_kashima_1" name="{=P0Rdtbsk}Satake Yoshitoki" age="60" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Reformer" value="-1"/>
+			<Trait id="Loyalty" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mother (Dead) -->
+	<NPCCharacter id="dead_lord_1_kashima_2" name="{=lK0BVLKk}Satake Nami" age="61" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_kashima_4" name="{=wOWbGCUg}Satake Sai" age="24" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son -->
+	<NPCCharacter id="lord_1_kashima_3" name="{=e3yhg6Dv}Satake Yoshimasa" age="0" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Shibue -->
+	<NPCCharacter id="lord_1_kashima_5" name="{=Nc8F0LEf}Shibue Daizen" age="47" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_kashima_6" name="{=xuJSkGe4}Shibue Nao" age="48" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Had five sons, names unknown -->
+	<!-- Son -->
+	<NPCCharacter id="lord_1_kashima_7" name="{=wGuR0ntw}Shibue Myomitsu" age="25" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son 2 -->
+	<NPCCharacter id="lord_1_kashima_8" name="{=aYVxNbSo}Shibue Kakumitsu" age="21" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son 3 -->
+	<NPCCharacter id="lord_1_kashima_9" name="{=g1hC3I76}Shibue Tokomitsu" age="15" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son 4 -->
+	<NPCCharacter id="lord_1_kashima_10" name="{=iqtWNEZR}Shibue Nobumitsu" age="6" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Nasu Clan -->
+	<!-- Leader -->
+	<NPCCharacter id="lord_1_nasu" name="{=oRMj5Dw4}Iwaki Takakuni" age="20" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Loyalty" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Spouse -->
+	<NPCCharacter id="lord_1_nasu_1" name="{=Niu6EEIX}Hotta Mariko" age="18" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_f_samurai"/>
+</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_female"/>
+			<EquipmentSet id="kanto_civ_template_default_female" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son -->
+	<NPCCharacter id="lord_1_nasu_2" name="{=BiJQ3gwj}Iwaki Takaaki" age="1" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Son 2 -->
+	<NPCCharacter id="lord_1_nasu_3" name="{=vgzjShtW}Iwaki Ryuji" age="0" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.akita" occupation="Lord" face_mesh_cache="true">
+		<face>
+    <face_key_template value="BodyProperty.fighter_m_samurai"/>
+</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="kanto_bat_template_medium_male"/>
+			<EquipmentSet id="kanto_civ_template_default_male" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

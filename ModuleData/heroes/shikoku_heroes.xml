@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Heroes>
+	<!--lords.xml-->
+	<!--Ozu Faction-->
+	<!--Kato Clan-->
+	<Hero id="lord_1_saionji" faction="Faction.clan_saionji_1" spouse="Hero.lord_1_saionji_1" father="Hero.dead_lord_1_saionji_1" mother="Hero.dead_lord_1_saionji_2" text="{=bMfqWjqk}Kato Yasutomi"/>
+	<Hero id="lord_1_saionji_1" faction="Faction.clan_saionji_1" spouse="Hero.lord_1_saionji" text="{=g5pzHuFm}Mizoguchi Fumi"/>
+	<Hero id="lord_1_saionji_2" faction="Faction.clan_saionji_1" spouse="Hero.lord_1_saionji_3" father="Hero.dead_lord_1_saionji_1" mother="Hero.dead_lord_1_saionji_2" text="{=kHOJ0Awe}Kato Yasuaki"/>
+	<Hero id="lord_1_saionji_3" faction="Faction.clan_saionji_1" spouse="Hero.lord_1_saionji_2" text="{=Jb6FawOB}Yamauchi Fukuko"/>
+	<Hero id="dead_lord_1_saionji_1" alive="false" faction="Faction.clan_saionji_1" spouse="Hero.dead_lord_1_saionji_2" text="{=gTFSsjbm}Kato Yasumoto"/>
+	<Hero id="dead_lord_1_saionji_2" alive="false" faction="Faction.clan_saionji_1" spouse="Hero.dead_lord_1_saionji_1" text="{=qwJbUUQV}Maeda Zenko"/>
+	<!--Shintani Kato clan-->
+	<Hero id="lord_1_kashuji" faction="Faction.clan_kashuji_1" spouse="Hero.lord_1_kashuji_1" father="Hero.lord_1_kashuji_3" text="{=RzWxJC41}Kato Yasutoshi"/>
+	<Hero id="lord_1_kashuji_1" faction="Faction.clan_kashuji_1" spouse="Hero.lord_1_kashuji" text="{=vT8u3noP}Okudaira Kaedehara"/>
+	<Hero id="lord_1_kashuji_2" faction="Faction.clan_kashuji_1" father="Hero.lord_1_kashuji" mother="Hero.lord_1_kashuji_1" text="{=GZEDDxOG}Kato Yasunori"/>
+	<Hero id="lord_1_kashuji_3" faction="Faction.clan_kashuji_1" text="{=KDfcebZ7}Kashuji Sayuri"/>
+	<!-- BAKUFU -->
+	<!--Naito-->
+	<Hero id="lord_1_hoketsu" faction="Faction.clan_hoketsu_1" spouse="Hero.lord_1_hoketsu_1" father="Hero.lord_1_hoketsu_3" text="{=gSncZATa}Naito Masayoshi"/>
+	<Hero id="lord_1_hoketsu_1" faction="Faction.clan_hoketsu_1" spouse="Hero.lord_1_hoketsu" text="{=GCLn5ECy}Naito Toyoko"/>
+	<Hero id="lord_1_hoketsu_2" faction="Faction.clan_hoketsu_1" father="Hero.lord_1_hoketsu" mother="Hero.lord_1_hoketsu_1" text="{=UgnuLgbA}Naito Masataka"/>
+	<Hero id="lord_1_hoketsu_3" alive="false" faction="Faction.clan_hoketsu_1" text="{=51dM4xsA}Naito Masayori"/>
+	<!--Uwajima kingdom-->
+	<!--Date clan-->
+	<Hero id="lord_1_ichijo" faction="Faction.clan_ichijo_1" spouse="Hero.lord_1_ichijo_1" father="Hero.lord_1_ichijo_2" mother="Hero.lord_1_ichijo_3" text="{=l9dNB33O}Date Munenari"/>
+	<Hero id="lord_1_ichijo_1" faction="Faction.clan_ichijo_1" spouse="Hero.lord_1_ichijo" text="{=vZK6RwNC}Nabeshima Mashiko"/>
+	<Hero id="lord_1_ichijo_2" faction="Faction.clan_ichijo_1" spouse="Hero.lord_1_ichijo_3" text="{=aa7k9lsZ}Date Munetada"/>
+	<Hero id="lord_1_ichijo_3" faction="Faction.clan_ichijo_1" spouse="Hero.lord_1_ichijo_2" text="{=FH6ohwg7}Nabeshima Kan"/>
+	<Hero id="lord_1_ichijo_4" faction="Faction.clan_ichijo_1" spouse="Hero.lord_1_aki_3" father="Hero.lord_1_mori_3" mother="Hero.lord_1_mori_4" text="{=84OJJiZg}Mori Takako"/>
+	<Hero id="lord_1_aki_3" faction="Faction.clan_ichijo_1" spouse="Hero.lord_1_ichijo_4" father="Hero.lord_1_ichijo_2" mother="Hero.lord_1_ichijo_3" text="{=qsvolxnV}Date Munenori"/>
+	<!--Doi clan-->
+	<Hero id="lord_1_doi" faction="Faction.clan_doi_1" spouse="Hero.lord_1_doi_1" text="{=j6oilqBS}Doi Michio"/>
+	<Hero id="lord_1_doi_1" faction="Faction.clan_doi_1" spouse="Hero.lord_1_doi" text="{=R9UQCnuM}Doi Gokichiro"/>
+	<Hero id="lord_1_doi_2" faction="Faction.clan_doi_1" father="Hero.lord_1_doi" mother="Hero.lord_1_doi_1" text="{=NrJRgRfz}Doi Yoshiko"/>
+	<!--Kojima clan-->
+	<Hero id="lord_1_aki" faction="Faction.clan_aki_1" spouse="Hero.lord_1_aki_1" father="Hero.lord_1_aki_2" text="{=pvhvN7QV}Kojima Korekata"/>
+	<Hero id="lord_1_aki_1" faction="Faction.clan_aki_1" spouse="Hero.lord_1_aki" text="{=rHKVyyVc}Kojima Ai"/>
+	<Hero id="lord_1_aki_2" faction="Faction.clan_aki_1"  text="{=kCyapaMi}Kaneko Tadaaki"/>
+	<!--Yoshida Date clan-->
+	<Hero id="lord_1_tsuno" faction="Faction.clan_tsuno_1" spouse="Hero.lord_1_tsuno_1" text="{=qnY9HZY8}Date Munemichi"/>
+	<Hero id="lord_1_tsuno_1" faction="Faction.clan_tsuno_1" spouse="Hero.lord_1_tsuno" text="{=q7dRw8dj}Shimazu Rei"/>
+	<Hero id="lord_1_tsuno_2" faction="Faction.clan_tsuno_1" father="Hero.lord_1_tsuno" mother="Hero.lord_1_tsuno_1" text="{=Pi1K6Dyu}Date Muneyoshi"/>
+	<Hero id="lord_1_tsuno_3" faction="Faction.clan_tsuno_1" father="Hero.lord_1_tsuno" mother="Hero.lord_1_tsuno_1" text="{=Q5L1Tq9A}Date Hisawaka"/>
+	<Hero id="lord_1_doi_3" faction="Faction.clan_tsuno_1" father="Hero.lord_1_tsuno" mother="Hero.lord_1_tsuno_1" text="{=PGjI36Ae}Date Oshin"/>
+	<!--Tosa Faction-->
+	<!--Yamauchi clan-->
+	<Hero id="lord_1_chosokabe" faction="Faction.clan_chosokabe_1" spouse="Hero.lord_1_chosokabe_1" father="Hero.lord_1_chosokabe_2" mother="Hero.lord_1_chosokabe_3" text="{=EFVk0L5h}Yamauchi Toyonori"/>
+	<Hero id="lord_1_chosokabe_1" faction="Faction.clan_chosokabe_1" spouse="Hero.lord_1_chosokabe" text="{=6CK8HDZR}Mori Nao"/>
+	<Hero id="lord_1_chosokabe_2" faction="Faction.clan_chosokabe_1" spouse="Hero.lord_1_chosokabe_3" text="{=s6nTS5jf}Yamauchi Toyosuke"/>
+	<Hero id="lord_1_chosokabe_3" faction="Faction.clan_chosokabe_1" spouse="Hero.lord_1_chosokabe_2" text="{=OdLEdQd3}Ikeda Yusen-in"/>
+	<Hero id="lord_1_chosokabe_4" alive="false" faction="Faction.clan_chosokabe_1" father="Hero.lord_1_chosokabe_3" mother="Hero.lord_1_chosokabe_2" text="{=JVEOWyAi}Yamauchi Toyoteru"/>
+	<Hero id="lord_1_chosokabe_5" alive="false" faction="Faction.clan_chosokabe_1" father="Hero.lord_1_chosokabe_3" mother="Hero.lord_1_chosokabe_2" text="{=MgtskN05}Yamauchi Toyoatsu"/>
+	<Hero id="lord_1_chosokabe_6" faction="Faction.clan_chosokabe_1" spouse="Hero.lord_1_kira_4" father="Hero.lord_1_chosokabe_5" text="{=ufdDL1IS}Yamauchi Toyoshige"/>
+	<Hero id="lord_1_kira_4" faction="Faction.clan_chosokabe_1" spouse="Hero.lord_1_chosokabe_6" text="{=zcC4TL48}Yamauchi Masako"/>
+	<!--Iga Yamauchi clan-->
+	<Hero id="lord_1_kosokabe" faction="Faction.clan_kosokabe_1" spouse="Hero.lord_1_kosokabe_1" father="Hero.lord_1_yoshida_12" text="{=U9RsqAwX}Yamauchi Ujisato"/>
+	<Hero id="lord_1_kosokabe_1" faction="Faction.clan_kosokabe_1" spouse="Hero.lord_1_kosokabe" text="{=RySY5fQu}Yamauchi Yuki"/>
+	<Hero id="lord_1_yoshida_11" faction="Faction.clan_kosokabe_1" father="Hero.lord_1_kosokabe" mother="Hero.lord_1_kosokabe_1" text="{=KyUYLo0G}Yamauchi Ujinari"/>
+	<Hero id="lord_1_yoshida_12" faction="Faction.clan_kosokabe_1" text="{=mfPg78eX}Yamauchi Ujikata"/>
+	<!--Fukao clan-->
+	<Hero id="lord_1_kira" alive="false" faction="Faction.clan_kira_1" spouse="Hero.lord_1_kira_1" text="{=hvyaWDgX}Fukao Shigenori"/>
+	<Hero id="lord_1_kira_1" faction="Faction.clan_kira_1" spouse="Hero.lord_1_kira" text="{=DeCbQeHC}Fukao Uta"/>
+	<Hero id="lord_1_kira_2" faction="Faction.clan_kira_1" father="Hero.lord_1_kira" mother="Hero.lord_1_kira_1" text="{=1YCmAvvP}Fukao Shigemoto"/>
+	<Hero id="lord_1_kira_3" faction="Faction.clan_kira_1" father="Hero.lord_1_kira" mother="Hero.lord_1_kira_1" text="{=FXZNXucw}Fukao Shigeyoshi"/>
+	<!--Hisatake clan-->
+	<Hero id="lord_1_hisatake" faction="Faction.clan_hisatake_1" spouse="Hero.lord_1_hisatake_1" father="Hero.dead_lord_1_hisatake_2" mother="Hero.dead_lord_1_hisatake_3" text="{=pGrd03pI}Inui Taisuke"/>
+	<Hero id="lord_1_hisatake_1" faction="Faction.clan_hisatake_1" spouse="Hero.lord_1_hisatake" text="{=kKdyVFsm}Inui Suzu"/>
+	<Hero id="dead_lord_1_hisatake_2" faction="Faction.clan_hisatake_1" spouse="Hero.dead_lord_1_hisatake_3" text="{=Uk8wWxBw}Inui Masashige"/>
+	<Hero id="dead_lord_1_hisatake_3" faction="Faction.clan_hisatake_1" spouse="Hero.dead_lord_1_hisatake_2" text="{=gswXQDd7}Inui Hayashi"/>
+	<Hero id="lord_1_hisatake_4" faction="Faction.clan_hisatake_1" father="Hero.lord_1_hisatake" mother="Hero.lord_1_hisatake_1" text="{=KwL2BhJu}Inui Hokotaro"/>
+	<Hero id="lord_1_hisatake_5" faction="Faction.clan_hisatake_1" father="Hero.lord_1_hisatake" mother="Hero.lord_1_hisatake_1" text="{=NMjVGI7u}Inui Masashi"/>
+	<!--Azabu Yamauchi clan-->
+	<Hero id="lord_1_yoshida" faction="Faction.clan_yoshida_1" spouse="Hero.lord_1_yoshida_1" father="Hero.dead_lord_1_yoshida_2" mother="Hero.dead_lord_1_yoshida_3" text="{=m3YajwyO}Yamauchi Toyofuku"/>
+	<Hero id="lord_1_yoshida_1" faction="Faction.clan_yoshida_1" spouse="Hero.lord_1_yoshida" text="{=uht0Icck}Yamauchi Noriko"/>
+	<Hero id="dead_lord_1_yoshida_2" alive="false" faction="Faction.clan_yoshida_1" spouse="Hero.dead_lord_1_yoshida_3" father="Hero.lord_1_yoshida_4" mother="Hero.lord_1_yoshida_5" text="{=YK0QNAGY}Yamauchi Toyokata"/>
+	<Hero id="dead_lord_1_yoshida_3" faction="Faction.clan_yoshida_1" spouse="Hero.dead_lord_1_yoshida_2" text="{=uuCL0VJy}Yamauchi Keiko"/>
+	<Hero id="lord_1_yoshida_4" alive="false" faction="Faction.clan_yoshida_1" spouse="Hero.lord_1_yoshida_5" text="{=1OhuHuRD}Yamauchi Toyotake"/>
+	<Hero id="lord_1_yoshida_5" alive="false" faction="Faction.clan_yoshida_1" spouse="Hero.lord_1_yoshida_4" text="{=pOfNSi6V}Yamauchi Miya"/>
+	<Hero id="lord_1_yoshida_6" faction="Faction.clan_yoshida_1" father="Hero.lord_1_yoshida_4" mother="Hero.lord_1_yoshida_5" text="{=UYASRxJw}Yamauchi Toyomitsu"/>
+	<Hero id="dead_lord_1_yoshida_7" faction="Faction.clan_yoshida_1" spouse="Hero.lord_1_yoshida_8" father="Hero.lord_1_yoshida_6" text="{=hhYUOKRh}Yamauchi Toyomasa"/>
+	<Hero id="lord_1_yoshida_8" faction="Faction.clan_yoshida_1" spouse="Hero.dead_lord_1_yoshida_7" text="{=ic0O247n}Yamauchi Kane"/>
+	<Hero id="lord_1_yoshida_9" faction="Faction.clan_yoshida_1" father="Hero.lord_1_yoshida" mother="Hero.lord_1_yoshida_1" text="{=HAaOI8lO}Yamauchi Kuniko"/>
+	<Hero id="lord_1_yoshida_10" faction="Faction.clan_yoshida_1" father="Hero.lord_1_yoshida" mother="Hero.lord_1_yoshida_1" text="{=CLvsoPtJ}Yamauchi Toyoko"/>
+	<!--Fukudome clan-->
+	<Hero id="lord_1_fukudome" faction="Faction.clan_fukudome_1" spouse="Hero.lord_1_fukudome_2" text="{=HVP1iekL}Goto Masami"/>
+	<Hero id="lord_1_fukudome_2" faction="Faction.clan_fukudome_1" spouse="Hero.lord_1_fukudome" text="{=Hlkt9zR1}Fukudome Ume"/>
+	<Hero id="lord_1_fukudome_1" faction="Faction.clan_fukudome_1" father="Hero.lord_1_fukudome" mother="Hero.lord_1_fukudome_2" text="{=g2mr3QCM}Goto Masakata"/>
+	<!-- Tokushima Kingdom -->
+	<!-- Hachisuka Clan -->
+	<Hero id="lord_1_miyoshi" faction="Faction.clan_miyoshi_1" spouse="Hero.lord_1_miyoshi_1" father="Hero.dead_lord_1_miyoshi_1" mother="Hero.lord_1_miyoshi_5" text="{=Mxr5FYoa}Hachisuka Narihiro"/>
+	<Hero id="lord_1_miyoshi_1" alive="false" faction="Faction.clan_miyoshi_1" spouse="Hero.lord_1_miyoshi" text="{=6gzf2OX9}Takatsukasa Shinako"/>
+	<Hero id="lord_1_miyoshi_2" faction="Faction.clan_miyoshi_1" spouse="Hero.lord_1_miyoshi_4" father="Hero.lord_1_miyoshi" mother="Hero.lord_1_miyoshi_1" text="{=JLomyVbr}Hachisuka Mochiaki"/>
+	<Hero id="lord_1_miyoshi_3" faction="Faction.clan_miyoshi_1" father="Hero.lord_1_miyoshi" mother="Hero.lord_1_miyoshi_1" text="{=75JZYLpa}Hachisuka Michiko"/>
+	<Hero id="lord_1_miyoshi_4" faction="Faction.clan_miyoshi_1" spouse="Hero.lord_1_miyoshi_2" text="{=NPrwtYts}Hachisuka Aya"/>
+	<Hero id="dead_lord_1_miyoshi_1" alive="false" faction="Faction.clan_miyoshi_1" text="{=2AJOuAzz}Hachisuka Narimasa"/>
+	<Hero id="lord_1_miyoshi_5" faction="Faction.clan_miyoshi_1" text="{=diWjBHKp}Takatsukasa Noriko"/>
+	<!--Amagi Ikeda clan-->
+	<Hero id="lord_1_sogo" faction="Faction.clan_sogo_1" spouse="Hero.lord_1_sogo_1" father="Hero.dead_lord_1_sogo_1" mother="Hero.dead_lord_1_sogo_2" text="{=uu3PRYD5}Ikeda Masatoyo"/>
+	<Hero id="lord_1_sogo_1" faction="Faction.clan_sogo_1" spouse="Hero.lord_1_sogo" text="{=HxfQ7WNA}Ikeda Saki"/>
+	<Hero id="lord_1_sogo_2" faction="Faction.clan_sogo_1" spouse="Hero.lord_1_sogo_3" father="Hero.lord_1_sogo" mother="Hero.lord_1_sogo_1" text="{=GLB0eZon}Ikeda Nagataka"/>
+	<Hero id="lord_1_sogo_3" faction="Faction.clan_sogo_1" spouse="Hero.lord_1_sogo_2" text="{=nKh0IYa0}Ikeda Chiyo"/>
+	<Hero id="lord_1_sogo_4" alive="false" faction="Faction.clan_sogo_1" spouse="Hero.lord_1_sogo_5" text="{=dBBf1wOB}Ikeda Nagaoki"/>
+	<Hero id="lord_1_sogo_5" alive="false" faction="Faction.clan_sogo_1" spouse="Hero.lord_1_sogo_4" text="{=GiqQGwGA}Hachisuka Mori"/>
+	<Hero id="dead_lord_1_sogo_1" alive="false" faction="Faction.clan_sogo_1" spouse="Hero.dead_lord_1_sogo_2" father="Hero.lord_1_sogo_4" mother="Hero.lord_1_sogo_5" text="{=4jgyfZ85}Ikeda Akinori"/>
+	<Hero id="dead_lord_1_sogo_2" alive="false" faction="Faction.clan_sogo_1" spouse="Hero.dead_lord_1_sogo_1" text="{=4MZmJxE6}Ikeda Hisa"/>
+	<!--Kashima clan-->
+	<Hero id="lord_1_shingai" faction="Faction.clan_shingai_1" spouse="Hero.lord_1_shingai_1" text="{=cjm2q36D}Kashima Masanobu"/>
+	<Hero id="lord_1_shingai_1" faction="Faction.clan_shingai_1" spouse="Hero.lord_1_shingai" text="{=0vFKvTmm}Kashima Iyo"/>
+	<Hero id="lord_1_shingai_2" faction="Faction.clan_shingai_1" spouse="Hero.lord_1_shingai_3" father="Hero.lord_1_shingai" mother="Hero.lord_1_shingai_1" text="{=2yPLLgtG}Kashima Masaaki"/>
+	<Hero id="lord_1_shingai_3" faction="Faction.clan_shingai_1" spouse="Hero.lord_1_shingai_2" text="{=cOejVaQ2}Kashima Rin"/>
+	<Hero id="lord_1_shingai_7" faction="Faction.clan_shingai_1" father="Hero.lord_1_shingai_2" mother="Hero.lord_1_shingai_3" text="{=Z7HNxyjm}Kashima Tatsu"/>
+	<Hero id="lord_1_shingai_4" faction="Faction.clan_shingai_1" spouse="Hero.lord_1_shingai_5" father="Hero.lord_1_shingai" mother="Hero.lord_1_shingai_1" text="{=zQfWhCEH}Kashima Masanori"/>
+	<Hero id="lord_1_shingai_5" faction="Faction.clan_shingai_1" spouse="Hero.lord_1_shingai_4" text="{=CjIwIpNQ}Kashima Haru"/>
+	<Hero id="lord_1_shingai_6" faction="Faction.clan_shingai_1" father="Hero.lord_1_shingai_4" mother="Hero.lord_1_shingai_5" text="{=0D5ublc2}Kashima Masakazu"/>
+	<!--Inada clan-->
+	<Hero id="lord_1_onishi" faction="Faction.clan_onishi_1" spouse="Hero.lord_1_onishi_1" father="Hero.dead_lord_1_onishi_1" mother="Hero.dead_lord_1_onishi_2" text="{=vktgsLcf}Inada Uemasa"/>
+	<Hero id="lord_1_onishi_1" faction="Faction.clan_onishi_1" spouse="Hero.lord_1_onishi" text="{=wseAsdnA}Inada Chiyo"/>
+	<Hero id="lord_1_onishi_4" alive="false" faction="Faction.clan_onishi_1" father="Hero.lord_1_onishi_10" mother="Hero.lord_1_onishi_11" text="{=s4GK3ysW}Inada Uefu"/>
+	<Hero id="lord_1_onishi_2" alive="false" faction="Faction.clan_onishi_1" spouse="Hero.lord_1_onishi_3" father="Hero.lord_1_onishi_10" mother="Hero.lord_1_onishi_11" text="{=7RyhvBYR}Inada Uegei"/>
+	<Hero id="lord_1_onishi_3" alive="false" faction="Faction.clan_onishi_1" spouse="Hero.lord_1_onishi_2" text="{=OBe36Dgm}Inada Kiyo"/>
+	<Hero id="lord_1_onishi_8" alive="false" faction="Faction.clan_onishi_1" spouse="Hero.lord_1_onishi_9" father="Hero.lord_1_onishi_2" mother="Hero.lord_1_onishi_3" text="{=tzDZ2CnQ}Inada Uenori"/>
+	<Hero id="lord_1_onishi_9" alive="false" faction="Faction.clan_onishi_1" spouse="Hero.lord_1_onishi_8" text="{=L0lMoM6a}Inada Teijyuin"/>
+	<Hero id="lord_1_onishi_5" faction="Faction.clan_onishi_1" father="Hero.lord_1_onishi_8" mother="Hero.lord_1_onishi_9" text="{=chCyXnc8}Inada Uekuni"/>
+	<Hero id="lord_1_onishi_6" faction="Faction.clan_onishi_1" father="Hero.lord_1_onishi_8" mother="Hero.lord_1_onishi_9" text="{=JJbwQ3jB}Inada Kunie"/>
+	<Hero id="lord_1_onishi_7" faction="Faction.clan_onishi_1" father="Hero.lord_1_onishi_8" mother="Hero.lord_1_onishi_9" text="{=EqsKtTd5}Inada Yau"/>
+	<Hero id="lord_1_onishi_10" alive="false" faction="Faction.clan_onishi_1" spouse="Hero.lord_1_onishi_11" text="{=WbfzMksA}Inada Uetoshi"/>
+	<Hero id="lord_1_onishi_11" alive="false" faction="Faction.clan_onishi_1" spouse="Hero.lord_1_onishi_10" text="{=mH1Ruh1j}Inada Matsu"/>
+	<Hero id="dead_lord_1_onishi_1" alive="false" faction="Faction.clan_onishi_1" spouse="Hero.dead_lord_1_onishi_2" father="Hero.lord_1_onishi_10" mother="Hero.lord_1_onishi_11" text="{=LACOAPLK}Inada Ueyoshi"/>
+	<Hero id="dead_lord_1_onishi_2" alive="false" faction="Faction.clan_onishi_1" spouse="Hero.dead_lord_1_onishi_1" text="{=MVfwFwvD}Inada Hana"/>
+</Heroes>

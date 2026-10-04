@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NPCCharacters>
+  <NPCCharacter id="portuguese_tier_1"
+                default_group="Ranged"
+                level="16"
+                occupation="Mercenary"
+                is_basic_troop="true"
+                culture="Culture.ashigaru"
+                race="european"
+                name="{=cyE7XNwX}Infanterie de Ligne">
+    <face>
+      <face_key_template value="BodyProperty.european"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="100"/>
+      <skill id="TwoHanded" value="45"/>
+      <skill id="Polearm" value="120"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="170"/>
+      <skill id="Throwing" value="45"/>
+      <skill id="Riding" value="15"/>
+      <skill id="Athletics" value="120"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.portuguese_tier_2"/>
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.imp_f_chassepot_1866_bayonet"/>
+        <equipment slot="Item1" id="Item.imp_d_cartridges"/>
+        <equipment slot="Item2" id="Item.imp_d_cartridges"/>
+        <equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+        <equipment slot="Head" id="Item.bak_kepi_french_red"/>
+    		<equipment slot="Cape" id="Item.bak_full_infantry_set_black"/>
+        <equipment slot="Body" id="Item.bak_frock_coat_french"/>
+        <equipment slot="Leg" id="Item.bak_boots_black"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.imp_f_chassepot_1866_bayonet"/>
+        <equipment slot="Item1" id="Item.imp_d_cartridges"/>
+        <equipment slot="Item2" id="Item.imp_d_cartridges"/>
+        <equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+        <equipment slot="Head" id="Item.bak_kepi_french_red"/>
+    		<equipment slot="Cape" id="Item.bak_full_infantry_set_black"/>
+        <equipment slot="Body" id="Item.bak_frock_coat_french"/>
+        <equipment slot="Leg" id="Item.bak_boots_black"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="portuguese_tier_2" default_group="Ranged" level="21" occupation="Mercenary" culture="Culture.ashigaru" race="european" name="{=qaYb5hje}Chasseurs a Pied">
+    <face>
+      <face_key_template value="BodyProperty.european"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="120"/>
+      <skill id="TwoHanded" value="25"/>
+      <skill id="Polearm" value="150"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="200"/>
+      <skill id="Throwing" value="25"/>
+      <skill id="Riding" value="30"/>
+      <skill id="Athletics" value="160"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.portuguese_tier_3"/>
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.imp_f_chassepot_1866"/>
+        <equipment slot="Item1" id="Item.bak_french_light_saber"/>
+        <equipment slot="Item2" id="Item.imp_d_cartridges"/>
+        <equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+        <equipment slot="Head" id="Item.bak_kepi_french"/>
+        <equipment slot="Cape" id="Item.bak_full_infantry_set_black"/>
+        <equipment slot="Body" id="Item.bak_service_tunic_french_chasseur"/>
+        <equipment slot="Leg" id="Item.bak_boots_black"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.imp_f_chassepot_1866"/>
+        <equipment slot="Item1" id="Item.bak_french_light_saber"/>
+        <equipment slot="Item2" id="Item.imp_d_cartridges"/>
+        <equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+        <equipment slot="Head" id="Item.bak_kepi_french"/>
+        <equipment slot="Cape" id="Item.bak_full_infantry_set_black"/>
+        <equipment slot="Body" id="Item.bak_service_tunic_french_chasseur"/>
+        <equipment slot="Leg" id="Item.bak_boots_black"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="portuguese_tier_3" default_group="HorseArcher" level="26" occupation="Mercenary" culture="Culture.ashigaru" race="european" name="{=BUWEaHih}Dragons de l'Imperatrice" upgrade_requires="ItemCategory.war_horse">
+    <face>
+      <face_key_template value="BodyProperty.european"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="180"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="70"/>
+      <skill id="Bow" value="85"/>
+      <skill id="Crossbow" value="250"/>
+      <skill id="Throwing" value="40"/>
+      <skill id="Riding" value="200"/>
+      <skill id="Athletics" value="160"/>
+    </skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.bak_french_light_saber_1"/>
+        <equipment slot="Item1" id="Item.imp_b_enfield_1856"/>
+        <equipment slot="Item2" id="Item.imp_d_cartridges"/>
+        <equipment slot="Item3" id="Item.imp_d_cartridges"/>
+        <equipment slot="Head" id="Item.bak_kepi_french_red"/>
+        <equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+        <equipment slot="Body" id="Item.bak_shell_jacket_french_dragon"/>
+        <equipment slot="Leg" id="Item.bak_boots_black"/>
+        <equipment slot="Horse" id="Item.sho_horse_kiso_3"/>
+        <equipment slot="HorseHarness" id="Item.sho_uma_yoroi_simple_a"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bak_french_light_saber"/>
+        <equipment slot="Item1" id="Item.imp_b_enfield_1856"/>
+        <equipment slot="Item2" id="Item.imp_d_cartridges"/>
+        <equipment slot="Item3" id="Item.imp_d_cartridges"/>
+        <equipment slot="Head" id="Item.bak_kepi_french_red"/>
+        <equipment slot="Cape" id="Item.bak_cavalry_belt_white"/>
+        <equipment slot="Body" id="Item.bak_shell_jacket_french_dragon"/>
+        <equipment slot="Leg" id="Item.bak_boots_black"/>
+        <equipment slot="Horse" id="Item.sho_horse_kiso_3"/>
+        <equipment slot="HorseHarness" id="Item.sho_uma_yoroi_simple_a"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="british_tier_1"
+                default_group="Ranged"
+                level="19"
+                occupation="Mercenary"
+                is_basic_troop="true"
+                culture="Culture.ashigaru"
+                race="european"
+                name="{=UtOwd7s7}Royal Marines Light Infantry">
+    <face>
+      <face_key_template value="BodyProperty.european"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="45"/>
+      <skill id="Polearm" value="70"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="200"/>
+      <skill id="Throwing" value="45"/>
+      <skill id="Riding" value="15"/>
+      <skill id="Athletics" value="150"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.british_tier_2"/>
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.imp_b_snider_enfield_1_bayonet"/>
+        <equipment slot="Item1" id="Item.imp_d_cartridges"/>
+        <equipment slot="Item2" id="Item.imp_d_cartridges"/>
+        <equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+        <equipment slot="Head" id="Item.bak_british_shako"/>
+    		<equipment slot="Cape" id="Item.bak_full_infantry_set_1_white_a"/>
+        <equipment slot="Body" id="Item.bak_service_tunic_hmrm"/>
+        <equipment slot="Leg" id="Item.bak_boots_black"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.imp_b_snider_enfield_bayonet"/>
+        <equipment slot="Item1" id="Item.imp_d_cartridges"/>
+        <equipment slot="Item2" id="Item.imp_d_cartridges"/>
+        <equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+        <equipment slot="Head" id="Item.bak_british_shako"/>
+    		<equipment slot="Cape" id="Item.bak_full_infantry_set_1_white_a"/>
+        <equipment slot="Body" id="Item.bak_service_tunic_hmrm"/>
+        <equipment slot="Leg" id="Item.bak_boots_black"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="british_tier_2" default_group="Ranged" level="24" occupation="Mercenary" culture="Culture.ashigaru" race="european" name="{=AxePLDNN}Royal Marines Light Infantry Veteran">
+    <face>
+      <face_key_template value="BodyProperty.european"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="90"/>
+      <skill id="TwoHanded" value="90"/>
+      <skill id="Polearm" value="90"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="240"/>
+      <skill id="Throwing" value="25"/>
+      <skill id="Riding" value="30"/>
+      <skill id="Athletics" value="180"/>
+    </skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.imp_b_snider_enfield_1"/>
+        <equipment slot="Item1" id="Item.bak_wilkinson_saber"/>
+        <equipment slot="Item2" id="Item.imp_d_cartridges1"/>
+        <equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+        <equipment slot="Head" id="Item.bak_british_shako_green"/>
+    		<equipment slot="Cape" id="Item.bak_full_infantry_set_1_white_a"/>
+        <equipment slot="Body" id="Item.bak_service_tunic_hmrm"/>
+        <equipment slot="Leg" id="Item.bak_boots_black"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.imp_b_snider_enfield"/>
+        <equipment slot="Item1" id="Item.bak_wilkinson_saber_1"/>
+        <equipment slot="Item2" id="Item.imp_d_cartridges1"/>
+        <equipment slot="Item3" id="Item.imp_d_cartridges1"/>
+        <equipment slot="Head" id="Item.bak_british_shako_green"/>
+    		<equipment slot="Cape" id="Item.bak_full_infantry_set_1_white_a"/>
+        <equipment slot="Body" id="Item.bak_service_tunic_hmrm"/>
+        <equipment slot="Leg" id="Item.bak_boots_black"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

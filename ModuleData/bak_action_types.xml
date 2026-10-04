@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<action_types>
+	<action name="act_austria_ready_pistol"
+	        type="actt_ready_ranged"
+	        action_stage="as_attack_ready"/>
+	<action name="act_austria_ready_pistol_continue"
+	        type="actt_ready_ranged"
+	        action_stage="as_attack_ready"/>
+	<action name="act_austria_release_pistol"
+	        type="actt_release_ranged"
+	        action_stage="as_attack_release"/>
+	<action name="act_reload_breechloader"
+	        type="actt_reload"
+	        action_stage="as_reload_mid_phase"/>
+	<action name="act_reload_breechloader_continue"
+	        type="actt_reload"
+	        action_stage="as_reload_last_phase"/>
+	<action name="act_austria_reload_pistol"
+	        type="actt_reload"
+	        action_stage="as_reload_mid_phase"/>
+	<action name="act_austria_reload_pistol_continue"
+	        type="actt_reload"
+	        action_stage="as_reload_last_phase"/>
+    <action name="act_quick_release_overswing_musket" type="actt_release_melee" usage_direction="ud_attack_up" action_stage="as_attack_release" />
+    <action name="act_release_overswing_musket" type="actt_release_melee" usage_direction="ud_attack_up" action_stage="as_attack_release" />
+    <action name="act_quick_release_thrust_musket" type="actt_release_melee" usage_direction="ud_attack_down" action_stage="as_attack_release" />
+    <action name="act_release_thrust_musket" type="actt_release_melee" usage_direction="ud_attack_down" action_stage="as_attack_release" />
+</action_types>

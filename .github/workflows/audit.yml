@@ -15,23 +15,22 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: translation-audit-2026-10-04
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Apply first-pass polish and audit
-        run: |
-          python tools/apply_first_pass.py
-          python tools/audit_translation.py
-          python tools/extract_name_candidates.py
-          python tools/extract_factions.py
-      - name: Commit generated changes and reports
+      - name: Apply first-pass polish
+        run: python tools/apply_first_pass.py
+      - name: Run full ModuleData coverage audit
+        run: python tools/full_module_audit.py
+      - name: Commit generated localization changes and reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add CNs/bak_strings.xml reports/
+          git add ModuleData/Languages/CNs reports/
           if git diff --cached --quiet; then
             echo "No generated changes"
           else
-            git commit -m "Apply first-pass historical localization polish"
+            git commit -m "Run full ModuleData localization audit"
             git push
           fi

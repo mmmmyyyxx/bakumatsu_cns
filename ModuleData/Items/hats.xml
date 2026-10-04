@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- 114 - Sui'ei Kanmuri (samurai formal) -->
+	<!-- 117 - Kazaori-eboshi (daimyo) -->
+	<!-- 124 - Escort Guard/Courtier (formal) -->
+	<!-- 105 - Maybe Kepi plumes? -->
+	<!-- Traditional -->
+    <Item id="bak_kazaori_eboshi"
+	      name="{=1q5oRKaE}Kazaori-eboshi"
+	      subtype="head_armor"
+	      mesh="kazaori_eboshi"
+	      culture="Culture.saikai"
+	      weight="0.15"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="3"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_suiei_kanmuri"
+	      name="{=1q5oSuKa}Sui'ei Kanmuri"
+	      subtype="head_armor"
+	      mesh="suiei_kanmuri"
+	      culture="Culture.saikai"
+	      weight="0.15"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="3"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_suiei_kanmuri_1"
+	      name="{=1q5oSuKa}Sui'ei Kanmuri"
+	      subtype="head_armor"
+	      mesh="suiei_kanmuri_1"
+	      culture="Culture.saikai"
+	      weight="0.16"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Hachimaki -->
+    <Item id="bak_hachimaki_short"
+	      name="{=BakMHach}Hachimaki"
+	      subtype="head_armor"
+	      mesh="hachimaki_short"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_hachimaki_short_t"
+	      name="{=BakMHacT}Tokugawa Hachimaki"
+	      subtype="head_armor"
+	      mesh="hachimaki_short_tokugawa"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_hachimaki_long"
+	      name="{=BakMHach}Hachimaki"
+	      subtype="head_armor"
+	      mesh="hachimaki_long"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_hachimaki_long_v"
+	      name="{=BakMHach}Hachimaki"
+	      subtype="head_armor"
+	      mesh="hachimaki_long_victory"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_hachimaki_long_t"
+	      name="{=BakMHacT}Tokugawa Hachimaki"
+	      subtype="head_armor"
+	      mesh="hachimaki_long_tokugawa"
+	      culture="Culture.saikai"
+	      weight="0.05"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_hachimaki_short_plate"
+	      name="{=BakMHacH}Plated Hachimaki"
+	      subtype="head_armor"
+	      mesh="hachimaki_short_plate"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="9"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_hachimaki_long_plate"
+	      name="{=BakMHacH}Plated Hachimaki"
+	      subtype="head_armor"
+	      mesh="hachimaki_long_plate"
+	      culture="Culture.saikai"
+	      weight="0.1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="10"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Kepi -->
+    <Item id="bak_kepi"
+	      name="{=BakMHFoC}Forage Cap"
+	      subtype="head_armor"
+	      mesh="bak_kepi"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_blue"
+	      name="{=BakMHFoC}Forage Cap"
+	      subtype="head_armor"
+	      mesh="bak_kepi_blue"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_red"
+	      name="{=BakMHFoC}Forage Cap"
+	      subtype="head_armor"
+	      mesh="bak_kepi_dark_red"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_bright_red"
+	      name="{=BakMHFoC}Forage Cap"
+	      subtype="head_armor"
+	      mesh="bak_kepi_red"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_black"
+	      name="{=BakMHFoC}Forage Cap"
+	      subtype="head_armor"
+	      mesh="bak_kepi_black"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_white"
+	      name="{=BakMHFoC}Forage Cap"
+	      subtype="head_armor"
+	      mesh="bak_kepi_white"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_rim_black"
+	      name="{=BakMHFoC}Forage Cap"
+	      subtype="head_armor"
+	      mesh="bak_kepi_rim_black"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_blue_black"
+	      name="{=BakMHFoC}Forage Cap"
+	      subtype="head_armor"
+	      mesh="bak_kepi_blue_black"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_red_black"
+	      name="{=BakMHFoC}Forage Cap"
+	      subtype="head_armor"
+	      mesh="bak_kepi_dark_red_black"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_bright_red_black"
+	      name="{=BakMHFoC}Forage Cap"
+	      subtype="head_armor"
+	      mesh="bak_kepi_red_black"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_black_black"
+	      name="{=BakMHFoC}Forage Cap"
+	      subtype="head_armor"
+	      mesh="bak_kepi_black_black"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_white_black"
+	      name="{=BakMHFoC}Forage Cap"
+	      subtype="head_armor"
+	      mesh="bak_kepi_white_black"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_french"
+	      name="{=BakMHKep}Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_dark_blue"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_french_blue"
+	      name="{=BakMHKep}Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_norm_blue"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_french_rich_blue"
+	      name="{=BakMHKep}Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_blue"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_french_red"
+	      name="{=BakMHKep}Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_red"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_french_black"
+	      name="{=BakMHKep}Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_black"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_french_white"
+	      name="{=BakMHKep}Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_white"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_french_tokugawa"
+	      name="{=BakMHKep}Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_blue_tokugawa"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_eboshi_kepi"
+	      name="{=BakMHEKe}Eboshi"
+	      subtype="head_armor"
+	      mesh="bak_eboshi_kepi"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="nkepi_red_cadet"
+	      name="{=BakMHKPP}Private's Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_red_cadet"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="6"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="nkepi_blue_cadet"
+	      name="{=BakMHKPP}Private's Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_blue_cadet"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="6"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="nkepi_red_serg"
+	      name="{=BakMHKSP}Sergeant's Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_red_serg"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.1"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="6"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="nkepi_blue_serg"
+	      name="{=BakMHKSP}Sergeant's Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_blue_serg"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.1"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="6"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Foreign Kepi -->
+    <Item id="bak_kepi_union"
+	      name="{=BakMHKep}Kepi"
+	      subtype="head_armor"
+	      mesh="bak_kepi_union"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="5"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Kepi w/ Havelock -->
+    <Item id="bak_kepi_french_havelock"
+	      name="{=BakMHKeH}Kepi with Havelock"
+	      subtype="head_armor"
+	      mesh="bak_kepi_french_havelock"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="8"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_french_havelock_tokugawa"
+	      name="{=BakMHKeH}Kepi with Havelock"
+	      subtype="head_armor"
+	      mesh="bak_kepi_french_havelock_tokugawa"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="8"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_cloth"
+	      name="{=BakMHKeH}Kepi with Havelock"
+	      subtype="head_armor"
+	      mesh="bak_kepi_cloth"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="8"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_cloth_old"
+	      name="{=BakMHKeH}Kepi with Havelock"
+	      subtype="head_armor"
+	      mesh="bak_kepi_cloth_old"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="8"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_cloth_white"
+	      name="{=BakMHKeH}Kepi with Havelock"
+	      subtype="head_armor"
+	      mesh="bak_kepi_cloth_white"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="8"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_cloth_white_black"
+	      name="{=BakMHKeH}Kepi with Havelock"
+	      subtype="head_armor"
+	      mesh="bak_kepi_cloth_white_black"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="8"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_cloth_black"
+	      name="{=BakMHKeH}Kepi with Havelock"
+	      subtype="head_armor"
+	      mesh="bak_kepi_cloth_black"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="8"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_cloth_black_black"
+	      name="{=BakMHKeH}Kepi with Havelock"
+	      subtype="head_armor"
+	      mesh="bak_kepi_cloth_black_black"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="8"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_cloth_full_white"
+	      name="{=BakMHKeH}Kepi with Havelock"
+	      subtype="head_armor"
+	      mesh="bak_kepi_cloth_full_white"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="8"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Plumed Kepi -->
+    <Item id="bak_kepi_b_plumes_wr_tall"
+	      name="{=BakMBKSwr}Plumed Blue Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_blue_serg_plume"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="6"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_b_plumes_fw_tall"
+	      name="{=BakMBKSfw}Plumed Blue Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_blue_cadet_plume"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="6"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_red_plumes_wr_tall"
+	      name="{=BakMRKSwr}Plumed Red Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_red_serg_plume"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="6"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_kepi_red_plumes_fw_tall"
+	      name="{=BakMRKSfw}Plumed Red Kepi"
+	      subtype="head_armor"
+	      mesh="nkepi_red_cadet_plume"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="6"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- British Shako -->
+    <Item id="bak_british_shako"
+	      name="{=fgpjp9lo}Shako"
+	      subtype="head_armor"
+	      mesh="bak_british_shako"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="8"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_british_shako_green"
+	      name="{=fgpjp9lo}Shako"
+	      subtype="head_armor"
+	      mesh="bak_british_shako_green"
+	      culture="Culture.saikai"
+	      weight="0.25"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="8"
+			       has_gender_variations="false"
+			       hair_cover_type="type3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Nirayama Gasa -->
+    <Item id="bak_nirayama_gasa_black"
+	      name="{=BakMHNGT}Nirayama Gasa (Tokugawa)"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_gasa_black"
+	      culture="Culture.saikai"
+	      weight="0.32"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_gasa_blue"
+	      name="{=BakMHNGT}Nirayama Gasa (Tokugawa)"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_gasa_blue"
+	      culture="Culture.saikai"
+	      weight="0.32"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_gasa_dark_blue"
+	      name="{=BakMHNGT}Nirayama Gasa (Tokugawa)"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_gasa_dark_blue"
+	      culture="Culture.saikai"
+	      weight="0.32"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_gasa_black_plain"
+	      name="{=BakMHNGa}Nirayama Gasa"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_gasa_black_plain"
+	      culture="Culture.saikai"
+	      weight="0.32"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_gasa_dark_blue_plain"
+	      name="{=BakMHNGa}Nirayama Gasa"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_gasa_dark_blue_plain"
+	      culture="Culture.saikai"
+	      weight="0.32"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_gasa_black_1"
+	      name="{=BakMHNGT}Nirayama Gasa (Tokugawa)"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_gasa_black_1"
+	      culture="Culture.saikai"
+	      weight="0.32"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_gasa_blue_1"
+	      name="{=BakMHNGT}Nirayama Gasa (Tokugawa)"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_gasa_blue_1"
+	      culture="Culture.saikai"
+	      weight="0.32"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_gasa_dark_blue_1"
+	      name="{=BakMHNGT}Nirayama Gasa (Tokugawa)"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_gasa_dark_blue_1"
+	      culture="Culture.saikai"
+	      weight="0.32"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_gasa_black_1_plain"
+	      name="{=BakMHNGa}Nirayama Gasa"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_gasa_black_1_plain"
+	      culture="Culture.saikai"
+	      weight="0.32"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_gasa_dark_blue_1_plain"
+	      name="{=BakMHNGa}Nirayama Gasa"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_gasa_dark_blue_1_plain"
+	      culture="Culture.saikai"
+	      weight="0.32"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_gasa_black_2_plain"
+	      name="{=BakMHNGa}Nirayama Gasa"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_gasa_black_2_plain"
+	      culture="Culture.saikai"
+	      weight="0.32"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_gasa_dark_blue_2_plain"
+	      name="{=BakMHNGa}Nirayama Gasa"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_gasa_dark_blue_2_plain"
+	      culture="Culture.saikai"
+	      weight="0.32"
+	      difficulty="0"
+	      appearance="0.05"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Tonkyogasa -->
+    <Item id="bak_tonkyogasa" name="{=BakMTonky}Tonkyogasa" subtype="head_armor" mesh="bak_tonkyogasa" weight="0.5" difficulty="0" appearance="4" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="25" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="type2"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+	<!-- Hatsumurigasa -->
+	<Item id="bak_hatsumurigasa" name="{=SHkZxjuj}Hatsumurigasa" subtype="head_armor" mesh="bak_hatsumurigasa" weight="0.5" difficulty="0" appearance="1" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="12" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="type1"/>
+        </ItemComponent>
+        <Flags Civilian="true"/>
+    </Item>
+	<Item id="bak_hatsumurigasa_1" name="{=SHkZxjuj}Hatsumurigasa" subtype="head_armor" mesh="bak_hatsumurigasa_1" weight="0.5" difficulty="0" appearance="1" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="12" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="type1"/>
+        </ItemComponent>
+        <Flags Civilian="true"/>
+    </Item>
+	<!-- Jingasa -->
+    <Item id="bak_modern_jingasa_red" name="{=BakMJinga}Jingasa" subtype="head_armor" mesh="bak_jingasa_red" weight="0.5" difficulty="0" appearance="4" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="25" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="type2"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+    <Item id="bak_modern_jingasa_black" name="{=BakMJinga}Jingasa" subtype="head_armor" mesh="bak_jingasa_black" weight="0.5" difficulty="0" appearance="4" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="25" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="type2"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+    <Item id="bak_modern_jingasa_blue" name="{=BakMJinga}Jingasa" subtype="head_armor" mesh="bak_jingasa_blue" weight="0.5" difficulty="0" appearance="4" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="25" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="type2"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+    <Item id="bak_modern_jingasa_commander" name="{=BakMJingC}Commander's Jingasa" subtype="head_armor" mesh="bak_jingasa_commander" weight="0.5" difficulty="0" appearance="4" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="30" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="type2"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+    <Item id="bak_modern_jingasa_cloth_black" name="{=BakMJinga}Jingasa" subtype="head_armor" mesh="bak_jingasa_cloth_black" weight="0.75" difficulty="0" appearance="4" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="33" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="all" beard_cover_type="all"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+    <Item id="bak_modern_jingasa_cloth_black_full" name="{=BakMJinga}Jingasa" subtype="head_armor" mesh="bak_jingasa_cloth_black_f" weight="0.75" difficulty="0" appearance="4" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="33" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="all" beard_cover_type="all"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+    <Item id="bak_modern_jingasa_cloth_blue" name="{=BakMJinga}Jingasa" subtype="head_armor" mesh="bak_jingasa_cloth_blue" weight="0.75" difficulty="0" appearance="4" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="33" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="all" beard_cover_type="all"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+    <Item id="bak_modern_jingasa_cloth_red" name="{=BakMJinga}Jingasa" subtype="head_armor" mesh="bak_jingasa_cloth_red" weight="0.75" difficulty="0" appearance="4" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="33" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="all" beard_cover_type="all"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+    <Item id="bak_modern_jingasa_cloth_tokugawa" name="{=BakMJinga}Jingasa" subtype="head_armor" mesh="bak_jingasa_cloth_tokugawa" weight="0.75" difficulty="0" appearance="4" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="33" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="all" beard_cover_type="all"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+    <Item id="bak_nagaoka_jingasa" name="{=BakMJinga}Jingasa" subtype="head_armor" mesh="bak_nagaoka_jingasa" weight="0.5" difficulty="0" appearance="4" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="25" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="type2"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+    <Item id="bak_ogaki_jingasa" name="{=BakMManju}Manjugasa" subtype="head_armor" mesh="bak_ogaki_jingasa" weight="0.5" difficulty="0" appearance="4" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="25" has_gender_variations="false" modifier_group="plate" material_type="Plate" hair_cover_type="type2"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+    <Item id="bak_nirayama_zukin_black"
+	      name="{=BakMNirZ}Nirayama Zukin"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_zukin_black"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="12"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_zukin_black_1"
+	      name="{=BakMNirZ}Nirayama Zukin"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_zukin_black_1"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="12"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_zukin_blue"
+	      name="{=BakMNirZ}Nirayama Zukin"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_zukin_blue"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="12"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_zukin_blue_1"
+	      name="{=BakMNirZ}Nirayama Zukin"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_zukin_blue_1"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="12"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_zukin_dark_blue"
+	      name="{=BakMNirZ}Nirayama Zukin"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_zukin_dark_blue"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="12"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_zukin_dark_blue_1"
+	      name="{=BakMNirZ}Nirayama Zukin"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_zukin_dark_blue_1"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="12"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_zukin_brown"
+	      name="{=BakMNirZ}Nirayama Zukin"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_zukin_brown"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="12"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_zukin_white"
+	      name="{=BakMNirZ}Nirayama Zukin"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_zukin_white"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="12"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_nirayama_zukin_white_yellow"
+	      name="{=BakMNirZ}Nirayama Zukin"
+	      subtype="head_armor"
+	      mesh="bak_nirayama_zukin_white_yellow"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="12"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_toppai_zukin"
+	      name="{=BakMTopZ}Toppaizukin"
+	      subtype="head_armor"
+	      mesh="bak_toppai_zukin"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="14"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+				   beard_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Guma -->
+    <Item id="bak_shaguma"
+	      name="{=BakGuSha}Shaguma"
+	      subtype="head_armor"
+	      mesh="bak_shaguma"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      difficulty="0"
+	      appearance="0.9"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_haguma"
+	      name="{=BakGuHag}Haguma"
+	      subtype="head_armor"
+	      mesh="bak_haguma"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      difficulty="0"
+	      appearance="0.9"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_koguma"
+	      name="{=BakGuKog}Koguma"
+	      subtype="head_armor"
+	      mesh="bak_koguma"
+	      culture="Culture.saikai"
+	      weight="0.8"
+	      difficulty="0"
+	      appearance="0.9"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <!-- <Item id="bak_chain"
+	      name="{=BakChHoo}Kusari Shikoro"
+	      subtype="head_armor"
+	      mesh="bak_chain_1"
+	      culture="Culture.saikai"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.9"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item> -->
+    <Item id="bak_chain_hood"
+	      name="{=BakChHoo}Kusari Shikoro"
+	      subtype="head_armor"
+	      mesh="bak_chainmail_helmet"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.9"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+				   material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+    <Item id="bak_hanburi"
+	      name="{=BakHachi}Hachigane"
+	      subtype="head_armor"
+	      mesh="bak_hanburi"
+	      culture="Culture.saikai"
+	      weight="1.5"
+	      difficulty="0"
+	      appearance="0.9"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+				   material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+</Items>

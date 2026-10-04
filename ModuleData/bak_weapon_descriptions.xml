@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WeaponDescriptions>
+	<WeaponDescription id="SHO_Yari_CouchA"
+					   weapon_class="TwoHandedPolearm"
+					   item_usage_features="polearm:couch">
+		<WeaponFlags>
+			<WeaponFlag
+				value="MeleeWeapon" />
+			<WeaponFlag value="NotUsableWithOneHand"/>
+			<WeaponFlag
+				value="WideGrip" />
+			<WeaponFlag value="TwoHandIdleOnMount"/>
+		</WeaponFlags>
+		<AvailablePieces>
+			<AvailablePiece id="bak_spear_handle"/>
+			<AvailablePiece id="bak_spear_blade"/>
+			<AvailablePiece id="bak_spear_banner"/>
+		</AvailablePieces>
+	</WeaponDescription>
+	<WeaponDescription
+		id="BAK_OneHandedSaber"
+		weapon_class="OneHandedSword"
+		item_usage_features="onehanded:block:shield:swing:thrust">
+		<WeaponFlags>
+			<WeaponFlag
+				value="MeleeWeapon" />
+		</WeaponFlags>
+		<AvailablePieces>
+			<AvailablePiece id="yataghan_blade"/>
+			<AvailablePiece id="sho_katana_blade_9"/>
+			<AvailablePiece id="sho_katana_blade_14"/>
+			<AvailablePiece id="1822_saber_blade"/>
+			<AvailablePiece id="1822_saber_blade_1"/>
+			<AvailablePiece id="1860_saber_blade"/>
+			<AvailablePiece id="1860_saber_blade_1"/>
+			<AvailablePiece id="wilkinson_saber_blade"/>
+			<AvailablePiece id="wilkinson_saber_blade_1"/>
+			<AvailablePiece id="yataghan_hilt"/>
+			<AvailablePiece id="bak_saber_hilt_gothic"/>
+			<AvailablePiece id="bak_saber_hilt_three_bar"/>
+			<AvailablePiece id="bak_kyu_gunto_hilt"/>
+			<AvailablePiece id="shin_gunto_handle_4_brown"/>
+		</AvailablePieces>
+	</WeaponDescription>
+</WeaponDescriptions>

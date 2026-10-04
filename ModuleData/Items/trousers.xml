@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Tabi -->
+	<Item id="bak_tabi"
+	      name="{=BosUnTab}Tabi"
+	      mesh="bak_tabi"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="3"
+		  		   has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!-- Western Boots -->
+	<Item id="bak_boots"
+	      name="{=BosUnBoo}Brogans"
+	      mesh="brogans_brown"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_boots_black"
+	      name="{=BosUnBoo}Brogans"
+	      mesh="brogans_black"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="bak_boots_brown"
+	      name="{=BosUnBoo}Brogans"
+	      mesh="brogans_dark_brown"
+	      culture="Culture.saikai"
+	      weight="0.2"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="3"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+</Items>

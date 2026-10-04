@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Items>
+	<Item id="naval_cannon"
+		  name="{=NavGuC3X}Antique Cannon"
+		  mesh="black_ship_port_cannon_gun"
+		  is_merchandise="false"
+		  weight="1542"
+		  value="30000"
+		  item_category="bak_artillery"
+		  Type="Goods">
+		  <Flags Civilian="true" />
+	</Item>
+	<Item id="napoleon_gun"
+		  name="{=NapGuC3X}M1857 12-Pounder Napoleon"
+		  mesh="napoleon_gun"
+		  is_merchandise="false"
+		  weight="1200"
+		  value="100000"
+		  item_category="bak_artillery"
+		  Type="Goods">
+		  <Flags Civilian="true" />
+	</Item>
+	<Item id="la_hitte_gun"
+		  name="{=LHiGuC3X}Yonkin-sanpo (Canon de Montagne de 4 La Hitte)"
+		  mesh="la_hitte_gun"
+		  is_merchandise="false"
+		  weight="208"
+		  value="300000"
+		  item_category="bak_artillery"
+		  Type="Goods">
+		  <Flags Civilian="true" />
+	</Item>
+	<Item id="armstrong_gun"
+		  name="{=ArmGuC3X}RBL 12-Pounder 8 CWT Armstrong Gun"
+		  mesh="armstrong_gun"
+		  is_merchandise="false"
+		  weight="1042"
+		  value="656250"
+		  item_category="bak_artillery"
+		  Type="Goods">
+		  <Flags Civilian="true" />
+	</Item>
+	<Item id="gatling_gun"
+		  name="{=GatGuC3X}Model 1865 Gatling Gun"
+		  mesh="gatling_gun"
+		  is_merchandise="false"
+		  weight="300"
+		  value="625000"
+		  item_category="bak_artillery"
+		  Type="Goods">
+		  <Flags Civilian="true" />
+	</Item>
+</Items>
