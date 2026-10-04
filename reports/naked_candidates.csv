@@ -16,7 +16,7 @@ ModuleData/bak_action_types.xml,action,,name,act_release_thrust_musket,technical
 ModuleData/bak_item_usage_sets.xml,flag,,name,requires_no_shield,technical_or_internal,uncovered_candidate,,,,,
 ModuleData/crafting_pieces.xml,Flag,,name,Civilian,technical_or_internal,uncovered_candidate,,,,,
 ModuleData/module_strings.xml,string,NaMPa4ML,text,Loyalty,likely_user_facing,covered,synthetic_object_text,1.000,BakumatsuModels_NaMPa4ML_Loyalty_a182,module_strings.xml,忠诚
-ModuleData/module_strings.xml,string,hR6Zo6pD,text,Reformer,likely_user_facing,covered,synthetic_object_text,1.000,BakumatsuModels_hR6Zo6pD_Reformer_e0f9,module_strings.xml,塑身机
+ModuleData/module_strings.xml,string,hR6Zo6pD,text,Reformer,likely_user_facing,covered,synthetic_object_text,1.000,BakumatsuModels_hR6Zo6pD_Reformer_e0f9,module_strings.xml,改革派
 ModuleData/module_strings.xml,string,HMFb1gaq,text,Foreign Influence,likely_user_facing,covered,synthetic_object_text,0.981,BakumatsuModels_HMFb1gaq_ForeignInfluenc_bdb1,module_strings.xml,外国影响
 ModuleData/module_strings.xml,string,bo8sZ7gY,text,20% more tax income from towns connected to ports owned by Saga leaders.,likely_user_facing,covered,synthetic_object_text,0.831,BakumatsuModels_bo8sZ7gY_20moretaxincome_4f58,module_strings.xml,与佐贺领导人拥有的港口相连的城镇的税收收入增加 20%。
 ModuleData/settlements.xslt,attribute,,name,name,technical_or_transform,uncovered_candidate,,,,,
