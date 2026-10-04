@@ -5,18 +5,18 @@ NzbJtdPe,Imperial Guard Sergeant,长州军官
 NzbJtdPe,Choshu Officer,长州军官
 Y5z6A7b8,Owari Kan-ryu,尾张贯流
 C1d2E3f4,Owari Kan-ryu,尾张贯流
-xA0WdHYT,Choshu-den,长州殿
-l8vKVgGg,Kishu Tamiya Ryu,纪州田宫龙
+xA0WdHYT,Choshu-den,长州传
+l8vKVgGg,Kishu Tamiya Ryu,纪州田宫流
 xbod2ThM,Tsumaki Ataka Motonari,妻木安贵元就
 itQ7pFYL,Owari Kan-ryu,尾张贯流
 i9kiFKJ2,Tsushin-ryu,通信流
 zkOmz2oV,Kingdom has the {CONTRADICTORY_POLICY} policy,Kingdom 有 {CONTRADICTORY_POLICY} 政策
-BaPTImAl,Revere the Emperor,尊崇皇帝
-BaPEImAl,serving the emperor,侍奉皇帝
-BaPLImAl,Allows recruitment of Imperial Army soldiers,允许招募帝国陆军士兵
+BaPTImAl,Revere the Emperor,尊王
+BaPEImAl,serving the emperor,效忠天皇
+BaPLImAl,Allows recruitment of Imperial Army soldiers,允许招募官军士兵
 BaPLShAl,Allows recruitment of Shogunate soldiers,允许招募幕府士兵
-vB9pXLex,The Court of the Emperor,皇帝的法庭
-IKWrry8v,The Spine of the Shogunate,幕府的脊柱
+vB9pXLex,The Court of the Emperor,朝廷
+IKWrry8v,The Spine of the Shogunate,幕府中坚
 cQZMNw3q,20% less relationship loss from kingdom decisions.,藩国决策造成的关系损失减少 20%。
 eHP0XVYF,100% more relationship gain from kingdom decisions.,藩国决策带来的关系增益增加 100%。
 DEmMv6H8,Tosa,土佐
@@ -66,9 +66,9 @@ XneOdQah,Tsuchiura,土浦
 02LbyErE,Matsuyama,松山
 dXkBXUQ2,Kii-Yura,纪伊由良
 t2ioc3tv,Tsu Castle,津城
-t93lkmYo,Tsuge,隔断
+t93lkmYo,Tsuge,柘植
 ZnlA58aj,Kuwana,桑名
-RmvKSL4R,Kii-Kameyama Castle,基-龟山城
+RmvKSL4R,Kii-Kameyama Castle,纪伊龟山城
 HHWkdmFT,Kiidani,木谷
 k2e9Z4Cn,Kumamoto,熊本
 kXl5DF4d,Tsurusaki Castle,鹤崎城
@@ -76,7 +76,7 @@ Eux6uT73,Matsuyama Castle,松山城
 PaZTWp5t,Tosadomari Castle,土佐泊城
 RCqlfDCy,Yonezawa,米泽
 74v8alVP,Akitanada,秋棚田
-d2r4B3vq,Tosaminato,托萨米尼德
+d2r4B3vq,Tosaminato,十三湊
 s7rze40X,Nihonmatsu Castle,二本松城
 6EjtiE1h,Nihonmatsu,二本松
 vsV1qXqp,Sendai,仙台
@@ -168,24 +168,24 @@ BosBeSot,Tsu Sode Jirushi,津袖印
 nbMsupjp,Tsukigata Senzo,黑田圭
 YgGJdujN,Tsuji Ichizaemon,辻氏左卫门
 97vWqS1S,Tsugaru Naramaro,大道寺重利
-QWSAhV9G,Fukui Retainers,福井家臣
+QWSAhV9G,Fukui Retainers,福井藩士
 qVwe6PhI,Tokugawa-shi,德川氏
 or53kdHi,Tokugawa-shi Hitotsubashi-ke,德川氏一桥家
 or53kdTa,Tokugawa-shi Tayasu-ke,德川氏多安家
 6NWgGmYf,Akita-shi,秋田氏
-qVwe6PhM,Shogunate Retainers,幕府家臣
+qVwe6PhM,Shogunate Retainers,幕臣
 TJfQdtFe,Tokugawa-shi Mito-ke,德川氏水户家
 lY9SDVTs,Tsugikata-shi,继方氏
-HTqZfe96,Tosa Kinno-to,土佐金能藤
+HTqZfe96,Tosa Kinno-to,土佐勤王党
 lx34RrxX,Tokugawa-shi Kii-ke,德川氏纪伊家
-skZuhNKm,Kuwana Retainers,获得保留人
+skZuhNKm,Kuwana Retainers,桑名藩士
 9jmhs2Af,Tokugawa-shi Owari-ke,德川氏尾张家
-DRRT6YSR,Satsuma Retainers,萨摩门臣
+DRRT6YSR,Satsuma Retainers,萨摩藩士
 WMGq6j1n,Sagara-shi,相良氏
-LvmXDnyd,Saga Retainers,佐贺家臣
-kEoddDyL,Aizu Kotetsu-kai,会津甲铁会
+LvmXDnyd,Saga Retainers,佐贺藩士
+kEoddDyL,Aizu Kotetsu-kai,会津小铁会
 fXENjJJL,Oda Clan,织田氏
-Aizqo4NM,Aizu Retainers,会津家臣
+Aizqo4NM,Aizu Retainers,会津藩士
 UyMq8aDj,Tsugaru-shi,津轻氏
 6LMl0tI8,Tsugaru-shi Kuroishi-ke,津轻氏黑石家
 BMQyxH2f,Mito-shi,水户氏
@@ -257,17 +257,17 @@ Utg0dgbV,Morioka-han,盛冈藩
 lOrWIIfh,Morioka,盛冈
 742AdeFJ,Mito-han,水户藩
 WhlNAwBH,Mito,水户
-qFVVTsug,Jozai-han,定在藩
-bWjqvgLb,Nagaoka-han,名古藩
+qFVVTsug,Jozai-han,请西藩
+bWjqvgLb,Nagaoka-han,长冈藩
 9iMMapjE,Nagaoka,长冈
 0QhvafT9,Kubota-han,久保田藩
 ijCa8pDo,Kubota,久保田
 97tn9Agd,Fukui-han,福井藩
 Hwgq2oHf,Fukui,福井
-4c5OF6TQ,Obama-han,小浜藩
+4c5OF6TQ,Obama-han,小滨藩
 OHqGIRhL,Tokugawa Bakufu,德川幕府
 nAUwT8JG,Tokugawa,德川
-sWnHr5q5,Ouetsu Reppan Dōmei,奥越列番同名
+sWnHr5q5,Ouetsu Reppan Dōmei,奥羽越列藩同盟
 8kilNkSs,Shonai-han,庄内藩
 ASyaMblp,Shonai,庄内
 J3WAJxu3,Himeji-han,姬路藩
@@ -289,7 +289,7 @@ KolhtpUd,Hiroshima,广岛
 F4UZiV7f,Matsue-han,松江藩
 HanChosh,Choshu-han,长州藩
 ShoChosh,Choshu,长州
-1kGV1kZG,Ozu-han,小洲藩
+1kGV1kZG,Ozu-han,大洲藩
 aUUSaL8k,Uwajima-han,宇和岛藩
 44ThIRyK,Uwajima,宇和岛
 pWLiqObw,Tosa-han,土佐藩
@@ -319,57 +319,57 @@ PybHUAiH,Intimidating male imperial gang leader,恐吓男性帝国帮派头目
 N4lGbs2X,Bestial male imperial gang leader,兽性男帝国帮主
 Oqw8LyRt,Female imperial gang leader,女帝国帮主
 3C2X5iI0,Menacing female imperial gang leader,来势汹汹的女帝国帮主
-SRtabgMr,Morioka Caravan Master,盛冈商队主人
-SRtabgHr,Hirosaki Caravan Master,弘前商队主人
-SRTAbgHr,Akita Caravan Master,秋田商队大师
-ShoAbgHr,Shonai Caravan Master,庄内商队主人
-SenAbgHr,Sendai Caravan Master,仙台商队大师
-YonAbgHr,Yonezawa Caravan Master,米泽商队主人
-MatAbgHr,Matsuyama Caravan Master,松山商队大师
-UwaAbgHr,Uwajima Caravan Master,宇和岛商队主人
-HikAbgHr,Hikone Caravan Master,彦根商队大师
-KuwAbgHr,Kuwana Caravan Master,桑名商队队长
-KisAbgHr,Kii Caravan Master,纪伊商队大师
-TsuAbgHr,Tsu Caravan Master,津商队大师
+SRtabgMr,Morioka Caravan Master,盛冈商队首领
+SRtabgHr,Hirosaki Caravan Master,弘前商队首领
+SRTAbgHr,Akita Caravan Master,秋田商队首领
+ShoAbgHr,Shonai Caravan Master,庄内商队首领
+SenAbgHr,Sendai Caravan Master,仙台商队首领
+YonAbgHr,Yonezawa Caravan Master,米泽商队首领
+MatAbgHr,Matsuyama Caravan Master,松山商队首领
+UwaAbgHr,Uwajima Caravan Master,宇和岛商队首领
+HikAbgHr,Hikone Caravan Master,彦根商队首领
+KuwAbgHr,Kuwana Caravan Master,桑名商队首领
+KisAbgHr,Kii Caravan Master,纪伊商队首领
+TsuAbgHr,Tsu Caravan Master,津商队首领
 FuKAbgHr,Fukui Caravan Master,福井房车大师
-NaGAbgHr,Nagaoka Caravan Master,长冈商队主人
-OwaAbgHr,Owari Caravan Master,尾张商队主人
-KaMAbgHr,Kumamoto Caravan Master,熊本商队大师
-SagAbgHr,Saga Caravan Master,佐贺商队大师
-HirAbgHr,Hiroshima Caravan Master,广岛大篷车大师
-OkaYbgHr,Okayama Caravan Master,冈山商队主人
+NaGAbgHr,Nagaoka Caravan Master,长冈商队首领
+OwaAbgHr,Owari Caravan Master,尾张商队首领
+KaMAbgHr,Kumamoto Caravan Master,熊本商队首领
+SagAbgHr,Saga Caravan Master,佐贺商队首领
+HirAbgHr,Hiroshima Caravan Master,广岛商队首领
+OkaYbgHr,Okayama Caravan Master,冈山商队首领
 BosBaAsh,Bakufu Ashigaru,幕府足轻
 BosBaYaA,Bakufu Yari Ashigaru,幕府枪足轻
 BosBaNaG,Bakufu Naginata Gokenin,幕府薙刀御家人
 BosBaNaH,Bakufu Naginata Hatamoto,旗本幕府薙刀
 BosBaYaG,Bakufu Yari Gokenin,幕府枪御家人
-BosBaSho,Bakufu Shoinban,幕府書役
+BosBaSho,Bakufu Shoinban,幕府书院番
 BosBaYuA,Bakufu Yumi Ashigaru,幕府弓足轻
-BosBaDaG,Bakufu Daikyu Gokenin,幕府大筒护院
-BosBaKos,Bakufu Koshogumi,幕府小将组
-BosBaTeG,Bakufu Teppo Gokenin,幕府铁炮护院
+BosBaDaG,Bakufu Daikyu Gokenin,幕府大弓御家人
+BosBaKos,Bakufu Koshogumi,幕府小姓组
+BosBaTeG,Bakufu Teppo Gokenin,幕府铁炮御家人
 BosBaTeH,Bakufu Teppo Hatamoto,旗本幕府鐵炮
 BosBaKaA,Bakufu Katana Ashigaru,幕府刀足轻
 BosBaOdG,Bakufu Odachi Gokenin,幕府大太刀护院
 BosBaOdG,Bakufu Odachi Hatamoto,幕府大太刀护院
 BosBaDos,Bakufu Doshin,幕府同心
 BosBaMim,Bakufu Mimawari-gumi,幕府见回组
-BosBaMiS,Bakufu Sogekitai,幕府草木隊
-BosBayor,Bakufu Yoriki,幕府與力
+BosBaMiS,Bakufu Sogekitai,幕府狙击队
+BosBayor,Bakufu Yoriki,幕府与力
 BosBaYug,Bakufu Yugekitai,幕府游击队
 BosBaHoh,Bakufu Hoheitai,幕府步兵队
 BosChShi,Choshu Shimpeitai,新武台
 BosChDen,Choshu Denshutai,长州传习队
-BosChGNo,Choshu Noheitai,长州野平队
-BosChFuh,Choshu Fuheitai,长州风平队
-BosFuJut,Fukui Jutai,福井銃隊
+BosChGNo,Choshu Noheitai,长州农兵队
+BosChFuh,Choshu Fuheitai,长州步兵队
+BosFuJut,Fukui Jutai,福井铳队
 BosFuHoh,Fukui Hoheitai,福井步兵队
-BosNaJut,Nagaoka Jutai,长冈树太
-BosNaJus,Nagaoka Jushitai,长冈树脂队
+BosNaJut,Nagaoka Jutai,长冈铳队
+BosNaJus,Nagaoka Jushitai,长冈铳士队
 BosOgTep,Ogaki Teppotai,大垣铁炮队
 BosOgHoh,Ogaki Hoheitai,大垣步兵队
 BosHiHan,Hiroshima Hanpeitai,广岛藩兵队
-BosOkSei,Okayama Seieitai,冈山
+BosOkSei,Okayama Seieitai,冈山精锐队
 BosTsAsh,Tsu Ashigaru,津足轻
 BosTsYaA,Tsu Yari Ashigaru,津枪足轻
 BosTsSap,Tsu Sappei,津萨平

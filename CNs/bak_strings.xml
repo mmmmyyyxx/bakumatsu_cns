@@ -223,31 +223,31 @@
     <string id="zUk95oK7" text="心形刀流"/>
     <string id="GNxujC5z" text="心形刀流"/>
     <string id="dy7etYVM" text="大岛流"/>
-    <string id="xA0WdHYT" text="长州殿"/>
+    <string id="xA0WdHYT" text="长州传"/>
     <string id="b4t9t4Tu" text="伯耆流"/>
     <string id="HtHpm6rr" text="神道无念流"/>
     <string id="C2c7YI66" text="直心影流"/>
     <string id="cV55WleZ" text="藤冈流"/>
-    <string id="Mn6pLhBU" text="中西叶"/>
-    <string id="VQVEpj4H" text="川田霸"/>
+    <string id="Mn6pLhBU" text="中西派"/>
+    <string id="VQVEpj4H" text="川田派"/>
     <string id="9l9o7D6I" text="直心影流"/>
     <string id="Js3OQ9k6" text="无外流"/>
     <string id="hZsd2hMw" text="无外流"/>
     <string id="AV7mzihi" text="神道无念流"/>
     <string id="u7p7dq3N" text="日置流"/>
-    <string id="yY3JpPW2" text="甲府殿"/>
+    <string id="yY3JpPW2" text="甲府传"/>
     <string id="16PE9DkR" text="新阴流"/>
     <string id="e0nMZ5CL" text="稻取流"/>
-    <string id="l8vKVgGg" text="纪州田宫龙"/>
+    <string id="l8vKVgGg" text="纪州田宫流"/>
     <string id="xbod2ThM" text="妻木安贵元就"/>
-    <string id="VzjMcLl8" text="小野叶"/>
-    <string id="8mNOZIZp" text="伊藤龙"/>
+    <string id="VzjMcLl8" text="小野派"/>
+    <string id="8mNOZIZp" text="一刀流"/>
     <string id="FAQ6NbvP" text="和歌山流"/>
     <string id="BSEXS69U" text="新阴流"/>
     <string id="uXDtR3ft" text="森内流"/>
     <string id="KYOoP3uN" text="柳生新阴流"/>
     <string id="itQ7pFYL" text="尾张贯流"/>
-    <string id="ZRMWzgVh" text="竹林叶"/>
+    <string id="ZRMWzgVh" text="竹林派"/>
     <string id="G34Dov6O" text="无外流"/>
     <string id="TE3jtjR4" text="神道无念流"/>
     <string id="8MKqmT5c" text="神道无念流"/>
@@ -255,7 +255,7 @@
     <string id="he1f7X6N" text="神道无念流"/>
     <string id="K4lN6AVO" text="北辰一刀流"/>
     <string id="CmjCURLr" text="地吾天神流"/>
-    <string id="kfzGKJ3C" text="屋岛叶"/>
+    <string id="kfzGKJ3C" text="屋岛派"/>
     <string id="jCPQ6j2z" text="新阴流"/>
     <string id="Y0DGjRFS" text="日置流"/>
     <string id="O9liCb1M" text="柳生新阴流"/>
@@ -269,16 +269,16 @@
     <string id="IfZDvkbY" text="理心流"/>
     <string id="c3qcXyBO" text="辰巳流"/>
     <string id="OfgUFL4H" text="心院一刀流"/>
-    <string id="HV1MNEAJ" text="讲道馆"/>
+    <string id="HV1MNEAJ" text="弘道馆"/>
     <string id="yytMdnlK" text="小泽虎吉"/>
-    <string id="ZycbgH4K" text="高田羽"/>
+    <string id="ZycbgH4K" text="高田派"/>
     <string id="pxWL5EoM" text="柳生新阴流"/>
     <string id="n7NKzOGo" text="神心流"/>
     <string id="Y0g3OtyR" text="无外流"/>
-    <string id="FjWtFjkl" text="沟口叶"/>
-    <string id="F47pnUmJ" text="川田霸"/>
+    <string id="FjWtFjkl" text="沟口派"/>
+    <string id="F47pnUmJ" text="川田派"/>
     <string id="ftmr7rHR" text="一刀流"/>
-    <string id="cqWsQsQW" text="小野叶"/>
+    <string id="cqWsQsQW" text="小野派"/>
     <string id="BAacPI2x" text="柳生新阴流"/>
     <string id="WeaDmapf" text="南部流"/>
     <string id="PaOSYLs2" text="天心一刀流"/>
@@ -288,9 +288,9 @@
     <string id="pPhUxKwN" text="斋藤八郎"/>
     <string id="pA57gbh0" text="志学馆"/>
     <string id="2YwFm87K" text="桃井纯三"/>
-    <string id="300v5mE3" text="忠诚道场"/>
+    <string id="300v5mE3" text="小谷道场"/>
     <string id="Fgw9DOs0" text="大谷信友"/>
-    <string id="NgHLM8I4" text="志荣馆"/>
+    <string id="NgHLM8I4" text="试卫馆"/>
     <string id="lmEWdeLY" text="佐藤彦五郎"/>
     <string id="NgHLM841" text="练武馆"/>
     <string id="zkOmz2oV" text="Kingdom 有 {CONTRADICTORY_POLICY} 政策"/>
@@ -370,10 +370,10 @@
     <string id="BaPDRail" text="建设铁路网"/>
     <string id="BaPERail" text="铁路"/>
     <string id="BaPLRail" text="铁路效果"/>
-    <string id="BaPTImAl" text="尊崇皇帝"/>
+    <string id="BaPTImAl" text="尊王"/>
     <string id="BaPDImAl" text="将皇帝提升为神圣统一的活生生的象征。军队不是为了领土或省份而战，而是为了恢复帝国统治。"/>
-    <string id="BaPEImAl" text="侍奉皇帝"/>
-    <string id="BaPLImAl" text="允许招募帝国陆军士兵"/>
+    <string id="BaPEImAl" text="效忠天皇"/>
+    <string id="BaPLImAl" text="允许招募官军士兵"/>
     <string id="BaPTShAl" text="侍奉将军"/>
     <string id="BaPDShAl" text="重申对德川幕府的忠诚。军队和行政人员为既定的幕府服务，维护秩序和传统。"/>
     <string id="BaPEShAl" text="为幕府将军服务"/>
@@ -460,14 +460,14 @@
     <string id="FKP2xyMw" text="东山"/>
     <string id="Xg8SifD3" text="北陆"/>
     <string id="Ar3WNzr5" text="虾夷"/>
-    <string id="vB9pXLex" text="皇帝的法庭"/>
+    <string id="vB9pXLex" text="朝廷"/>
     <string id="Oh0CFqmN" text="老北区"/>
     <string id="mM79y0Qn" text="权力掮客"/>
     <string id="wW2JWSdn" text="改革的熔炉"/>
     <string id="o4N0AKUh" text="反抗的温床"/>
     <string id="BmwNr0qQ" text="幕府将军的座位"/>
     <string id="1m6uURng" text="伟大之路"/>
-    <string id="IKWrry8v" text="幕府的脊柱"/>
+    <string id="IKWrry8v" text="幕府中坚"/>
     <string id="4YaXI0sl" text="忠诚海岸"/>
     <string id="4aYXI0sl" text="遥远的殖民地"/>
     <string id="F8ARrN5C" text="地区描述"/>
@@ -651,10 +651,10 @@
     <string id="pqJd9JUm" text="我谦虚地接受这个委托。我将确保以应有的谨慎态度进行这项工作。"/>
     <string id="xVLc7xwo" text="我要告辞了。"/>
     <string id="ZKHy2fwB" text="你的氏族现在正与 {QUEST_GIVER.LINK} 的藩交战。您与 {QUEST_GIVER.LINK} 的协议已取消。"/>
-    <string id="4ULpJzxb" text="你的行为已经引发了与 {QUEST_GIVER.LINK} 派系的战争。 {?QUEST_GIVER.GENDER}她{?}他{\?}取消你的协议，任务失败。"/>
+    <string id="4ULpJzxb" text="你的行为已经引发了与 {QUEST_GIVER.LINK} 派系的战争。 {?QUEST_GIVER.GENDER}她{?}他{\\?}取消你的协议，任务失败。"/>
     <string id="JBODfHad" text="主需要现代枪械"/>
     <string id="8I7rnZgU" text="{QUEST_GIVER.LINK} 要求您为他们的军事行动提供枪支。"/>
-    <string id="eFZZnz5R" text="{QUEST_GIVER.LINK}，{QUEST_GIVER_FACTION} 的一名随从告诉您，他们需要滑膛蓋貝爾槍来应对即将到来的军事行动。 {?QUEST_GIVER.GENDER}她{?}他{\?} 希望你提供 {SMOOTHBORE_AMOUNT}蓋貝爾槍枪，尽管没有必要，但提供 {RIFLE_AMOUNT} 米涅步枪和 {CARTRIDGE_AMOUNT} 弹盒。 {?QUEST_GIVER.GENDER}她{?}他{\?} 将不胜感激。"/>
+    <string id="eFZZnz5R" text="{QUEST_GIVER.LINK}，{QUEST_GIVER_FACTION} 的一名随从告诉您，他们需要滑膛蓋貝爾槍来应对即将到来的军事行动。 {?QUEST_GIVER.GENDER}她{?}他{\\?} 希望你提供 {SMOOTHBORE_AMOUNT}蓋貝爾槍枪，尽管没有必要，但提供 {RIFLE_AMOUNT} 米涅步枪和 {CARTRIDGE_AMOUNT} 弹盒。 {?QUEST_GIVER.GENDER}她{?}他{\\?} 将不胜感激。"/>
     <string id="w5ewvISR" text="您已按照要求成功交付了武器。"/>
     <string id="u8acevoA" text="你们未能及时交付武器。"/>
     <string id="HGgXm9vO" text="您已离开 {QUEST_GIVER_FACTION}。您与 {QUEST_GIVER.LINK} 的协议终止。"/>
@@ -666,7 +666,7 @@
     <string id="hQjI73CI" text="我们正在准备一场重大交战，但我的武器库严重缺乏现代枪支。没有步枪和弹药，我的部队将毫无希望地处于劣势。我无法抽出自己的任何一个队长来完成这项任务，所以我需要其他人来确保足够的补给并立即将其交付给我。你能做到吗？"/>
     <string id="CAF3byiv" text="当然，我可以为你提供武器。你需要什么？"/>
     <string id="KrY6pO4T" text="我们需要 {SMOOTHBORE_AMOUNT}蓋貝爾槍步枪来满足我们的基本需求。如果你能找到 {RIFLE_AMOUNT} 米涅步枪 或 恩菲爾德步槍 和 {CARTRIDGE_AMOUNT} 弹药，那将是一个很大的帮助。更好的武器是一个很大的优势。"/>
-    <string id="J1fGA6AF" text="我会尽快交付{SMOOTHBORE_AMOUNT} 蓋貝爾槍步枪{?QUEST_GIVER.GENDER}女士{?}先生{\?}，并按照您的要求尽力找到一些米涅步枪和弹药筒。"/>
+    <string id="J1fGA6AF" text="我会尽快交付{SMOOTHBORE_AMOUNT} 蓋貝爾槍步枪{?QUEST_GIVER.GENDER}女士{?}先生{\\?}，并按照您的要求尽力找到一些米涅步枪和弹药筒。"/>
     <string id="G1KdJiXD" text="很好。不用担心，您的所有费用都会得到补偿。"/>
     <string id="8ixXU8Nr" text="你带我们的枪了吗？"/>
     <string id="0EszIjuf" text="是的，指挥官，我已经按照您的要求带来了您的蓋貝爾槍、米涅步枪和弹药筒。"/>
@@ -681,28 +681,28 @@
     <string id="CqaJXXVp" text="商人不能出售外国枪支"/>
     <string id="ia427Wig" text="{ISSUE_GIVER_SETTLEMENT} 的法律规定，只有日本制造的枪支才可以在镇上买卖。现在，商人希望将枪支走私到其他城镇出售。"/>
     <string id="7QnWKCcZ" text="铁匠们正严密地盯着商人。我敢打赌，{QUEST_GIVER.NAME} 此刻正在设法把手中的外国货物库存出手。"/>
-    <string id="zZlOr4dD" text="{ISSUE_GIVER.LINK} 来自 {ISSUE_GIVER_SETTLEMENT} 的商人向您抱怨无法在镇上销售外国制造的枪支。 {?ISSUE_GIVER.GENDER}她{?}他{\?} 将支付 {REWARD}{GOLD_ICON} 让你把枪带到另一个城镇。您已指派 {COMPANION.LINK} 和 {ALTERNATIVE_SOLUTION_TROOP_COUNT} 人员将 {?ISSUE_GIVER.GENDER}她的{?}他的{\?} 货物走私给 {TARGET_TOWN} 的“朋友”。他们将在 {RETURN_DAYS} 天后返回给您，并携带相当大的金额 {REWARD}{GOLD_ICON}。"/>
-    <string id="y6l0Z6qH" text="{QUEST_GIVER.LINK} 一位来自 {QUEST_GIVER_SETTLEMENT} 的商人向您抱怨，由于当地法律不公平，他们无法出售他们库存的外国枪支。 {?QUEST_GIVER.GENDER}她{?}他{\?} 将支付 {REWARD_AMOUNT}{GOLD_ICON} 让你把枪带到另一个城镇。您同意将 {?QUEST_GIVER.GENDER}她的{?}他的{\?} 枪带到 {TARGET_SETTLEMENT} 的 {TARGET_HERO.LINK}。"/>
+    <string id="zZlOr4dD" text="{ISSUE_GIVER.LINK} 来自 {ISSUE_GIVER_SETTLEMENT} 的商人向您抱怨无法在镇上销售外国制造的枪支。 {?ISSUE_GIVER.GENDER}她{?}他{\\?} 将支付 {REWARD}{GOLD_ICON} 让你把枪带到另一个城镇。您已指派 {COMPANION.LINK} 和 {ALTERNATIVE_SOLUTION_TROOP_COUNT} 人员将 {?ISSUE_GIVER.GENDER}她的{?}他的{\\?} 货物走私给 {TARGET_TOWN} 的“朋友”。他们将在 {RETURN_DAYS} 天后返回给您，并携带相当大的金额 {REWARD}{GOLD_ICON}。"/>
+    <string id="y6l0Z6qH" text="{QUEST_GIVER.LINK} 一位来自 {QUEST_GIVER_SETTLEMENT} 的商人向您抱怨，由于当地法律不公平，他们无法出售他们库存的外国枪支。 {?QUEST_GIVER.GENDER}她{?}他{\\?} 将支付 {REWARD_AMOUNT}{GOLD_ICON} 让你把枪带到另一个城镇。您同意将 {?QUEST_GIVER.GENDER}她的{?}他的{\\?} 枪带到 {TARGET_SETTLEMENT} 的 {TARGET_HERO.LINK}。"/>
     <string id="84ZkcDua" text="已交付{RIFLE}"/>
-    <string id="g7jLAowc" text="{QUEST_GIVER.LINK} 向 {?QUEST_GIVER.GENDER}她的{?}他的{\?} 致以问候，祝贺 {REWARD}{GOLD_ICON} {?QUEST_GIVER.GENDER}她{?}他{\?} 所承诺的工作做得很好。"/>
-    <string id="h3Peswv5" text="您未能按照 {QUEST_GIVER.LINK} 的要求及时将 {REQUESTED_AMOUNT} {.%}{?(REQUESTED_AMOUNT &gt; 1)}步枪{?}步枪{\?}{.%} 交付给 {TARGET_SETTLEMENT}。"/>
+    <string id="g7jLAowc" text="{QUEST_GIVER.LINK} 向 {?QUEST_GIVER.GENDER}她的{?}他的{\\?} 致以问候，祝贺 {REWARD}{GOLD_ICON} {?QUEST_GIVER.GENDER}她{?}他{\\?} 所承诺的工作做得很好。"/>
+    <string id="h3Peswv5" text="您未能按照 {QUEST_GIVER.LINK} 的要求及时将 {REQUESTED_AMOUNT} {.%}{?(REQUESTED_AMOUNT &gt; 1)}步枪{?}步枪{\\?}{.%} 交付给 {TARGET_SETTLEMENT}。"/>
     <string id="NqFagpyg" text="你拒绝交出物品。 {QUEST_GIVER.LINK}一定很愤怒。"/>
     <string id="K3X6XuPz" text="我在这些市场上的移动次数比大多数人都多，但我的钱包却很薄弱。有些交易受法律约束，另一些则受监管者约束。能够改变命运的货物有时必须悄悄地到达正确的人手中，否则就会积满灰尘。[if:convo_annoyed]"/>
     <string id="jxC6tvL0" text="我能提供什么帮助吗？"/>
     <string id="NJGmstlZ" text="我需要您将 {REQUESTED_AMOUNT} {.%}{?(REQUESTED_AMOUNT &gt; 1)}{PLURAL(RIFLES)}{?}{RIFLES}{\?}{.%} 交给我在 {TARGET_SETTLEMENT} 的联系人 {TARGET_HERO.LINK}。保持安静——我们正在开发的产品在市场上并不受欢迎。镇上的当局和商人可能会四处嗅探，但只要它完好无损地到达他手中，这才是最重要的。"/>
     <string id="RiI7PuFu" text="如果你不打算{TARGET_SETTLEMENT}，也许你可以让你的一些人拿走我的货物并带回利润？这只需要 {ALTERNATIVE_SOLUTION_MEN_AMOUNT} 人和一位你信任的、对贸易有相当了解的副官就可以了。他们可以去并在大约 {RETURN_DAYS} 天后回来。[if:convo_annoyed]"/>
-    <string id="rpAeFiru" text="你可以改变这条法律，我的{?PLAYER.GENDER}女士{?}领主{\?}。我们所有人都会感激不尽。我们愿意捐赠 {REWARD}{GOLD_ICON} 以表示感谢......"/>
+    <string id="rpAeFiru" text="你可以改变这条法律，我的{?PLAYER.GENDER}女士{?}领主{\\?}。我们所有人都会感激不尽。我们愿意捐赠 {REWARD}{GOLD_ICON} 以表示感谢......"/>
     <string id="vRVYf3fc" text="我将颁布法令取消枪支销售限制。"/>
     <string id="pnnMDlGh" text="您需要成为该定居点的所有者！"/>
     <string id="Gg2Q9lOH" text="按照商人的要求，您发布了一项法令，取消了对枪支销售的限制。"/>
-    <string id="apQbh0Sp" text="我的{?PLAYER.GENDER}女士{?}领主{\?}，那就太好了。工匠们不会喜欢它，但像我这样勤劳的商人会感激你的。"/>
+    <string id="apQbh0Sp" text="我的{?PLAYER.GENDER}女士{?}领主{\\?}，那就太好了。工匠们不会喜欢它，但像我这样勤劳的商人会感激你的。"/>
     <string id="wbfpKxTZ" text="（当你准备离开时，镇上的一位工匠过来说话。）"/>
-    <string id="mi2RZIty" text="我的{?PLAYER.GENDER}女士{?}领主{\?}，我们听说您希望颁布一项允许出售外国武器的法令。这将毁掉我们几代人辛苦劳作的铁匠们的生意。请重新考虑这一点。"/>
+    <string id="mi2RZIty" text="我的{?PLAYER.GENDER}女士{?}领主{\\?}，我们听说您希望颁布一项允许出售外国武器的法令。这将毁掉我们几代人辛苦劳作的铁匠们的生意。请重新考虑这一点。"/>
     <string id="OJ99XYAc" text="我明白。那我就暂缓执行法令吧。"/>
     <string id="hc7G86ft" text="这是正确的决定。感谢您聆听理性的声音。"/>
     <string id="mi1zGfb3" text="听了镇上工匠的意见后，您决定保留对枪支销售的限制。你的决定让工匠们高兴，但让 {QUEST_GIVER.LINK} 失望。"/>
     <string id="EItqPPaR" text="抱歉，我必须这么做。"/>
-    <string id="bys96mgQ" text="这是你的权利，我的 {?PLAYER.GENDER}女士{?}领主{\?}。但是，如果您下次需要时无法获得这里工匠的支持，那么，请不要说没有人说什么。"/>
+    <string id="bys96mgQ" text="这是你的权利，我的 {?PLAYER.GENDER}女士{?}领主{\\?}。但是，如果您下次需要时无法获得这里工匠的支持，那么，请不要说没有人说什么。"/>
     <string id="NizER6fW" text="我可以亲自将您的“货物”带到{TARGET_SETTLEMENT}的{TARGET_HERO.LINK}。"/>
     <string id="8U7Cqtte" text="出色的。我会马上把货送到您手中.[if:convo_nonchalant]"/>
     <string id="03E9TCrn" text="我相信货物已经交付给您了。"/>
@@ -717,17 +717,17 @@
     <string id="ihsNfbUv" text="这是正确的决定。你看起来是一个负责任的类型.[if:convo_nonchalant]"/>
     <string id="ZBqrd46y" text="这只是打着法律幌子的抢劫行为。我不会给你任何东西。"/>
     <string id="dD1PdT8o" text="恕我直言，你犯了一个大错误，我想你会后悔的。[if:convo_furious]"/>
-    <string id="XQvqkFkO" text="我的{?PLAYER.GENDER}女士{?}领主{\?}，我们听说您从{QUEST_GIVER.NAME}.[ib:demure]购买了外国枪支，这当然不是真的。我们的法律规定，这里只能买卖日本制造的枪支。"/>
-    <string id="JqjY2Kz1" text="也许，我的{?PLAYER.GENDER}女士{?}领主{\?}，这是一个错误？如果你放弃货物，就可以避免出现可能看起来有点不体面的情况。"/>
+    <string id="XQvqkFkO" text="我的{?PLAYER.GENDER}女士{?}领主{\\?}，我们听说您从{QUEST_GIVER.NAME}.[ib:demure]购买了外国枪支，这当然不是真的。我们的法律规定，这里只能买卖日本制造的枪支。"/>
+    <string id="JqjY2Kz1" text="也许，我的{?PLAYER.GENDER}女士{?}领主{\\?}，这是一个错误？如果你放弃货物，就可以避免出现可能看起来有点不体面的情况。"/>
     <string id="6xFbPCqg" text="我想这个镇的法律也对我有约束力。你可以拿枪。"/>
-    <string id="wXCkhAih" text="这是一个公正的决定，我的 {?PLAYER.GENDER}女士{?}领主{\?}。"/>
+    <string id="wXCkhAih" text="这是一个公正的决定，我的 {?PLAYER.GENDER}女士{?}领主{\\?}。"/>
     <string id="8BYZOARX" text="我决定这里的法律如何适用，商人。"/>
-    <string id="36fxek2x" text="尊敬的，我的 {?PLAYER.GENDER}女士{?}领主{\?}，我必须对此表示抗议。但当然，你可以自由地做你想做的事。"/>
+    <string id="36fxek2x" text="尊敬的，我的 {?PLAYER.GENDER}女士{?}领主{\\?}，我必须对此表示抗议。但当然，你可以自由地做你想做的事。"/>
     <string id="X6XhPEx0" text="你可以让我的一名同伴和我的手下{REQUIRED_TROOP_AMOUNT}把你的“货物”带到{TARGET_TOWN}"/>
-    <string id="WO3YxOLJ" text="谢谢你，我的 {?PLAYER.GENDER}女士{?}领主{\?}。我相信你的人会解决这个问题的。"/>
+    <string id="WO3YxOLJ" text="谢谢你，我的 {?PLAYER.GENDER}女士{?}领主{\\?}。我相信你的人会解决这个问题的。"/>
     <string id="kbfCQVn1" text="我还在等待 {TARGET_SETTLEMENT} 的消息。再次感谢您饶恕了您的人。"/>
     <string id="WPOZWfEx" text="关于 {QUEST_GIVER.LINK} 给我的任务..."/>
-    <string id="jBuerjt5" text="是的... {QUEST_GIVER.LINK} 给我们发了消息。我们期待 {?QUEST_GIVER.GENDER}她{?}他{\?} 拥有的 {.%}{RIFLES}{.%} 。"/>
+    <string id="jBuerjt5" text="是的... {QUEST_GIVER.LINK} 给我们发了消息。我们期待 {?QUEST_GIVER.GENDER}她{?}他{\\?} 拥有的 {.%}{RIFLES}{.%} 。"/>
     <string id="KzO8KtgQ" text="你带了 {REQUESTED_AMOUNT} {.%}{?(REQUESTED_AMOUNT &gt; 1)}步枪{?}步枪{\?}{.%} 了吗？正如我所承诺的，我有一个 {REWARD}{GOLD_ICON} 的大钱包给你。"/>
     <string id="1X5EGsW5" text="是的。我这里有货。按照我们约定，我带了{REQUESTED_AMOUNT} {.%}{?(REQUESTED_AMOUNT &gt; 1)}步枪{?}步枪{\?}{.%}。"/>
     <string id="LiSVfbAw" text="非常好！这是你的钱。谢谢.[if:convo_grateful]"/>
@@ -813,7 +813,7 @@
     <string id="qdRwGOmg" text="不，我不想让你流血。"/>
     <string id="59ooBNpU" text="明智的决定.[if:convo_undecided_closed][ib:normal]"/>
     <string id="uqe1N18S" text="嗯，确实是我被误导了。你可以继续你的路了..."/>
-    <string id="xXSjHp5p" text="你做得很好，{?PLAYER.GENDER}夫人{?}先生{\?}。我们伟大的事业会铭记您的恩情"/>
+    <string id="xXSjHp5p" text="你做得很好，{?PLAYER.GENDER}夫人{?}先生{\\?}。我们伟大的事业会铭记您的恩情"/>
     <string id="pKjYnoKr" text="让我试着和你谈谈一些道理......"/>
     <string id="rSLgT9yU" text="如果你发动叛乱，你只会让这里的很多武士被杀……"/>
     <string id="kdDoqJxM" text="贵族们并不想捍卫邪恶的事业，但他们不能冒藩被敌人毁灭的风险"/>
@@ -1272,7 +1272,7 @@
     <string id="hN7GTqtN" text="安野津"/>
     <string id="iYjZ69ZO" text="上野城"/>
     <string id="WhNyyoAt" text="明显地"/>
-    <string id="t93lkmYo" text="隔断"/>
+    <string id="t93lkmYo" text="柘植"/>
     <string id="5Dg2vkaC" text="日野城"/>
     <string id="DT6ynFvP" text="水口"/>
     <string id="vecUUwJp" text="音羽"/>
@@ -1285,7 +1285,7 @@
     <string id="1VIjjKWB" text="升龙寺城"/>
     <string id="JrStOL0U" text="大山崎"/>
     <string id="02pX6hRh" text="宇治"/>
-    <string id="RmvKSL4R" text="基-龟山城"/>
+    <string id="RmvKSL4R" text="纪伊龟山城"/>
     <string id="HbMqTOlK" text="蘑菇"/>
     <string id="bbUOxTCp" text="小山"/>
     <string id="7o1ufRGz" text="小山是九州南部的战略要塞，坐落在肥后省崎岖的地形上，山口将内陆地区与西海岸连接起来。"/>
@@ -1533,7 +1533,7 @@
     <string id="REnRF8j7" text="曾经"/>
     <string id="g5nOB4NF" text="户内"/>
     <string id="JD0A5H5Z" text="田子"/>
-    <string id="d2r4B3vq" text="托萨米尼德"/>
+    <string id="d2r4B3vq" text="十三湊"/>
     <string id="oUeaHLhb" text="土佐港位于本州最北端，是北海道阿伊努人的重要贸易枢纽，尽管严冬和与世隔绝使其难以防御，容易遭受袭击。土佐港曾经是安藤氏族的繁荣港口和行政中心，随着安藤氏族被驱逐而衰落。"/>
     <string id="PUlURumW" text="米玛"/>
     <string id="fBj65a4D" text="矶松"/>
@@ -3547,7 +3547,7 @@
     <string id="65nRjENB" text="退货"/>
     <string id="YokAhV9G" text="横井氏"/>
     <string id="NakAhV9G" text="中根氏"/>
-    <string id="QWSAhV9G" text="福井家臣"/>
+    <string id="QWSAhV9G" text="福井藩士"/>
     <string id="lo1uTEQ8" text="堺市小小家"/>
     <string id="SNvfboK3" text="伴氏"/>
     <string id="LboIPHhY" text="堺市鹤家"/>
@@ -3581,7 +3581,7 @@
     <string id="9k6cL3KU" text="大久保氏忠则池"/>
     <string id="9k6cL3Na" text="中川氏"/>
     <string id="or53kdM3" text="松平氏幸家"/>
-    <string id="qVwe6PhM" text="幕府家臣"/>
+    <string id="qVwe6PhM" text="幕臣"/>
     <string id="cst28b0f" text="上杉氏"/>
     <string id="KLuc7HoH" text="牧野氏"/>
     <string id="ut0zK1q3" text="内藤氏信成家"/>
@@ -3649,7 +3649,7 @@
     <string id="lY9SDVTs" text="继方氏"/>
     <string id="RmkJpDHV" text="森甚五兵卫氏"/>
     <string id="PLqvpKje" text="生驹氏"/>
-    <string id="HTqZfe96" text="土佐金能藤"/>
+    <string id="HTqZfe96" text="土佐勤王党"/>
     <string id="cm25rmmT" text="井原谦"/>
     <string id="j0760mT5" text="长野氏"/>
     <string id="gq9NGwvB" text="欣赏它"/>
@@ -3660,7 +3660,7 @@
     <string id="99Mh6vBQ" text="水野氏"/>
     <string id="ikViyOmi" text="安藤氏"/>
     <string id="AFuBZx4V" text="松平氏久松家"/>
-    <string id="skZuhNKm" text="获得保留人"/>
+    <string id="skZuhNKm" text="桑名藩士"/>
     <string id="9jmhs2Af" text="德川氏尾张家"/>
     <string id="Oz4Epb0l" text="松平氏高须家"/>
     <string id="QGOk0nP3" text="成濑氏"/>
@@ -3685,7 +3685,7 @@
     <string id="BaDTSaig" text="西乡家族虽然不是大名，但在萨摩藩却很少有人能像西乡隆盛那样拥有如此大的影响力。西乡是一位出身卑微、风度翩翩的武士，是尊王攘夷侍卫运动的领军人物。他受到下层武士的爱戴和政治对手的恐惧，他在对岛津氏的个人忠诚和他对改革日本日益增长的愿景之间走钢丝。 1864 年，西乡流亡归来，帮助萨摩藩镇压长州叛乱，但他的心却是帝国事业。西乡家族在责任和命运之间左右为难，他们的崛起不是通过土地或军队，而是通过其不情愿的冠军的魅力和理想。"/>
     <string id="BosOkubo" text="大久保氏"/>
     <string id="BaDTOkub" text="大久保家族出身于鹿儿岛，出身普通武士，与其说是武士，不如说是官僚——但他们正是在政治中磨砺了自己的刀锋。务实且言辞尖锐的大久保俊道正迅速成为萨摩最令人畏惧的人物之一。作为西乡隆盛的坚定盟友，他认为只有激进的改革才能使日本免遭西方的征服。当其他人呼吁对外国列强发动战争时，大久保认为更大的敌人是日本自身的腐败和封建停滞。萨摩藩处于叛乱边缘，大久保氏建立网络、结成联盟，准备驾驭风暴。 1864 年，他们是指导摇摇欲坠的幕府未来的幕后之手。"/>
-    <string id="DRRT6YSR" text="萨摩门臣"/>
+    <string id="DRRT6YSR" text="萨摩藩士"/>
     <string id="qfHKfquH" text="细川氏"/>
     <string id="2nPDxvvU" text="松井氏"/>
     <string id="PcbbEMKz" text="细川氏牛土家"/>
@@ -3722,7 +3722,7 @@
     <string id="FQ1msRTa" text="龙造寺氏卓家"/>
     <string id="eym8aSZ5" text="村田氏"/>
     <string id="FQ1msSeT" text="青函岛"/>
-    <string id="LvmXDnyd" text="佐贺家臣"/>
+    <string id="LvmXDnyd" text="佐贺藩士"/>
     <string id="wApBgknq" text="加藤氏"/>
     <string id="fjHaaIVW" text="加藤氏新谷家"/>
     <string id="PpQpwq85" text="内藤氏"/>
@@ -3762,7 +3762,7 @@
     <string id="zZCKPklj" text="将军队是一支由精锐扈从组成的军团，他们在幕府末日奋起保卫幕府。他们接受过传统战争和现代战争的训练，在适应新时代的同时体现了旧武士的精神。他们在战斗中的决心是传奇的。"/>
     <string id="qX0hsHoS" text="新选组"/>
     <string id="jycPZTp7" text="新选组是为了保护幕府在京都的利益而组建的忠诚者团体。他们以严格的纪律和无与伦比的剑术而闻名，让叛军和浪人都感到恐惧。他们的忠诚是绝对的，他们的刀锋迅捷。"/>
-    <string id="kEoddDyL" text="会津甲铁会"/>
+    <string id="kEoddDyL" text="会津小铁会"/>
     <string id="bgA6na9m" text="会津虎彻是一位令人畏惧的街头老大，是京都会津氏族的非官方执法者。他的手下处理武士无法处理的肮脏工作，利用当地影响力和暴力来保护首都后巷的会津利益。"/>
     <string id="fXENjJJL" text="织田氏"/>
     <string id="eC2ASTQN" text="松平氏星名家"/>
@@ -3770,7 +3770,7 @@
     <string id="8FEa2FoG" text="山川氏"/>
     <string id="GXmPOdWx" text="内藤氏会科"/>
     <string id="H87qo4NM" text="田中氏"/>
-    <string id="Aizqo4NM" text="会津家臣"/>
+    <string id="Aizqo4NM" text="会津藩士"/>
     <string id="AomEuPxP" text="读一下"/>
     <string id="kXgAqsVE" text="丹羽氏"/>
     <string id="Txtm8EQj" text="池田氏"/>
@@ -4717,18 +4717,18 @@
     <string id="lOrWIIfh" text="盛冈"/>
     <string id="742AdeFJ" text="水户藩"/>
     <string id="WhlNAwBH" text="水户"/>
-    <string id="qFVVTsug" text="定在藩"/>
+    <string id="qFVVTsug" text="请西藩"/>
     <string id="3HM2LZLz" text="定在"/>
-    <string id="bWjqvgLb" text="名古藩"/>
+    <string id="bWjqvgLb" text="长冈藩"/>
     <string id="0QhvafT9" text="久保田藩"/>
     <string id="ijCa8pDo" text="久保田"/>
     <string id="97tn9Agd" text="福井藩"/>
     <string id="Hwgq2oHf" text="福井"/>
-    <string id="4c5OF6TQ" text="小浜藩"/>
+    <string id="4c5OF6TQ" text="小滨藩"/>
     <string id="QqEJybge" text="小浜"/>
     <string id="OHqGIRhL" text="德川幕府"/>
     <string id="nAUwT8JG" text="德川"/>
-    <string id="sWnHr5q5" text="奥越列番同名"/>
+    <string id="sWnHr5q5" text="奥羽越列藩同盟"/>
     <string id="r3wkuN0u" text="欧·雷潘·多梅"/>
     <string id="8kilNkSs" text="庄内藩"/>
     <string id="J3WAJxu3" text="姬路藩"/>
@@ -4753,7 +4753,7 @@
     <string id="LE5jbPP4" text="松江"/>
     <string id="HanChosh" text="长州藩"/>
     <string id="ShoChosh" text="长州"/>
-    <string id="1kGV1kZG" text="小洲藩"/>
+    <string id="1kGV1kZG" text="大洲藩"/>
     <string id="2TWnRnkw" text="大津"/>
     <string id="aUUSaL8k" text="宇和岛藩"/>
     <string id="44ThIRyK" text="宇和岛"/>
@@ -4821,41 +4821,41 @@
     <string id="KI7HzyzG" text="你叛逆的头领"/>
     <string id="sr41aBJq" text="ou 保守派领袖"/>
     <string id="hbnlojVk" text="ou 狡猾的头目"/>
-    <string id="SRtabgMr" text="盛冈商队主人"/>
-    <string id="SRtabgHr" text="弘前商队主人"/>
-    <string id="SRTAbgHr" text="秋田商队大师"/>
-    <string id="ShoAbgHr" text="庄内商队主人"/>
-    <string id="SenAbgHr" text="仙台商队大师"/>
-    <string id="YonAbgHr" text="米泽商队主人"/>
-    <string id="OzuAbgHr" text="小洲商队大师"/>
-    <string id="MatAbgHr" text="松山商队大师"/>
-    <string id="UwaAbgHr" text="宇和岛商队主人"/>
-    <string id="TokAbgHr" text="德岛商队主人"/>
-    <string id="HikAbgHr" text="彦根商队大师"/>
-    <string id="KuwAbgHr" text="桑名商队队长"/>
-    <string id="KisAbgHr" text="纪伊商队大师"/>
-    <string id="TsuAbgHr" text="津商队大师"/>
+    <string id="SRtabgMr" text="盛冈商队首领"/>
+    <string id="SRtabgHr" text="弘前商队首领"/>
+    <string id="SRTAbgHr" text="秋田商队首领"/>
+    <string id="ShoAbgHr" text="庄内商队首领"/>
+    <string id="SenAbgHr" text="仙台商队首领"/>
+    <string id="YonAbgHr" text="米泽商队首领"/>
+    <string id="OzuAbgHr" text="大洲商队首领"/>
+    <string id="MatAbgHr" text="松山商队首领"/>
+    <string id="UwaAbgHr" text="宇和岛商队首领"/>
+    <string id="TokAbgHr" text="德岛商队首领"/>
+    <string id="HikAbgHr" text="彦根商队首领"/>
+    <string id="KuwAbgHr" text="桑名商队首领"/>
+    <string id="KisAbgHr" text="纪伊商队首领"/>
+    <string id="TsuAbgHr" text="津商队首领"/>
     <string id="FuKAbgHr" text="福井房车大师"/>
-    <string id="NaGAbgHr" text="长冈商队主人"/>
-    <string id="KAGAbgHr" text="加贺商队大师"/>
-    <string id="ObaAbgHr" text="小浜商队队长"/>
+    <string id="NaGAbgHr" text="长冈商队首领"/>
+    <string id="KAGAbgHr" text="加贺商队首领"/>
+    <string id="ObaAbgHr" text="小滨商队首领"/>
     <string id="JozAbgHr" text="定在商队主人"/>
-    <string id="OwaAbgHr" text="尾张商队主人"/>
+    <string id="OwaAbgHr" text="尾张商队首领"/>
     <string id="XDVi8uoV" text="{FIRSTNAME} 耻辱者"/>
     <string id="pUmLunrp" text="{FIRSTNAME} 维信狮子"/>
     <string id="5uZVpNd0" text="{FIRSTNAME} 萨巴库狮子"/>
     <string id="JcWTJKMq" text="{FIRSTNAME} 学生"/>
     <string id="AOcIHCZj" text="{FIRSTNAME} 好奇者"/>
     <string id="BjA5mPEr" text="{FIRSTNAME} 信使"/>
-    <string id="KmuAbgHr" text="三月商队大师"/>
-    <string id="KaMAbgHr" text="熊本商队大师"/>
-    <string id="HioAbgHr" text="人吉商队主人"/>
-    <string id="KoKAbgHr" text="小仓商队大师"/>
-    <string id="SagAbgHr" text="佐贺商队大师"/>
+    <string id="KmuAbgHr" text="久留米商队首领"/>
+    <string id="KaMAbgHr" text="熊本商队首领"/>
+    <string id="HioAbgHr" text="人吉商队首领"/>
+    <string id="KoKAbgHr" text="小仓商队首领"/>
+    <string id="SagAbgHr" text="佐贺商队首领"/>
     <string id="TenAbgHr" text="天领商队主人"/>
-    <string id="HirAbgHr" text="广岛大篷车大师"/>
-    <string id="TotAbgHr" text="鸟取商队大师"/>
-    <string id="OkaYbgHr" text="冈山商队主人"/>
+    <string id="HirAbgHr" text="广岛商队首领"/>
+    <string id="TotAbgHr" text="鸟取商队首领"/>
+    <string id="OkaYbgHr" text="冈山商队首领"/>
     <string id="KytYbgHr" text="京都商队大师"/>
     <string id="EdoYbgHr" text="江户商队大师"/>
     <string id="H7eELtL6" text="借来的部队"/>
@@ -4868,19 +4868,19 @@
     <string id="BosBaNaG" text="幕府薙刀御家人"/>
     <string id="BosBaNaH" text="旗本幕府薙刀"/>
     <string id="BosBaYaG" text="幕府枪御家人"/>
-    <string id="BosBaSho" text="幕府書役"/>
+    <string id="BosBaSho" text="幕府书院番"/>
     <string id="BosBaYuA" text="幕府弓足轻"/>
-    <string id="BosBaDaG" text="幕府大筒护院"/>
-    <string id="BosBaKos" text="幕府小将组"/>
-    <string id="BosBaTeG" text="幕府铁炮护院"/>
+    <string id="BosBaDaG" text="幕府大弓御家人"/>
+    <string id="BosBaKos" text="幕府小姓组"/>
+    <string id="BosBaTeG" text="幕府铁炮御家人"/>
     <string id="BosBaTeH" text="旗本幕府鐵炮"/>
     <string id="BosBaKaA" text="幕府刀足轻"/>
     <string id="BosBaOdG" text="幕府大太刀护院"/>
     <string id="BosBaDos" text="幕府同心"/>
     <string id="BosBaMim" text="幕府见回组"/>
-    <string id="BosBaMiS" text="幕府草木隊"/>
+    <string id="BosBaMiS" text="幕府狙击队"/>
     <string id="BosBaBeG" text="別手組"/>
-    <string id="BosBayor" text="幕府與力"/>
+    <string id="BosBayor" text="幕府与力"/>
     <string id="BosBaKob" text="小普請組"/>
     <string id="BosBaHSa" text="步兵三兵队"/>
     <string id="BosBaKum" text="組頭"/>
@@ -4954,9 +4954,9 @@
     <string id="BosChIsi" text="维心坛"/>
     <string id="BosChKih" text="热或冷"/>
     <string id="BosChDen" text="长州传习队"/>
-    <string id="BosChGNo" text="长州野平队"/>
-    <string id="BosChFuh" text="长州风平队"/>
-    <string id="BosFuJut" text="福井銃隊"/>
+    <string id="BosChGNo" text="长州农兵队"/>
+    <string id="BosChFuh" text="长州步兵队"/>
+    <string id="BosFuJut" text="福井铳队"/>
     <string id="BosFuHoh" text="福井步兵队"/>
     <string id="BosObShi" text="新住台"/>
     <string id="BosObJut" text="小浜铳队"/>
@@ -4970,8 +4970,8 @@
     <string id="BosObYuT" text="小浜弓队"/>
     <string id="BosObTeT" text="小浜铁炮队"/>
     <string id="BosObOru" text="小浜大留守"/>
-    <string id="BosNaJut" text="长冈树太"/>
-    <string id="BosNaJus" text="长冈树脂队"/>
+    <string id="BosNaJut" text="长冈铳队"/>
+    <string id="BosNaJus" text="长冈铳士队"/>
     <string id="BosNaSei" text="正荣队"/>
     <string id="BosKaSei" text="清平队"/>
     <string id="BosKaJut" text="加贺铳队"/>
@@ -5007,7 +5007,7 @@
     <string id="BosHiKen" text="健力队"/>
     <string id="BosOkYuk" text="行隊"/>
     <string id="BosOkDen" text="电击队"/>
-    <string id="BosOkSei" text="冈山"/>
+    <string id="BosOkSei" text="冈山精锐队"/>
     <string id="BosJoYob" text="夜討隊"/>
     <string id="BosJoJob" text="定在预备队"/>
     <string id="BosJoYug" text="庄内游击队"/>
@@ -5343,9 +5343,9 @@
     <string id="QxIXbHai" text="我想和一个囚犯说话（作弊）。"/>
     <string id="EGI6ztlH" text="我想和一个囚犯说话。"/>
     <string id="D33fIGQe" text="没关系。"/>
-    <string id="2eydhtcz" text="目前，{PRISONER_NAMES} {?IS_PLURAL}are{?}is{\?} 被囚禁在这里。"/>
-    <string id="XN0XZAkI" text="我不能让你进来。我的 {?SETTLEMENT_OWNER.GENDER}Lady{?}Lord{\?} {SETTLEMENT_OWNER.NAME} 会生气的。"/>
-    <string id="XWpEpaQ4" text="当然，{?PLAYER.GENDER}女士{?}先生{\?}。进去吧。"/>
+    <string id="2eydhtcz" text="目前，{PRISONER_NAMES} {?IS_PLURAL}are{?}is{\\?} 被囚禁在这里。"/>
+    <string id="XN0XZAkI" text="我不能让你进来。我的 {?SETTLEMENT_OWNER.GENDER}Lady{?}Lord{\\?} {SETTLEMENT_OWNER.NAME} 会生气的。"/>
+    <string id="XWpEpaQ4" text="当然，{?PLAYER.GENDER}女士{?}先生{\\?}。进去吧。"/>
     <string id="k3b5KqSc" text="现在来吧。我还以为你是这里的老板呢"/>
     <string id="JaAltoKP" text="嗯...你在说什么？"/>
     <string id="dY3Vazug" text="我在几步外发现了一个带有 {AMOUNT}{GOLD_ICON} 的钱包。我认为它属于你。"/>
@@ -5353,12 +5353,12 @@
     <string id="b3KFoJJ8" text="那就好吧。我要去监狱看看。"/>
     <string id="L5vAhxhO" text="我还有更重要的事情要做。"/>
     <string id="qPRl07mD" text="那就好吧。我会尝试一下。"/>
-    <string id="fCrVeHP3" text="啊!我一整天都在找这个。你把它带回来真是太好了{?PLAYER.GENDER}女士{?}先生{\?}。好吧，现在我知道你是一个多么诚实的{?PLAYER.GENDER}女士{?}男子{\?}，让你进去看看也没什么坏处。进去……不过，让你知道——我会抓住钥匙，以防你想解开任何人的锁链。"/>
+    <string id="fCrVeHP3" text="啊!我一整天都在找这个。你把它带回来真是太好了{?PLAYER.GENDER}女士{?}先生{\\?}。好吧，现在我知道你是一个多么诚实的{?PLAYER.GENDER}女士{?}男子{\\?}，让你进去看看也没什么坏处。进去……不过，让你知道——我会抓住钥匙，以防你想解开任何人的锁链。"/>
     <string id="htfLEQlf" text="把牢房的钥匙给我——现在！"/>
     <string id="Kto7RWKE" text="帮助！帮助！越狱！"/>
     <string id="b2h3r1kL" text="我想去参观领主的大厅。"/>
     <string id="RJtCakaG" text="现在里面没有人接待你。"/>
-    <string id="bbroVUrD" text="当然，我的{?PLAYER.GENDER}女士{?}领主{\?}。"/>
+    <string id="bbroVUrD" text="当然，我的{?PLAYER.GENDER}女士{?}领主{\\?}。"/>
     <string id="rcoESVVz" text="抱歉，我们不认识你。我们不能随便让任何人进来。（知名度不够）"/>
     <string id="7wkHMnNM" text="也许 {AMOUNT}{GOLD_ICON} 会帮助你记住我。"/>
     <string id="xatWDriV" text="那就别介意了。"/>
@@ -5378,7 +5378,7 @@
     <string id="ChSThwR8" text="长州清仪派"/>
     <string id="HaSThwR8" text="清仪派"/>
     <string id="X5POXw6x" text="我想知道什么时候能找到你，{PLAYER.NAME}。长州在移动，但不知何故，当事情开始破裂时，你总是接近断层线。我想知道是方便……还是故意的。我是 {LORD.NAME}.[if:convo_grave][ib:aggressive]"/>
-    <string id="xufs0Oon" text="毫无疑问，你听说过 Zokuron-ha。这些人不再侍奉我们的主，而是解释他的意志，直到它不再像他自己的意志。这是比夜里的钢铁更安静的政变，但同样真实。{newline}{newline}长州不能被戴着官方印章的阴影所统治。所以我开始了一些人所说的起义，但实际上是为了拯救我们的领主。{newline}{newline}我不是来这里求你的，{PLAYER.NAME}。我来这里是因为 {?PLAYER.GENDER}women{?}men{\?} 像你一样不会永远安全地站在栅栏上。你要么在仍有值得为之行动的事情时行动……要么眼睁睁地看着它腐烂而无法挽救。[if:grave][ib:warrior]"/>
+    <string id="xufs0Oon" text="毫无疑问，你听说过 Zokuron-ha。这些人不再侍奉我们的主，而是解释他的意志，直到它不再像他自己的意志。这是比夜里的钢铁更安静的政变，但同样真实。{newline}{newline}长州不能被戴着官方印章的阴影所统治。所以我开始了一些人所说的起义，但实际上是为了拯救我们的领主。{newline}{newline}我不是来这里求你的，{PLAYER.NAME}。我来这里是因为 {?PLAYER.GENDER}women{?}men{\\?} 像你一样不会永远安全地站在栅栏上。你要么在仍有值得为之行动的事情时行动……要么眼睁睁地看着它腐烂而无法挽救。[if:grave][ib:warrior]"/>
     <string id="1macegPv" text="不能让Zokuron-ha继续愚弄领主。"/>
     <string id="NnwNv8Kl" text="我很抱歉，但我不能背叛我的誓言。"/>
     <string id="zG2Zxinf" text="好的。我没有误判你，{PLAYER.NAME}。长州需要毫不犹豫地行动的人。"/>
@@ -5548,7 +5548,7 @@
     <string id="fh3xP3e2" text="名声"/>
     <string id="HAaElX8X" text="{PARTY_OWNERS_FACTION}"/>
     <string id="3PzgpFGq" text="中性的"/>
-    <string id="Jyfkahka" text="{VALUE} ({?POSITIVE}+{?}{\?}{DELTA_VALUE})"/>
+    <string id="Jyfkahka" text="{VALUE} ({?POSITIVE}+{?}{\\?}{DELTA_VALUE})"/>
     <string id="iXXTONWb" text="({PARTY_SIZE})"/>
     <string id="Dqydb21E" text="{PARTY_SIZE}"/>
     <string id="aE4ZRbB6" text="{HEALTH}%"/>
