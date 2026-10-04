@@ -1,0 +1,25 @@
+﻿id,source,current_cn,cn_file,source_tokens,cn_tokens,source_files
+701yWNGe,Tokai{newline}{newline}Foreign Merchant: French,谱代,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+701yWTen,Tenryo{newline}{newline}Foreign Merchant: French,天领,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+Hikm7ttN,Hikone{newline}{newline}Foreign Merchant: French,彦根,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+J84QToW3, Social Castes,幕末开国以后，在日西方人并不属于日本原有的身分制度。随着通商口岸开放和条约体系建立，外国旅行者、商人与技术人员大量进入日本；其中一些成功的商人，尤其是军火商，与各藩和幕府建立了密切关系，取得了相当优越的社会地位，个别人甚至获赐日本名号或家纹。{newline}{newline}优点：无{newline}{newline}限制：不可作为玩家初始身分,bak_strings.xml,,{newline} | {newline} | {newline} | {newline},ModuleData/Languages/bak_strings.xml | ModuleData/concept_strings.xml
+JozAyodh,Jozai{newline}{newline}Foreign Merchant: German,请西,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+Kism7ttN,Kii{newline}{newline}Foreign Merchant: German,纪伊,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+MFkIDiZT,Morioka{newline}{newline}Foreign Merchant: German,盛冈,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+MFkIDiZt,Hirosaki{newline}{newline}Foreign Merchant: Dutch,弘前,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+MfAIDiZt,Akita{newline}{newline}Foreign Merchant: British,秋田,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+NFOJEHir,Hiroshima{newline}{newline}Foreign Merchant: British,广岛,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+NFOJETot,Tottori{newline}{newline}Foreign Merchant: Dutch,鸟取,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+NFOJEwiL,TODO{newline}{newline}Foreign Merchant: British,长州,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+Na81xuXn,{KEY} Reload,{KEY} 重新加载 {AMMO},bak_strings.xml,{KEY},{KEY} | {AMMO},ModuleData/Languages/bak_strings.xml
+OwaAyodh,Owari{newline}{newline}Foreign Merchant: French,尾张,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+SenIDiZt,Sendai{newline}{newline}Foreign Merchant: German,仙台,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+ShkIDiZt,Shonai{newline}{newline}Foreign Merchant: German,庄内,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+Tsum7ttN,Tsu{newline}{newline}Foreign Merchant: French,津,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+YFkIDiZT,Yonezawa{newline}{newline}Foreign Merchant: Dutch,米泽,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+Z1qR2REA,Tosan{newline}{newline}Foreign Merchant: Dutch,外样,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+bNYm3K6b,{KEY} Pick Up,{KEY} 接听 {AMMO},bak_strings.xml,{KEY},{KEY} | {AMMO},ModuleData/Languages/bak_strings.xml
+bk0ZMumA,{COMPLETED_MOKUROKU_RESPONSE},很好。拿着这个目録。你的名字以及你所获得的教诲都写在上面。请保管好它，并记住所写的内容将您与这所流派联系在一起。,bak_strings.xml,{COMPLETED_MOKUROKU_RESPONSE},,ModuleData/Languages/bak_strings.xml
+wIaHKFuk,Fukui{newline}{newline}Foreign Merchant: British,福井,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+wIaHKKag,Kaga{newline}{newline}Foreign Merchant: Dutch,加贺,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml
+wIaHKNag,Nagaoka{newline}{newline}Foreign Merchant: American,长冈,bak_strings.xml,{newline} | {newline},,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml

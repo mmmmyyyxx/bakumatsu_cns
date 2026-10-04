@@ -18,7 +18,7 @@
     <string id="MLHICaGa" text="一种能够持续快速射击的手摇电池枪。适用于野战和堡垒防御中的船员服务。"/>
     <string id="o3KzSAYk" text="种姓："/>
     <string id="g0DodcKB" text="公家（朝廷贵族）"/>
-    <string id="iDHwU4Af" text="大名（封建领主）"/>
+    <string id="iDHwU4Af" text="大名（大名）"/>
     <string id="TzEzDGuV" text="武士"/>
     <string id="3VfyBmWe" text="百姓（农民）"/>
     <string id="91xgVL5T" text="町人（城镇居民）"/>
@@ -62,7 +62,7 @@
     <string id="L9M0N1O2" text="田宫流专注于长柄长武士刀，训练练习者精确打击和延伸范围。该流派的方法在幕末时代后期的武士的决斗和防御战斗中受到重视。"/>
     <string id="P3Q4R5S6" text="森内流"/>
     <string id="T7U8V9W0" text="森内流是一所骑马武术流派，强调枪术和剑术。练习者培养骑兵作战所需的协调性、平衡性和战术意识。幕末时期，森内流训练藩骑兵和家臣的实战技能。"/>
-    <string id="X1Y2Z3A4" text="尾张勘流"/>
+    <string id="X1Y2Z3A4" text="尾张贯流"/>
     <string id="B5C6D7E8" text="尾张贯流 专注于滑动 管枪，提供创新的矛技术。练习者训练精确度、时机和步法。该流派独特的武器和方法受到尾张武士的重视，用于仪式和战场目的。"/>
     <string id="F9G0H1I2" text="神心流"/>
     <string id="J3K4L5M6" text="神心流 是一所剑术流派，教授武士刀和胁差技术，强调时机和适应性。练习者擅长决斗和个人防御，在幕末末期的武士中保持着受人尊敬的地位。"/>
@@ -75,37 +75,37 @@
     <string id="L1M2N3O4" text="镜新明智流"/>
     <string id="P5Q6R7S8" text="镜心明智流"/>
     <string id="551Rfsop" text="改革"/>
-    <string id="REFS21al" text="日本的变化并不是一下子就发生的。从 1853 年开国到 1868 年戊辰战争以及随后的明治时期，日本社会经历了大规模但渐进的社会、军事和经济改革。因此，当改革机制启用时，并非所有部队从一开始就可用。相反，随着时间的推移或随着玩家藩国通过政策，更好的现代军队将逐渐解锁。"/>
+    <string id="REFS21al" text="日本的变革并非一蹴而就。自1853年开国、1868年戊辰战争，再到其后的明治时期，日本社会在社会、军事与经济领域经历了规模巨大但循序渐进的改革。因此，启用改革机制后，并非所有兵种从开局即可使用；随着年代推进，或玩家所属势力通过相应政策，更先进的近代化兵种将逐步解锁。"/>
     <string id="a3BLERbz" text="庆应改革（1865）"/>
-    <string id="uzonvUWW" text="1865 年初，幕府开始全力推动军队现代化。此前，他们曾创建过“三兵队”，但那是一场彻头彻尾的灾难。在金门事变和长州内战的推动下，幕府按照武士阶层划分编制的新改革，和之前一样以失败告终，却开启了日本大规模军事改革的时代——此前这种改革还局限于少数小藩。这些改革解锁了步兵队及其大多数同类部队，以及见回组、新选组等独特组织的部队。{newline}{newline}如果使用基于政策的改革，这些部队将通过“西式操典”政策解锁。"/>
+    <string id="uzonvUWW" text="1865年初，幕府开始有计划地推进军制近代化。此前设立的“三兵队”并未取得成功。禁门之变与长州内部的武装冲突进一步暴露了旧军制的问题；幕府随后尝试依武士身分等级重新编组部队，结果仍不理想，却由此开启了此后席卷日本的大规模军事改革。此前，这类改革主要只见于少数藩。此阶段将解锁步兵队及其多数同类兵种，也包括见回组、新选组等特殊组织的部队。{newline}{newline}若启用政策制改革，则这些兵种改由“西式操练”政策解锁。"/>
     <string id="hEIiqFOl" text="庆应改革（1866）"/>
-    <string id="sgDswQVO" text="1866 年，发生了一件难以想象的事情：幕府在与长州的战争中战败。第二次长州征讨原本是为了让日本重新认识幕府的实力，并一劳永逸地解决这个叛乱藩。然而，结果却是：15 万人的幕府大军被长州的 4000 名士兵及其现代步枪击溃，幕府损失数千人，而仅造成对方数百人伤亡。随着这次失败，以及德川庆喜继任将军，日本掀起了改革热潮。德川庆喜亲自着手改革幕府军，建立步兵队、游击队和传习队，同时许多其他藩也开始采用真正现代化的步兵。{newline}{newline}如果使用基于政策的改革，这些部队大多将通过“标准制服”政策解锁。"/>
-    <string id="LQZzQOJr" text="明治维新 (1867)"/>
-    <string id="tkAa93qw" text="孝明天皇曾极力反对整个外部世界，强烈主张尊王攘夷。然而，他的儿子并没有那么固执。1867 年初孝明天皇因天花去世后，这位十几岁的新天皇与顾问开始进行一系列改革，建立新的皇军近卫部队；与此同时，土佐的迅冲队等亲皇势力也开始整合为自己的现代军队。长州则开始将剩余的诸队民兵改编为正规的部队，为所有人都知道即将到来的动荡做准备。{newline}{newline}如果使用基于政策的改革，这些部队将通过“标准制服”或“军官学校”政策解锁。"/>
-    <string id="aEbjnf41" text="戊辰战争改革 (1868)"/>
-    <string id="uKN9qS6E" text="即使日本围绕这些地区进行改革，许多最北边的藩以及关西的一些藩仍然停滞不前。 1868 年初戊辰战争爆发时，这一政策的愚蠢性就显现出来了，这些藩的武士在装备现代步枪的农民手中遭受了灾难性的失败。这些藩，最著名的是帝国一方的久保田和幕府一方的仙台，开始迅速重组，试图避免入侵者的失败。{newline}{newline}如果使用基于政策的改革，这些部队将通过标准制服或西方演习政策来解锁。"/>
-    <string id="9v5f6eq6" text="四神队改革（1868）"/>
-    <string id="BWWqeWJi" text="虽然在时机和原因上与 {BOSHIN_REFORMS_LINK} 基本相同，会津藩却采取了相当独特的军制改革方式。会津仍然不愿让农民加入军队，于是实行“四神队”组织，按照年龄将藩士分为四支部队。白虎队年龄最小，由 16—17 岁的少年组成；其后依次为朱雀队（18—35 岁）、青龙队（36—49 岁）和玄武队（50 岁以上），此外藩内还出现了许多志愿部队。然而最终，这些部队仍不足以阻止入侵会津藩以及对其城堡的残酷围攻。{newline}{newline}如果使用基于政策的改革，这些部队将通过“西式操典”政策解锁。"/>
+    <string id="sgDswQVO" text="1866年，幕府遭遇了此前难以想象的失败：第二次长州征讨本意在于重申幕府权威并彻底压服长州，结果十五万幕府军却被约四千名装备近代步枪的长州军击溃，幕府损失数千人，而对方伤亡仅数百。战败之后，德川庆喜又继任将军，日本由此进入军制改革的高潮。庆喜着手整顿幕府军，编成步兵队、游击队与传习队；其他各藩也受到刺激，开始建立真正意义上的近代步兵。{newline}{newline}若启用政策制改革，则这些兵种主要由“统一军服”政策解锁。"/>
+    <string id="LQZzQOJr" text="明治改革（1867）"/>
+    <string id="tkAa93qw" text="孝明天皇强烈排斥外国势力，并支持尊王攘夷。然而，他的继承者并没有如此固执。1867年初孝明天皇因天花去世后，年少的新天皇及其近臣也开始推行改革，组建新的朝廷近卫部队；与此同时，土佐迅冲队等尊王派武装逐渐汇合为一支近代军队。长州也开始把残余的诸队民兵改编为正规部队，为所有人都已预感到的动乱做准备。{newline}{newline}若启用政策制改革，则这些兵种由“统一军服”或“军官学校”政策解锁。"/>
+    <string id="aEbjnf41" text="戊辰战争改革（1868）"/>
+    <string id="uKN9qS6E" text="当日本各地陆续改革时，北方许多藩以及关西少数藩仍停滞不前。1868年初戊辰战争爆发后，这种选择的代价迅速显现：旧式武士部队在装备近代步枪的农兵面前遭到惨败。以官军一方的久保田藩和幕府一方的仙台藩为代表，这些藩不得不仓促重组军队，以求抵御进入本藩领地的敌军。{newline}{newline}若启用政策制改革，则这些兵种由“统一军服”或“西式操练”政策解锁。"/>
+    <string id="9v5f6eq6" text="四神体制改革（1868）"/>
+    <string id="BWWqeWJi" text="会津藩的改革在时间和动因上与{BOSHIN_REFORMS_LINK}大体相同，但其军制重组采取了相当独特的方式。会津仍不愿让农民进入军队，于是按年龄把藩内武士编入“四神”诸队：最年轻的白虎队由16至17岁者组成，其后依次为朱雀队（18至35岁）、青龙队（36至49岁）与玄武队（50岁以上），此外还有遍布全藩的多支志愿部队。最终，这套编制仍不足以阻止敌军入侵，也未能避免若松城遭到惨烈围攻。{newline}{newline}若启用政策制改革，则这些兵种由“西式操练”政策解锁。"/>
     <string id="NeEiTkK6" text="纪州藩改革（1869）"/>
-    <string id="CR3jonLR" text="纪州藩由德川幕府“御三家”之一的纪州德川统治，其改革远远晚于日本大部分地区。纪州没有像日本其他地区那样从英国或法国汲取灵感，而是按照普鲁士模式建立了军队，实行义务兵制度，要求服几年现役，然后在预备役服役几年，最后在民兵中服役。然而，这些改革发生在戊辰战争之后，最终随着藩兵制度的解散和大名私人军队并入新的帝国军队而化为泡影。{newline}{newline}如果使用基于政策的改革，这些军队将通过实施征兵政策来解锁。"/>
-    <string id="ON8mqnxs" text="明治维新改革（1870年）"/>
-    <string id="4iDrvn26" text="这是一项小型的最终改革，代表了明治时代组建的单位，例如 拔刀隊 或海军陆战队，已添加到 mod 中。虽然这些单位的创建时间在某种程度上超出了模组的范围，并且发生在这些改革实际发生之后，但它们被添加到游戏中以填补其特定的空白。{newline}{newline}如果使用基于政策的改革，这些部队将通过实施征兵政策来解锁。"/>
-    <string id="lXePKasd" text="社会阶层"/>
-    <string id="9NAB4L1k" text="种姓机制是幕末添加的可选机制，以反映日本江户时代的身份制度。这种身份制度是德川幕府成立时实行的，反映了德川家族深深的偏执和对被取代的恐惧。因此，它通常是一种限制，而不是一种好处，如果您想享受简单、轻松的游戏体验，则不推荐这样做。"/>
+    <string id="CR3jonLR" text="纪州藩由德川御三家之一的纪州德川家统治，其军制改革比日本多数地区都来得更晚。与多以英国或法国为范本的诸藩不同，纪州选择仿效普鲁士军制，实行征兵制度：服若干年现役，随后转入预备役，最后编入民兵。然而，这些改革发生在戊辰战争之后；随着幕藩体制解体，大名私军最终并入新的官军体系，纪州的改革也未能继续发展。{newline}{newline}若启用政策制改革，则这些兵种由“实施征兵制”政策解锁。"/>
+    <string id="ON8mqnxs" text="明治维新改革（1870）"/>
+    <string id="4iDrvn26" text="这是最后一轮规模较小的改革，用来表现本模组加入的明治时期部队，例如拔刀队与海军陆战队。严格来说，这些部队的出现时间已经略超出模组主要年代范围，而且部分单位实际形成得更晚；之所以仍加入游戏，是为了补足相应的战术定位。{newline}{newline}若启用政策制改革，则这些兵种由“实施征兵制”政策解锁。"/>
+    <string id="lXePKasd" text="社会身分"/>
+    <string id="9NAB4L1k" text="身分机制是《Bakumatsu》加入的可选规则，用于表现江户时代的身分秩序。游戏将这种秩序理解为德川幕府建立统治后，为维持既有政治结构而形成的一系列限制。因此，它带来的约束通常多于收益；如果只想进行较轻松、直接的游戏流程，可以关闭这一机制。"/>
     <string id="IG1fHpiV" text="公家"/>
     <string id="7cuzdfbI" text="大名"/>
     <string id="01dc0ds8" text="武家"/>
     <string id="DoSReZx1" text="百姓"/>
     <string id="qun3E3A7" text="町人"/>
-    <string id="4zs9V9yN" text="非人"/>
+    <string id="4zs9V9yN" text="秽多·非人"/>
     <string id="osiwP5oL" text="外国人"/>
-    <string id="J84QToW3" text="幕末时期用于指称西方外国人的称呼，但并不属于阶级制度。然而，日本开放后，许多限制被强行取消，西方游客和商人涌入日本。其中许多最成功的人，主要是军火商，获得了与武士相当的地位，甚至被赋予了自己的日本名字和徽章。{newline}{newline}优点：无{newline}{newline}限制：无法玩"/>
+    <string id="J84QToW3" text="幕末开国以后，在日西方人并不属于日本原有的身分制度。随着通商口岸开放和条约体系建立，外国旅行者、商人与技术人员大量进入日本；其中一些成功的商人，尤其是军火商，与各藩和幕府建立了密切关系，取得了相当优越的社会地位，个别人甚至获赐日本名号或家纹。{newline}{newline}优点：无{newline}{newline}限制：不可作为玩家初始身分"/>
     <string id="pX2AJ9oC" text="外国商人"/>
-    <string id="U37Ef6rB" text="对于外界的商人来说，新开放的日本就是一座金矿。黄金和白银的价格比世界其他地方便宜，而且外部产品有巨大的市场：最引人注目的是枪支。众多军火商涌入群岛，出售枪支、制服、{FIELD_ARTILLERY_LINK} 和专业知识，以换取金钱和特权。在任何城镇的要塞中行走时都会发现外国商人向玩家出售现代枪支、火炮和制服。每个商人提供的这些商品因种族而异。虽然所有商家都提供制服和古董燧发枪，但英国商人提供多种用途的恩菲尔德和斯奈德-恩菲尔德步枪以及最好的火炮，法国商人提供高质量的步枪和廉价轻型火炮，德国商人出售更便宜的步枪，美国商人出售所有重复的东西：左轮手枪、连发步枪和加特林机枪。"/>
+    <string id="U37Ef6rB" text="对海外商人而言，开国后的日本意味着巨大的新市场。金银比价与海外不同，而日本又急需大量舶来品，其中最重要的便是近代枪械。各国军火商纷纷来到日本，以枪支、军服、{FIELD_ARTILLERY_LINK}和军事技术换取金钱与特权。玩家可以在各城镇主堡中找到外国商人，购买近代枪械、火炮和军服；不同国籍商人的商品各有侧重。英国商人提供多种恩菲尔德与斯奈德—恩菲尔德步枪以及性能优良的火炮；法国商人出售优质步枪和较轻便廉价的火炮；德国商人以价格较低的步枪为主；美国商人则偏重转轮手枪、连发步枪和加特林机枪等连发武器。"/>
     <string id="1yyVKFnY" text="野战炮兵"/>
-    <string id="FnYVK1yy" text="19 世纪，火炮不再仅仅用于围攻堡垒。每一支现代军队都会配备一组火炮，而在幕末时代的日本，重型火炮的价值相当于黄金。野战火炮可以从 {FOREIGN_MERCHANTS_LINK} 购买，但非常昂贵且非常重，这意味着太多的火炮甚至会导致游戏结束时的玩家破产，并减慢队伍的进度。要在战斗中使用这些部件，您必须拥有炮兵部队，其部队上标有火炮图标。你的军队中每 10 人只能拥有 1 名炮兵，并且可以部署相当于你的炮兵一半的数量。当你开始攻城时，这些火炮也会在你的储备中开始，即使部署的版本被摧毁也不会丢失。{newline}{newline}在部署阶段按K键可以部署火炮"/>
+    <string id="FnYVK1yy" text="到了19世纪，火炮早已不只用于攻城。任何近代军队都会编制炮兵，而在幕末日本，重炮更是价值极高的军备。玩家可以从{FOREIGN_MERCHANTS_LINK}处购买野战炮，但其价格昂贵、重量也很大；携带过多火炮不仅会耗尽资金，还会严重拖慢队伍。战斗中使用火炮需要炮兵单位，其兵种图标带有火炮标记。军队中每10人最多配置1名炮兵，可部署的火炮数量最多为炮兵人数的一半。攻城开始时，火炮会从预备队中部署；即使战场上的炮位被摧毁，也不会永久损失对应装备。{newline}{newline}部署阶段按K键可布置火炮。"/>
     <string id="Zt4XMACT" text="特种弹药"/>
-    <string id="C66WEwA2" text="当使用 {FIELD_ARTILLERY_LINK} 时，每种类型的火炮都有一个默认的弹药类型和一些特殊的弹药类型。例如，拉希特山炮可以发射炮弹、圆弹或罐弹。为了让你或你的队伍成员能够在战斗中使用专用弹药，你方在战斗中的总指挥官必须拥有“石匠”或“攻城工程师”特权。{newline}{newline}你可以在战斗中重新装填火炮之前按 P 来切换弹药。"/>
+    <string id="C66WEwA2" text="使用{FIELD_ARTILLERY_LINK}时，每种火炮都有默认弹药，并可能使用若干特殊弹种。例如拉希特山炮可以发射榴弹、实心弹或霰弹。若要让玩家或队伍成员在战斗中使用特殊弹药，本方总指挥必须拥有“石匠”或“攻城工程师”相关技能。{newline}{newline}战斗中，在火炮重新装填前按P键可以切换弹种。"/>
     <string id="R3mMjibn" text="西部矛轴"/>
     <string id="VodYaQio" text="西部兰斯头"/>
     <string id="hV7Gcuw8" text="西部兰斯旗"/>
@@ -440,14 +440,14 @@
     <string id="BaTrtReB" text="甲州"/>
     <string id="BaTrtReC" text="改良"/>
     <string id="BaTrtReD" text="强兵"/>
-    <string id="BaTratCT" text="外国影响"/>
+    <string id="BaTratCT" text="西洋影响"/>
     <string id="BaTrtFIA" text="锁国"/>
     <string id="BaTrtFIB" text="攘夷"/>
     <string id="BaTrtFIC" text="富国"/>
     <string id="BaTrtFID" text="文明开化"/>
     <string id="NaMPa4ML" text="忠诚"/>
     <string id="hR6Zo6pD" text="改革派"/>
-    <string id="HMFb1gaq" text="外国影响"/>
+    <string id="HMFb1gaq" text="西洋影响"/>
     <string id="aWns3XLH" text="炮兵"/>
     <string id="Bu3WNzRR" text="地区"/>
     <string id="Bu3WNzr5" text="关西"/>
@@ -471,7 +471,7 @@
     <string id="4YaXI0sl" text="忠诚海岸"/>
     <string id="4aYXI0sl" text="遥远的殖民地"/>
     <string id="F8ARrN5C" text="地区描述"/>
-    <string id="8FARrN5C" text="关西是日本的最中心地区，也是幕末冲突最多的发源地。在这里，尊王攘夷的激进分子和幕府的忠诚者在京都的街道和天皇的宫廷中发生冲突。从这里诞生了现任幕府将军德川家茂，以及在整个幕府时期一直统治幕府直至 1860 年被暗杀的井伊直弼。关西地区曾经是幕府将军最强大的藩之一，但许多藩都被政治对手排挤，迫使他们加入帝国事业。"/>
+    <string id="8FARrN5C" text="关西是日本的最中心地区，也是幕末冲突最多的发源地。在这里，尊王攘夷的激进分子和幕府的忠诚者在京都的街道和天皇的宫廷中发生冲突。从这里诞生了现任幕府德川家茂，以及在整个幕府时期一直统治幕府直至 1860 年被暗杀的井伊直弼。关西地区曾经是幕府最强大的藩之一，但许多藩都被政治对手排挤，迫使他们加入帝国事业。"/>
     <string id="37mpLUZE" text="东北是本州最北端的地区，是戊辰战争中幕府最后坚持者的所在地。这里的藩是日本最古老、最根深蒂固的藩，仙台伊达氏、盛冈南部氏和弘前津轻氏等氏族已经在同一地区统治了几个世纪。东北地区由于地处偏僻，也相当保守。真正开始改革的藩很少，远远落后于西南地区快速现代化的藩。"/>
     <string id="Vybsd8CE" text="四国比日本其他地区保持更为谨慎的立场。该岛几乎没有大型藩，几乎完全由土佐的山内和德岛的蜂须贺以及宇和岛的伊达统治，后者是仙台较大主屋的表亲。即便如此，与日本其他地区的一些强大藩相比，这几个藩仍然很小。四国的武士纷纷涌入尊王攘夷，这让他们藩中更亲幕府的大名感到沮丧，而内部冲突已经开始使他们分裂。"/>
     <string id="nIcaL3N3" text="九州是幕末日本改革的核心。由于地处日本西南部，该岛与世隔绝，在德川幕府创建时基本上没有受到德川氏的影响，该岛基本上处于强大的外样大名的控制之下，如萨摩的岛津、佐贺的锅岛和熊本的细川。随着幕府将军的权威不断衰落，九州的大名们看到了机会，迅速用现代武器重新武装，希望成为这个新时代的主导力量。"/>
@@ -493,7 +493,7 @@
     <string id="LhrnDIgt" text="同文化安全效应"/>
     <string id="xIYdjP0P" text="有机会从城镇和村庄招募各种诸队部队"/>
     <string id="zye2jYMQ" text="户泽马"/>
-    <string id="u7PBQjoy" text="户座间"/>
+    <string id="u7PBQjoy" text="外样"/>
     <string id="Ol9J0wU3" text="户泽间氏是“外部”领主，尽管他们在确立幕府至高无上的决定性战役后臣服于德川，保持对大片半自治藩的控制，并掌握相当大的地方权力、财富和军事力量，但他们在幕府内部议会中的政治影响力仍然有限，迫使他们在国家重大事务上谨慎而独立地行事。他们的地位使他们能够保留强大的地方权威并维持规模庞大、忠诚的军队，使他们能够捍卫自己的利益并在机会出现时施加压力，但始终处于德川幕府的监督和排除在关键决策之外的阴影之下。"/>
     <string id="o7hk291y" text="谱代"/>
     <string id="VKXYcAgo" text="谱代"/>
@@ -533,7 +533,7 @@
     <string id="MigAi2T0" text="会津"/>
     <string id="LGjLJV7J" text="一位领主"/>
     <string id="k7visbOX" text="小津"/>
-    <string id="OJR7iyKD" text="小津"/>
+    <string id="OJR7iyKD" text="大洲"/>
     <string id="Ozu7C2Ky" text="大洲坐落在四国西海岸，岩石海岸和避风海湾塑造了这里的生活和防御。加藤氏族统治着一个以渔业、制盐和当地贸易为生的藩，城镇和武士都以渔业、盐业生产和当地贸易为生。它的城堡俯瞰着大海，提醒人们过去的冲突和该藩对航海知识的依赖。小津重视谨慎和秩序，将沿海商业与纪律严明的行政管理相结合，以维持一个小而组织严密的藩的稳定。"/>
     <string id="aVpIoaPz" text="太郎"/>
     <string id="tFdd1GPj" text="美津"/>
@@ -545,7 +545,7 @@
     <string id="Da97CUwa" text="宇和岛藩由伊达氏族的一个分支领导，远离家乡仙台。在幕末时代，他们的大名伊达宗成与山内丰重、岛津齐彰、松平义长并称为幕末四贤主之一。在幕末时期，他们保持中立，充当双方之间的中间人，这种立场最终使他们在明治时代的影响力下降。"/>
     <string id="TovisbnX" text="德岛"/>
     <string id="ToR7iyKD" text="德岛"/>
-    <string id="Da97CTok" text="德岛藩尽管与幕府关系密切，但在幕末时期保持中立。他们不支持幕府将军或天皇，而是提倡“古武合体”运动，该运动提出统一朝廷和幕府以对抗西方列强。即便如此，许多德岛武士仍然相当激进地支持帝国。"/>
+    <string id="Da97CTok" text="德岛藩尽管与幕府关系密切，但在幕末时期保持中立。他们不支持幕府或天皇，而是提倡“古武合体”运动，该运动提出统一朝廷和幕府以对抗西方列强。即便如此，许多德岛武士仍然相当激进地支持帝国。"/>
     <string id="4xetxME5" text="京都"/>
     <string id="c1iM3mw8" text="日本名义上的首都，京都是天皇的所在地。曾经是日本的权力中心，但在战国时代后期和整个江户时代，它的衰落使这座城市只剩下昔日的外壳。然而，幕末的动乱使这座城市重新回归现实，大名在政府大厅里发生冲突，武士和浪人在城市的街道上发生冲突。"/>
     <string id="xWdiU0s3" text="次郎"/>
@@ -574,11 +574,11 @@
     <string id="KAG7iyKD" text="加贺"/>
     <string id="vNsphKag" text="加贺藩横跨北陆，这里有肥沃的平原、繁华的城镇和注入日本海的波光粼粼的河流。前田氏世代统治，积累的财富规模甚至可以与幕府相媲美，就连他们的小家臣也和大名一样富有。然而，加贺也极不愿意改革，害怕成为幕府的目标。"/>
     <string id="ObaisbnX" text="小浜"/>
-    <string id="Oba7iyKD" text="小浜"/>
+    <string id="Oba7iyKD" text="小滨"/>
     <string id="vNsphOba" text="小滨藩紧邻若狭湾的北海岸，该镇的港口长期以来一直将山脉与大海连接起来。酒井氏族小心翼翼地统治着这里，平衡着商人、渔民和武士的需求。该藩以其熟练的船夫和监视河流交通和沿海通道的坚固城堡而闻名。"/>
     <string id="JoziabnX" text="定在"/>
-    <string id="K6sg7Joz" text="定在"/>
-    <string id="y6BfVJoz" text="城宰是一个相当新的小藩，对幕府高度忠诚。他们将在整个战争中战斗，只有在听说幕府将军将在战后保留封地时才投降。定西是戊辰战争期间仅有的两个被剥夺财产的藩之一。"/>
+    <string id="K6sg7Joz" text="请西"/>
+    <string id="y6BfVJoz" text="城宰是一个相当新的小藩，对幕府高度忠诚。他们将在整个战争中战斗，只有在听说幕府将在战后保留封地时才投降。定西是戊辰战争期间仅有的两个被剥夺财产的藩之一。"/>
     <string id="greVHxgb" text="源左卫门"/>
     <string id="ltuJdbxe" text="一个吻"/>
     <string id="OwaiabnX" text="尾张人"/>
@@ -613,9 +613,9 @@
     <string id="Totz6uxY" text="池田氏统治的鸟取藩长期以来与幕府关系密切。他们的大名获准使用松平姓氏和家纹，并有权佩刀进入江户城；而鸟取藩主还是后来成为末代将军的德川庆喜的同父异母兄弟。不过，藩内也有许多支持王政复古的一派，就在一年前，一名尊王派武士还在藩内刺杀了一名佐幕派官员。"/>
     <string id="9TCedFOk" text="冈山"/>
     <string id="OkaySgTz" text="冈山"/>
-    <string id="OOBz6uOk" text="冈山藩的池田是为数不多的在幕府统治下任职的外样大名之一，虽然相对尊王，但仍然支持幕府。戊辰战争期间，大名看到威胁，选择了更亲帝国的继任者并退休，以便让藩主在不违背自己信仰的情况下占据胜利的一方。虽然藩本身避免参战，但藩内组建的许多部队都会前往北方作战。"/>
+    <string id="OOBz6uOk" text="冈山藩的池田是为数不多的在幕府统治下任职的外样大名之一，虽然相对尊王，但仍然支持幕府。戊辰战争期间，大名看到威胁，选择了更尊王的继任者并退休，以便让藩主在不违背自己信仰的情况下占据胜利的一方。虽然藩本身避免参战，但藩内组建的许多部队都会前往北方作战。"/>
     <string id="KuruabnX" text="三月"/>
-    <string id="Kusg7Oum" text="行进"/>
+    <string id="Kusg7Oum" text="久留米"/>
     <string id="BTSZWKur" text="久留米藩是来自天保派的尊王攘夷派和幕府支持者之间的激烈战场。 1846 年有马赖永去世后，他们分裂为激进的尊王攘夷传统派系外道士和改革派、亲西方、亲幕府派系内道士。目前，内导师占据主导地位，但谁知道这种情况是否会改变。"/>
     <string id="Xufzvdj8" text="助三郎"/>
     <string id="SQPfPWOw" text="尤娜"/>
@@ -629,8 +629,8 @@
     <string id="FMsg7Ouk" text="福冈"/>
     <string id="BTSZFuku" text="福冈是非常著名的尊王攘夷，以至于幕府正在考虑以涉嫌叛乱为由逮捕他们的大名。然而，他们并不愿意真正将自己的军队投入到这项事业中，而是使用他们认为可以消耗的、从社会渣滓中拼凑出来的军队来对抗幕府。"/>
     <string id="KoKuabnX" text="小仓"/>
-    <string id="KMsg7Ook" text="关于"/>
-    <string id="BTSZWkKo" text="小仓是西南地区罕见的幕府忠诚者，尽管周围被更大、更亲帝国的藩包围，但他仍然支持幕府将军。尽管在与尊王攘夷军队的战斗中遭受损失，这种态度仍然存在，如果最终没有导致一座燃烧的城堡，这种态度几乎是令人钦佩的。"/>
+    <string id="KMsg7Ook" text="小仓"/>
+    <string id="BTSZWkKo" text="小仓是西南地区罕见的幕府忠诚者，尽管周围被更大、更尊王的藩包围，但他仍然支持幕府。尽管在与尊王攘夷军队的战斗中遭受损失，这种态度仍然存在，如果最终没有导致一座燃烧的城堡，这种态度几乎是令人钦佩的。"/>
     <string id="SaguabnX" text="传奇"/>
     <string id="SMsg7Oag" text="佐贺"/>
     <string id="BTSZWSaga" text="佐贺也许是日本最现代化的藩。锅岛家族投资了蒸汽机、炼钢、火炮和现代火器，同时还进行了疫苗接种计划和重大藩改革，甚至在 1853 年黑船抵达之前就实现了现代化。很少有藩比佐贺对西方更加友好。"/>
@@ -728,8 +728,8 @@
     <string id="kbfCQVn1" text="我还在等待 {TARGET_SETTLEMENT} 的消息。再次感谢您饶恕了您的人。"/>
     <string id="WPOZWfEx" text="关于 {QUEST_GIVER.LINK} 给我的任务..."/>
     <string id="jBuerjt5" text="是的... {QUEST_GIVER.LINK} 给我们发了消息。我们期待 {?QUEST_GIVER.GENDER}她{?}他{\\?} 拥有的 {.%}{RIFLES}{.%} 。"/>
-    <string id="KzO8KtgQ" text="你带了 {REQUESTED_AMOUNT} {.%}{?(REQUESTED_AMOUNT &gt; 1)}步枪{?}步枪{\?}{.%} 了吗？正如我所承诺的，我有一个 {REWARD}{GOLD_ICON} 的大钱包给你。"/>
-    <string id="1X5EGsW5" text="是的。我这里有货。按照我们约定，我带了{REQUESTED_AMOUNT} {.%}{?(REQUESTED_AMOUNT &gt; 1)}步枪{?}步枪{\?}{.%}。"/>
+    <string id="KzO8KtgQ" text="你带了 {REQUESTED_AMOUNT} {.%}{?(REQUESTED_AMOUNT &gt; 1)}步枪{?}步枪{\\?}{.%} 了吗？正如我所承诺的，我有一个 {REWARD}{GOLD_ICON} 的大钱包给你。"/>
+    <string id="1X5EGsW5" text="是的。我这里有货。按照我们约定，我带了{REQUESTED_AMOUNT} {.%}{?(REQUESTED_AMOUNT &gt; 1)}步枪{?}步枪{\\?}{.%}。"/>
     <string id="LiSVfbAw" text="非常好！这是你的钱。谢谢.[if:convo_grateful]"/>
     <string id="ZA6nv3x4" text="您已从 {QUEST_GIVER.NAME} 发货。"/>
     <string id="C2nMCGgX" text="大部分货物都在这里，但我在途中丢失了一些。我带着{AVAILABLE_AMOUNT}。"/>
@@ -752,11 +752,11 @@
     <string id="rmRGFaXP" text="你放心，我会亲自护送外国人的。"/>
     <string id="ADNlFhdf" text="我将指派一名同伴和 {NEEDED_MEN_COUNT} 名手下保护您的客人 {RETURN_DAYS} 天。"/>
     <string id="1vtMvEHX" text="我相信你们的手下和你们一样有能力，会照顾我的客人。再次感谢您的帮助，我的朋友。"/>
-    <string id="bkTnHGbI" text="谢谢您，{?PLAYER.GENDER}女士{?}先生{\?}，我想它们就足够了。"/>
-    <string id="E9rOQzPT" text="来自{SETTLEMENT}的商人{ISSUEGIVER.LINK}向您讲述了{?ISSUEGIVER.GENDER}她的{?}他的{\?}最近的尊攘激进派的问题。 {?ISSUEGIVER.GENDER}她{?}他{\?}要求你暂时看守{?ISSUEGIVER.GENDER}她的{?}他的{\?}外宾并处理任何袭击者。作为回报，{?ISSUEGIVER.GENDER}她{?}他{\?} 为您的部队每天护送任务提供 {GOLD}{GOLD_ICON}。{newline}您同意借出 {?ISSUEGIVER.GENDER}她的{?}他{\?} {NEEDED_MEN_COUNT} 人员。它们应该足以赶走大多数激进分子。你的部队应该在 {RETURN_DAYS} 天后返回。"/>
-    <string id="8Hulmn4B" text="你的同伴已经按照承诺保护了外国商人免受{SETTLEMENT}的侵害。 {?ISSUE_GIVER.GENDER}她{?}他{\?} 对您的工作感到满意。"/>
+    <string id="bkTnHGbI" text="谢谢您，{?PLAYER.GENDER}女士{?}先生{\\?}，我想它们就足够了。"/>
+    <string id="E9rOQzPT" text="来自{SETTLEMENT}的商人{ISSUEGIVER.LINK}向您讲述了{?ISSUEGIVER.GENDER}她的{?}他的{\\?}最近的尊攘激进派的问题。 {?ISSUEGIVER.GENDER}她{?}他{\\?}要求你暂时看守{?ISSUEGIVER.GENDER}她的{?}他的{\\?}外宾并处理任何袭击者。作为回报，{?ISSUEGIVER.GENDER}她{?}他{\\?} 为您的部队每天护送任务提供 {GOLD}{GOLD_ICON}。{newline}您同意借出 {?ISSUEGIVER.GENDER}她的{?}他{\\?} {NEEDED_MEN_COUNT} 人员。它们应该足以赶走大多数激进分子。你的部队应该在 {RETURN_DAYS} 天后返回。"/>
+    <string id="8Hulmn4B" text="你的同伴已经按照承诺保护了外国商人免受{SETTLEMENT}的侵害。 {?ISSUE_GIVER.GENDER}她{?}他{\\?} 对您的工作感到满意。"/>
     <string id="e1rRz5fw" text="外国商人需要护卫来抵御异端邪教激进分子。"/>
-    <string id="Lbhu9Pg9" text="来自{SETTLEMENT}的商人{ISSUE_GIVER.LINK}向您讲述了{?ISSUE_GIVER.GENDER}她的{?}他的{\?}最近的尊攘激进派的问题。 {?ISSUE_GIVER.GENDER}她{?}他{\?}要求你暂时看守{?ISSUE_GIVER.GENDER}她的{?}他的{\?}外宾并处理任何袭击者。作为回报，{?ISSUE_GIVER.GENDER}她{?}他{\?} 为您每天执行护送任务提供 {GOLD}{GOLD_ICON} 第纳尔。{newline}您已同意亲自看守他，直到他访问 {NUMBER_OF_SETTLEMENTS} 定居点。"/>
+    <string id="Lbhu9Pg9" text="来自{SETTLEMENT}的商人{ISSUE_GIVER.LINK}向您讲述了{?ISSUE_GIVER.GENDER}她的{?}他的{\\?}最近的尊攘激进派的问题。 {?ISSUE_GIVER.GENDER}她{?}他{\\?}要求你暂时看守{?ISSUE_GIVER.GENDER}她的{?}他的{\\?}外宾并处理任何袭击者。作为回报，{?ISSUE_GIVER.GENDER}她{?}他{\\?} 为您每天执行护送任务提供 {GOLD}{GOLD_ICON} 第纳尔。{newline}您已同意亲自看守他，直到他访问 {NUMBER_OF_SETTLEMENTS} 定居点。"/>
     <string id="JtNLRexB" text="商人被杀了。任务失败。"/>
     <string id="xPGULV91" text="你已经失去了商人的踪迹。您与 {ISSUE_GIVER.LINK} 的协议失败。"/>
     <string id="gdwEkklF" text="商人被尊攘激进派杀害。您与 {ISSUE_GIVER.LINK} 的协议失败。"/>
@@ -778,12 +778,12 @@
     <string id="FmCDGaIG" text="你所保护的商人遭到了狮狮激进分子的伏击！"/>
     <string id="IMmMRUaR" text="{MALE_LESSER_NOBLE_NAME}{.o} {ALIGNMENT} 反抗"/>
     <string id="O0aur7dN" text="{SETTLEMENT} 的领主 {ISSUE_GIVER.LINK} 说，一个名为 {MALE_LESSER_NOBLE_NAME} 的 {MALE_LESSER_NOBLE_TITLE} 正在乡村煽动骚乱。你让你的同伴来对付{MALE_LESSER_NOBLE_NAME}的乐队。他们应该在 {RETURN_DAYS} 天后重新加入您的队伍"/>
-    <string id="hQc8EEzS" text="{QUEST_GIVER.LINK} 说，一个名为 {MALE_LESSER_NOBLE_NAME} 的 {MALE_LESSER_NOBLE_TITLE} 正在乡村煽动骚乱。 {?QUEST_GIVER.GENDER}她{?}他{\?} 要求您在运动获得足够支持之前使用任何必要的手段驱散 {MALE_LESSER_NOBLE_NAME} 的乐队。"/>
+    <string id="hQc8EEzS" text="{QUEST_GIVER.LINK} 说，一个名为 {MALE_LESSER_NOBLE_NAME} 的 {MALE_LESSER_NOBLE_TITLE} 正在乡村煽动骚乱。 {?QUEST_GIVER.GENDER}她{?}他{\\?} 要求您在运动获得足够支持之前使用任何必要的手段驱散 {MALE_LESSER_NOBLE_NAME} 的乐队。"/>
     <string id="5ET5J1bf" text="{QUEST_GIVER}{.o} 线人报告说，{MALE_LESSER_NOBLE_NAME}{.o} 队伍在 {VILLAGE} 附近被发现。"/>
     <string id="pK1cyTKG" text="你被 {MALE_LESSER_NOBLE_NAME} 说服让他获得支持。 {QUEST_GIVER.LINK} 会对此感到非常不安。"/>
     <string id="AFm4CMvA" text="在 {MALE_LESSER_NOBLE_NAME} 在乡村煽动骚乱之前，你没能阻止他。 {QUEST_GIVER.LINK} 会对此感到非常不安。"/>
     <string id="f4f2bzaP" text="你输掉了与 {MALE_LESSER_NOBLE_NAME} 的战斗，也未能按照承诺帮助 {QUEST_GIVER.LINK}。"/>
-    <string id="IFH3fzAZ" text="{QUEST_GIVER.LINK} 已离开 {KINGDOM}。您与 {?QUEST_GIVER.GENDER}她的{?}他{\?} 的协议已取消。"/>
+    <string id="IFH3fzAZ" text="{QUEST_GIVER.LINK} 已离开 {KINGDOM}。您与 {?QUEST_GIVER.GENDER}她的{?}他{\\?} 的协议已取消。"/>
     <string id="9pJsnMgo" text="您已说服 {MALE_LESSER_NOBLE_NAME} 解散他的政党并返回家园。您收到 {REWARD}{GOLD_ICON} 作为您服务的回报。"/>
     <string id="xuBLopmE" text="你已经按照承诺击败了 {MALE_LESSER_NOBLE_NAME} 并帮助了 {QUEST_GIVER.LINK}。您收到 {REWARD}{GOLD_ICON} 作为您服务的回报。"/>
     <string id="YcpUKz3W" text="支持级别 {MALE_LESSER_NOBLE_NAME}"/>
@@ -803,7 +803,7 @@
     <string id="LAMDOGev" text="好的。我指望你.[if:convo_relaxed_happy]"/>
     <string id="z6WZwsTu" text="我们正在努力。"/>
     <string id="4KSZcsTW" text="很好。但他每天都在那里散布煽动叛乱，这让我们所有人的处境变得更加危险。[if:convo_undecided_closed]"/>
-    <string id="SHoWDmG2" text="您好，{?PLAYER.GENDER}夫人{?}先生{\?}。我可以帮你吗？"/>
+    <string id="SHoWDmG2" text="您好，{?PLAYER.GENDER}夫人{?}先生{\\?}。我可以帮你吗？"/>
     <string id="ZkMqeK65" text="还有什么要说的吗？"/>
     <string id="r588MwWh" text="煽动叛乱？你被误导了。我和我的手下都是 {RULER_NAME_AND_TITLE} 的忠实仆人。我们只是要告诉人们，我们的 {RULER_TITLE} 周围都是坏顾问，他们鼓吹叛国的 {ALIGNMENT} 事业。我们请求{RULER.NAME}听我们的意见并加入正义运动。[if:convo_normal][ib:hip]"/>
     <string id="qcOnI5AG" text="结果？你会仅仅因为{RULER.NAME}的忠诚仆人大声反对邪恶的事业而让他们流血吗？[if:convo_confused_normal][ib:closed]"/>
@@ -977,7 +977,7 @@
     <string id="yjHtAEEM" text="各务原"/>
     <string id="HTo81wy6" text="天筒城"/>
     <string id="BdXzJLer" text="敦贺"/>
-    <string id="ijmNcreb" text="小浜"/>
+    <string id="ijmNcreb" text="小滨"/>
     <string id="kePZsN6S" text="府中城"/>
     <string id="qEewJDux" text="河之浦"/>
     <string id="DUDOlYTC" text="府中"/>
@@ -1712,7 +1712,7 @@
     <string id="eqgaZO03" text="中根诸辰"/>
     <string id="NagaZO03" text="中根町"/>
     <string id="MNaaZO03" text="中根满"/>
-    <string id="FXVHs6Rl" text="横井湘南"/>
+    <string id="FXVHs6Rl" text="横井小楠"/>
     <string id="pTApzZjo" text="矢岛津子"/>
     <string id="ZctOTbV9" text="横井东京"/>
     <string id="zCTOTbV9" text="横井美弥"/>
@@ -1808,9 +1808,9 @@
     <string id="XLXbAShl" text="石川松"/>
     <string id="3qxBLbEW" text="石川光穗"/>
     <string id="lhX5bcSW" text="德川家茂"/>
-    <string id="0VxHt8iA" text="一之宫"/>
+    <string id="0VxHt8iA" text="和宫亲子内亲王"/>
     <string id="KPL2cW75" text="德川家定"/>
-    <string id="zHBbLO7U" text="天书院"/>
+    <string id="zHBbLO7U" text="天璋院"/>
     <string id="T7whzugC" text="德川家吉"/>
     <string id="TokHiYos" text="德川庆喜"/>
     <string id="TokHiMik" text="德川美佳子"/>
@@ -1938,7 +1938,7 @@
     <string id="MatItNah" text="松平尚春"/>
     <string id="MatItKum" text="松平熊"/>
     <string id="HiHaKaKi" text="胜海舟"/>
-    <string id="HiHaEnTa" text="榎本武明"/>
+    <string id="HiHaEnTa" text="榎本武扬"/>
     <string id="HiHaOgTa" text="小栗忠政"/>
     <string id="HiHaMiTa" text="水野忠则"/>
     <string id="HiHaOtKe" text="大鸟圭介"/>
@@ -2042,12 +2042,12 @@
     <string id="FCzQSXcq" text="奥平正景"/>
     <string id="PsuvJwcR" text="纳奥诺里斯"/>
     <string id="hznl27AL" text="井伊芳子"/>
-    <string id="eeY8Wqqk" text="井伊直介"/>
+    <string id="eeY8Wqqk" text="井伊直弼"/>
     <string id="xF9RihZf" text="前往里瓦"/>
     <string id="usy9v6yR" text="井伊直树"/>
-    <string id="pK7A2Rp7" text="森高亲"/>
+    <string id="pK7A2Rp7" text="毛利敬亲"/>
     <string id="fov5Mzy7" text="森富子"/>
-    <string id="x08M6xh2" text="森元德"/>
+    <string id="x08M6xh2" text="毛利元德"/>
     <string id="HzJdFNL7" text="森泰子"/>
     <string id="DjUMn7At" text="机动车辆"/>
     <string id="14vUfETg" text="森成弘"/>
@@ -2081,7 +2081,7 @@
     <string id="3t890NFw" text="宍户金子"/>
     <string id="IoiBIuNR" text="宍户典弘"/>
     <string id="fA2yEMQT" text="志士風格"/>
-    <string id="vsXnQaY3" text="宍户东横子"/>
+    <string id="vsXnQaY3" text="宍户丰子"/>
     <string id="3WRBgvB5" text="福原越后"/>
     <string id="Y4IdPEjO" text="福原英子"/>
     <string id="Num8z5UZ" text="福原义道"/>
@@ -2125,16 +2125,16 @@
     <string id="ljrQKaSh" text="木户正二郎"/>
     <string id="ChSeiSuM" text="毛正之介"/>
     <string id="ChSeiKuC" text="国西近介"/>
-    <string id="ChSeiTaS" text="高杉慎作"/>
-    <string id="ChSeiInK" text="井上薰"/>
+    <string id="ChSeiTaS" text="高杉晋作"/>
+    <string id="ChSeiInK" text="井上馨"/>
     <string id="ChSeiAkT" text="武人茜"/>
-    <string id="ChSeiYaA" text="山形有友"/>
+    <string id="ChSeiYaA" text="山县有朋"/>
     <string id="ChSeiKaM" text="河濑正孝"/>
     <string id="ChSeiItH" text="伊藤博文"/>
     <string id="ChSeiMiK" text="三堀浩介"/>
     <string id="ChSeiMaI" text="前原一诚"/>
     <string id="ChSeiYoK" text="兼一义富"/>
-    <string id="ChSeiOmM" text="大村增二郎"/>
+    <string id="ChSeiOmM" text="大村益次郎"/>
     <string id="ChSeiShC" text="清水近友"/>
     <string id="ChSeiShM" text="孺户真澄"/>
     <string id="ChSeiYaM" text="山田又介"/>
@@ -2154,7 +2154,7 @@
     <string id="ChTokSuM" text="杉孙七郎"/>
     <string id="ChTokUrM" text="浦本俊"/>
     <string id="ChTokNeK" text="根戈罗和佐"/>
-    <string id="ChShiSaS" text="三条实富"/>
+    <string id="ChShiSaS" text="三条实美"/>
     <string id="ChShiSNS" text="三条西末友"/>
     <string id="ChShiShT" text="四条高歌"/>
     <string id="ChShiHiM" text="东久濑道富"/>
@@ -2459,7 +2459,7 @@
     <string id="QbkbZH6B" text="西乡义国"/>
     <string id="vs49SDks" text="德川望继"/>
     <string id="BeVxuHbe" text="德川成之"/>
-    <string id="eHD3yI8F" text="近江丰子"/>
+    <string id="eHD3yI8F" text="近卫丰子"/>
     <string id="0TdWVoYC" text="德川纪子"/>
     <string id="9QUwXAo6" text="德川久子"/>
     <string id="kYtWhJo4" text="德川隆子"/>
@@ -2573,13 +2573,13 @@
     <string id="TDa0KpyV" text="松平氏吉"/>
     <string id="LmtF2OEL" text="松平光常"/>
     <string id="78tz8gaC" text="松平伊保子"/>
-    <string id="7s4dxFt3" text="久光"/>
+    <string id="7s4dxFt3" text="岛津久光"/>
     <string id="gv3wrMe3" text="岛津千代子"/>
     <string id="czGM0U4X" text="岛津大田"/>
     <string id="yquLAovd" text="岛津忠义"/>
     <string id="p9NeUjUw" text="岛津忠恒"/>
     <string id="8fj2kDNi" text="岛津忠成"/>
-    <string id="vI3iTRAa" text="岛津成平"/>
+    <string id="vI3iTRAa" text="岛津齐彬"/>
     <string id="X2sLljXc" text="岛津成树"/>
     <string id="hShr91A7" text="岛津八姬"/>
     <string id="PRLxNKTC" text="岛津高津"/>
@@ -2615,10 +2615,10 @@
     <string id="QeuaL3cf" text="黑田清隆"/>
     <string id="V6jIFhcG" text="松方正义"/>
     <string id="TLxsl5iX" text="五代友厚"/>
-    <string id="k3CpNDG5" text="小山岩男"/>
+    <string id="k3CpNDG5" text="大山岩"/>
     <string id="eCNnvQM4" text="村田新八"/>
     <string id="ODtiTkOv" text="别府信介"/>
-    <string id="CaWfkO0p" text="河村住吉"/>
+    <string id="CaWfkO0p" text="川村纯义"/>
     <string id="Ht8hAJcl" text="山本权兵卫"/>
     <string id="emI5NXQu" text="寺岛宗则"/>
     <string id="Ax7ZFxHb" text="楢原茂"/>
@@ -2646,7 +2646,7 @@
     <string id="NkRdYQ2Z" text="岛津长丸"/>
     <string id="BosSaKic" text="西乡吉兵卫"/>
     <string id="BosShMas" text="椎原正"/>
-    <string id="BosTakam" text="西乡隆森"/>
+    <string id="BosTakam" text="西乡隆盛"/>
     <string id="BosIchKo" text="琴一木"/>
     <string id="BosKichi" text="西乡吉二郎"/>
     <string id="BosSaiTa" text="西乡隆"/>
@@ -2661,7 +2661,7 @@
     <string id="BosIchKr" text="一木甘六"/>
     <string id="BosOkToh" text="大久保俊代"/>
     <string id="BosOkFuk" text="福美吉"/>
-    <string id="BosOkTos" text="大久保敏道"/>
+    <string id="BosOkTos" text="大久保利通"/>
     <string id="BosOkMas" text="大久保益子"/>
     <string id="BosOkTok" text="大久保敏和"/>
     <string id="BosOkNob" text="大久保信隈"/>
@@ -2752,7 +2752,7 @@
     <string id="lpweWPGd" text="桂町"/>
     <string id="LeuCYp9y" text="致鹤广"/>
     <string id="dmMvttf2" text="曹泰"/>
-    <string id="E46uMtvl" text="河合继之助"/>
+    <string id="E46uMtvl" text="河井继之助"/>
     <string id="ILKZCqYF" text="河井菅"/>
     <string id="2GaQofVb" text="河合明秋"/>
     <string id="uBCOrdQV" text="河合定"/>
@@ -2856,7 +2856,7 @@
     <string id="0WWMrnLV" text="江藤新平"/>
     <string id="Duy1yvLw" text="岛义武"/>
     <string id="VhUaonxW" text="朝仓直武"/>
-    <string id="LfZC8oxt" text="雷丁重信"/>
+    <string id="LfZC8oxt" text="大隈重信"/>
     <string id="YazRHukF" text="佐野恒民"/>
     <string id="PJm0OEPx" text="大木隆人"/>
     <string id="Xup6gETO" text="副岛种臣"/>
@@ -2866,8 +2866,8 @@
     <string id="W3XjwTmf" text="武田文之介"/>
     <string id="aACMcMnP" text="石井忠介"/>
     <string id="ROAQ3r08" text="近藤勇"/>
-    <string id="tDyOs33I" text="土方俊三"/>
-    <string id="4MEC7NCo" text="山波惠介"/>
+    <string id="tDyOs33I" text="土方岁三"/>
+    <string id="4MEC7NCo" text="山南敬助"/>
     <string id="FAMP0ZXN" text="冲田总司"/>
     <string id="AmaQ3r08" text="天野八郎"/>
     <string id="KasOs33I" text="春日明道"/>
@@ -2876,7 +2876,7 @@
     <string id="AizKouSe" text="小坂千吉"/>
     <string id="AizKoHaK" text="长谷川光太郎"/>
     <string id="AizKoKoH" text="小林孝吉"/>
-    <string id="Naka3r08" text="中野武子"/>
+    <string id="Naka3r08" text="中野竹子"/>
     <string id="NaKos33I" text="验血"/>
     <string id="YaYaeNCo" text="山本八重子"/>
     <string id="YuJi0ZXN" text="神保由希子"/>
@@ -2893,7 +2893,7 @@
     <string id="HiraTake" text="平冈武夫"/>
     <string id="IshiEiki" text="石田英吉"/>
     <string id="KawaGens" text="川上元斋"/>
-    <string id="KiriTosh" text="桐野俊明"/>
+    <string id="KiriTosh" text="桐野利秋"/>
     <string id="OkadaIzo" text="冈田以藏"/>
     <string id="bMfqWjqk" text="加藤康富"/>
     <string id="g5pzHuFm" text="沟口文"/>
@@ -2909,7 +2909,7 @@
     <string id="GCLn5ECy" text="内藤丰子"/>
     <string id="UgnuLgbA" text="内藤正孝"/>
     <string id="51dM4xsA" text="内藤正赖"/>
-    <string id="l9dNB33O" text="伊达宗成"/>
+    <string id="l9dNB33O" text="伊达宗城"/>
     <string id="vZK6RwNC" text="锅岛益子"/>
     <string id="aa7k9lsZ" text="伊达宗忠"/>
     <string id="FH6ohwg7" text="锅岛勘"/>
@@ -2932,7 +2932,7 @@
     <string id="OdLEdQd3" text="池田友仙院"/>
     <string id="JVEOWyAi" text="山内丰照"/>
     <string id="MgtskN05" text="山内丰笃"/>
-    <string id="ufdDL1IS" text="山内丰重"/>
+    <string id="ufdDL1IS" text="山内丰信"/>
     <string id="zcC4TL48" text="山内雅子"/>
     <string id="U9RsqAwX" text="山内氏里"/>
     <string id="RySY5fQu" text="山内由纪"/>
@@ -2999,7 +2999,7 @@
     <string id="mH1Ruh1j" text="稻田松"/>
     <string id="LACOAPLK" text="稻田上吉"/>
     <string id="MVfwFwvD" text="稻田花"/>
-    <string id="khx3Vgh8" text="松平片守"/>
+    <string id="khx3Vgh8" text="松平容保"/>
     <string id="mzCn8ZC7" text="松平敏"/>
     <string id="sdzqsV1G" text="松平片隆"/>
     <string id="liJQwhE3" text="松平照"/>
@@ -3013,7 +3013,7 @@
     <string id="7INle8U9" text="西乡近里"/>
     <string id="7INlEbU9" text="西乡直雪"/>
     <string id="7INlEbu9" text="西乡和人"/>
-    <string id="uSZ3ktlG" text="山川宏"/>
+    <string id="uSZ3ktlG" text="山川浩"/>
     <string id="eKVl7rFn" text="山川东濑"/>
     <string id="E8H6JIrN" text="山川重隆"/>
     <string id="4Wvo7FV1" text="山川唐木野"/>
@@ -3628,7 +3628,7 @@
     <string id="4YXW6utE" text="飞驒氏"/>
     <string id="HaXW6utE" text="嫉妒他"/>
     <string id="JcaTBEWg" text="松生堂"/>
-    <string id="KmXmnjce" text="天狗岛"/>
+    <string id="KmXmnjce" text="天狗党"/>
     <string id="UOfUWQw6" text="林氏"/>
     <string id="O1t78okp" text="前田氏大圣寺院"/>
     <string id="8OkaB9R1" text="奥村氏文科"/>
@@ -3746,7 +3746,7 @@
     <string id="sTvDztWN" text="夜斗强盗"/>
     <string id="MEQv3Fvs" text="海贼团"/>
     <string id="4S24PmMZ" text="三足山贼"/>
-    <string id="rW0j3kZA" text="布赖罗宁"/>
+    <string id="rW0j3kZA" text="布赖浪人"/>
     <string id="Vfsbslpv" text="逃兵"/>
     <string id="6HH6w5ZG" text="勤王党"/>
     <string id="PLkAXWwi" text="金野人是暴力的帝国主义者，被一些人称为恐怖分子。他们出身于士师队伍，他们的事业将对王位的强烈崇敬与暴力行动结合在一起，包括暗杀、煽动和公开叛乱。"/>
@@ -3758,7 +3758,7 @@
     <string id="U71vvdhm" text="龟山社中是坂本龙马创立的一家小型半私营海上企业，其目的是独立于幕府运送武器、进行贸易和运营船只。它后来演变成海援队，这是一支组织更加严密的海军式志愿军，在幕末最后几年执行运输、护送和政治任务。"/>
     <string id="7FYD9CMy" text="女子军"/>
     <string id="Qihoea4H" text="会津上司军是由会津藩女性组成的团体，她们在戊辰战争期间组织起来，担任支援角色，并在许多情况下与该藩的剩余守军一起参加战斗。"/>
-    <string id="alnKa3Bg" text="松吉泰"/>
+    <string id="alnKa3Bg" text="彰义队"/>
     <string id="zZCKPklj" text="将军队是一支由精锐扈从组成的军团，他们在幕府末日奋起保卫幕府。他们接受过传统战争和现代战争的训练，在适应新时代的同时体现了旧武士的精神。他们在战斗中的决心是传奇的。"/>
     <string id="qX0hsHoS" text="新选组"/>
     <string id="jycPZTp7" text="新选组是为了保护幕府在京都的利益而组建的忠诚者团体。他们以严格的纪律和无与伦比的剑术而闻名，让叛军和浪人都感到恐惧。他们的忠诚是绝对的，他们的刀锋迅捷。"/>
@@ -4437,11 +4437,11 @@
     <string id="uboP42ci" text="绑定"/>
     <string id="AuwGwWpz" text="菱狩"/>
     <string id="ADarelik" text="式根"/>
-    <string id="XM9EPKur" text="行进"/>
+    <string id="XM9EPKur" text="久留米"/>
     <string id="XM9EPKuM" text="熊本"/>
     <string id="XM9EPHio" text="人吉"/>
     <string id="XM9EPFuK" text="福冈"/>
-    <string id="XM9EPKoK" text="关于"/>
+    <string id="XM9EPKoK" text="小仓"/>
     <string id="XM9EPSag" text="佐贺"/>
     <string id="dN143uK3" text="待补充{newline}{newline}外国商人：英国"/>
     <string id="tvHNsbSX" text="一宫"/>
@@ -4459,7 +4459,7 @@
     <string id="TokMv6H8" text="德岛"/>
     <string id="UwaMv6H8" text="宇和岛"/>
     <string id="DMaMv6H8" text="松山"/>
-    <string id="DOmMv6H8" text="小津"/>
+    <string id="DOmMv6H8" text="大洲"/>
     <string id="NFOJEwiL" text="长州"/>
     <string id="kzv0BtxU" text="花房"/>
     <string id="P1I5mIT8" text="翔"/>
@@ -4516,12 +4516,12 @@
     <string id="gP7ZPOEA" text="保险丝"/>
     <string id="g2tcLbk9" text="玉木"/>
     <string id="WepUrVKw" text="柿屋"/>
-    <string id="Kism7ttN" text="不"/>
+    <string id="Kism7ttN" text="纪伊"/>
     <string id="Tsum7ttN" text="津"/>
     <string id="Hikm7ttN" text="彦根"/>
     <string id="Kuwm7ttN" text="桑名{newline}{newline}外国商人：法国"/>
     <string id="n1q8stpi" text="京都{newline}{newline}外国商人：英国"/>
-    <string id="wIaHKKag" text="来自你"/>
+    <string id="wIaHKKag" text="加贺"/>
     <string id="dfGXCBX7" text="中条"/>
     <string id="g1f9NiGl" text="加治"/>
     <string id="SbQU8rIG" text="竹又"/>
@@ -4562,9 +4562,9 @@
     <string id="OBENaFLm" text="生活"/>
     <string id="2AjEhHx1" text="间宫"/>
     <string id="wsJTHUpr" text="梶原"/>
-    <string id="JozAyodh" text="定在"/>
+    <string id="JozAyodh" text="请西"/>
     <string id="OwaAyodh" text="尾张"/>
-    <string id="Z1qR2REA" text="户座间"/>
+    <string id="Z1qR2REA" text="外样"/>
     <string id="701yWNGe" text="谱代"/>
     <string id="AizIDiZt" text="会津{newline}{newline}外国商人：德国"/>
     <string id="Oob9PIhW" text="天秤座"/>
@@ -4718,18 +4718,18 @@
     <string id="742AdeFJ" text="水户藩"/>
     <string id="WhlNAwBH" text="水户"/>
     <string id="qFVVTsug" text="请西藩"/>
-    <string id="3HM2LZLz" text="定在"/>
+    <string id="3HM2LZLz" text="请西"/>
     <string id="bWjqvgLb" text="长冈藩"/>
     <string id="0QhvafT9" text="久保田藩"/>
     <string id="ijCa8pDo" text="久保田"/>
     <string id="97tn9Agd" text="福井藩"/>
     <string id="Hwgq2oHf" text="福井"/>
     <string id="4c5OF6TQ" text="小滨藩"/>
-    <string id="QqEJybge" text="小浜"/>
+    <string id="QqEJybge" text="小滨"/>
     <string id="OHqGIRhL" text="德川幕府"/>
     <string id="nAUwT8JG" text="德川"/>
     <string id="sWnHr5q5" text="奥羽越列藩同盟"/>
-    <string id="r3wkuN0u" text="欧·雷潘·多梅"/>
+    <string id="r3wkuN0u" text="奥羽越列藩同盟"/>
     <string id="8kilNkSs" text="庄内藩"/>
     <string id="J3WAJxu3" text="姬路藩"/>
     <string id="AZkHq9Al" text="姬路"/>
@@ -4766,7 +4766,7 @@
     <string id="ShoSatsu" text="萨摩"/>
     <string id="SatsuSum" text="萨摩藩是德川末期最强大的户座藩之一，统治着九州南端，拥有自豪的武士传统和现代改革的目光。萨摩藩由岛津氏族统治，拥有一支纪律严明的军队，由进口的西方火器和火炮支撑，还有经过几个世纪的内乱和对外野心而变得坚强的忠诚的家臣。尽管表面上忠于幕府，萨摩藩却变得越来越目中无人，支持尊王攘夷运动，同时悄悄与其他反德川势力结盟。凭借其强大的经济（建立在琉球群岛几乎不合法的贸易基础上）和现代化的军队，萨摩藩准备在日本未来的斗争中发挥决定性作用。"/>
     <string id="KrJolclO" text="天狗之乱"/>
-    <string id="nuOTMFnL" text="天狗"/>
+    <string id="nuOTMFnL" text="天狗党"/>
     <string id="16fyo47M" text="小仓藩"/>
     <string id="aFBneNkA" text="熊本藩"/>
     <string id="aiTAusH5" text="人吉藩"/>
@@ -4835,11 +4835,11 @@
     <string id="KuwAbgHr" text="桑名商队首领"/>
     <string id="KisAbgHr" text="纪伊商队首领"/>
     <string id="TsuAbgHr" text="津商队首领"/>
-    <string id="FuKAbgHr" text="福井房车大师"/>
+    <string id="FuKAbgHr" text="商队首领"/>
     <string id="NaGAbgHr" text="长冈商队首领"/>
     <string id="KAGAbgHr" text="加贺商队首领"/>
     <string id="ObaAbgHr" text="小滨商队首领"/>
-    <string id="JozAbgHr" text="定在商队主人"/>
+    <string id="JozAbgHr" text="请西商队首领"/>
     <string id="OwaAbgHr" text="尾张商队首领"/>
     <string id="XDVi8uoV" text="{FIRSTNAME} 耻辱者"/>
     <string id="pUmLunrp" text="{FIRSTNAME} 维信狮子"/>
@@ -4906,7 +4906,7 @@
     <string id="BosMGNoh" text="農兵隊"/>
     <string id="BosMGFuh" text="福井隊"/>
     <string id="BosNBSui" text="碎黑台"/>
-    <string id="BosNBKai" text="海军平队"/>
+    <string id="BosNBKai" text="海兵队"/>
     <string id="BosTBTeg" text="手替"/>
     <string id="BosTBAsh" text="足轻"/>
     <string id="BosTBYaA" text="枪足轻"/>
@@ -4952,18 +4952,18 @@
     <string id="BosMCKan" text="勘上队"/>
     <string id="BosMCSen" text="仙波队"/>
     <string id="BosChIsi" text="维心坛"/>
-    <string id="BosChKih" text="热或冷"/>
+    <string id="BosChKih" text="奇兵队"/>
     <string id="BosChDen" text="长州传习队"/>
     <string id="BosChGNo" text="长州农兵队"/>
     <string id="BosChFuh" text="长州步兵队"/>
     <string id="BosFuJut" text="福井铳队"/>
     <string id="BosFuHoh" text="福井步兵队"/>
     <string id="BosObShi" text="新住台"/>
-    <string id="BosObJut" text="小浜铳队"/>
+    <string id="BosObJut" text="小滨铳队"/>
     <string id="BosObKok" text="不知何故"/>
     <string id="BosObJus" text="重装队"/>
     <string id="BosObJik" text="直金隊"/>
-    <string id="BosObKih" text="小浜奇兵隊"/>
+    <string id="BosObKih" text="小滨奇兵队"/>
     <string id="BosObYaT" text="小浜枪队"/>
     <string id="BosObOse" text="小浜大先手"/>
     <string id="BosObUAs" text="小浜弓足轻"/>
@@ -4977,7 +4977,7 @@
     <string id="BosKaJut" text="加贺铳队"/>
     <string id="BosKaSan" text="三兵隊"/>
     <string id="BosKaJUm" text="馬廻組"/>
-    <string id="BosKaNoh" text="加贺野平队"/>
+    <string id="BosKaNoh" text="加贺农兵队"/>
     <string id="BosKaWar" text="蕨队"/>
     <string id="BosBiShu" text="兵術守護隊"/>
     <string id="BosOwKus" text="草薙队"/>
@@ -5010,7 +5010,7 @@
     <string id="BosOkSei" text="冈山精锐队"/>
     <string id="BosJoYob" text="夜討隊"/>
     <string id="BosJoJob" text="定在预备队"/>
-    <string id="BosJoYug" text="庄内游击队"/>
+    <string id="BosJoYug" text="请西游击队"/>
     <string id="BosMiDai" text="大发税"/>
     <string id="BosMiTen" text="天佑台"/>
     <string id="BosMiShi" text="親衛隊"/>
@@ -5146,7 +5146,7 @@
     <string id="BosShinR" text="壬生浪士组"/>
     <string id="BosShins" text="新选组"/>
     <string id="BosShinK" text="红叶队"/>
-    <string id="BosBaTSo" text="松吉隊"/>
+    <string id="BosBaTSo" text="彰义队"/>
     <string id="BosBaKSo" text="彰义队小头"/>
     <string id="BosBuKSo" text="彰义队组头"/>
     <string id="BosKoWak" text="若州"/>
@@ -5303,7 +5303,7 @@
     <string id="neSWBhL0" text="新将军登基"/>
     <string id="zLSSZNSh" text="新将军"/>
     <string id="NeEmSatc" text="萨乔联盟"/>
-    <string id="zLSSSatc" text="佐藤联盟"/>
+    <string id="zLSSSatc" text="萨长同盟"/>
     <string id="CHFWBhL0" text="第二次长州远征结束"/>
     <string id="zLSSZFCH" text="第二次长州远征结束"/>
     <string id="SChWBhL0" text="第二次长州远征"/>

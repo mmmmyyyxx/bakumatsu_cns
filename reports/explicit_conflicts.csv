@@ -1,5 +1,5 @@
 ﻿id,text_variants,source_files,current_cn
-0VxHt8iA,Kazu-no-miya || Kazu-no-miya Chikako,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml,一之宫
+0VxHt8iA,Kazu-no-miya || Kazu-no-miya Chikako,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml,和宫亲子内亲王
 0rDc1SBx,Ito || Kokura,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spcultures/shokuho_main_cultures.xml | ModuleData/spkingdoms/spkingdoms.xml,小仓
 16V5w91f,Konze Shinpachi || Kikuchi Shichirozaemon,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml,金世新八
 3fFAXVUS,Honda Sukeshige || Honda Fujiko,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml,本田助重
@@ -11,7 +11,7 @@
 701yWTen,Tenryo || Tenryo{newline}{newline}Foreign Merchant: French,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,天领
 73thINiW,Ota Sukeyoshi || Ota Tanko || Ota Suketoki,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml | ModuleData/lords/kanto_lords.xml,太田佑吉
 7iNle8U9,Saigo Yurin || Inawashiro Moritane,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml,西乡友林
-7s4dxFt3,Hisamitsu || Shimazu Hisamitsu,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml,久光
+7s4dxFt3,Hisamitsu || Shimazu Hisamitsu,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml,岛津久光
 8ARCCCRo,Sakai-shi || Maeda-shi Tosa-no-kami-ke,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/chubu_clans.xml | ModuleData/spclans/kanto_clans.xml,放手吧
 8Iv9ecNC,Matsudaira Ikuko || Uesugi Mochinori,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml,松平郁子
 97vWqS1S,Daidouji Shigetoshi || Tsugaru Naramaro,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml,大道寺重利
@@ -38,22 +38,22 @@ BosIsCha,Ishihara Chikamasa || Ishihara Chikayoshi,ModuleData/Languages/bak_stri
 BosKikuj,Saigo Kikujirō || Saigo Kikujiro,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml,西乡菊二郎
 BosKoYoj,Kyodai || Yojimbo,ModuleData/Languages/bak_strings.xml | ModuleData/Troops/troops_minor.xml,共隊
 BosKuShi,Shinputai || Shingekitai,ModuleData/Languages/bak_strings.xml | ModuleData/Troops/troops_kinki.xml | ModuleData/Troops/troops_kyushu.xml,新风台
-BosNBKai,Kaigun Heitai || Kaiheitai,ModuleData/Languages/bak_strings.xml | ModuleData/Troops/troops_boshin_naval.xml,海军平队
+BosNBKai,Kaigun Heitai || Kaiheitai,ModuleData/Languages/bak_strings.xml | ModuleData/Troops/troops_boshin_naval.xml,海兵队
 BosShKij,Kijotai || Kijutai,ModuleData/Languages/bak_strings.xml | ModuleData/Troops/troops_tohoku.xml,奇兵队
 Epzs9bvB,Azumi || Asaka,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml,朝霞
 Ez9wouSk,Kimata Morichika || Kimata Matsu,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kinki_heroes.xml | ModuleData/lords/kinki_lords.xml,木田守亲
-FuKAbgHr,Fukui Caravan Master || Fukuoka Caravan Master,ModuleData/Languages/bak_strings.xml | ModuleData/spspecialcharacters/bak_notables.xml,福井房车大师
+FuKAbgHr,Fukui Caravan Master || Fukuoka Caravan Master,ModuleData/Languages/bak_strings.xml | ModuleData/spspecialcharacters/bak_notables.xml,商队首领
 GJikOBTs,Nabeshima Tsuneko || Nabeshima Naotora,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml,锅岛恒子
 HCBBJbxX,Arima || Kurume,ModuleData/Languages/bak_strings.xml | ModuleData/settlements_reference.xml | ModuleData/spkingdoms/spkingdoms.xml,久留米
 HMiwn1t6,Heki-ryu Hyōhōmokuroku || Yari Hyōhōmokuroku,ModuleData/Items/books.xml | ModuleData/Languages/bak_strings.xml,日置流兵法目録
 Hikm7ttN,Hikone || Hikone{newline}{newline}Foreign Merchant: French,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,彦根
 Hkaz0M4C,Maeda-shi Tsushima-no-kami-ke || Ganshoji-shi,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/kinki_clans.xml,前田氏对马之家
 Hlkt9zR1,Fukudome Ume || Goto Rikiko,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/shikoku_heroes.xml | ModuleData/lords/shikoku_lords.xml,福留梅
-J84QToW3,"Used in the late Edo period to refer to western foreigners, Gaikokujin were not a part of the caste system. However, after Japan was opened up, many of the restrictions upon them were forcibly lifted, and western tourists and merchants flooded the country. Many of the most successful of them, mainly arms dealers, gained a status comparable to that of the samurai, and were even given Japanese names and crests of their own.{newline}{newline}Pros: None{newline}{newline}Resistrictions: Cannot Play ||  Social Castes",ModuleData/Languages/bak_strings.xml | ModuleData/concept_strings.xml,幕末时期用于指称西方外国人的称呼，但并不属于阶级制度。然而，日本开放后，许多限制被强行取消，西方游客和商人涌入日本。其中许多最成功的人，主要是军火商，获得了与武士相当的地位，甚至被赋予了自己的日本名字和徽章。{newline}{newline}优点：无{newline}{newline}限制：无法玩
-JozAyodh,Jozai || Jozai{newline}{newline}Foreign Merchant: German,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,定在
+J84QToW3,"Used in the late Edo period to refer to western foreigners, Gaikokujin were not a part of the caste system. However, after Japan was opened up, many of the restrictions upon them were forcibly lifted, and western tourists and merchants flooded the country. Many of the most successful of them, mainly arms dealers, gained a status comparable to that of the samurai, and were even given Japanese names and crests of their own.{newline}{newline}Pros: None{newline}{newline}Resistrictions: Cannot Play ||  Social Castes",ModuleData/Languages/bak_strings.xml | ModuleData/concept_strings.xml,幕末开国以后，在日西方人并不属于日本原有的身分制度。随着通商口岸开放和条约体系建立，外国旅行者、商人与技术人员大量进入日本；其中一些成功的商人，尤其是军火商，与各藩和幕府建立了密切关系，取得了相当优越的社会地位，个别人甚至获赐日本名号或家纹。{newline}{newline}优点：无{newline}{newline}限制：不可作为玩家初始身分
+JozAyodh,Jozai || Jozai{newline}{newline}Foreign Merchant: German,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,请西
 K6sg7Tok,Tenryo || Tokugawa,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml,天领
 KDfcebZ7,Kashuji Sayuri || Kato Yasutomo,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/shikoku_heroes.xml | ModuleData/lords/shikoku_lords.xml,卡修吉小百合
-Kism7ttN,Kii || Kii{newline}{newline}Foreign Merchant: German,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,不
+Kism7ttN,Kii || Kii{newline}{newline}Foreign Merchant: German,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,纪伊
 Kuwm7ttN,Kuwana || Kuwana{newline}{newline}Foreign Merchant: French,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,桑名{newline}{newline}外国商人：法国
 L1wnB6pW,Komatsu Kiyokado || Komatsu Chika,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml,小松清华门
 MFkIDiZT,Morioka || Morioka{newline}{newline}Foreign Merchant: German,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,盛冈
@@ -80,7 +80,7 @@ Vm16qd8L,Yamanobe Mina || Yamanobe Shizuka,ModuleData/Languages/bak_strings.xml 
 WYTqPJNj,Suzuki Chiyo || Suzuki Misa,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml | ModuleData/lords/kanto_lords.xml,铃木千代
 YFkIDiZT,Yonezawa || Yonezawa{newline}{newline}Foreign Merchant: Dutch,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,米泽
 YwGkSfbK,Saigo Tanomo || Inawashiro Morikuni,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/tohoku_heroes.xml | ModuleData/lords/tohoku_lords.xml,田野西乡
-Z1qR2REA,Tozama || Tosan{newline}{newline}Foreign Merchant: Dutch,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,户座间
+Z1qR2REA,Tozama || Tosan{newline}{newline}Foreign Merchant: Dutch,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,外样
 Zyip3QcN,Miyamoto Sadanori || Miyamoto Sadaaki,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml,宫本定则
 aBevKeGx,Murata Masanori || Murata Masatada,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml,村田正则
 bNYm3K6b,{KEY} Pick Up {AMMO} || {KEY} Pick Up,ModuleData/Languages/bak_strings.xml,{KEY} 接听 {AMMO}
@@ -89,7 +89,7 @@ bp0JE7lD,Honda Masanori || Honda Mutsumi,ModuleData/Languages/bak_strings.xml | 
 dKcLiTvb,Ashikaga Yoshihide || Ihara Asahiro,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kinki_heroes.xml | ModuleData/lords/kinki_lords.xml,足利义英
 dN143uK3,TODO{newline}{newline}Foreign Merchant: British || TODO{newline}{newline}Foreign Merchant: Dutch,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,待补充{newline}{newline}外国商人：英国
 dOsL2isy,Oda-shi Tendo-ke || Todo-shi Hisai-ke,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/chubu_clans.xml | ModuleData/spclans/kinki_clans.xml,小田氏天童家
-eHD3yI8F,Konoe Toyoko || Toyoko Konoe,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kinki_heroes.xml | ModuleData/lords/kinki_lords.xml,近江丰子
+eHD3yI8F,Konoe Toyoko || Toyoko Konoe,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kinki_heroes.xml | ModuleData/lords/kinki_lords.xml,近卫丰子
 ees8hQyH,Chūmokuroku-Menkyo || Kanajisho Mokuroku,ModuleData/Items/books.xml | ModuleData/Languages/bak_strings.xml | ModuleData/martial_school_progression.xml,中目録・免许
 gqt0QIl5,Kinoshita Toshinori || Kinoshita Toshimasa,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kinki_heroes.xml | ModuleData/lords/kinki_lords.xml,木下利则
 jKviMpbP,Monks || Japanese,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,僧侣
@@ -107,14 +107,14 @@ qLjgsdLd,Date Iyoko || Rusu Haru,ModuleData/Languages/bak_strings.xml | ModuleDa
 r9bbr3VW,Maeda Toshinori || Maeda Toshimichi,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kanto_heroes.xml | ModuleData/lords/kanto_lords.xml,前田利典
 t99JjHho,Shimazu Keijiro || Shimazu Tadafuyu,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml,岛津庆次郎
 tRwThwSh,Shogun || Daimyo,ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml,将军
-vsXnQaY3,Shishido Toyoko  || Shishido Toyoko,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chugoku_heroes.xml | ModuleData/lords/chugoku_lords.xml,宍户东横子
+vsXnQaY3,Shishido Toyoko  || Shishido Toyoko,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chugoku_heroes.xml | ModuleData/lords/chugoku_lords.xml,宍户丰子
 wIaHKFuk,Fukui || Fukui{newline}{newline}Foreign Merchant: British,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,福井
-wIaHKKag,Kaga || Kaga{newline}{newline}Foreign Merchant: Dutch,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,来自你
+wIaHKKag,Kaga || Kaga{newline}{newline}Foreign Merchant: Dutch,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,加贺
 wIaHKNag,Nagaoka || Nagaoka{newline}{newline}Foreign Merchant: American,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,长冈
 wIaHKOba,Obama || Obama{newline}{newline}Foreign Merchant: Dutch,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,小浜{newline}{newline}外国商人：荷兰
 wIaHKYMr,Kaga || Hokuriku,ModuleData/Languages/bak_strings.xml | ModuleData/spcultures/shokuho_main_cultures.xml,北陆
 wKt2wTeR,American Arms Dealer || Foreign Arms Dealer,ModuleData/Languages/bak_strings.xml | ModuleData/spspecialcharacters/bak_foreign_merchants.xml,美国军火商
 xRnrOdTc,Okumura-shi Soke || Honganji-shi,ModuleData/Languages/bak_strings.xml | ModuleData/spclans/kinki_clans.xml,奥村氏杂毛
-zHBbLO7U,Tenshoin || Tenshoin ,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml,天书院
+zHBbLO7U,Tenshoin || Tenshoin ,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/chubu_heroes.xml | ModuleData/lords/chubu_lords.xml,天璋院
 zMOC9gh6,"Hokuriku, along the northern coast of Honshū, is one of the most prosperous regions of Japan. Home to some of the wealthiest domains in Japan, especially the Maeda of Kaga, the single wealthiest domain in all of Japan, Hokuriku produces a great deal of the rice used to feed central Honshū. Hokuriku is almost entirely loyal to the Shogunate, with most domains either staying loyal throughout the future Boshin War or refusing to take side. However, their reluctance to reform has placed the domains of Hokuriku in the backseat, becoming less relevant than the poorer but more fiery domains in the southwest and north. || Ezo (modern Hokkaidō), home to the Ainu, remained a remote frontier. In the late Bakumatsu, the Matsumae Domain managed small garrisons and fortified trading posts to assert shogunate influence, while Ainu communities maintained autonomous governance. The region was a delicate frontier where indigenous autonomy, limited shogunate oversight, and foreign concerns, particularly Russian encroachment, intersected.",ModuleData/Languages/bak_strings.xml | ModuleData/module_strings.xml,北陆位于本州北部海岸，是日本最繁荣的地区之一。北陆是日本一些最富有的藩的所在地，尤其是加贺前田，它是全日本最富有的藩，北陆出产大量用于喂养本州中部的大米。北陆几乎完全忠于幕府，大多数藩要么在未来的戊辰战争中保持忠诚，要么拒绝站在一边。然而，他们不愿改革，使得北陆地区处于次要地位，与西南和北部较贫穷但更火热的地区相比，其重要性较低。
 zy3vzsD2,Tanegashima Hisamichi || Tanegashima Hisanao,ModuleData/Languages/bak_strings.xml | ModuleData/heroes/kyushu_heroes.xml | ModuleData/lords/kyushu_lords.xml,种子岛寿道
