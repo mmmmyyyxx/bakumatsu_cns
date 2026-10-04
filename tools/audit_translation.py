@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Generates deterministic localization audit reports for Bakumatsu CNs.
 import csv, json, re
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -84,7 +85,6 @@ for sid, cn in cn_all.items():
     if sid not in source:
         extra.append({"id": sid, "cn": cn, "cn_file": cn_origin.get(sid, "")})
 
-# Frequency list aimed at localization review: words + title-cased/proper-name candidates.
 freq = Counter()
 examples = defaultdict(list)
 proper = Counter()
